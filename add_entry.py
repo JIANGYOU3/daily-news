@@ -9,7 +9,7 @@
 JSON 格式（单个对象或对象数组均可）：
 {
   "date": "2026-10-20",            # 必填 YYYY-MM-DD
-  "category": "news-tech",         # 必填：news-tech|news-design|news-auto|tibo|oss|workflow
+  "category": "news-tech",         # 必填：news-tech|news-design|news-politics|news-auto|news-thesis|tibo|oss|workflow
   "entries": [                     # 必填，可一条或多条
     {"title": "...", "summary": "一句话", "url": "https://...",
      "source": "可选", "meta": "可选，如 +1.0k / 24h", "tag": "可选"}

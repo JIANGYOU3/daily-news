@@ -1,18 +1,18 @@
 :root{
   --bg:#f6f4ef;--panel:#ffffff;--ink:#1d1b18;--mute:#6f6a62;--line:#e6e1d7;
   --acc:#e8782f;--acc-soft:#fbe9dc;--chip:#efebe3;
-  --c-news-tech:#3b6cf6;--c-news-design:#c4479a;--c-news-auto:#1f9d6b;
+  --c-news-tech:#3b6cf6;--c-news-design:#c4479a;--c-news-politics:#c45c26;--c-news-auto:#1f9d6b;--c-news-thesis:#8b5a2b;
   --c-tibo:#7a5af8;--c-oss:#e8782f;--c-workflow:#0e9bb0;
   --r:16px;--sh:0 1px 2px rgba(0,0,0,.04),0 8px 24px rgba(0,0,0,.04);
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme=light]){
   --bg:#121212;--panel:#1b1b1d;--ink:#ecebe8;--mute:#9b978f;--line:#2a2a2d;
   --acc:#ff9150;--acc-soft:#3a2518;--chip:#242427;--sh:none;
-  --c-news-tech:#7b9dff;--c-news-design:#ef7cc4;--c-news-auto:#4fd19c;--c-tibo:#a891ff;--c-oss:#ff9150;--c-workflow:#4cc9db;}}
+  --c-news-tech:#7b9dff;--c-news-design:#ef7cc4;--c-news-politics:#e8925a;--c-news-auto:#4fd19c;--c-news-thesis:#c4a574;--c-tibo:#a891ff;--c-oss:#ff9150;--c-workflow:#4cc9db;}}
 :root[data-theme=dark]{
   --bg:#121212;--panel:#1b1b1d;--ink:#ecebe8;--mute:#9b978f;--line:#2a2a2d;
   --acc:#ff9150;--acc-soft:#3a2518;--chip:#242427;--sh:none;
-  --c-news-tech:#7b9dff;--c-news-design:#ef7cc4;--c-news-auto:#4fd19c;--c-tibo:#a891ff;--c-oss:#ff9150;--c-workflow:#4cc9db;}
+  --c-news-tech:#7b9dff;--c-news-design:#ef7cc4;--c-news-politics:#e8925a;--c-news-auto:#4fd19c;--c-news-thesis:#c4a574;--c-tibo:#a891ff;--c-oss:#ff9150;--c-workflow:#4cc9db;}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--ink);

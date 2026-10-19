@@ -1,6 +1,21 @@
 # 每日资讯归档
 
-纯静态的资讯归档站，按日期和分类浏览已推送的内容。无需构建，文件都在仓库根目录。
+纯静态的资讯归档站，按日期和分类浏览已推送的内容。无需构建，文件都在仓库根目录。仓库根目录的 `.nojekyll` 让 GitHub Pages 按原样发布这些文件。
+
+## 分类
+
+筛选来自 `data.json`（以及同步生成的 `data.js`）：
+
+| id | 名称 | 分组 |
+| --- | --- | --- |
+| `news-tech` | 科技 | 要闻 |
+| `news-design` | 设计 | 要闻 |
+| `news-politics` | 时政 | 要闻 |
+| `news-auto` | 汽车 | 要闻 |
+| `news-thesis` | 毕设相关 | 专区 |
+| `tibo` | Tibo | |
+| `oss` | 开源日榜 | |
+| `workflow` | AI workflow | |
 
 ## 本地打开
 
@@ -16,7 +31,7 @@ python3 add_entry.py '<JSON>'
 python3 add_entry.py --file entry.json
 ```
 
-`--dry-run` 只校验、不写入。同一天、同一链接的条目会被更新，不会重复追加。
+`--dry-run` 只校验、不写入。同一天、同一链接的条目会被更新，不会重复追加。`category` 取上表中的 id。
 
 ## 在线访问
 

@@ -5,7 +5,7 @@ window.NEWS_DATA = {
   "categories": [
     {
       "id": "news-tech",
-      "label": "科技 / AI",
+      "label": "科技",
       "group": "要闻"
     },
     {
@@ -14,9 +14,19 @@ window.NEWS_DATA = {
       "group": "要闻"
     },
     {
+      "id": "news-politics",
+      "label": "时政",
+      "group": "要闻"
+    },
+    {
       "id": "news-auto",
       "label": "汽车",
       "group": "要闻"
+    },
+    {
+      "id": "news-thesis",
+      "label": "毕设相关",
+      "group": "专区"
     },
     {
       "id": "tibo",
