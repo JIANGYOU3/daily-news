@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>每日资讯归档</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <div class="brand">
+      <span class="dot"></span>
+      <div>
+        <h1>每日资讯归档</h1>
+        <p class="sub" id="sub">资讯与学习助手 · 已推送内容</p>
+      </div>
+      <button class="theme" id="theme" title="切换深浅色" aria-label="切换深浅色">◐</button>
+    </div>
+    <nav class="dates" id="dates" aria-label="日期"></nav>
+    <nav class="tags" id="tags" aria-label="分类"></nav>
+  </div>
+</header>
+<main class="wrap" id="main"></main>
+<footer class="wrap foot">数据：data.json · 由 add_entry.py 追加 · 仅收录已推送内容</footer>
+<div class="lightbox" id="lb" hidden><img alt=""></div>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

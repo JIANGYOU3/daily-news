@@ -1,0 +1,437 @@
+{
+  "title": "每日资讯归档",
+  "owner": "酱油四",
+  "categories": [
+    {
+      "id": "news-tech",
+      "label": "科技 / AI",
+      "group": "要闻"
+    },
+    {
+      "id": "news-design",
+      "label": "设计",
+      "group": "要闻"
+    },
+    {
+      "id": "news-auto",
+      "label": "汽车",
+      "group": "要闻"
+    },
+    {
+      "id": "tibo",
+      "label": "Tibo"
+    },
+    {
+      "id": "oss",
+      "label": "开源日榜"
+    },
+    {
+      "id": "workflow",
+      "label": "AI workflow"
+    }
+  ],
+  "days": [
+    {
+      "date": "2026-10-19",
+      "weather": "深圳 晴 约 29℃（最高 33℃ / 最低 25℃）",
+      "cards": [
+        "assets/github-daily-ranking-2026-10-19.png"
+      ],
+      "entries": [
+        {
+          "category": "news-tech",
+          "title": "Anthropic 设立 Public Benefit Fund",
+          "summary": "先承诺约 5% 股份，估值每升 50% 可再加最多 2%，合计约 20% 面向公益。",
+          "url": "https://www.anthropic.com/news/public-benefit-fund",
+          "source": "anthropic.com"
+        },
+        {
+          "category": "news-tech",
+          "title": "DeepSeek API 上线 Search / Fetch",
+          "summary": "11 月 1 日起按次收费，每 1000 次 5 元。",
+          "url": "https://www.ithome.com/0/1014/587.htm",
+          "source": "IT之家"
+        },
+        {
+          "category": "news-tech",
+          "title": "智能体洪泛追火车票退款实验",
+          "summary": "用智能体“洪泛”方式追火车票退款的实验（详见原文）。",
+          "url": "https://www.ithome.com/0/1014/589.htm",
+          "source": "IT之家"
+        },
+        {
+          "category": "news-design",
+          "title": "CMF by Nothing Speaker S / M",
+          "summary": "CMF 两款音箱，原文称其外观多彩、音质扎实，还可自行 3D 打印外壳。",
+          "url": "https://www.androidcentral.com/accessories/audio/cmfs-speakers-are-colorful-cartons-of-fun-and-strong-audio-you-can-even-3d-print-your-own",
+          "source": "Android Central"
+        },
+        {
+          "category": "news-auto",
+          "title": "特斯拉内华达 Semi 扩招",
+          "summary": "特斯拉为内华达 Semi 业务扩招。",
+          "url": "https://thefinance.co.kr/zh-cn/consumer-discretionary/story/2026/10/n-818",
+          "source": "thefinance.co.kr"
+        },
+        {
+          "category": "news-auto",
+          "title": "东风商用车绿智平台 D600",
+          "summary": "东风商用车官网发布的绿智平台 D600 相关新闻。",
+          "url": "https://www.dfmc.com.cn/news/company/news_20261012_0908.html",
+          "source": "东风商用车官网"
+        },
+        {
+          "category": "tibo",
+          "title": "Day14：Codex 桌面 App 支持编辑线程中之前的消息",
+          "summary": "Tibo（@thsottiaux）更新：Codex 桌面端可编辑线程里的历史消息。",
+          "url": "https://x.com/thsottiaux/status/2111990254408434095",
+          "source": "X @thsottiaux"
+        },
+        {
+          "category": "tibo",
+          "title": "Dots 欧盟可用性",
+          "summary": "Tibo（@thsottiaux）当日早些时候关于 Dots 在欧盟可用的动态。",
+          "url": "https://x.com/thsottiaux/status/2111832959842161136",
+          "source": "X @thsottiaux"
+        },
+        {
+          "category": "oss",
+          "title": "DietrichGebert/ponytail",
+          "summary": "让编程 agent 像最懒的资深工程师：能少写就少写",
+          "url": "https://github.com/DietrichGebert/ponytail",
+          "meta": "+1.0k / 24h · 总计 167k",
+          "source": "GitHub 24h 涨星"
+        },
+        {
+          "category": "oss",
+          "title": "Graphify-Labs/graphify",
+          "summary": "把代码库、文档、SQL、PDF 变成可查询的知识图谱",
+          "url": "https://github.com/Graphify-Labs/graphify",
+          "meta": "+626 / 24h · 总计 128k",
+          "source": "GitHub 24h 涨星"
+        },
+        {
+          "category": "oss",
+          "title": "akitaonrails/ai-memory",
+          "summary": "编程 agent 的长期记忆，换工具也能交接上下文",
+          "url": "https://github.com/akitaonrails/ai-memory",
+          "meta": "+512 / 24h · 总计 10.6k",
+          "source": "GitHub 24h 涨星"
+        },
+        {
+          "category": "oss",
+          "title": "cloudflare/security-audit-skill",
+          "summary": "Cloudflare 出品：agent 多阶段安全审计 skill",
+          "url": "https://github.com/cloudflare/security-audit-skill",
+          "meta": "+479 / 24h · 总计 31.2k",
+          "source": "GitHub 24h 涨星"
+        },
+        {
+          "category": "oss",
+          "title": "withmarbleapp/os-taxonomy",
+          "summary": "小学知识点图谱：1590 个知识点 + 先修关系",
+          "url": "https://github.com/withmarbleapp/os-taxonomy",
+          "meta": "+427 / 24h · 总计 5.8k",
+          "source": "GitHub 24h 涨星"
+        },
+        {
+          "category": "oss",
+          "title": "addyosmani/agent-skills",
+          "summary": "Addy Osmani 整理的生产级工程 skills 合集",
+          "url": "https://github.com/addyosmani/agent-skills",
+          "meta": "+402 / 24h · 总计 108k",
+          "source": "GitHub 24h 涨星"
+        },
+        {
+          "category": "oss",
+          "title": "chthollyphile/folia-major",
+          "summary": "主打绚丽歌词动画的本地音乐播放器",
+          "url": "https://github.com/chthollyphile/folia-major",
+          "meta": "+400 / 24h · 总计 8.0k",
+          "source": "GitHub 24h 涨星"
+        },
+        {
+          "category": "oss",
+          "title": "cursor/plugins",
+          "summary": "Cursor 官方插件规范与官方插件",
+          "url": "https://github.com/cursor/plugins",
+          "meta": "+350 / 24h · 总计 12.8k",
+          "source": "GitHub 24h 涨星"
+        },
+        {
+          "category": "oss",
+          "title": "thesysdev/openui",
+          "summary": "生成式 UI 的开放标准：让 AI 直接吐界面",
+          "url": "https://github.com/thesysdev/openui",
+          "meta": "+259 / 24h · 总计 11.9k",
+          "source": "GitHub 24h 涨星"
+        },
+        {
+          "category": "oss",
+          "title": "storytold/artcraft",
+          "summary": "额外推荐：本周涨星 +16.4k。",
+          "url": "https://github.com/storytold/artcraft",
+          "meta": "本周 +16.4k",
+          "source": "GitHub 周榜推荐",
+          "tag": "推荐"
+        },
+        {
+          "category": "workflow",
+          "title": "诊所 n8n + Gemini 客服",
+          "summary": "用 n8n 串联 Gemini 搭建诊所客服自动化的案例。",
+          "url": "https://x.com/SahilWagave/status/2109697093778690255",
+          "source": "X @SahilWagave"
+        },
+        {
+          "category": "workflow",
+          "title": "obra/superpowers",
+          "summary": "可落地的 Agent Skills 框架与开发方法论。",
+          "url": "https://github.com/obra/superpowers",
+          "source": "GitHub"
+        },
+        {
+          "category": "workflow",
+          "title": "EtienneLescot/n8n-as-code",
+          "summary": "给 AI agent 的 n8n 能力：537 个节点完整 schema、7700+ 模板、类 Git 同步与 TypeScript 工作流。",
+          "url": "https://github.com/EtienneLescot/n8n-as-code",
+          "source": "GitHub"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-18",
+      "cards": [
+        "assets/github-daily-ranking-2026-10-18.png"
+      ],
+      "note": "该日仅存档开源日榜图卡；条目由图卡转录。",
+      "entries": [
+        {
+          "category": "oss",
+          "title": "Ebony-Vinyl/dsh-our-free-model",
+          "summary": "dsh 免登录插件，直连 DeepSeek/Kimi 等",
+          "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+          "meta": "+2.5k / 24h · 总计 22.3k",
+          "source": "来源：当日日榜图卡"
+        },
+        {
+          "category": "oss",
+          "title": "KnifeLemon/Filee",
+          "summary": "离线拖拽转 180+ 格式，免上传免 Office",
+          "url": "https://github.com/KnifeLemon/Filee",
+          "meta": "+1.4k / 24h · 总计 2.5k",
+          "source": "来源：当日日榜图卡"
+        },
+        {
+          "category": "oss",
+          "title": "tangency-labs/solidcraft",
+          "summary": "纯 Rust 开源参数化 CAD，类 Fusion 360",
+          "url": "https://github.com/tangency-labs/solidcraft",
+          "meta": "+1.1k / 24h · 总计 4.4k",
+          "source": "来源：当日日榜图卡"
+        },
+        {
+          "category": "oss",
+          "title": "wheresryan22/anatomy",
+          "summary": "Claude skill：技术概念→交互等轴测图",
+          "url": "https://github.com/wheresryan22/anatomy",
+          "meta": "+967 / 24h · 总计 15.3k",
+          "source": "来源：当日日榜图卡"
+        },
+        {
+          "category": "oss",
+          "title": "deepseek-ai/deepseek-harness",
+          "summary": "DeepSeek 开源 agent 框架，一切皆插件",
+          "url": "https://github.com/deepseek-ai/deepseek-harness",
+          "meta": "+956 / 24h · 总计 252k",
+          "source": "来源：当日日榜图卡"
+        },
+        {
+          "category": "oss",
+          "title": "google-research/harness2",
+          "summary": "Google 递归优化 agent harness 研究框架",
+          "url": "https://github.com/google-research/harness2",
+          "meta": "+823 / 24h · 总计 1.7k",
+          "source": "来源：当日日榜图卡"
+        },
+        {
+          "category": "oss",
+          "title": "HKUDS/CLI-Anything",
+          "summary": "让任意桌面软件可被 AI agent 命令行调用",
+          "url": "https://github.com/HKUDS/CLI-Anything",
+          "meta": "+574 / 24h · 总计 54.1k",
+          "source": "来源：当日日榜图卡"
+        },
+        {
+          "category": "oss",
+          "title": "jub0t/Concat",
+          "summary": "本地开源视频剪辑，类 CapCut 无水印",
+          "url": "https://github.com/jub0t/Concat",
+          "meta": "+492 / 24h · 总计 8.4k",
+          "source": "来源：当日日榜图卡"
+        },
+        {
+          "category": "oss",
+          "title": "anomalyco/opencode",
+          "summary": "开源 AI 编程代理，终端+桌面双端",
+          "url": "https://github.com/anomalyco/opencode",
+          "meta": "+438 / 24h · 总计 215k",
+          "source": "来源：当日日榜图卡"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "cards": [
+        "assets/github-daily-ranking-2026-10-17.png"
+      ],
+      "note": "该日仅存档开源日榜图卡；条目由图卡转录。",
+      "entries": [
+        {
+          "category": "oss",
+          "title": "anthropics/claude-plugins-official",
+          "summary": "Anthropic 官方 Claude Code 插件目录",
+          "url": "https://github.com/anthropics/claude-plugins-official",
+          "meta": "+1.6k / 24h · 总计 40.7k",
+          "source": "来源：当日日榜图卡"
+        },
+        {
+          "category": "oss",
+          "title": "stablyai/orca",
+          "summary": "多智能体舰队工作台：桌面/手机跑 coding agent",
+          "url": "https://github.com/stablyai/orca",
+          "meta": "+1.1k / 24h · 总计 94.6k",
+          "source": "来源：当日日榜图卡"
+        },
+        {
+          "category": "oss",
+          "title": "MadsLorentzen/ai-job-search",
+          "summary": "本机 AI 求职：评岗/改简历/求职信/面试",
+          "url": "https://github.com/MadsLorentzen/ai-job-search",
+          "meta": "+898 / 24h · 总计 48.7k",
+          "source": "来源：当日日榜图卡"
+        },
+        {
+          "category": "oss",
+          "title": "heygen-com/hyperframes",
+          "summary": "写 HTML 出视频，专为 Agent 设计的渲染框架",
+          "url": "https://github.com/heygen-com/hyperframes",
+          "meta": "+822 / 24h · 总计 65.4k",
+          "source": "来源：当日日榜图卡"
+        },
+        {
+          "category": "oss",
+          "title": "harry0703/MoneyPrinterTurbo",
+          "summary": "主题/关键词一键生成高清短视频",
+          "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+          "meta": "+749 / 24h · 总计 132.2k",
+          "source": "来源：当日日榜图卡"
+        },
+        {
+          "category": "oss",
+          "title": "ruvnet/ruflo",
+          "summary": "多智能体 swarm 编排（记忆/联邦/RAG）",
+          "url": "https://github.com/ruvnet/ruflo",
+          "meta": "+672 / 24h · 总计 75.7k",
+          "source": "来源：当日日榜图卡"
+        },
+        {
+          "category": "oss",
+          "title": "rohitg00/ai-engineering-from-scratch",
+          "summary": "AI Engineering 从学到做再到上线",
+          "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+          "meta": "+539 / 24h · 总计 70.3k",
+          "source": "来源：当日日榜图卡"
+        },
+        {
+          "category": "oss",
+          "title": "ifixai-ai/iFixAi",
+          "summary": "AI Agent 独立审计：人审或自审关键问题",
+          "url": "https://github.com/ifixai-ai/iFixAi",
+          "meta": "+517 / 24h · 总计 28.8k",
+          "source": "来源：当日日榜图卡"
+        },
+        {
+          "category": "oss",
+          "title": "earthtojake/text-to-cad",
+          "summary": "给 Agent 加上 CAD 造型超能力",
+          "url": "https://github.com/earthtojake/text-to-cad",
+          "meta": "+290 / 24h · 总计 21.0k",
+          "source": "来源：当日日榜图卡"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "cards": [
+        "assets/github-daily-ranking-2026-10-16.png"
+      ],
+      "note": "该日仅存档开源日榜图卡；条目由图卡转录。",
+      "entries": [
+        {
+          "category": "oss",
+          "title": "morluto/rea",
+          "summary": "用 Agent 逆向一切：从 App 行为到原生二进制",
+          "url": "https://github.com/morluto/rea",
+          "meta": "+32.3k / 24h · 总计 274.7k",
+          "source": "来源：当日日榜图卡"
+        },
+        {
+          "category": "oss",
+          "title": "debpalash/VoiceStudio",
+          "summary": "本地开源 ElevenLabs：音色设计/克隆/配音/转录",
+          "url": "https://github.com/debpalash/VoiceStudio",
+          "meta": "+3.0k / 24h · 总计 69.4k",
+          "source": "来源：当日日榜图卡"
+        },
+        {
+          "category": "oss",
+          "title": "K-Dense-AI/scientific-agent-skills",
+          "summary": "把任意 Agent 变成科研助手：177+ 科学技能库",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+          "meta": "+1.1k / 24h · 总计 50.7k",
+          "source": "来源：当日日榜图卡"
+        },
+        {
+          "category": "oss",
+          "title": "affaan-m/ECC",
+          "summary": "Agent 工作台优化：技能 / 记忆 / 安全 / 研究流",
+          "url": "https://github.com/affaan-m/ECC",
+          "meta": "+1.0k / 24h · 总计 280.5k",
+          "source": "来源：当日日榜图卡"
+        },
+        {
+          "category": "oss",
+          "title": "mksglu/context-mode",
+          "summary": "编程 Agent 上下文优化：工具输出可压约 98%",
+          "url": "https://github.com/mksglu/context-mode",
+          "meta": "+904 / 24h · 总计 29.9k",
+          "source": "来源：当日日榜图卡"
+        },
+        {
+          "category": "oss",
+          "title": "xerj-org/xerj",
+          "summary": "给 Agent 建索引搜代码/文档/PDF，少烧 token",
+          "url": "https://github.com/xerj-org/xerj",
+          "meta": "+715 / 24h · 总计 5.8k",
+          "source": "来源：当日日榜图卡"
+        },
+        {
+          "category": "oss",
+          "title": "obra/superpowers",
+          "summary": "可落地的 Agent Skills 框架与开发方法论",
+          "url": "https://github.com/obra/superpowers",
+          "meta": "+582 / 24h · 总计 300.0k",
+          "source": "来源：当日日榜图卡"
+        },
+        {
+          "category": "oss",
+          "title": "OpenCut-app/OpenCut",
+          "summary": "开源 CapCut 替代：本地视频剪辑设计工具",
+          "url": "https://github.com/OpenCut-app/OpenCut",
+          "meta": "+345 / 24h · 总计 94.7k",
+          "source": "来源：当日日榜图卡"
+        }
+      ]
+    }
+  ]
+}
