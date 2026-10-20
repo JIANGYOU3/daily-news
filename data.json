@@ -145,9 +145,84 @@
           "summary": "深圳国际会展中心（宝安新馆），色彩/材料/工艺与可持续材料，同期世界CMF大会与国际CMF创新奖，场景覆盖消费电子、汽车、具身智能等。",
           "url": "https://www.film-expo.com/zh-cn/tqzh/cl-gy-sc.html",
           "source": "励展/寻材问料"
+        },
+        {
+          "category": "oss",
+          "title": "Comfy-Org/ComfyUI",
+          "summary": "节点式本地扩散 GUI，设计/生图常用",
+          "url": "https://github.com/Comfy-Org/ComfyUI",
+          "meta": "+1.0k / 24h · 总计 140k",
+          "source": "GitHub Trending"
+        },
+        {
+          "category": "oss",
+          "title": "google/artemis",
+          "summary": "自然语言驱动的 Android 端到端自动化",
+          "url": "https://github.com/google/artemis",
+          "meta": "+597 / 24h · 总计 13.0k",
+          "source": "GitHub Trending"
+        },
+        {
+          "category": "oss",
+          "title": "tt-a1i/archify",
+          "summary": "Agent skill：想法/代码 → 可交互架构图",
+          "url": "https://github.com/tt-a1i/archify",
+          "meta": "+511 / 24h · 总计 85.9k",
+          "source": "GitHub Trending"
+        },
+        {
+          "category": "oss",
+          "title": "usestrix/strix",
+          "summary": "开源 AI 渗透测试与修洞助手",
+          "url": "https://github.com/usestrix/strix",
+          "meta": "+509 / 24h · 总计 70.1k",
+          "source": "GitHub Trending"
+        },
+        {
+          "category": "oss",
+          "title": "Kruk2/jasna",
+          "summary": "本地视频修复工具",
+          "url": "https://github.com/Kruk2/jasna",
+          "meta": "+498 / 24h · 总计 3.0k",
+          "source": "GitHub Trending"
+        },
+        {
+          "category": "oss",
+          "title": "diegosouzapw/OmniRoute",
+          "summary": "免费多厂商 AI 网关（375 providers）",
+          "url": "https://github.com/diegosouzapw/OmniRoute",
+          "meta": "+424 / 24h · 总计 78.6k",
+          "source": "GitHub Trending"
+        },
+        {
+          "category": "oss",
+          "title": "pbakaus/impeccable",
+          "summary": "让 AI harness 更会做设计的设计语言",
+          "url": "https://github.com/pbakaus/impeccable",
+          "meta": "+422 / 24h · 总计 83.3k",
+          "source": "GitHub Trending"
+        },
+        {
+          "category": "oss",
+          "title": "666ghj/MiroFish",
+          "summary": "简洁通用的群体智能引擎",
+          "url": "https://github.com/666ghj/MiroFish",
+          "meta": "+386 / 24h · 总计 80.7k",
+          "source": "GitHub Trending"
+        },
+        {
+          "category": "oss",
+          "title": "headroomlabs-ai/headroom",
+          "summary": "Agent 工具输出/上下文压缩（库+MCP）",
+          "url": "https://github.com/headroomlabs-ai/headroom",
+          "meta": "+310 / 24h · 总计 76.3k",
+          "source": "GitHub Trending"
         }
       ],
-      "weather": "深圳今天多云转晴，白天约32℃、夜间约25℃，北风1–3级。"
+      "weather": "深圳今天多云转晴，白天约32℃、夜间约25℃，北风1–3级。",
+      "cards": [
+        "assets/github-daily-ranking-2026-10-20.png"
+      ]
     },
     {
       "date": "2026-10-19",
