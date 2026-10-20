@@ -218,6 +218,14 @@ window.NEWS_DATA = {
           "url": "https://github.com/headroomlabs-ai/headroom",
           "meta": "+310 / 24h · 总计 76.3k",
           "source": "GitHub Trending"
+        },
+        {
+          "category": "tibo",
+          "title": "Tibo Day15：额度重置（still cooking… and reset）",
+          "summary": "Day 15/ Nevermind, we're still cooking... and reset. Enjoy. 额度/用量重置公告。",
+          "url": "https://x.com/thsottiaux/status/2112432076767289678",
+          "source": "@thsottiaux",
+          "tag": "额度重置"
         }
       ],
       "weather": "深圳今天多云转晴，白天约32℃、夜间约25℃，北风1–3级。",
