@@ -42,6 +42,36 @@
   ],
   "days": [
     {
+      "date": "2026-10-20",
+      "entries": [
+        {
+          "category": "workflow",
+          "title": "Mattermost：n8n + Cursor Automations 自动清 backlog",
+          "summary": "别人怎么在用：群里 @Matty → Jira 入队 → n8n 只开 4 个 MCP 工具给 Cursor 云端 agent → 开 draft PR（含前后截图），团队收通知审。",
+          "url": "https://mattermost.com/blog/automating-our-backlog-with-cursor-automations-n8n-and-mattermost/",
+          "source": "Mattermost 工程博客",
+          "tag": "Cursor+n8n"
+        },
+        {
+          "category": "workflow",
+          "title": "n8n + Groq 自动分流 GitHub Issue",
+          "summary": "别人怎么在用：n8n 接新 issue → Groq 分类优先级 → 高优 bug 推 Discord，失败自动重试；Postgres 存状态。",
+          "url": "https://x.com/ferrousCE/status/2111482668064112715",
+          "source": "X @ferrousCE",
+          "tag": "n8n"
+        },
+        {
+          "category": "workflow",
+          "title": "agentic-chatops：n8n + GPT-4o + Claude Code 管设备",
+          "summary": "别人怎么在用：三层 ChatOps（编排/决策/写代码），矩阵里下指令，一人管 137 台设备；仓库按 21 个 agent 设计模式落地。",
+          "url": "https://github.com/papadopouloskyriakos/agentic-chatops",
+          "source": "GitHub",
+          "meta": "106⭐ · 近更",
+          "tag": "ChatOps"
+        }
+      ]
+    },
+    {
       "date": "2026-10-19",
       "weather": "深圳 晴 约 29℃（最高 33℃ / 最低 25℃）",
       "cards": [
