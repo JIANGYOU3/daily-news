@@ -68,8 +68,86 @@
           "source": "GitHub",
           "meta": "106⭐ · 近更",
           "tag": "ChatOps"
+        },
+        {
+          "category": "news-tech",
+          "title": "MiniMax 正式发布 M3.1 Flash（原 Space Bunny）",
+          "summary": "官方认领匿名模型 Space Bunny，称 agent/编程/Computer Use/网络安全跃升，推理约提速近3倍、agent 成本降约70%；API 现已上线，权重计划稍后开源。",
+          "url": "https://www.minimax.io/blog/minimax-m31f",
+          "source": "MiniMax"
+        },
+        {
+          "category": "news-tech",
+          "title": "OpenAI：强化 COBOL / Fortran / VB 等低资源语言编程",
+          "summary": "发布新评测 MultiLangBench 与 COBOL 迁移评测，称最新模型在多语言从零构建 SQLite、以及行为保真的 COBOL 迁移上准确率显著提升，面向关键基础设施现代化。",
+          "url": "https://openai.com/index/low-resource-programming-languages/",
+          "source": "OpenAI"
+        },
+        {
+          "category": "news-tech",
+          "title": "微软：把企业内 AI agent 当作「内部人」来管",
+          "summary": "官方安全博文称前沿模型不可被当作安全权威；扩展 Project Perception / Guardian Agents，给 agent 独立身份、动态权限与持续风险评级，发现范围扩至约60类本地 agent（含 Codex、Claude Code）。",
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/",
+          "source": "Microsoft Security"
+        },
+        {
+          "category": "news-design",
+          "title": "Figma 推出 Specs：画布上的多人文档容器",
+          "summary": "把 Markdown 规格嵌进 Figma/FigJam 画布，可嵌入 frame、图示与代码层；agent 可读评评论并经 MCP 交给编程 agent，面向设计到落地的协作。",
+          "url": "https://www.figma.com/blog/introducing-figma-specs/",
+          "source": "Figma"
+        },
+        {
+          "category": "news-design",
+          "title": "Aalto ARTS 在荷兰设计周展出 AI 启发实体设计",
+          "summary": "Eindhoven DDW（10/17–25）「art-ai-fact」展：Craft Bot、针织+AI、SketchFold、本地木材自适应家具、LUCID 透明协同生成等，探讨 AI 进入可制造实体设计。",
+          "url": "https://www.aalto.fi/en/news/aalto-arts-exhibiting-ai-inspired-designs-at-dutch-design-week-2026",
+          "source": "Aalto University"
+        },
+        {
+          "category": "news-politics",
+          "title": "商务部等9部门发文「科技兴商」",
+          "summary": "提出18条举措，用 AI/大数据/具身智能等赋能商品与服务消费、数智供应链与未来商业场景；工信部提及脑机接口、具身智能终端等攻关。",
+          "url": "https://www.news.cn/politics/20261020/a780c075005a45ca9c2544731766c6c0/c.html",
+          "source": "新华网"
+        },
+        {
+          "category": "news-politics",
+          "title": "央行：推动退出金融机构存贷款基准利率",
+          "summary": "潘功胜在金融街论坛称将用市场化利率指标替代计息依据；并宣布设立非银大额赎回流动性支持工具、扩大 SLF 机构范围、三地科创中心金融支持意见等。",
+          "url": "https://www.cnfin.com/yw-lb/detail/20261020/4483387_1.html",
+          "source": "新华财经"
+        },
+        {
+          "category": "news-auto",
+          "title": "比亚迪第二代海鸥今日上市",
+          "summary": "尺寸接近海豚、4座改5座；改后驱95kW、多连杆后悬，CLTC 320/420km；高配可选激光雷达与天神之眼 B。预扣价传约8.5–11万，正式指导价以上市为准。",
+          "url": "https://www.ithome.com/1/012/865.htm",
+          "source": "IT之家"
+        },
+        {
+          "category": "news-auto",
+          "title": "小鹏开放「XPENG AI ENGINEERING」智能汽车解决方案",
+          "summary": "巴黎汽车峰会宣布向全球伙伴开放整车平台、模块化技术（智驾/AI BOX/芯片/电池等）与工具链；并谈及机器人、Robotaxi、飞行汽车等物理 AI 合作。",
+          "url": "https://www.xiaopeng.com/news/company_news/5602.html",
+          "source": "小鹏汽车"
+        },
+        {
+          "category": "news-thesis",
+          "title": "Skyfall 发布 SKY-001：面向工程的空间世界模型",
+          "summary": "文本/草图/图像→可分层 CAD 装配与施工序列，亦支持 BIM 平面；官方称 CAD 构建约比 GPT-6 Astra 快50倍、成本约1/150，研究预览排队中——贴近 AI 辅助产品/造型落地。",
+          "url": "https://skyfall.ai/blog/introducing-sky-001",
+          "source": "Skyfall AI"
+        },
+        {
+          "category": "news-thesis",
+          "title": "深圳第十届国际 CMF 展将于10/27–29举办",
+          "summary": "深圳国际会展中心（宝安新馆），色彩/材料/工艺与可持续材料，同期世界CMF大会与国际CMF创新奖，场景覆盖消费电子、汽车、具身智能等。",
+          "url": "https://www.film-expo.com/zh-cn/tqzh/cl-gy-sc.html",
+          "source": "励展/寻材问料"
         }
-      ]
+      ],
+      "weather": "深圳今天多云转晴，白天约32℃、夜间约25℃，北风1–3级。"
     },
     {
       "date": "2026-10-19",
