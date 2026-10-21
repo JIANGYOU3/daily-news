@@ -85,8 +85,100 @@ window.NEWS_DATA = {
           "source": "GitHub",
           "meta": "765⭐ · 10/20 更新",
           "tag": "multi-agent"
+        },
+        {
+          "category": "news-tech",
+          "title": "DeepSeek 全面开源推理框架 DeepInfer",
+          "summary": "Apache 2.0 开源大规模推理引擎，兼容英伟达与昇腾，并同步开源 deepseek-recipe 对齐官方 API token 处理。",
+          "url": "https://github.com/deepseek-ai/DeepInfer",
+          "source": "GitHub"
+        },
+        {
+          "category": "news-tech",
+          "title": "OpenAI 收购 Orchestra Bio，加码生命科学 agent",
+          "summary": "将 Orchestra 的药物研发流程协调能力并入 Rosalind，用 agent 帮生科团队盯试验与排期。",
+          "url": "https://openai.com/index/openai-to-acquire-orchestra-bio/",
+          "source": "OpenAI"
+        },
+        {
+          "category": "news-tech",
+          "title": "Anthropic：Claude 自主设计蝎毒蛋白结合物",
+          "summary": "内部模型约 64 小时设计 211 个 minibinder，实验室测出 17 个达标；设计与数据将公开。",
+          "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+          "source": "Anthropic"
+        },
+        {
+          "category": "news-design",
+          "title": "Coco Labs 发布 Vyb：分层保真的品牌设计模型",
+          "summary": "从网站抽取 logo/字体/色彩，按图层组设计并可导出 Figma；强调「品味」保真而非糊成通用 AI 图。",
+          "url": "https://cocolabs.ai/blog/introducing-vyb",
+          "source": "Coco Labs"
+        },
+        {
+          "category": "news-design",
+          "title": "Bria 发布 Fibo 2.0：开源图像生成+编辑一体模型",
+          "summary": "约 80 亿参数、仅用授权数据训练，开源权重兼顾文生图与指令编辑，面向商用合规。",
+          "url": "https://docs.bria.ai/whats-new/fibo-2",
+          "source": "Bria"
+        },
+        {
+          "category": "news-politics",
+          "title": "新央企国家数据集团在雄安成立",
+          "summary": "以数据资源开发利用为主责，服务数据要素价值释放与人工智能产业生态。",
+          "url": "https://www.xinhuanet.com/20261020/96d83c5a0053439a920fe2c956f551de/c.html",
+          "source": "新华网"
+        },
+        {
+          "category": "news-politics",
+          "title": "美联邦民事机构禁购并移除 DeepSeek，中方反对",
+          "summary": "美方发布联邦民事行政系统排除令；商务部表示强烈不满，敦促纠正。",
+          "url": "https://www.federalregister.gov/documents/2026/10/20/2026-21447/notice-of-order-regarding-exclusion-and-removal-of-deepseek-products-from-federal-civilian-executive",
+          "source": "Federal Register"
+        },
+        {
+          "category": "news-politics",
+          "title": "工信部：正研究起草新一代智能制造政策",
+          "summary": "推动 AI 与制造全链条融合，培育智能工厂、智能装备与工业智能体等。",
+          "url": "http://jjckb.xinhuanet.com/20261020/3db59e9bce1547c99119d9b0be826fcd/c.html",
+          "source": "经济参考报"
+        },
+        {
+          "category": "news-auto",
+          "title": "2026 世界智能网联汽车大会今日在京开幕",
+          "summary": "10/21–23 北京亦庄举办，聚焦自动驾驶合作、标准协同与产业链交流。",
+          "url": "https://www.wicvc.com/wicv/index.html",
+          "source": "WICV"
+        },
+        {
+          "category": "news-auto",
+          "title": "特斯拉中国车机将上线支付宝智慧停车",
+          "summary": "双方签署车载助手合作，后续 OTA 后可在车机直接缴停车费。",
+          "url": "https://www.ithome.com/1/015/468.htm",
+          "source": "IT之家"
+        },
+        {
+          "category": "news-auto",
+          "title": "理想发布「连山」自研三电与超充体系",
+          "summary": "覆盖连山电池、电驱与自建超充网；宣称 5C 条件下约 10 分钟补能约 500 公里。",
+          "url": "https://www.ithome.com/1/015/573.htm",
+          "source": "IT之家"
+        },
+        {
+          "category": "news-thesis",
+          "title": "前 OpenAI 研究负责人创办 Arda：设计到产线的制造智能体",
+          "summary": "把 CAD/产品需求转成装配与工厂指令，融资后估值约 15 亿美元，贴近「设计落地制造」。",
+          "url": "https://www.cnbc.com/2026/10/20/ex-openai-executive-builds-1point5-billion-ai-manufacturing-startup-arda.html",
+          "source": "CNBC"
+        },
+        {
+          "category": "news-thesis",
+          "title": "Vyb：用图层保真品牌视觉，可导出设计工具",
+          "summary": "对「艺术风格/品牌识别解析与转译」有直接参考：保字体色彩与图层，而非糊成一张像素图。",
+          "url": "https://cocolabs.ai/blog/introducing-vyb",
+          "source": "Coco Labs"
         }
-      ]
+      ],
+      "weather": "深圳今天晴，白天约34℃、夜间约24℃，北风1–3级。"
     },
     {
       "date": "2026-10-20",
