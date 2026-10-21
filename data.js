@@ -60,6 +60,31 @@ window.NEWS_DATA = {
           "url": "https://x.com/thsottiaux/status/2112592264686149749",
           "source": "@thsottiaux",
           "tag": "额度/用量"
+        },
+        {
+          "category": "workflow",
+          "title": "修理店 n8n AI 分诊：表单→分类→回信草稿",
+          "summary": "别人怎么在用：客户自由文本进表单，n8n 里 AI 标维修类型与紧急度、起草回复，危急单立刻告警。",
+          "url": "https://x.com/MadukaObiete/status/2110706942733910108",
+          "source": "X @MadukaObiete",
+          "tag": "n8n"
+        },
+        {
+          "category": "workflow",
+          "title": "QA→Manager→Cursor：多智能体接力修 bug",
+          "summary": "别人怎么在用：QA agent 测完报 Manager，Manager 派活给 Cursor 做小改；用 Grok Bot 串起整条小队。",
+          "url": "https://x.com/romitkr/status/2112519746411540608",
+          "source": "X @romitkr",
+          "tag": "multi-agent"
+        },
+        {
+          "category": "workflow",
+          "title": "sno-station：本机把 Codex/Claude/Cursor 编成小队",
+          "summary": "别人怎么在用：多 coding agent 共享加密记忆、互相交接与互审；额度撞墙时下一个接着干，夜间 REM 巩固记忆。",
+          "url": "https://github.com/sno-ai/sno-station",
+          "source": "GitHub",
+          "meta": "765⭐ · 10/20 更新",
+          "tag": "multi-agent"
         }
       ]
     },
