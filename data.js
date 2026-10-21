@@ -248,6 +248,22 @@ window.NEWS_DATA = {
           "url": "https://github.com/elie222/rakazo",
           "source": "GitHub",
           "meta": "+181 / 24h · 总计 4955"
+        },
+        {
+          "category": "news-tech",
+          "title": "OpenAI 模型与 Codex 进驻 Google Cloud",
+          "summary": "Vertex Model Garden / Marketplace 将提供 GPT-6 Astra 等前沿模型与 Codex 工作流，可用 GCP 消费承诺抵扣；Antigravity 与 Gemini Agent 也将接入。微软仍为主云伙伴，AWS 之后再扩 GCP。",
+          "url": "https://openai.com/index/openai-models-google-cloud/",
+          "source": "OpenAI",
+          "tag": "突发"
+        },
+        {
+          "category": "news-tech",
+          "title": "NVIDIA OpenShell：面向 AI Agent 的安全运行时参考架构",
+          "summary": "GTC Berlin 发布 OpenShell Reference Architecture，用 Vera/BlueField-4 等做进程外策略强制与沙箱，Anthropic、OpenAI 等百余伙伴参与。",
+          "url": "https://nvidianews.nvidia.com/news/openshell-reference-architecture",
+          "source": "NVIDIA",
+          "tag": "突发"
         }
       ],
       "weather": "深圳今天晴，白天约34℃、夜间约24℃，北风1–3级。",
