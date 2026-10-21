@@ -42,6 +42,27 @@
   ],
   "days": [
     {
+      "date": "2026-10-21",
+      "entries": [
+        {
+          "category": "tibo",
+          "title": "Tibo Day16：API 12h prompt cache；Codex/Work 永久缓存",
+          "summary": "API 现可选择 12 小时 prompt cache；Codex 与 Work 登录用户永久保留缓存，回旧对话无惩罚且保证命中。",
+          "url": "https://x.com/thsottiaux/status/2112712984644784534",
+          "source": "@thsottiaux",
+          "tag": "产品更新"
+        },
+        {
+          "category": "tibo",
+          "title": "Tibo：约4万账号周末用量计费不一致已修复并补积分",
+          "summary": "周末部分用户用量异常消耗；约4万账号实际计费与所选套餐不符，已纠正并将逐户补积分致歉。",
+          "url": "https://x.com/thsottiaux/status/2112592264686149749",
+          "source": "@thsottiaux",
+          "tag": "额度/用量"
+        }
+      ]
+    },
+    {
       "date": "2026-10-20",
       "entries": [
         {
