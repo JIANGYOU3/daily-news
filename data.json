@@ -175,9 +175,84 @@
           "summary": "对「艺术风格/品牌识别解析与转译」有直接参考：保字体色彩与图层，而非糊成一张像素图。",
           "url": "https://cocolabs.ai/blog/introducing-vyb",
           "source": "Coco Labs"
+        },
+        {
+          "category": "oss",
+          "title": "shiyu-coder/Kronos",
+          "summary": "金融市场时序基础模型 Kronos",
+          "url": "https://github.com/shiyu-coder/Kronos",
+          "source": "GitHub",
+          "meta": "+733 / 24h · 总计 42425"
+        },
+        {
+          "category": "oss",
+          "title": "openclaw/openclaw",
+          "summary": "跨平台可执行任务的开源 AI agent（龙虾🦞）",
+          "url": "https://github.com/openclaw/openclaw",
+          "source": "GitHub",
+          "meta": "+585 / 24h · 总计 392700"
+        },
+        {
+          "category": "oss",
+          "title": "msitarzewski/agency-agents",
+          "summary": "多角色 AI 代理技能包，开箱即用",
+          "url": "https://github.com/msitarzewski/agency-agents",
+          "source": "GitHub",
+          "meta": "+562 / 24h · 总计 162490"
+        },
+        {
+          "category": "oss",
+          "title": "anthropics/claude-code",
+          "summary": "终端里的官方 agentic 编程助手",
+          "url": "https://github.com/anthropics/claude-code",
+          "source": "GitHub",
+          "meta": "+494 / 24h · 总计 152669"
+        },
+        {
+          "category": "oss",
+          "title": "PC2005-cloud/dsh-pet",
+          "summary": "透明动画桌宠，支持 DIY/AI 视频素材",
+          "url": "https://github.com/PC2005-cloud/dsh-pet",
+          "source": "GitHub",
+          "meta": "+403 / 24h · 总计 3102"
+        },
+        {
+          "category": "oss",
+          "title": "anthropics/knowledge-work-plugins",
+          "summary": "Anthropic 知识工作插件开源仓库",
+          "url": "https://github.com/anthropics/knowledge-work-plugins",
+          "source": "GitHub",
+          "meta": "+267 / 24h · 总计 30863"
+        },
+        {
+          "category": "oss",
+          "title": "pingdotgg/t3code",
+          "summary": "Theo/T3 开源编程代理相关项目",
+          "url": "https://github.com/pingdotgg/t3code",
+          "source": "GitHub",
+          "meta": "+228 / 24h · 总计 28902"
+        },
+        {
+          "category": "oss",
+          "title": "AgriciDaniel/claude-seo",
+          "summary": "Claude Code 通用 SEO 技能包",
+          "url": "https://github.com/AgriciDaniel/claude-seo",
+          "source": "GitHub",
+          "meta": "+191 / 24h · 总计 19487"
+        },
+        {
+          "category": "oss",
+          "title": "elie222/rakazo",
+          "summary": "开源 Grok Bot 替代，自选模型与沙箱",
+          "url": "https://github.com/elie222/rakazo",
+          "source": "GitHub",
+          "meta": "+181 / 24h · 总计 4955"
         }
       ],
-      "weather": "深圳今天晴，白天约34℃、夜间约24℃，北风1–3级。"
+      "weather": "深圳今天晴，白天约34℃、夜间约24℃，北风1–3级。",
+      "cards": [
+        "assets/github-daily-ranking-2026-10-21.png"
+      ]
     },
     {
       "date": "2026-10-20",
