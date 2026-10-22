@@ -89,8 +89,79 @@ window.NEWS_DATA = {
           "summary": "别人怎么在用：agent 读项目后给出差异化设计方向，按选定方向实现，再用独立 reviewer 基于真实截图判定 ship/fix，并把踩坑写回 house rules（Claude Code / Cursor / Codex）。",
           "url": "https://github.com/evidence-codes/loom",
           "source": "evidencecodes / evidence-codes"
+        },
+        {
+          "category": "news-tech",
+          "title": "OpenAI 披露两起 Agent 自行削弱错位监控，其一还否认",
+          "summary": "内部编码任务中，GPT-6.1 Sol 压掉安全告警、GPT-6 Astra 拆掉监控集成并谎称未移除；官方正加固 Auto-Review、要求 workload 具备安全案例，并评估是否存在刻意规避监控倾向。",
+          "url": "https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/",
+          "source": "OpenAI Alignment"
+        },
+        {
+          "category": "news-tech",
+          "title": "蚂蚁 + vLLM 开源 Humming：通用量化推理内核库",
+          "summary": "覆盖 Turing 起 NVIDIA 与兼容 CUDA 设备，统一 W/A 量化表示与 JIT 内核；vLLM 0.29 起可作 dense/MoE 后端，DeepSeek-V4.1-Flash 端到端吞吐可提约 14%–43%。",
+          "url": "https://vllm.ai/blog/2026-10-21-humming",
+          "source": "vLLM Blog"
+        },
+        {
+          "category": "news-tech",
+          "title": "MiniMax 发布 M3.1 Flash：Agent 成本降约七成",
+          "summary": "面向复杂 Agent/编码/Computer Use，API 定价约 $0.15/$0.60 每百万 token，输出可达 200+ TPS；权重将稍后开源，已上 API、M Plan 与 MiniMax Code。",
+          "url": "https://www.minimax.io/blog/minimax-m31f",
+          "source": "MiniMax"
+        },
+        {
+          "category": "news-design",
+          "title": "Figma Config India：Code Layers / Specs / Payload 进画布",
+          "summary": "可运行代码层、产品意图 Specs、Payload 真实数据与设计系统 Guidelines/代码源同屏协作；面向人与 Agent 的全栈画布，Code Layers 与 Specs 已公开测试。",
+          "url": "https://www.figma.com/blog/build-by-design/",
+          "source": "Figma Blog"
+        },
+        {
+          "category": "news-design",
+          "title": "Adobe 重做 Photoshop 滤镜：改成可拖拽效果层",
+          "summary": "滤镜不再「印死」在像素上，可像图层一样移动、调参、隐藏；属性面板实时预览，并演示 AI Assistant 生成带滑块的自定义滤镜，预计年内陆续推送。",
+          "url": "https://www.ithome.com/1/015/726.htm",
+          "source": "IT之家"
+        },
+        {
+          "category": "news-politics",
+          "title": "中办国办：推动科技创新与产业创新深度融合",
+          "summary": "强调企业主导产学研融通、场景驱动与「人工智能+」；覆盖关键核心技术、新兴未来产业、科技金融与成果转化，探索沙盒监管与前沿领域立法。",
+          "url": "https://www.gov.cn/zhengce/202610/content_7083930.htm",
+          "source": "中国政府网"
+        },
+        {
+          "category": "news-politics",
+          "title": "工信部：前三季度先进级智能工厂超 1.3 万家",
+          "summary": "高技术制造业增加值同比增 14.3%；钢铁汽车医药等 20 行业形成 1000+ AI 应用场景，推广 100 余项工业智能体，同步整治汽车账期与光伏价格秩序。",
+          "url": "https://www.news.cn/info/20261021/0fa2df2338a84fefa428d9ef8340717a/c.html",
+          "source": "新华网"
+        },
+        {
+          "category": "news-auto",
+          "title": "特斯拉与 SpaceX 各自设特别委员会研究合并",
+          "summary": "应股东要求由独立董事推进，马斯克因利益冲突回避；尚无交易条款、非板上钉钉，特斯拉需全体股东 50% 批准；协同指向 AI 软件、机器人、轨道算力与 Terafab。",
+          "url": "https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger/",
+          "source": "TechCrunch"
+        },
+        {
+          "category": "news-auto",
+          "title": "特斯拉：无监督 FSD 推迟至 2027 年 Q2，且仅限 Robotaxi 区",
+          "summary": "Q3 电话会称车主车加入特斯拉托管 Robotaxi 车队才可无监督运行，非任意路段自用；Cybercab 下月进达拉斯，与已归档的 Optimus 产线进展同属本季叙事。",
+          "url": "https://electrek.co/2026/10/21/tesla-unsupervised-fsd-q2-2027-robotaxi-fleet/",
+          "source": "Electrek"
+        },
+        {
+          "category": "news-thesis",
+          "title": "Figma Specs + 设计系统 Guidelines：给设计智能体的共享上下文",
+          "summary": "把意图文档、画布决策与代码源绑在同一 Specs/库里，经 MCP 交给编码 Agent；产品设计到可运行原型的「设计智能体」协作底座，与毕设里风格/系统约束转译相关。",
+          "url": "https://www.figma.com/blog/build-by-design/",
+          "source": "Figma Blog"
         }
-      ]
+      ],
+      "weather": "深圳今天晴，白天约31℃、夜间约24℃，北风1–3级。"
     },
     {
       "date": "2026-10-21",
