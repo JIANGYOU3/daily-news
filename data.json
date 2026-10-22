@@ -158,9 +158,84 @@
           "summary": "把意图文档、画布决策与代码源绑在同一 Specs/库里，经 MCP 交给编码 Agent；产品设计到可运行原型的「设计智能体」协作底座，与毕设里风格/系统约束转译相关。",
           "url": "https://www.figma.com/blog/build-by-design/",
           "source": "Figma Blog"
+        },
+        {
+          "category": "oss",
+          "title": "deepseek-ai/DeepInfer",
+          "summary": "DeepSeek 大规模高性能推理框架",
+          "url": "https://github.com/deepseek-ai/DeepInfer",
+          "meta": "+6.4k / 24h · 总计 18.4k",
+          "source": "GitHub"
+        },
+        {
+          "category": "oss",
+          "title": "yetone/magpie",
+          "summary": "菜单栏一站切换各 Agent 所用模型",
+          "url": "https://github.com/yetone/magpie",
+          "meta": "+838 / 24h · 总计 19.0k",
+          "source": "GitHub"
+        },
+        {
+          "category": "oss",
+          "title": "eagle-hq/EAGLE-4",
+          "summary": "EAGLE-4 推测解码官方推理代码",
+          "url": "https://github.com/eagle-hq/EAGLE-4",
+          "meta": "+682 / 24h · 总计 746",
+          "source": "GitHub"
+        },
+        {
+          "category": "oss",
+          "title": "lemomo-ai/lemo-opuscar",
+          "summary": "无视频模型、纯代码出短片（51风格）",
+          "url": "https://github.com/lemomo-ai/lemo-opuscar",
+          "meta": "+515 / 24h · 总计 5.0k",
+          "source": "GitHub"
+        },
+        {
+          "category": "oss",
+          "title": "dominikmartn/harp",
+          "summary": "并排跑多 Claude/Codex，侧栏看谁在等你",
+          "url": "https://github.com/dominikmartn/harp",
+          "meta": "+515 / 24h · 总计 544",
+          "source": "GitHub"
+        },
+        {
+          "category": "oss",
+          "title": "nano-muse/nanoMuse",
+          "summary": "跨手机/桌面的个人 Agent",
+          "url": "https://github.com/nano-muse/nanoMuse",
+          "meta": "+467 / 24h · 总计 2.2k",
+          "source": "GitHub"
+        },
+        {
+          "category": "oss",
+          "title": "career-ops-hq/career-ops",
+          "summary": "Claude 求职流水线：打分/CV/扫岗",
+          "url": "https://github.com/career-ops-hq/career-ops",
+          "meta": "+449 / 24h · 总计 76.4k",
+          "source": "GitHub"
+        },
+        {
+          "category": "oss",
+          "title": "paperclipai/paperclip",
+          "summary": "工作台编排多 Agent：目标/预算/看板",
+          "url": "https://github.com/paperclipai/paperclip",
+          "meta": "+447 / 24h · 总计 105.8k",
+          "source": "GitHub"
+        },
+        {
+          "category": "oss",
+          "title": "nexu-io/open-design",
+          "summary": "本地 coding agent → 确定性设计流水线",
+          "url": "https://github.com/nexu-io/open-design",
+          "meta": "+293 / 24h · 总计 103.1k",
+          "source": "GitHub"
         }
       ],
-      "weather": "深圳今天晴，白天约31℃、夜间约24℃，北风1–3级。"
+      "weather": "深圳今天晴，白天约31℃、夜间约24℃，北风1–3级。",
+      "cards": [
+        "assets/github-daily-ranking-2026-10-22.png"
+      ]
     },
     {
       "date": "2026-10-21",
