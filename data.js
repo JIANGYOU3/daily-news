@@ -43,6 +43,35 @@ window.NEWS_DATA = {
   ],
   "days": [
     {
+      "date": "2026-10-22",
+      "entries": [
+        {
+          "category": "tibo",
+          "title": "Tibo：Dot 含在 Pro，不占每周用量",
+          "summary": "Tibo 发帖「Dot, Dotter, Dottest」，并回复确认 Dot 完全包含在 Pro 计划、不占用每周用量。",
+          "url": "https://x.com/thsottiaux/status/2113029655095836957",
+          "source": "@thsottiaux",
+          "tag": "用量/产品"
+        },
+        {
+          "category": "news-tech",
+          "title": "Anthropic 开 Claude Duet 研究预览：主动式 Agent 应用",
+          "summary": "独立 App（iOS/Android/Web），Opus 5.5 驱动；主动盯邮件日历、可后台干活，敏感操作需批准。美区 Pro/Max 候补。",
+          "url": "https://claude.com/resources/articles/claude-duet",
+          "source": "Anthropic / Claude",
+          "tag": "Agent"
+        },
+        {
+          "category": "news-auto",
+          "title": "特斯拉 Q3：Fremont 启动 Optimus 量产级产线",
+          "summary": "股东信称首批「生产级」人形机器人下线，Fremont Early Ramp；同期 Semi 内华达量产。Roadster 新一代 10/15 已揭幕。",
+          "url": "https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q3-2026-Update.pdf",
+          "source": "Tesla IR",
+          "tag": "Optimus"
+        }
+      ]
+    },
+    {
       "date": "2026-10-21",
       "entries": [
         {
