@@ -231,6 +231,14 @@ window.NEWS_DATA = {
           "url": "https://github.com/nexu-io/open-design",
           "meta": "+293 / 24h · 总计 103.1k",
           "source": "GitHub"
+        },
+        {
+          "category": "tibo",
+          "title": "Tibo：Codex 今日为 reset day，额度明天美西 10 点前到位",
+          "summary": "Day 17 宣布今天是 reset day；回复称 Lands tomorrow before 10am PST（约合上海时间 10/24 凌晨 1–2 点）。另提醒提前办好 Daybreak Blue（网络安全可信访问）以免事故中途卡核验。",
+          "url": "https://x.com/thsottiaux/status/2113162277688070445",
+          "source": "@thsottiaux",
+          "tag": "额度重置"
         }
       ],
       "weather": "深圳今天晴，白天约31℃、夜间约24℃，北风1–3级。",
