@@ -67,6 +67,27 @@
           "url": "https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q3-2026-Update.pdf",
           "source": "Tesla IR",
           "tag": "Optimus"
+        },
+        {
+          "category": "workflow",
+          "title": "Beacon：Claude Code / Cursor / Codex 共用一套「自改进」记忆层",
+          "summary": "别人怎么在用：跨 20+ coding harness 用 OTel/hooks 抓会话轨迹，把重复流程沉淀成可复用 skill，换工具时直接续上一次 Cursor/Claude 的上下文（演示见 @akshay_pachaar / @_avichawla 近几日帖）。",
+          "url": "https://github.com/Asymptote-Labs/agent-beacon",
+          "source": "Asymptote-Labs / akshay_pachaar"
+        },
+        {
+          "category": "workflow",
+          "title": "n8n + Claude + Shotstack：博客 RSS 自动产出 32 秒 Short",
+          "summary": "别人怎么在用：把 RSS 对准博客，Claude 写完整 Shotstack 剪辑 JSON（图/配乐/旁白/字幕），Code 节点先验再渲染；Shotstack 官号已用 n8n 自家博文跑出未人工剪的 Short。",
+          "url": "https://n8n.io/workflows/21120-create-32-second-ai-video-shorts-from-rss-blog-posts-with-claude-and-shotstack/",
+          "source": "ShotstackAPI / n8n template"
+        },
+        {
+          "category": "workflow",
+          "title": "loom：给 coding agent 的「多方向设计 → 真截图评审」闭环",
+          "summary": "别人怎么在用：agent 读项目后给出差异化设计方向，按选定方向实现，再用独立 reviewer 基于真实截图判定 ship/fix，并把踩坑写回 house rules（Claude Code / Cursor / Codex）。",
+          "url": "https://github.com/evidence-codes/loom",
+          "source": "evidencecodes / evidence-codes"
         }
       ]
     },
