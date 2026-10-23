@@ -172,9 +172,76 @@
           "summary": "分原生林/再生林/人造林/种植园/经作林等六类，服务欧盟零毁林等监管；附 2017–2025 变化序列。",
           "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
           "source": "Google DeepMind"
+        },
+        {
+          "category": "oss",
+          "title": "Leonxlnx/taste-skill",
+          "summary": "给 Agent 装设计品味：艺术方向、参考图、浏览器验收",
+          "url": "https://github.com/Leonxlnx/taste-skill",
+          "source": "GitHub Trending",
+          "meta": "+630 / 24h · 总计 101,200"
+        },
+        {
+          "category": "oss",
+          "title": "tashfeenahmed/freellmapi",
+          "summary": "免费 LLM 聚合网关：智能路由与自动 failover",
+          "url": "https://github.com/tashfeenahmed/freellmapi",
+          "source": "GitHub Trending",
+          "meta": "+625 / 24h · 总计 39,682"
+        },
+        {
+          "category": "oss",
+          "title": "citrolabs/ego-lite",
+          "summary": "给 AI Agent 的极速浏览器，可共享已登录态",
+          "url": "https://github.com/citrolabs/ego-lite",
+          "source": "GitHub Trending",
+          "meta": "+311 / 24h · 总计 18,846"
+        },
+        {
+          "category": "oss",
+          "title": "bowenliang123/dsh-context",
+          "summary": "DeepSeek Harness 上下文洞察：仪表盘与演进",
+          "url": "https://github.com/bowenliang123/dsh-context",
+          "source": "GitHub Trending",
+          "meta": "+296 / 24h · 总计 3,419"
+        },
+        {
+          "category": "oss",
+          "title": "genspark-ai/genoffice",
+          "summary": "开源 AI 办公套件，附 CLI 与 Agent Skill",
+          "url": "https://github.com/genspark-ai/genoffice",
+          "source": "GitHub Trending",
+          "meta": "+193 / 24h · 总计 10,569"
+        },
+        {
+          "category": "oss",
+          "title": "luongnv89/claude-howto",
+          "summary": "图文示例驱动的 Claude Code 指南与模板",
+          "url": "https://github.com/luongnv89/claude-howto",
+          "source": "GitHub Trending",
+          "meta": "+177 / 24h · 总计 43,392"
+        },
+        {
+          "category": "oss",
+          "title": "Open-Dev-Society/OpenStock",
+          "summary": "开源行情盯盘：实时价、预警与公司洞察",
+          "url": "https://github.com/Open-Dev-Society/OpenStock",
+          "source": "GitHub Trending",
+          "meta": "+109 / 24h · 总计 20,798"
+        },
+        {
+          "category": "oss",
+          "title": "CopilotKit/OpenBot",
+          "summary": "开源 AI 同事：自带电脑，动作可审计",
+          "url": "https://github.com/CopilotKit/OpenBot",
+          "source": "GitHub Trending",
+          "meta": "+75 / 24h · 总计 6,961"
         }
       ],
-      "weather": "深圳多云，白天约32℃、夜里约23℃，北风1–3级。"
+      "weather": "深圳多云，白天约32℃、夜里约23℃，北风1–3级。",
+      "cards": [
+        "assets/github-daily-ranking-2026-10-23.png"
+      ]
     },
     {
       "date": "2026-10-22",
