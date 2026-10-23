@@ -67,8 +67,114 @@
           "url": "https://x.com/webdev6ix/status/2112857270899912909",
           "source": "X · @webdev6ix",
           "tag": "demo"
+        },
+        {
+          "category": "news-tech",
+          "title": "Anthropic 把 Agent Skills 捐给 Agentic AI Foundation",
+          "summary": "SKILL.md 开放标准交 Linux 基金会下的 AAIF 托管；已有 70+ 平台接入、约百万技能与近 2.8 亿次安装。",
+          "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+          "source": "Anthropic"
+        },
+        {
+          "category": "news-tech",
+          "title": "OpenAI Decisions API 正式 GA",
+          "summary": "用 GPT-6 Luna 做分类/路由/打分等有界决策，官方称可比 Responses 快约 10 倍；支持语音与最多 400 题/请求。",
+          "url": "https://openai.com/index/decisions-api",
+          "source": "OpenAI"
+        },
+        {
+          "category": "news-tech",
+          "title": "Anthropic×Theorem：Claude 大规模形式化验证开源库",
+          "summary": "在 RISC-V 汇编级为 123 个 OSS-Fuzz 库、239 个入口写出约 1.8 亿行 Rocq 证明，并顺带挖出多年漏测 bug。",
+          "url": "https://www.anthropic.com/research/formal-verification",
+          "source": "Anthropic"
+        },
+        {
+          "category": "news-tech",
+          "title": "Google Cloud：Anthropic 托管版 Claude 正式上线",
+          "summary": "企业可在 GCP 上选 Anthropic 或 Google 托管；Anthropic 托管可 day-0 用 Managed Agents、skills、code execution。",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud",
+          "source": "Google Cloud"
+        },
+        {
+          "category": "news-design",
+          "title": "Apple×Design Miami：2026 Designers of Tomorrow 巴黎开展",
+          "summary": "主题「presence」，展出灯具/座椅等材料与工艺作品；10/21–25 在巴黎 Hôtel de Maisons。",
+          "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-the-2026-designers-of-tomorrow/",
+          "source": "Apple"
+        },
+        {
+          "category": "news-politics",
+          "title": "商务部、科技部就 AI 等技术出口目录公开征求意见",
+          "summary": "拟增列大模型、智能体等 23 项 AI 技术及生医/光伏共 40 项；意见征至 11/15，并已先做出口前登记。",
+          "url": "https://www.mofcom.gov.cn/zfxxgk/gkml/art/2026/art_ccd0391072a94c809ae7e820abe2536b.html",
+          "source": "商务部"
+        },
+        {
+          "category": "news-politics",
+          "title": "发改委解读《对外投资管理办法》",
+          "summary": "办法将于 12 月 1 日施行，扩大投资者范围并完善境外风险报告等制度安排。",
+          "url": "https://www.gov.cn/zhengce/202610/content_7084050.htm",
+          "source": "中国政府网"
+        },
+        {
+          "category": "news-politics",
+          "title": "METR/Redwood：高权限红队测 OpenAI Agent 监控",
+          "summary": "三周深访后披露覆盖缺口与可绕过路径；OpenAI 称影响生产防护的漏洞已修，后续覆盖未再评估。",
+          "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/",
+          "source": "METR"
+        },
+        {
+          "category": "news-auto",
+          "title": "工信部征求五项汽车强标意见（含 ADS「小蓝灯」）",
+          "summary": "含数据安全、外部照明、泊车辅助等；ADS 标志灯拟纳入照明安装要求，意见征至 12/19。",
+          "url": "https://www.miit.gov.cn/jgsj/zbys/qcgy/art/2026/art_0ea967f5be48474b9f50c3c6f7db8e1f.html",
+          "source": "工信部"
+        },
+        {
+          "category": "news-auto",
+          "title": "特斯拉：Cybercab 年底起可对客销售",
+          "summary": "当前产量先供自营 Robotaxi；对客从少量起步，马斯克称多数仍将自持做出行服务；NHTSA 正查合规。",
+          "url": "https://techcrunch.com/2026/10/21/tesla-says-it-will-start-selling-cybercabs-by-end-of-year/",
+          "source": "TechCrunch"
+        },
+        {
+          "category": "news-auto",
+          "title": "新华社：中国自动驾驶从「试验场」走向「大市场」",
+          "summary": "梳理 L3 试点、车路云与 Robotaxi 出海；称 L2 渗透超七成，竞争转向商业闭环与合规。",
+          "url": "http://www.news.cn/tech/20261022/eb7adb8d570e492681a0121b71eaf482/c.html",
+          "source": "新华网"
+        },
+        {
+          "category": "news-thesis",
+          "title": "Apple Designers of Tomorrow：材料与「在场感」",
+          "summary": "棕榈叶灯、珠饰椅等作品强调触感与材料叙事，可作产品/CMF 与展陈研究素材。",
+          "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-the-2026-designers-of-tomorrow/",
+          "source": "Apple"
+        },
+        {
+          "category": "news-thesis",
+          "title": "2026 国际 CMF 设计奖入围名单公示",
+          "summary": "汽车/家电/消费电子等大量 CMF 作品入围终评；深圳 CMF 展也将于 10/27–29 举办，可对照看趋势。",
+          "url": "https://www.shejijingsai.com/2026/10/1654771.html",
+          "source": "设计竞赛网"
+        },
+        {
+          "category": "news-design",
+          "title": "2026 国际 CMF 设计奖入围名单公示",
+          "summary": "汽车、家电、消费电子等大量色彩材质工艺作品入围终评，可看量产 CMF 趋势。",
+          "url": "https://www.shejijingsai.com/2026/10/1654771.html",
+          "source": "设计竞赛网"
+        },
+        {
+          "category": "news-tech",
+          "title": "DeepMind 发布 ForTy：全球 10 米森林类型图",
+          "summary": "分原生林/再生林/人造林/种植园/经作林等六类，服务欧盟零毁林等监管；附 2017–2025 变化序列。",
+          "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+          "source": "Google DeepMind"
         }
-      ]
+      ],
+      "weather": "深圳多云，白天约32℃、夜里约23℃，北风1–3级。"
     },
     {
       "date": "2026-10-22",
