@@ -43,6 +43,35 @@ window.NEWS_DATA = {
   ],
   "days": [
     {
+      "date": "2026-10-23",
+      "entries": [
+        {
+          "category": "workflow",
+          "title": "durable-harness：把 Claude Code / Codex 跑成可断点续跑的云端 agent",
+          "summary": "别人怎么在用：长任务（改代码→开 PR→等 CI）中途函数超时或崩溃时，从事件日志接着跑，不重复已完成的模型调用。",
+          "url": "https://github.com/vercel-labs/durable-harness",
+          "source": "Vercel Labs · 约200★",
+          "tag": "harness"
+        },
+        {
+          "category": "workflow",
+          "title": "chops：一个 App 管齐 Claude / Cursor / Codex 的 skills",
+          "summary": "别人怎么在用：多工具各抄一份 skill 容易漂移；用 chops 统一浏览、编辑、同步，再按需装到各 harness。",
+          "url": "https://github.com/Shpigford/chops",
+          "source": "Shpigford · 2041★",
+          "tag": "skills"
+        },
+        {
+          "category": "workflow",
+          "title": "Connuit：Webhook 进来，AI 自己选分支再刷 Slack",
+          "summary": "别人怎么在用：线索进站后让模型判断「是不是真销售线索」，再把 brief 推给对的团队频道——演示向可跑流水线。",
+          "url": "https://x.com/webdev6ix/status/2112857270899912909",
+          "source": "X · @webdev6ix",
+          "tag": "demo"
+        }
+      ]
+    },
+    {
       "date": "2026-10-22",
       "entries": [
         {
