@@ -237,6 +237,14 @@ window.NEWS_DATA = {
           "url": "https://github.com/CopilotKit/OpenBot",
           "source": "GitHub Trending",
           "meta": "+75 / 24h · 总计 6,961"
+        },
+        {
+          "category": "tibo",
+          "title": "Tibo Day 18：Codex 额度重置日（明日 10am PST 前落地）",
+          "summary": "Decisions API GA、OpenResponses 加入 Linux 基金会、性能改进、Uber 全面用 Codex & Work；确认今日为 reset day，回复称明日 10am PST 前与小更新一并落地。",
+          "url": "https://x.com/thsottiaux/status/2113492187770175603",
+          "source": "@thsottiaux",
+          "tag": "额度重置"
         }
       ],
       "weather": "深圳多云，白天约32℃、夜里约23℃，北风1–3级。",
