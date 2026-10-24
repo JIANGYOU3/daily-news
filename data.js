@@ -166,9 +166,76 @@ window.NEWS_DATA = {
           "summary": "宝安新馆聚焦色彩/材料/工艺与可持续材料，同期世界 CMF 大会与创新奖；对产品设计、CMF 调研与材料转译可现场踩点。",
           "url": "https://www.film-expo.com/zh-cn/tqzh/cl-gy-sc.html",
           "source": "励展 / 寻材问料"
+        },
+        {
+          "category": "oss",
+          "title": "cloudflare/security-audit-skill",
+          "summary": "编码代理多阶段安全审计 skill，产出可机读、可独立核验的结论",
+          "url": "https://github.com/cloudflare/security-audit-skill",
+          "source": "GitHub Trending",
+          "meta": "+2,716 / 24h · 总计 42,390"
+        },
+        {
+          "category": "oss",
+          "title": "NVIDIA/OpenShell",
+          "summary": "自主 AI agent 的安全、私有运行时：沙箱 + 监督进程 + 审计日志",
+          "url": "https://github.com/NVIDIA/OpenShell",
+          "source": "GitHub Trending",
+          "meta": "+1,119 / 24h · 总计 18,898"
+        },
+        {
+          "category": "oss",
+          "title": "heygen-com/hyperframes",
+          "summary": "写 HTML/CSS 动画，确定性渲染成 MP4，专为 agent 视频产物",
+          "url": "https://github.com/heygen-com/hyperframes",
+          "source": "GitHub Trending Weekly",
+          "meta": "+~0.8k / 日均(周) · 总计 70.9k"
+        },
+        {
+          "category": "oss",
+          "title": "anthropics/claude-plugins-official",
+          "summary": "Anthropic 官方维护的 Claude Code 高质量插件目录",
+          "url": "https://github.com/anthropics/claude-plugins-official",
+          "source": "GitHub Trending Weekly",
+          "meta": "+~0.6k / 日均(周) · 总计 44.2k"
+        },
+        {
+          "category": "oss",
+          "title": "Renhuai123/ziwei-doushu",
+          "summary": "紫微斗数开源排盘引擎，含四化、格局与古籍原文数据",
+          "url": "https://github.com/Renhuai123/ziwei-doushu",
+          "source": "GitHub Trending",
+          "meta": "+546 / 24h · 总计 6,977"
+        },
+        {
+          "category": "oss",
+          "title": "akitaonrails/ai-memory",
+          "summary": "多厂商 coding agent CLI 共用长期记忆，方便跨工具交接",
+          "url": "https://github.com/akitaonrails/ai-memory",
+          "source": "GitHub Trending Weekly",
+          "meta": "+~0.5k / 日均(周) · 总计 13.1k"
+        },
+        {
+          "category": "oss",
+          "title": "oil-oil/oil-ui",
+          "summary": "给 Claude Code / Codex 的 UI 设计方法论 skill：定调、多方向探索、对照截图精修",
+          "url": "https://github.com/oil-oil/oil-ui",
+          "source": "设计工具补充",
+          "meta": "新近 · 总计 2,067（9月底上线）"
+        },
+        {
+          "category": "oss",
+          "title": "OpenBMB/VoxCPM",
+          "summary": "免分词多语言 TTS：声音设计与高保真克隆",
+          "url": "https://github.com/OpenBMB/VoxCPM",
+          "source": "GitHub Trending",
+          "meta": "+150 / 24h · 总计 40,330"
         }
       ],
-      "weather": "深圳今日晴，约31/23℃。"
+      "weather": "深圳今日晴，约31/23℃。",
+      "cards": [
+        "assets/github-daily-ranking-2026-10-24.png"
+      ]
     },
     {
       "date": "2026-10-23",
