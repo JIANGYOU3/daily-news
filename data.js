@@ -68,8 +68,107 @@ window.NEWS_DATA = {
           "url": "https://x.com/OpenAI/status/2113766354386084338",
           "source": "OpenAI",
           "tag": "Brotli"
+        },
+        {
+          "category": "news-tech",
+          "title": "Anthropic 推出 Claude Duet：主动找你办事的个人工作智能体",
+          "summary": "面向美国 Pro/Max 用户开放研究预览（独立 App + claude.ai），每日简报、后台虚拟机持续干活，发消息/付款前需你批准；对标 Muse、Dots 一类主动式 agent。",
+          "url": "https://claude.com/resources/articles/claude-duet",
+          "source": "Anthropic"
+        },
+        {
+          "category": "news-tech",
+          "title": "月之暗面发布 Kimi K3.1 Pro：3T 级开源权重旗舰 + Highspeed",
+          "summary": "百万 token 上下文，强化编码、3D 创作、金融研究与长程 Agent；同步推出 2–3× 速度的 Highspeed，完整权重计划 11 月 4 日前开源。",
+          "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+          "source": "Kimi / 月之暗面"
+        },
+        {
+          "category": "news-tech",
+          "title": "火山引擎发布 Seedance 2.5 4K：影视级画面生成",
+          "summary": "专项强化人物表情与细微动作；支持 Draft 模式先用 480P 打磨分镜再出 4K 正片，目前仅部分企业客户试用。",
+          "url": "https://www.ithome.com/1/017/078.htm",
+          "source": "IT之家"
+        },
+        {
+          "category": "news-tech",
+          "title": "亚马逊 CEO：AWS 算力容量大致售罄至 2027",
+          "summary": "Andy Jassy 称 2026 已售罄、2027 大体售罄、2028 也锁了相当一部分，AI 基建需求仍远超供给；公司今年资本开支约 2200 亿美元。",
+          "url": "https://www.channelnewsasia.com/business/amazon-cloud-capacity-sold-out-through-2027-ceo-jassy-says-6488181",
+          "source": "Reuters / CNA"
+        },
+        {
+          "category": "news-design",
+          "title": "Figma 全平台上线 iPhone Duo / iPhone 18 画框预设",
+          "summary": "10 月 23 日起在新建 Frame、Code layers、原型设备、Make 预览等处可选 Duo 与 iPhone 18 尺寸，方便为折叠屏与新机出稿。",
+          "url": "https://www.figma.com/release-notes/",
+          "source": "Figma"
+        },
+        {
+          "category": "news-design",
+          "title": "Figma Make 原生接入 Payload：提示词即可搭 CMS 后端",
+          "summary": "提示即可生成数据库、存储、鉴权与管理后台，设计师与运营可在同一处改内容；正在向全计划用户滚动开放，托管目前 beta 免费。",
+          "url": "https://www.figma.com/blog/websites-with-payload-in-figma/",
+          "source": "Figma Blog"
+        },
+        {
+          "category": "news-design",
+          "title": "第140届广交会 CF 奖揭晓：222 件产品上榜",
+          "summary": "品质家居主题下，174 家企业 222 件产品获奖；AI 智能产品约占 32%、绿色低碳约 44%，张雪机车 820RR 等获至尊金奖。",
+          "url": "https://www.xinhuanet.com/20261023/4a1785e3787345e3a4ee3880f72618cf/c.html",
+          "source": "新华社"
+        },
+        {
+          "category": "news-politics",
+          "title": "国办印发意见：适应 AI 发展、构建就业友好型发展方式",
+          "summary": "国办发〔2026〕29 号 10 月 23 日公布，18 项任务覆盖创造就业、减缓替代、技能培训、权益社保与风险监测；高冲击场景要同步做就业评估。",
+          "url": "https://www.gov.cn/zhengce/zhengceku/202610/content_7084108.htm",
+          "source": "中国政府网"
+        },
+        {
+          "category": "news-politics",
+          "title": "英国成立全球首个 AI 生物安全实验室（AIBL）",
+          "summary": "政府出资 1 亿英镑，OpenAI 与 Anthropic 合计最多提供 2 亿英镑算力/模型额度；聚焦生物威胁早发现与疫苗等医学对策加速。",
+          "url": "https://www.gov.uk/government/news/introducing-the-ai-biosecurity-lab",
+          "source": "GOV.UK"
+        },
+        {
+          "category": "news-auto",
+          "title": "特斯拉官方放出新 Roadster 座舱 UI：战斗机座舱灵感",
+          "summary": "红黑配色 + 3D 线框车模，含赛道模式圈速/胎温与 5500 PSI Thruster 读数；官方称「围绕驾驶员（飞行员）设计」。",
+          "url": "https://x.com/Tesla/status/2113730362232680854",
+          "source": "Tesla / X"
+        },
+        {
+          "category": "news-auto",
+          "title": "特斯拉：手机 App 登陆车机大屏",
+          "summary": "官方发短视频宣布 Tesla app 现已可在车内大屏使用，延续「手机—车机」一体体验。",
+          "url": "https://x.com/Tesla/status/2113797954175914078",
+          "source": "Tesla / X"
+        },
+        {
+          "category": "news-auto",
+          "title": "比亚迪「迪迪虾」上车：车企首个 AI 超级智能体",
+          "summary": "基于璇玑架构 2.0，端云协同 + 多模态/工具/技能/记忆；已向腾势多款及大唐等 OTA，强调一句话办事与开放生态智能体。",
+          "url": "https://www.chinanews.com.cn/cj/2026/10-23/10719529.shtml",
+          "source": "中新网"
+        },
+        {
+          "category": "news-auto",
+          "title": "马斯克：FSD 在华尚未建立真正领先优势",
+          "summary": "Q3 财报会上坦言中国本土智驾竞争激烈，公司仍在争取更广泛监管批准；监督版已可用，全面审批时间表继续推迟。",
+          "url": "https://www.ithome.com/1/016/616.htm",
+          "source": "IT之家"
+        },
+        {
+          "category": "news-thesis",
+          "title": "深圳第十届国际 CMF 展 10/27–29 开幕（毕设相关）",
+          "summary": "宝安新馆聚焦色彩/材料/工艺与可持续材料，同期世界 CMF 大会与创新奖；对产品设计、CMF 调研与材料转译可现场踩点。",
+          "url": "https://www.film-expo.com/zh-cn/tqzh/cl-gy-sc.html",
+          "source": "励展 / 寻材问料"
         }
-      ]
+      ],
+      "weather": "深圳今日晴，约31/23℃。"
     },
     {
       "date": "2026-10-23",
