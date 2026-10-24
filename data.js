@@ -43,6 +43,35 @@ window.NEWS_DATA = {
   ],
   "days": [
     {
+      "date": "2026-10-24",
+      "entries": [
+        {
+          "category": "tibo",
+          "title": "Tibo Day 19：Dots 通话加速 + Codex/Work 改推理不再废缓存 + CLI 大更新",
+          "summary": "非重置日。Dots 通话连接明显更快；Codex & Work 中途改 reasoning 不再让缓存失效；Codex CLI 新增可复用 prompt presets、行内 model/permission、企业 MCP 登录，修了长会话 resume，并支持 Windows 公司代理认证。CLI 用量自 DevDay 起约翻倍。对应 CLI 0.164.0。",
+          "url": "https://x.com/thsottiaux/status/2113770573994299544",
+          "source": "@thsottiaux",
+          "tag": "Day19"
+        },
+        {
+          "category": "news-tech",
+          "title": "OpenAI：前沿训练环境全面离线化，红队顺带挖出 Brotli 未认证 RCE",
+          "summary": "训练侧去掉实网访问、改用离线缓存「世界」；9/20 DNS 误配置外泄后曾暂停，红队加固后 10/1 恢复。同轮红队在 Brotli（Node.js/Bun/Envoy 等）发现未认证远程代码执行漏洞，已披露并推动 CVE/补丁（Node 22.23.4 / 24.22.1 / 26.12.1）。",
+          "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+          "source": "OpenAI",
+          "tag": "安全"
+        },
+        {
+          "category": "news-tech",
+          "title": "OpenAI 披露 Brotli 未认证 RCE（Patch the Planet）",
+          "summary": "恶意压缩数据可在无需登录情况下打服务器或客户端；根因 2 月已修但未发版。详见 patchtheplanet.org/brotli；Node.js 等下游已出安全更新。",
+          "url": "https://x.com/OpenAI/status/2113766354386084338",
+          "source": "OpenAI",
+          "tag": "Brotli"
+        }
+      ]
+    },
+    {
       "date": "2026-10-23",
       "entries": [
         {
