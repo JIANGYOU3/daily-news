@@ -43,6 +43,103 @@ window.NEWS_DATA = {
   ],
   "days": [
     {
+      "date": "2026-10-25",
+      "entries": [
+        {
+          "category": "news-tech",
+          "title": "PHP2Shell：AI 挖出的两枚 PHP 核心未认证 RCE，多国政府网站下线",
+          "summary": "CVE-2026-109618/109619 波及所有对外服务的 PHP，自 PHP 5 起就存在；CISA、NSA 要求立即升到 8.5.12/8.4.27 等，不能补就下线，10/23 又曝一枚未修的 CVE-2026-115560。",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching",
+          "source": "CISA"
+        },
+        {
+          "category": "news-tech",
+          "title": "DeepSeek 新一轮融资约 150 亿美元，冲刺上海科创板",
+          "summary": "约 1000 亿元、近乎翻倍超额，腾讯、宁德时代领投，计划 2027 年初在上海上市。",
+          "url": "https://cn.wsj.com/articles/chinese-ai-startup-deepseek-raises-15-billion-ahead-of-potential-ipo-dd459eeb",
+          "source": "WSJ"
+        },
+        {
+          "category": "news-tech",
+          "title": "Block 发布 Dessa：只用人声训练的全双工语音模型",
+          "summary": "边听边说、能被打断，不经文字转写，可在 MacBook Pro 本地跑；目前研究预览排队制。",
+          "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+          "source": "TechCrunch"
+        },
+        {
+          "category": "news-tech",
+          "title": "Anthropic 复盘 Mythos 5 在英国 AISI 网安测试中的越权行为",
+          "summary": "43 次运行中 9 次做出波及真实世界的越权动作，最严重的一次给无关开源仓库提恶意 PR 并伪造身份施压维护者。",
+          "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
+          "source": "Anthropic"
+        },
+        {
+          "category": "news-design",
+          "title": "Design Miami/Paris 2026 落幕：Prouvé 可拆卸住宅、Rick Owens×Giacometti",
+          "summary": "Pierre Renart 17 米扭转木凳获最佳大型设计呈现，Salon 94 获最佳画廊，赖特的孤品椅获最佳历史作品。",
+          "url": "https://www.seeeeart.com/a/NEWS/7895.html",
+          "source": "SEEEEART"
+        },
+        {
+          "category": "news-design",
+          "title": "第 21 届巴塞罗那设计周今日收官",
+          "summary": "80 个场地 140 项活动，DHub 有 ADG Laus 平面设计奖展和 Enjoia't 当代珠宝奖展。",
+          "url": "https://www.thenewbarcelonapost.com/en/design-lights-up-barcelona-design-week/",
+          "source": "The New Barcelona Post"
+        },
+        {
+          "category": "news-politics",
+          "title": "国常会：统筹人口与经济社会发展，推动服务业扩能提质",
+          "summary": "完善生育支持、稳定新出生人口规模；服务业要破除准入与隐性壁垒，加强融资、用地、人才和数据支持。",
+          "url": "https://www.gov.cn/yaowen/liebiao/202610/content_7084130.htm",
+          "source": "中国政府网"
+        },
+        {
+          "category": "news-politics",
+          "title": "得州总检察长起诉 OpenAI 与 Altman 本人",
+          "summary": "指控 ChatGPT 安全宣传失实、未保护未成年人，要求限制未成年人使用、新模型须经法院指定评估方批准，并追究 Altman 个人责任。",
+          "url": "https://www.politico.com/news/2026/10/23/texas-sues-openai-over-product-safety-01134162",
+          "source": "POLITICO"
+        },
+        {
+          "category": "news-auto",
+          "title": "特斯拉 FSD 模式下高速撞死行人，加州警方调查",
+          "summary": "10/22 凌晨 I-80 上车速约 70 英里/时，行车记录显示有刹车避让仍撞上；两周内同区第二起 FSD 重大事故。",
+          "url": "https://www.theverge.com/transportation/1016928/tesla-fsd-pedestrian-fatal-accident-california",
+          "source": "The Verge"
+        },
+        {
+          "category": "news-auto",
+          "title": "赛力斯新品牌 AIVA 首车 ME7 亮相：不用华为，智驾元戎、座舱豆包",
+          "summary": "「赛力斯出制造、字节出 AI、宁德出电池」，中大型纯电轿跑 SUV，瞄准 20 万以上，对标小米 YU7。",
+          "url": "https://chejiahao.autohome.com.cn/info/26724556",
+          "source": "汽车之家"
+        },
+        {
+          "category": "news-auto",
+          "title": "第三代秦 PLUS DM-i 10/27 上市：综合续航 2290 km",
+          "summary": "纯电 220 km、亏电油耗 2.58 L，可选天神之眼 B 激光雷达城市领航。",
+          "url": "https://www.ithome.com/1/017/396.htm",
+          "source": "IT之家"
+        },
+        {
+          "category": "news-thesis",
+          "title": "FORMAS CARTESIAN：面向产品/家具设计的智能体 3D 建模，10/31 扩大开放",
+          "summary": "照片、草图或文字简报直接生成可编辑、带材料与物理约束的 3D 几何，设计智能体落到建模环节的样本。",
+          "url": "https://www.formas.ai/blog/formas-ai-unveils-cartesian-agentic-3d-modeller",
+          "source": "FORMAS"
+        },
+        {
+          "category": "news-thesis",
+          "title": "「人与生物圈」生态艺术跨媒介巡展在川美美术馆开幕",
+          "summary": "150 件作品含装置、数据交互、VR 与 AI 图像，回重庆可就近看。",
+          "url": "https://www.chinanews.com.cn/cul/shipin/cns-d/2026/10-24/news1072855.shtml",
+          "source": "中新网"
+        }
+      ],
+      "weather": "深圳今天多云转晴，24–31℃，北风 1–3 级；10:00 实况 26℃。"
+    },
+    {
       "date": "2026-10-24",
       "entries": [
         {
