@@ -215,6 +215,14 @@ window.NEWS_DATA = {
           "url": "https://x.com/thsottiaux/status/2114200291319124163",
           "source": "@thsottiaux",
           "tag": "额度重置"
+        },
+        {
+          "category": "tibo",
+          "title": "Tibo：Day 20 额度重置已全部生效",
+          "summary": "Tibo 确认本轮 Codex 额度重置已全部推送完成（早于原定 PST 午夜），并预告「接下来一周也很有意思」。",
+          "url": "https://x.com/thsottiaux/status/2114237083652882932",
+          "source": "X @thsottiaux",
+          "tag": "额度重置"
         }
       ],
       "weather": "深圳今天多云转晴，24–31℃，北风 1–3 级；10:00 实况 26℃。",
