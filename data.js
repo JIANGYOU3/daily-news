@@ -199,6 +199,22 @@ window.NEWS_DATA = {
           "url": "https://github.com/basketikun/infinite-canvas",
           "source": "GitHub Trending",
           "meta": "+376 / 24h · 总计 9,039"
+        },
+        {
+          "category": "tibo",
+          "title": "Tibo Day 20：Rest and reset",
+          "summary": "额度重置日；补充称 By midnight PST 落地。",
+          "url": "https://x.com/thsottiaux/status/2114200152701575656",
+          "source": "@thsottiaux",
+          "tag": "额度重置"
+        },
+        {
+          "category": "tibo",
+          "title": "By midnight PST",
+          "summary": "Day 20 重置预计太平洋时间午夜前生效。",
+          "url": "https://x.com/thsottiaux/status/2114200291319124163",
+          "source": "@thsottiaux",
+          "tag": "额度重置"
         }
       ],
       "weather": "深圳今天多云转晴，24–31℃，北风 1–3 级；10:00 实况 26℃。",
