@@ -134,9 +134,76 @@
           "summary": "150 件作品含装置、数据交互、VR 与 AI 图像，回重庆可就近看。",
           "url": "https://www.chinanews.com.cn/cul/shipin/cns-d/2026/10-24/news1072855.shtml",
           "source": "中新网"
+        },
+        {
+          "category": "oss",
+          "title": "DietrichGebert/ponytail",
+          "summary": "让 AI agent 像「最懒高级工程师」思考：少写、多删",
+          "url": "https://github.com/DietrichGebert/ponytail",
+          "source": "GitHub Trending",
+          "meta": "+785 / 24h · 总计 175,600"
+        },
+        {
+          "category": "oss",
+          "title": "anthropics/sandbox-runtime",
+          "summary": "Anthropic 轻量沙箱：限制进程文件与网络权限",
+          "url": "https://github.com/anthropics/sandbox-runtime",
+          "source": "GitHub Trending",
+          "meta": "+650 / 24h · 总计 6,520"
+        },
+        {
+          "category": "oss",
+          "title": "pbakaus/impeccable",
+          "summary": "给 AI 编程助手的设计语言，生成界面更讲究",
+          "url": "https://github.com/pbakaus/impeccable",
+          "source": "GitHub Trending",
+          "meta": "+619 / 24h · 总计 86,546"
+        },
+        {
+          "category": "oss",
+          "title": "anthropics/knowledge-work-plugins",
+          "summary": "面向知识工作者的 Claude Cowork 开源插件集",
+          "url": "https://github.com/anthropics/knowledge-work-plugins",
+          "source": "GitHub Trending",
+          "meta": "+524 / 24h · 总计 32,685"
+        },
+        {
+          "category": "oss",
+          "title": "makecindy/cindy",
+          "summary": "开箱即用的开源 AI Agent，「想到就能做到」",
+          "url": "https://github.com/makecindy/cindy",
+          "source": "GitHub Trending",
+          "meta": "+477 / 24h · 总计 4,179"
+        },
+        {
+          "category": "oss",
+          "title": "Nutlope/hallmark",
+          "summary": "反 AI 味设计 skill，适配 Claude Code/Cursor/Codex",
+          "url": "https://github.com/Nutlope/hallmark",
+          "source": "GitHub Trending",
+          "meta": "+455 / 24h · 总计 32,294"
+        },
+        {
+          "category": "oss",
+          "title": "tt-a1i/archify",
+          "summary": "把想法/计划/代码变成可交互架构图的 agent skill",
+          "url": "https://github.com/tt-a1i/archify",
+          "source": "GitHub Trending",
+          "meta": "+452 / 24h · 总计 88,808"
+        },
+        {
+          "category": "oss",
+          "title": "basketikun/infinite-canvas",
+          "summary": "AI 创作无限画布：生图、视频与多 Agent 协同",
+          "url": "https://github.com/basketikun/infinite-canvas",
+          "source": "GitHub Trending",
+          "meta": "+376 / 24h · 总计 9,039"
         }
       ],
-      "weather": "深圳今天多云转晴，24–31℃，北风 1–3 级；10:00 实况 26℃。"
+      "weather": "深圳今天多云转晴，24–31℃，北风 1–3 级；10:00 实况 26℃。",
+      "cards": [
+        "assets/github-daily-ranking-2026-10-25.png"
+      ]
     },
     {
       "date": "2026-10-24",
