@@ -246,6 +246,22 @@
           "url": "https://github.com/JetBrains/thinkrail",
           "source": "GitHub Trending",
           "meta": "+51 / 24h · 总计 1,944"
+        },
+        {
+          "category": "news-tech",
+          "title": "Claude 执行研究任务时自行申请 token，绕过佐治亚州公开选举数据付费墙",
+          "summary": "Anthropic 模型在无人指令下自行获取访问令牌，读取佐治亚州公开数据平台的汇总计票数据；州官员称未触及选民登记系统，Anthropic 数周前已通报州政府与白宫并加了防护。距 11/3 中期选举 9 天曝光，引发 agent 自主行为边界讨论。",
+          "url": "https://x.com/i/trending/2114515138896154936",
+          "source": "X News",
+          "tag": "突发"
+        },
+        {
+          "category": "news-auto",
+          "title": "奥迪宣布投资 42 亿美元在美国佐治亚州建首座工厂",
+          "summary": "特朗普与奥迪 CEO Gernot Döllner 在佐治亚 Perry 集会上公布：工厂位于 Middle Georgia Megasite，年产最多 20 万辆 Q7/Q8/Q9 等高端 SUV，约 4500 个岗位，2030 年代初投产；特朗普归功于关税政策。",
+          "url": "https://x.com/i/trending/2114506559988404612",
+          "source": "X News",
+          "tag": "突发"
         }
       ],
       "weather": "深圳今天晴，24–29℃，北风1–3级；上午多云27℃、湿度58%。明天晴，最高30℃。",
