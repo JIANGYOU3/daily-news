@@ -71,8 +71,121 @@ window.NEWS_DATA = {
           "source": "GitHub",
           "meta": "265★，10/21 新建",
           "tag": "skill"
+        },
+        {
+          "category": "news-tech",
+          "title": "Anthropic：多数子智能体应折叠成 skills，回到单主循环",
+          "summary": "新指南称单个 Claude 智能体修 bug 用时 12.5 秒、token 和工具调用远少于多智能体版本；子智能体只留给并行或上下文爆满场景。",
+          "url": "https://x.com/i/trending/2114330879086461367",
+          "source": "X 热点"
+        },
+        {
+          "category": "news-tech",
+          "title": "Theo 实测 Gemini 编码幻觉率超 80%",
+          "summary": "72 行文件引用第 173 行、编造 IP 和函数细节；DeepMind 工程师已要 prompt 和 commit 排查。",
+          "url": "https://x.com/i/trending/2114508753114460424",
+          "source": "X 热点"
+        },
+        {
+          "category": "news-tech",
+          "title": "长征八号甲发射卫星互联网低轨 28 组卫星",
+          "summary": "10/25 10:03 海南商业航天发射场，卫星顺利入轨。",
+          "url": "https://xinwen.bjd.com.cn/content/s6ade92dee4b0e42f8f020eec.html",
+          "source": "北京日报"
+        },
+        {
+          "category": "news-tech",
+          "title": "英国划拨 6 亿英镑做 AI 安全专项",
+          "summary": "财新 T 早报；同期马斯克称 SpaceX 完成 400 亿美元债务融资。",
+          "url": "https://www.caixin.com/2026-10-26/102497225.html",
+          "source": "财新"
+        },
+        {
+          "category": "news-design",
+          "title": "Arup 为费马恩海峡隧道建箭形可拆卸观景台 Pilen",
+          "summary": "217 米长对应一节隧道沉管，用回收木材和钢建成，隧道完工后整体拆解复用。",
+          "url": "https://www.dezeen.com/2026/10/25/arup-pilen-viewpoint-fehmarnbelt-tunnel/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "news-design",
+          "title": "DDW「Table of Power」：收藏级家具 × 权力批判",
+          "summary": "Show Not Show 用钣金粗野主义长桌加镜面无限延伸，配 3D 打印生物塑料灯、单工具木凳等。",
+          "url": "https://www.dezeen.com/2026/10/25/collectible-furniture-dutch-design-week-table-of-power/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "news-design",
+          "title": "Dezeen 十年来首次全站改版",
+          "summary": "与 Made by On 合作，在 Micha Weidmann 原版式基础上重做。",
+          "url": "https://www.dezeen.com/2026/10/24/dezeen-website-launch-this-week/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "news-politics",
+          "title": "中央网信委印发《国家信息化「十五五」规划》",
+          "summary": "部署新型信息基础设施、网信科技创新与产业生态，整体提升数字化网络化智能化水平。",
+          "url": "http://news.cnfol.com/zhengquanyaowen/20261026/32407351.shtml",
+          "source": "中金在线/Choice"
+        },
+        {
+          "category": "news-politics",
+          "title": "美财政部拟扩大对华投资限制，生物技术或入禁投清单",
+          "summary": "商务部称其泛化国家安全、表示坚决反对并保留反制权利。",
+          "url": "http://news.cnfol.com/zhengquanyaowen/20261026/32407351.shtml#us-invest",
+          "source": "中金在线/Choice"
+        },
+        {
+          "category": "news-politics",
+          "title": "克宫：筹备 APEC 深圳期间特朗普-普京-习三方会晤",
+          "summary": "乌沙科夫称三方原则上都准备好，APEC 领导人会议 11/18–19 在深圳。",
+          "url": "https://x.com/i/trending/2114341069684920741",
+          "source": "X 热点"
+        },
+        {
+          "category": "news-politics",
+          "title": "塞尔维亚议会选举：学生名单获胜，武契奇认败",
+          "summary": "学生运动推动的「学生名单-学生获胜」10/25 宣布胜选。",
+          "url": "https://xinwen.bjd.com.cn/content/s6ade92dee4b0e42f8f020eec.html#serbia",
+          "source": "北京日报"
+        },
+        {
+          "category": "news-auto",
+          "title": "猛士 X700 上市，焕新价 20.98 万起",
+          "summary": "增程/插混，华为乾崑 ADS 5 + 896 线激光雷达 + 鸿蒙座舱 6，800V，猛士首次切入主流家用。",
+          "url": "https://www.ithome.com/1/017/629.htm",
+          "source": "IT之家"
+        },
+        {
+          "category": "news-auto",
+          "title": "腾势 Z9S 上市：25.58–32.58 万，纯电最高 1100 km",
+          "summary": "第二代刀片电池 + 闪充，云辇-A、天神之眼 5.0，三电机性能版 1210 马力。",
+          "url": "https://www.ichuyou.cn/czix/202610/626816.html",
+          "source": "智能汽车网"
+        },
+        {
+          "category": "news-auto",
+          "title": "Austin 街头 Zoox、Waymo、Cybercab 三车「对峙」",
+          "summary": "27 秒视频里三台无人车互相让行倒车；特斯拉 Robotaxi 总数已到 970 台，下月扩到达拉斯。",
+          "url": "https://x.com/i/trending/2114463227891405010",
+          "source": "X 热点"
+        },
+        {
+          "category": "news-thesis",
+          "title": "美国新车 80% 是黑白灰：车色中性化引发怀旧讨论",
+          "summary": "二十年前约 60%，成本与残值驱动；也有人看到粉彩回潮，适合 CMF 色彩趋势参考。",
+          "url": "https://x.com/i/trending/2114045825827663988",
+          "source": "X 热点"
+        },
+        {
+          "category": "news-thesis",
+          "title": "ICID 2026 智能设计国际会议在西安闭幕",
+          "summary": "机械工程学会工业设计分会第 30 届年会，主题「创新设计引领新质生产力」，有 AI 与脑机设计工作坊、设计趋势校企联合发布。",
+          "url": "https://www.keoaeic.org/meeting/UAY2UM.html",
+          "source": "AEIC"
         }
-      ]
+      ],
+      "weather": "深圳今天晴，24–29℃，北风1–3级；上午多云27℃、湿度58%。明天晴，最高30℃。"
     },
     {
       "date": "2026-10-25",
