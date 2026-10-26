@@ -263,6 +263,28 @@ window.NEWS_DATA = {
           "url": "https://x.com/i/trending/2114506559988404612",
           "source": "X News",
           "tag": "突发"
+        },
+        {
+          "category": "tibo",
+          "title": "Codex Day 21：今天又重置额度",
+          "summary": "Tibo 发帖「Day 21/ 剩下七天会发生什么？但今天是一次重置」，Codex 连续重置第 21 天。",
+          "url": "https://x.com/thsottiaux/status/2114588174249071102",
+          "source": "X @thsottiaux",
+          "tag": "额度重置"
+        },
+        {
+          "category": "news-politics",
+          "title": "卢拉胜选巴西大选，誓言打造巴西自主 AI",
+          "summary": "卢拉击败弗拉维奥·博索纳罗赢得 2026 巴西大选，胜选演讲承诺加强理工教育、发展不依赖中美的本土 AI，并吸引绿电数据中心。",
+          "url": "https://x.com/i/trending/2114633802622312943",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-tech",
+          "title": "月之暗面 Kimi 3.1 剔除网络攻击训练数据，11/4 前开放权重",
+          "summary": "Kimi 3.1 开源前删掉网络攻击相关训练数据，漏洞利用基准从 90.5% 降到 81%，通用编码能力保留；Vitalik 公开支持。",
+          "url": "https://x.com/i/trending/2114578036175901059",
+          "source": "X 新闻"
         }
       ],
       "weather": "深圳今天晴，24–29℃，北风1–3级；上午多云27℃、湿度58%。明天晴，最高30℃。",
