@@ -42,6 +42,38 @@
   ],
   "days": [
     {
+      "date": "2026-10-26",
+      "entries": [
+        {
+          "category": "workflow",
+          "title": "Figma → Claude Code → SwiftUI：设计师纯对话做 App 动效",
+          "summary": "把 Figma 链接丢给 Claude Code 生成 SwiftUI，再画两个状态让它补过渡动画；细节靠逐句描述打磨（约 3–5 轮），最后真机录屏交给 Claude 修。",
+          "url": "https://x.com/ashdesignin/status/2114356364009259334",
+          "source": "X @ashdesignin",
+          "meta": "59♥ / 50 收藏",
+          "tag": "设计"
+        },
+        {
+          "category": "workflow",
+          "title": "Ryugi 流儀：coding agent 先出多方向 mockup，再写 spec、TDD、截图验收",
+          "summary": "Claude Code 插件，自动按 头脑风暴→画板多方案→可评论设计文档→TDD→成品截图对比通过/驳回 走流程；Codex、Cursor 也能装。",
+          "url": "https://github.com/Innei/ryugi",
+          "source": "GitHub",
+          "meta": "79★，10/25 仍在更新",
+          "tag": "agent"
+        },
+        {
+          "category": "workflow",
+          "title": "ian-xhs-carousel：文章一键排成 3:4 小红书轮播图的 Claude Code Skill",
+          "summary": "先给分镜表确认，再用 20 个产品界面风母版出 1080×1440 PNG（浅/深色）+ 总览图 + 可改 HTML。",
+          "url": "https://github.com/helloianneo/ian-xhs-carousel",
+          "source": "GitHub",
+          "meta": "265★，10/21 新建",
+          "tag": "skill"
+        }
+      ]
+    },
+    {
       "date": "2026-10-25",
       "entries": [
         {
