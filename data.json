@@ -182,9 +182,76 @@
           "summary": "机械工程学会工业设计分会第 30 届年会，主题「创新设计引领新质生产力」，有 AI 与脑机设计工作坊、设计趋势校企联合发布。",
           "url": "https://www.keoaeic.org/meeting/UAY2UM.html",
           "source": "AEIC"
+        },
+        {
+          "category": "oss",
+          "title": "experientiallabs/experiential",
+          "summary": "零加价模型网关：BYOK/自托管/千款模型一个入口",
+          "url": "https://github.com/experientiallabs/experiential",
+          "source": "GitHub Trending",
+          "meta": "+1,117 / 24h · 总计 12,932"
+        },
+        {
+          "category": "oss",
+          "title": "pollen-robotics/microduck",
+          "summary": "迷你双足小鸭机器人，开源硬件+控制代码，萌又能走",
+          "url": "https://github.com/pollen-robotics/microduck",
+          "source": "GitHub Trending",
+          "meta": "+647 / 24h · 总计 11,807"
+        },
+        {
+          "category": "oss",
+          "title": "aws/agent-toolkit-for-aws",
+          "summary": "AWS 官方 agent 工具包：MCP 服务器、skills 与插件",
+          "url": "https://github.com/aws/agent-toolkit-for-aws",
+          "source": "GitHub Trending",
+          "meta": "+245 / 24h · 总计 3,275"
+        },
+        {
+          "category": "oss",
+          "title": "Gaurav-Gosain/tuios",
+          "summary": "懂 agent 的终端窗口管理器：平铺、会话保活、统一收件箱",
+          "url": "https://github.com/Gaurav-Gosain/tuios",
+          "source": "GitHub Trending",
+          "meta": "+190 / 24h · 总计 6,014"
+        },
+        {
+          "category": "oss",
+          "title": "ZSeven-W/openpencil",
+          "summary": "开源 AI 原生矢量设计工具，多 agent 协作，设计即代码",
+          "url": "https://github.com/ZSeven-W/openpencil",
+          "source": "GitHub Trending",
+          "meta": "+133 / 24h · 总计 6,678"
+        },
+        {
+          "category": "oss",
+          "title": "browser-use/video-use",
+          "summary": "让 coding agent 直接剪视频，用对话完成粗剪",
+          "url": "https://github.com/browser-use/video-use",
+          "source": "GitHub Trending",
+          "meta": "+97 / 24h · 总计 29,841"
+        },
+        {
+          "category": "oss",
+          "title": "mantrakp04/ardia",
+          "summary": "免费 Mac Chromium 浏览器：Arc 侧边栏 + Dia 质感",
+          "url": "https://github.com/mantrakp04/ardia",
+          "source": "GitHub Trending",
+          "meta": "+97 / 24h · 总计 833"
+        },
+        {
+          "category": "oss",
+          "title": "JetBrains/thinkrail",
+          "summary": "JetBrains 新作：轻量 vibe coding IDE，按习惯自适应",
+          "url": "https://github.com/JetBrains/thinkrail",
+          "source": "GitHub Trending",
+          "meta": "+51 / 24h · 总计 1,944"
         }
       ],
-      "weather": "深圳今天晴，24–29℃，北风1–3级；上午多云27℃、湿度58%。明天晴，最高30℃。"
+      "weather": "深圳今天晴，24–29℃，北风1–3级；上午多云27℃、湿度58%。明天晴，最高30℃。",
+      "cards": [
+        "assets/github-daily-ranking-2026-10-26.png"
+      ]
     },
     {
       "date": "2026-10-25",
