@@ -260,9 +260,76 @@
           "summary": "Daryl Ginn 等称 Figma 退居打磨与协作，Figma 也在推自家 AI 智能体。",
           "url": "https://x.com/i/trending/2114696013109981438",
           "source": "X 新闻"
+        },
+        {
+          "category": "oss",
+          "title": "debpalash/VoiceStudio",
+          "summary": "全本地开源 ElevenLabs 替代：克隆/配音/转写/有声书",
+          "url": "https://github.com/debpalash/VoiceStudio",
+          "source": "GitHub Trending",
+          "meta": "+2,297 / 24h · 总计 89,599"
+        },
+        {
+          "category": "oss",
+          "title": "TauricResearch/TradingAgents",
+          "summary": "多智能体 LLM 金融交易框架，分析师团队协作决策",
+          "url": "https://github.com/TauricResearch/TradingAgents",
+          "source": "GitHub Trending",
+          "meta": "+1,395 / 24h · 总计 116,362"
+        },
+        {
+          "category": "oss",
+          "title": "Panniantong/Agent-Reach",
+          "summary": "给 Agent 装上全网之眼：推特/B站/小红书一个 CLI",
+          "url": "https://github.com/Panniantong/Agent-Reach",
+          "source": "GitHub Trending",
+          "meta": "+746 / 24h · 总计 103,891"
+        },
+        {
+          "category": "oss",
+          "title": "alchaincyf/huashu-design",
+          "summary": "一句话出可交付设计：网页/App 原型/PPTX/动画",
+          "url": "https://github.com/alchaincyf/huashu-design",
+          "source": "GitHub Trending",
+          "meta": "+251 / 24h · 总计 27,088"
+        },
+        {
+          "category": "oss",
+          "title": "NVIDIA/SkillSpector",
+          "summary": "Agent 技能安全扫描：装前查注入、外泄与供应链风险",
+          "url": "https://github.com/NVIDIA/SkillSpector",
+          "source": "GitHub Trending",
+          "meta": "+214 / 24h · 总计 22,350"
+        },
+        {
+          "category": "oss",
+          "title": "microsoft/skill-recorder",
+          "summary": "录下你的屏幕操作，自动还原成可复用的 Skill",
+          "url": "https://github.com/microsoft/skill-recorder",
+          "source": "GitHub Trending",
+          "meta": "+203 / 24h · 总计 5,245"
+        },
+        {
+          "category": "oss",
+          "title": "nightly-labs/openbot",
+          "summary": "本地优先的 AI 队友工作台：Codex/Claude/Grok 协作",
+          "url": "https://github.com/nightly-labs/openbot",
+          "source": "GitHub Trending",
+          "meta": "+176 / 24h · 总计 1,594"
+        },
+        {
+          "category": "oss",
+          "title": "ranxianglei/billion-context",
+          "summary": "上下文压缩插件：月级长会话，100K 窗口够用省 5 倍 token",
+          "url": "https://github.com/ranxianglei/billion-context",
+          "source": "GitHub Trending",
+          "meta": "+176 / 24h · 总计 2,986"
         }
       ],
-      "weather": "深圳：当前多云 26°C、湿度 63%；白天晴 30°C，夜间多云 23°C，北风 1–3 级。"
+      "weather": "深圳：当前多云 26°C、湿度 63%；白天晴 30°C，夜间多云 23°C，北风 1–3 级。",
+      "cards": [
+        "assets/github-daily-ranking-2026-10-27.png"
+      ]
     },
     {
       "date": "2026-10-26",
