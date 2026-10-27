@@ -86,8 +86,184 @@ window.NEWS_DATA = {
           "source": "GitHub",
           "meta": "~270★ · CC BY-NC",
           "tag": "视频/设计"
+        },
+        {
+          "category": "news-tech",
+          "title": "博通为 Anthropic 搭 630 亿美元芯片融资",
+          "summary": "美银、黑石、花旗、大摩通过特殊目的载体买下博通 AI 芯片与网络设备再租给 Anthropic，2027 年起交付，是 AI 基建最大单笔融资之一。",
+          "url": "https://x.com/i/trending/2114837913443934381",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-tech",
+          "title": "Oracle 发布 Fusion Agentic Home：用大白话指挥企业流程",
+          "summary": "Oracle AI World 上推出 Fusion Companion 与 Agentic Home，财务、HR、供应链等流程用自然语言交给智能体跑，保留人工审批。",
+          "url": "https://x.com/i/trending/2114702640391315470",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-tech",
+          "title": "Replit 提出「自动驾驶公司」与 Agent Habitat",
+          "summary": "Replit CEO Masad 称内部工程产出今年翻了三倍，推出连接公司系统、带审批的智能体运行环境，预言 2030 年财富 500 强都会用。",
+          "url": "https://x.com/i/trending/2114767516459561329",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-tech",
+          "title": "黄仁勋：AI 智能体工具或按每 GPU 每年 2000 美元收费",
+          "summary": "GTC Berlin 上英伟达透露智能体软件订阅思路，百万 GPU 规模即 20 亿美元年收入，开发者担心挤压小用户。",
+          "url": "https://x.com/i/trending/2114723339881337224",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-tech",
+          "title": "阿里 Qwen3.8 全系开源",
+          "summary": "旗舰 2.4 万亿参数，另有单卡可跑的 27B 与动态激活 6B 的 Flash 版，Apache 2.0 可商用。",
+          "url": "https://developer.aliyun.com/article/1774975",
+          "source": "阿里云开发者社区"
+        },
+        {
+          "category": "news-tech",
+          "title": "MiniMax 开源 M3.1 Flash，Meta 推 Muse Wonder 重回前沿",
+          "summary": "M3.1 Flash 成本降 70%、推理提速近 3 倍；Meta 新模型主打 Active Memory 缓解长任务漂移。",
+          "url": "https://www.thepaper.cn/newsDetail_forward_34328525",
+          "source": "澎湃新闻"
+        },
+        {
+          "category": "news-tech",
+          "title": "科创 50 较 7 月高点跌 40%，中国 AI 股蒸发约 4800 亿美元",
+          "summary": "宇树、沐曦、摩尔线程等个股腰斩，沪深 300 也进入技术性熊市。",
+          "url": "https://x.com/i/trending/2114432803764932682",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-design",
+          "title": "「个人网站就是新简历」：iPhone 界面式作品集爆火",
+          "summary": "Frvky 把作品集做成可点的手机主屏，首日 22 万访问，带动一波创意个人站分享。",
+          "url": "https://x.com/i/trending/2114170527648739369",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-design",
+          "title": "上海「Rebirth 归零」展开幕，家具用上数字产品护照",
+          "summary": "RF Lab × ELTO Made × 黎鸿城，以「盈—空—生」三幕组织空间，扫码可看作品工艺与材质信息，展至 12/15。",
+          "url": "http://www.designwire.com.cn/mix/17181",
+          "source": "设计腕儿"
+        },
+        {
+          "category": "news-design",
+          "title": "槙文彦设计的比哈尔博物馆入选全球最佳博物馆第 9",
+          "summary": "Worth a Journey 2026 榜单中亚洲第一、印度唯一上榜。",
+          "url": "https://x.com/i/trending/2114670632541823454",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-design",
+          "title": "日本照明之争：暖光氛围还是白光日常？",
+          "summary": "从酒店暖灯到住宅荧光灯的对比，网友重提谷崎润一郎《阴翳礼赞》。",
+          "url": "https://x.com/i/trending/2114793851114393625",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-politics",
+          "title": "欧盟拟对中国化工、家具、机械设进口限制",
+          "summary": "欧委会准备配额或关税等保障措施，最早 2027 年初落地；欧盟家具进口三分之二以上来自中国。",
+          "url": "https://x.com/i/trending/2114711311083086318",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-politics",
+          "title": "以色列今日大选，前总参谋长艾森科特民调领先内塔尼亚胡",
+          "summary": "中间派 Yashar 党与利库德胶着，任何阵营恐难过半。",
+          "url": "https://x.com/i/trending/2114754063317307766",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-politics",
+          "title": "特朗普团队力推奥尔班竞选联合国秘书长",
+          "summary": "美方已与莫斯科、北京沟通，古特雷斯任期年底结束；提议仍处早期。",
+          "url": "https://x.com/i/trending/2114490349074997612",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-politics",
+          "title": "五角大楼将 80 个改名孔子学院列为安全威胁",
+          "summary": "涉及 30 所美国大学，中方回应称是抹黑正常教育交流。",
+          "url": "https://x.com/i/trending/2114568623041741199",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-politics",
+          "title": "乌克兰议会第 21 次延长戒严与总动员至 2027 年 1 月",
+          "summary": "全票通过，选举在战时继续暂停。",
+          "url": "https://x.com/i/trending/2114692719385751827",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-auto",
+          "title": "特斯拉与 SpaceX 董事会探讨合并，股价涨超 5%",
+          "summary": "双方独立委员会评估中，马斯克回避；散户联名信代表超百亿美元持股支持，巴克莱上调评级。",
+          "url": "https://x.com/i/trending/2114430188977025422",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-auto",
+          "title": "中国品牌在欧洲销量首超日系",
+          "summary": "7–9 月中国品牌占欧盟+EFTA+英国注册量 12.7%，日系 11.9%，比亚迪、奇瑞领跑。",
+          "url": "https://x.com/i/trending/2114680594391285914",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-auto",
+          "title": "全球纯燃油新车占比首次跌破一半",
+          "summary": "2026 上半年纯燃油车占 49%，混动 18% 反超纯电 17%。",
+          "url": "https://x.com/i/trending/2114570366907498963",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-auto",
+          "title": "腾势 N8 发布：纯电大五座，CLTC 最高 1003 km",
+          "summary": "30 英寸全景屏 + 1.1 米 PHUD，9 分钟充到 97%，11 月上市。",
+          "url": "https://finance.sina.com.cn/stock/t/2026-10-26/doc-iniwpfmz5696204.shtml",
+          "source": "快科技/新浪"
+        },
+        {
+          "category": "news-auto",
+          "title": "Turo 上线认证 FSD 特斯拉租车，拉脱维亚批准 FSD",
+          "summary": "10/28 起美国可按 FSD 筛选租车；拉脱维亚成第 10 个放行的欧盟国家，波罗的海三国全通。",
+          "url": "https://x.com/i/trending/2114897276099334201",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-auto",
+          "title": "本周新车：二代蓝山今日上市，理想 i6 新款、小鹏 MONA L05 接力",
+          "summary": "10/27 魏牌蓝山与吉利缤越，10/28 新款理想 i6，10/29 小鹏 MONA L05、智己 LS8 NEO。",
+          "url": "https://chejiahao.autohome.com.cn/info/26733241",
+          "source": "汽车之家车家号"
+        },
+        {
+          "category": "news-thesis",
+          "title": "第十届国际 CMF 展今起在深圳宝安开幕（10/27–29）",
+          "summary": "深圳国际会展中心（宝安新馆），设色彩与创新设计、新材料新工艺、可持续材料展区，同期第十六届世界 CMF 大会。",
+          "url": "https://www.film-expo.com/zh-cn/tqzh/cl-gy-sc.html",
+          "source": "展会官网"
+        },
+        {
+          "category": "news-thesis",
+          "title": "Cybercab 产线揭秘：免喷漆车身省下数亿美元",
+          "summary": "25 个工位、78–80% 自动化，免涂装外饰是很直接的 CMF 取舍案例。",
+          "url": "https://x.com/i/trending/2114790880699965659",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-thesis",
+          "title": "设计师开始弃用 Figma，转向 Claude、Cursor 直接出原型",
+          "summary": "Daryl Ginn 等称 Figma 退居打磨与协作，Figma 也在推自家 AI 智能体。",
+          "url": "https://x.com/i/trending/2114696013109981438",
+          "source": "X 新闻"
         }
-      ]
+      ],
+      "weather": "深圳：当前多云 26°C、湿度 63%；白天晴 30°C，夜间多云 23°C，北风 1–3 级。"
     },
     {
       "date": "2026-10-26",
