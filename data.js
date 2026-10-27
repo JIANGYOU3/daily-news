@@ -60,6 +60,32 @@ window.NEWS_DATA = {
           "url": "https://x.com/i/trending/2114840848353656891",
           "source": "X 新闻",
           "tag": "突发"
+        },
+        {
+          "category": "workflow",
+          "title": "Charakuru：Tripo + Codex + Blender 一条龙出 3D 动画角色",
+          "summary": "日本开发者开源的 3D 角色流水线：一张角色图 → Tripo 生成模型 → Codex 驱动 Blender 绑骨、表情、导出 VRM，零 Blender 经验也能跑。别人怎么用：拿立绘直接产出可动的 3D 角色，社区已有人把它包成 Claude Code skill。",
+          "url": "https://x.com/raja_ai__/status/2114710456984306143",
+          "source": "X @raja_ai__ · 仓库 github.com/nanocle/Charakuru（~1.0k★）",
+          "tag": "3D/设计"
+        },
+        {
+          "category": "workflow",
+          "title": "tstack：Theo 每天在用的 Claude Code / Codex skills",
+          "summary": "t3dotgg 开源的 skill 合集（~1.6k★，10/24 新建）：full-send 一句话把改动从验证、评审、提 PR、盯 CI 到合并跑完；council 让三家模型互审直到意见一致。别人怎么用：把 PR 全流程交给 agent 无人值守跑，人只在最后点合并。",
+          "url": "https://github.com/t3dotgg/tstack",
+          "source": "GitHub",
+          "meta": "~1.6k★",
+          "tag": "coding agent"
+        },
+        {
+          "category": "workflow",
+          "title": "video-editor-skills：让 Claude Code 当 DaVinci 粗剪助理",
+          "summary": "12 个纯方法论 skill（~270★）：转写剪掉重拍和空白、vlog 节奏、B-roll、配乐闪避、字幕、Remotion 品牌动效（含 Figma 往返）、YouTube 导出。别人怎么用：拍完丢进文件夹说一句「edit the new video」，Claude 在 Resolve 里搭好初剪，人只做审美决定。",
+          "url": "https://github.com/appariciojunior/video-editor-skills",
+          "source": "GitHub",
+          "meta": "~270★ · CC BY-NC",
+          "tag": "视频/设计"
         }
       ]
     },
