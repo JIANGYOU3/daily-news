@@ -43,6 +43,27 @@ window.NEWS_DATA = {
   ],
   "days": [
     {
+      "date": "2026-10-27",
+      "entries": [
+        {
+          "category": "tibo",
+          "title": "Tibo Day 22：GPT-6.1 Terra 正式回归",
+          "summary": "Tibo 称 Terra 是首个在写作、个性和理解细微需求上明显更强的模型，电脑操作能力强，且在 API 与订阅中用量是 6.1 Sol 的 2 倍。",
+          "url": "https://x.com/thsottiaux/status/2114800277677092936",
+          "source": "X @thsottiaux",
+          "tag": "产品更新"
+        },
+        {
+          "category": "news-tech",
+          "title": "OpenAI 称内部模型给出数学、CS、物理三项突破性证明",
+          "summary": "包括局部光滑猜想全维度证明、用 Lean 验证的指数时间假设（ETH）反驳、以及相互作用量子场论（含 QCD、纯 Yang-Mills）的构造证明；材料已在 GitHub 公开，邀 Ryan Williams、David Gross 等学者牵头核验，尚待同行确认。",
+          "url": "https://x.com/i/trending/2114840848353656891",
+          "source": "X 新闻",
+          "tag": "突发"
+        }
+      ]
+    },
+    {
       "date": "2026-10-26",
       "entries": [
         {
