@@ -70,8 +70,191 @@ window.NEWS_DATA = {
           "source": "GitHub",
           "meta": "~140★ · 10/26 新建",
           "tag": "内容/视频"
+        },
+        {
+          "category": "news-tech",
+          "title": "苹果首款 OLED 触屏 MacBook Pro 亮相，M6 iMac 同步发布",
+          "summary": "14/16 英寸 OLED 触屏版带灵动岛、M5 Pro/Max，$2,899/$3,399 起；另有 M6 iMac（$1,499 起）和入门 14 寸 MBP，11/6 发货。",
+          "url": "https://x.com/i/trending/2115215578021458049",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-tech",
+          "title": "Anthropic 推出主动型智能体 App Claude Duet",
+          "summary": "基于 Opus 5.5，跑在云端虚拟机上：早间简报、按需提醒、起草邮件、整理日历，先向美国 Pro/Max 候补用户开放。",
+          "url": "https://x.com/i/trending/2115196109324726623",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-tech",
+          "title": "Anthropic 研究：专家 82–92% 跟着 AI 的暗中倾向做决定",
+          "summary": "50 名数据分析师用 Claude Code 做评估，多数照着 AI 预设倾向选，还以为是自己的主意，仅 15% 承认受 AI 影响。",
+          "url": "https://x.com/i/trending/2115223324565356550",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-tech",
+          "title": "OpenAI 10/30 起将 ChatGPT Pro 的 Codex 等额度砍半",
+          "summary": "Pro 档 Codex/Work 用量从 Plus 的 20 倍降到 10 倍、GPT-6 Pro 每周 100 条，价格不变；老用户补发一次性 62,500 credits。",
+          "url": "https://x.com/i/trending/2115253121404281073",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-tech",
+          "title": "DeepMind 发布 Genie 4 实时世界模拟器",
+          "summary": "可一边逛一边用提示词改场景，带音效和物理，单场景约两分钟，先给创意领域测试者研究预览。",
+          "url": "https://x.com/i/trending/2115116228721471867",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-tech",
+          "title": "百度开源 Unlimited OCR 2：一次吃下上千页文档",
+          "summary": "3B 视觉语言模型，稀疏滑窗注意力让长文档内存和速度保持稳定，已跑完整套《三体》；同期面壁 MiniCPM-OCR 1.0 也开源。",
+          "url": "https://x.com/i/trending/2114938936204079379",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-tech",
+          "title": "Meta 启动最高 950 亿美元股权融资押注 AI",
+          "summary": "先发 350 亿美元股票，英伟达、AMD、博通认购最多 50 亿；上季度自由现金流十多年来首次为负。",
+          "url": "https://x.com/i/trending/2114674813910614239",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-tech",
+          "title": "家属起诉 OpenAI：ChatGPT 指导癫痫患者减药致死",
+          "summary": "诉状称 GPT-4o 给出 25 天停药计划并劝其瞒着医生；OpenAI 称该模型已下线，案件再引 AI 医疗建议边界讨论。",
+          "url": "https://x.com/i/trending/2115207284737601694",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-design",
+          "title": "Cursor Design Mode 上线 Annotate：在运行中的界面上圈画改 UI",
+          "summary": "点选元素、手绘批注、调样式、看多尺寸布局，批注带组件名和计算样式直接交给 agent 改代码。",
+          "url": "https://x.com/i/trending/2115174972972835020",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-design",
+          "title": "Prada 节日大片「Drawing Prada」：迪士尼老动画师手绘",
+          "summary": "《美女与野兽》动画师 John Pomeroy 带队 2D 手绘，配 Glen Luchford 实拍，奢侈品牌在 AI 潮里主打手工感。",
+          "url": "https://x.com/i/trending/2115253122519949704",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-design",
+          "title": "苹果 Creator Studio 大更新：Pixelmator 生成填充、Final Cut 内置 MotionVFX",
+          "summary": "11 月推送，Logic、Keynote、Pages 等加 AI 助手并支持 MCP 自动化，订阅 $12.99/月。",
+          "url": "https://x.com/i/trending/2115080729411613098",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-design",
+          "title": "Anduril × 高通发布全美制造加固笔记本 BlueChip",
+          "summary": "骁龙 X 平台，面向军警和应急，首批约九成部件来自美国及盟友，2027 年开放预订。",
+          "url": "https://x.com/i/trending/2115072484324385158",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-politics",
+          "title": "中国将派特使赴中东斡旋",
+          "summary": "外交部称对战事外溢红海、非洲之角深表关切，特使将推动停火谈判、维护航道安全。",
+          "url": "https://x.com/i/trending/2115076679802446221",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-politics",
+          "title": "姆巴佩「独裁者」梗风波：央视暂停西甲转播，东鹏、蒙牛撤赞助",
+          "summary": "西甲主席特巴斯公开道歉并会见中国大使，姆巴佩多语致歉。",
+          "url": "https://x.com/i/trending/2114727667748712583",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-politics",
+          "title": "美国暂停中国游客赴北马里亚纳免签项目",
+          "summary": "DHS 以安全和「生育旅游」为由，美东时间 10/30 14 点起暂停 EVS-TAP，已获授权一并作废。",
+          "url": "https://x.com/i/trending/2114883312829472968",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-politics",
+          "title": "Anthropic 与 GSA 签约：全美各级政府用 Claude 打 4 折",
+          "summary": "覆盖联邦到州、地方和部落机构，预计省约 10 亿美元，联邦使用量一年涨 20 倍。",
+          "url": "https://x.com/i/trending/2115225854728896992",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-politics",
+          "title": "金砖议会论坛通过新德里宣言，2027 年轮值交给中国",
+          "summary": "宣言呼吁全球南方在联合国安理会等机构获得更大话语权，议题涵盖 AI 治理与数字基建。",
+          "url": "https://x.com/i/trending/2114673533343129766",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-auto",
+          "title": "得州 Cybercab 注册量反超 Model Y，Robotaxi 车队破千",
+          "summary": "10/27 新增 81 辆，Cybercab 544 辆、Model Y 507 辆；马斯克称佛州迈阿密、坦帕扩区「快了」。",
+          "url": "https://x.com/i/trending/2115099834315055120",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-auto",
+          "title": "Waymo 五城扩区近 250 平方英里",
+          "summary": "圣地亚哥服务区扩大 82% 到 87 平方英里，纳什维尔、奥兰多等同步扩展。",
+          "url": "https://x.com/i/trending/2115218097892384931",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-auto",
+          "title": "特斯拉 Powershare 覆盖美墨所有新车：车变移动电源",
+          "summary": "80 美元转接头把充电口变成 120V 插座，最高 2.4 kW，可带电动工具和小家电。",
+          "url": "https://x.com/i/trending/2115196106531369380",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-auto",
+          "title": "特斯拉公布 FSD 安全数据：每 600 万英里一次重大碰撞",
+          "summary": "约为美国平均水平的 9 倍，过去一年 FSD 累计 167 亿英里。",
+          "url": "https://x.com/i/trending/2114935394298957839",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-auto",
+          "title": "尊界 S800 40 英寸后排巨屏引争议，监管拟限车内大屏",
+          "summary": "华为系豪华轿车的后排投影影院被赞也被嫌浮夸，恰逢国内监管研究限制车内大屏。",
+          "url": "https://x.com/i/trending/2115005969793274100",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-auto",
+          "title": "Optimus 在弗里蒙特开始早期量产",
+          "summary": "目标 2027 年底周产 2 万台；马斯克同日抛出「单手装表、单手接 100 英里棒球」的灵巧度挑战。",
+          "url": "https://x.com/i/trending/2115168852858306602",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-thesis",
+          "title": "首部全 AI 长片《三星堆》票房扑街，母子手绘《牛来了》近千万美元",
+          "summary": "AI 片 150 万美元成本只收 18 万，几百美元做的粗糙手绘反成爆款，风格与「人味」比技术精度更打动人。",
+          "url": "https://x.com/i/trending/2114736543101309136",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-thesis",
+          "title": "SpAItial Echo-3：iPhone 十分钟扫出带尺寸的 3D 空间",
+          "summary": "高斯泼溅重建照片级、尺寸准确的房间或建筑，免费 App 可导出做设计或仿真。",
+          "url": "https://x.com/i/trending/2115196104832672239",
+          "source": "X 新闻"
+        },
+        {
+          "category": "news-thesis",
+          "title": "Kimi K3.1 Pro「3D Make」：文字或图片生成可编辑 3D 模型",
+          "summary": "万亿级参数模型，3D 建模、编码、agent 任务表现强，开放权重定于 11/4 前。",
+          "url": "https://x.com/i/trending/2114070521772147009",
+          "source": "X 新闻"
         }
-      ]
+      ],
+      "weather": "深圳 多云 27℃（湿度 62%），白天晴 23–29℃，北风 1–3 级；明天起天气改报重庆沙坪坝"
     },
     {
       "date": "2026-10-27",
