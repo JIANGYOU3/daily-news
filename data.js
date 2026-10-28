@@ -252,9 +252,76 @@ window.NEWS_DATA = {
           "summary": "万亿级参数模型，3D 建模、编码、agent 任务表现强，开放权重定于 11/4 前。",
           "url": "https://x.com/i/trending/2114070521772147009",
           "source": "X 新闻"
+        },
+        {
+          "category": "oss",
+          "title": "HKUDS/DeepTutor",
+          "summary": "港大开源终身个性化 AI 导师，按你的进度出题讲解",
+          "url": "https://github.com/HKUDS/DeepTutor",
+          "source": "GitHub Trending",
+          "meta": "+1598 / 24h · 总计 46279"
+        },
+        {
+          "category": "oss",
+          "title": "elayadesign/ai-design-skills",
+          "summary": "给 Claude Code/Cursor/Codex 的设计技能包，首发落地页",
+          "url": "https://github.com/elayadesign/ai-design-skills",
+          "source": "GitHub Trending",
+          "meta": "+1395 / 24h · 总计 9736"
+        },
+        {
+          "category": "oss",
+          "title": "gitroomhq/postiz-app",
+          "summary": "开源 agent 化社媒排期工具，多平台定时发帖",
+          "url": "https://github.com/gitroomhq/postiz-app",
+          "source": "GitHub Trending",
+          "meta": "+951 / 24h · 总计 39528"
+        },
+        {
+          "category": "oss",
+          "title": "fabio-rovai/open-ontologies",
+          "summary": "改知识本体前先看影响面，附可复核证明",
+          "url": "https://github.com/fabio-rovai/open-ontologies",
+          "source": "GitHub Trending",
+          "meta": "+343 / 24h · 总计 1822"
+        },
+        {
+          "category": "oss",
+          "title": "superdesigndev/treg",
+          "summary": "agent 工具版 OpenRouter：一个 token 按次调用上千接口",
+          "url": "https://github.com/superdesigndev/treg",
+          "source": "GitHub Trending",
+          "meta": "+212 / 24h · 总计 6405"
+        },
+        {
+          "category": "oss",
+          "title": "ayghri/i-have-adhd",
+          "summary": "让编程 agent 先给结论、不绕弯的输出技能",
+          "url": "https://github.com/ayghri/i-have-adhd",
+          "source": "GitHub Trending",
+          "meta": "+195 / 24h · 总计 59083"
+        },
+        {
+          "category": "oss",
+          "title": "pablostanley/yoinks",
+          "summary": "终端里一行命令下载视频，无广告",
+          "url": "https://github.com/pablostanley/yoinks",
+          "source": "GitHub Trending",
+          "meta": "+75 / 24h · 总计 6370"
+        },
+        {
+          "category": "oss",
+          "title": "video-db/call.md",
+          "summary": "会议录制转写+实时 AI 分析，接进 agent 流程",
+          "url": "https://github.com/video-db/call.md",
+          "source": "GitHub Trending",
+          "meta": "+73 / 24h · 总计 1944"
         }
       ],
-      "weather": "深圳 多云 27℃（湿度 62%），白天晴 23–29℃，北风 1–3 级；明天起天气改报重庆沙坪坝"
+      "weather": "深圳 多云 27℃（湿度 62%），白天晴 23–29℃，北风 1–3 级；明天起天气改报重庆沙坪坝",
+      "cards": [
+        "assets/github-daily-ranking-2026-10-28.png"
+      ]
     },
     {
       "date": "2026-10-27",
