@@ -42,6 +42,37 @@
   ],
   "days": [
     {
+      "date": "2026-10-28",
+      "entries": [
+        {
+          "category": "workflow",
+          "title": "dimensional-drawing：让 agent 把 UI 组件画成 Apple 式尺寸图",
+          "summary": "给它一个卡片或弹窗组件，产出单页单色技术图：内边距、间距、圆角、图层和视口位置用变量标注（S1、R2…），未知值留 [TBD] 不瞎编，另有 skill 把图纸做成约 10 秒的动态短片。别人怎么用：设计师/前端把组件丢给 Claude Code，直接拿到可交接的结构规格图和展示动画。",
+          "url": "https://github.com/enesozturk/dimensional-drawing",
+          "source": "GitHub",
+          "meta": "~1.3k★ · 10/23 新建",
+          "tag": "设计/规格"
+        },
+        {
+          "category": "workflow",
+          "title": "system-design-skills：22 个 skill 让 AI 按流程推系统设计",
+          "summary": "把系统设计拆成「澄清需求 → 估算 → 组合 20 个积木 → 权衡 → 压力测试」的固定流水线，每个积木写明解决什么、会恶化什么、何时该换，含 AWS/Azure/GCP/Temporal 变体，用 claude plugin eval 做了有无插件对比。别人怎么用：约束一变（比如日消息量涨到千亿）就让 agent 沿流程重推方案，而不是背架构图；原帖 64 赞、68 收藏。",
+          "url": "https://x.com/jdnichollsc/status/2115006045194002603",
+          "source": "X @jdnichollsc · 仓库 github.com/proyecto26/system-design-skills（~110★）",
+          "tag": "coding agent"
+        },
+        {
+          "category": "workflow",
+          "title": "Story Studio 故事工坊：选题到剪映草稿的一条龙短视频 skill",
+          "summary": "在 Claude Code/Codex/Cursor 里一句话跑完：选题与开头钩子 → 口播稿 → 豆包语音配音 → 本地转录对齐时间轴 → 三套画风拆镜配图 → 导出可编辑的剪映专业版草稿；内置 370+ 篇高赞文案对标库，各环节可单独开关。别人怎么用：做历史/人物故事号的人用它批量出片，只写稿或只拆镜也行。",
+          "url": "https://github.com/konlu/story-studio",
+          "source": "GitHub",
+          "meta": "~140★ · 10/26 新建",
+          "tag": "内容/视频"
+        }
+      ]
+    },
+    {
       "date": "2026-10-27",
       "entries": [
         {
