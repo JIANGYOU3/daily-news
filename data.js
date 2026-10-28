@@ -338,6 +338,22 @@ window.NEWS_DATA = {
           "summary": "与 BMS、Generate Biomedicines 等六家机构合作，把 Claude 用于抗体设计、CAR-T 与临床规划；收购一人生物公司 Mithril，其创始人靠 Claude 协调 11 个实验室推进肌营养不良候选药。",
           "url": "https://x.com/i/trending/2115187301261423089",
           "source": "X 新闻"
+        },
+        {
+          "category": "news-tech",
+          "title": "Axiom 用 AI agent 集群把「有限单群分类定理」完整形式化进 Lean",
+          "summary": "24 天、几十个 agent 协作，产出约 4310 万行 Lean 代码，人类最长证明（约 1.5 万页）首次被计算机完整校验，还顺带发现 34 处与原文不符、修补了 Unbalanced Group Theorem 的一个漏洞。",
+          "url": "https://axiommath.ai/research/the-enormous-theorem-formalized/",
+          "source": "Axiom Math",
+          "tag": "突发"
+        },
+        {
+          "category": "news-tech",
+          "title": "OpenAI 据报要直接采购 Google TPU",
+          "summary": "从租用 Google Cloud TPU 转向直接买硬件，进一步减少对英伟达的依赖；Oracle 云同时宣布 2027 年上线 Google TPU。",
+          "url": "https://x.com/i/trending/2115414103321669848",
+          "source": "The Information / X",
+          "tag": "突发"
         }
       ],
       "weather": "深圳 多云 27℃（湿度 62%），白天晴 23–29℃，北风 1–3 级；明天起天气改报重庆沙坪坝",
