@@ -329,6 +329,22 @@
           "url": "https://x.com/OpenAIDevs/status/2115583698074755078",
           "source": "@OpenAIDevs",
           "tag": "突发"
+        },
+        {
+          "category": "news-tech",
+          "title": "谷歌母公司 Q3 罕见营收利润双双不及预期，盘后跌超 10%",
+          "summary": "营收 1276 亿美元（+25%）略低于预期，调整后 EPS 2.67 美元远低于 3.02；Google Cloud 暴涨 103% 至 307 亿美元，但自由现金流转负 91 亿美元、全年资本开支维持 1950–2050 亿美元，盘前仍跌约 11%，若收盘跌超 9.77% 将是上市以来最差财报日。",
+          "url": "https://www.cnbc.com/2026/10/29/alphabet-google-microsoft-msft-shares-today-earnings.html",
+          "source": "CNBC",
+          "tag": "突发"
+        },
+        {
+          "category": "news-auto",
+          "title": "大众 Q3 净亏 58.2 亿欧元，创柴油门以来最差季度",
+          "summary": "保时捷商誉减值 64 亿欧元等一次性项目约 78 亿欧元；营收降 6.3% 至 752.8 亿欧元，中国交付暴跌 38.5% 至约 40.6 万辆，中国区高管称中国整体市场「自由落体」；CFO 称必须加快重组。",
+          "url": "https://www.investing.com/news/stock-market-news/volkswagen-loss-widens-more-than-expected-in-q3-raising-restructuring-stakes-4981597",
+          "source": "Reuters",
+          "tag": "突发"
         }
       ],
       "weather": "重庆沙坪坝：今天小雨转阴，16–19℃，湿度 93%；明天多云最高 21℃，周末又转小雨。",
