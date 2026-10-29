@@ -81,8 +81,177 @@
           "url": "https://github.com/andyhuo520/vibe-knowledge",
           "source": "GitHub",
           "meta": "★61 · 10/28 更新"
+        },
+        {
+          "category": "news-tech",
+          "title": "Anthropic 正式递交 S-1：上半年营收 163 亿美元，拟 11/16 以 ANT 登陆纳斯达克",
+          "summary": "营收同比涨约 13 倍、首次经营盈利，但算力承诺超 5000 亿美元；Burry 唱空、沃伦追问安全风险。",
+          "url": "https://x.com/i/trending/2115398443367891063"
+        },
+        {
+          "category": "news-tech",
+          "title": "Google 发布 Gemini 4 Carbon，AA 智能指数 v5 拿 59 分登顶",
+          "summary": "距 Argon 仅两周，小胜 Opus 5.5（58）和 GPT-6 Astra（57），网络安全基准尤强，先开放给防御方。",
+          "url": "https://x.com/i/trending/2115491454000791985"
+        },
+        {
+          "category": "news-tech",
+          "title": "Claude 自主挖出 52 个 Chrome 漏洞并串成沙箱逃逸，Chrome 156 已全修",
+          "summary": "Anthropic 红队披露未发布模型还给 Safari、安卓锁屏、Linux 提权写了利用，全部已负责任披露。",
+          "url": "https://x.com/i/trending/2115426688007832010"
+        },
+        {
+          "category": "news-tech",
+          "title": "三星 Q3 营业利润首破 100 万亿韩元，SK 海力士利润率 80%",
+          "summary": "AI 存储需求把两家利润顶上天，双双预警缺货延续到 2027，消费电子反被高芯片价拖成亏损。",
+          "url": "https://x.com/i/trending/2115620724245242096"
+        },
+        {
+          "category": "news-tech",
+          "title": "哈佛研究：AI 编码代理让 PR 多 23%，但 review 时间涨 49%",
+          "summary": "代码写得更快、完成任务没变多，瓶颈从写代码转到验证代码。",
+          "url": "https://x.com/i/trending/2115468238729388392"
+        },
+        {
+          "category": "news-tech",
+          "title": "Android Dev Summit：Android Studio 开放接入 40+ 编码 agent，XREAL Aura 眼镜开订",
+          "summary": "「Bring Your Own Agent」支持 Claude Agent、Antigravity 等；Android XR 眼镜约 1099 美元。",
+          "url": "https://x.com/i/trending/2115491450989302231"
+        },
+        {
+          "category": "news-tech",
+          "title": "Meta 个人智能体 Muse 登陆新加坡，接入 Shopee、Grab、新航",
+          "summary": "第四个市场，比价、买菜、订票都能代办，敏感操作需用户确认。",
+          "url": "https://x.com/i/trending/2115291381774340377"
+        },
+        {
+          "category": "news-tech",
+          "title": "长鑫存储硬上 HBM3E：良率仅 20–30%，两个月后小批量供货",
+          "summary": "成本是海力士的三四倍，样品表现接近上一代 HBM3，为国产 AI 芯片补存储短板。",
+          "url": "https://x.com/i/trending/2115376693624119637"
+        },
+        {
+          "category": "news-tech",
+          "title": "Liquid AI 开源 LFM3：6 个 2B 级端侧多模态模型",
+          "summary": "文本、视觉、音频、决策都能在手机或树莓派本地跑，Hugging Face 与 Ollama 已上架。",
+          "url": "https://x.com/i/trending/2115137228837896636"
+        },
+        {
+          "category": "news-design",
+          "title": "三星 Galaxy Buds On：夹在耳廓上的开放式耳机",
+          "summary": "用 1.19 亿条耳型数据训练贴合结构，单只 6.65g、骨传导麦克风，11/6 美国开售 229 美元。",
+          "url": "https://x.com/i/trending/2115465671744385150"
+        },
+        {
+          "category": "news-design",
+          "title": "新 iPad mini：5.4mm 机身 + OLED，屏幕直接发声、无开孔做到 IP67",
+          "summary": "「Acoustic Display」让扬声器开孔消失，涨价 200 美元和 60Hz 引争议。",
+          "url": "https://x.com/i/trending/2114705948178587906"
+        },
+        {
+          "category": "news-design",
+          "title": "iPhone Duo 开卖一周：铰链缝隙与内屏故障引质疑",
+          "summary": "iFixit 拆解指铰链支撑条可能压到排线附近屏幕，苹果对少量机器换屏，但钛铰链手感和防折痕纳米纹理获好评。",
+          "url": "https://x.com/i/trending/2115609040923631947"
+        },
+        {
+          "category": "news-design",
+          "title": "Scene 获 700 万美元：AI 生成「场景图」当购物信息流",
+          "summary": "前 Runway 工程师做的 iOS 应用，把真实商品放进 AI 生成的穿搭和家居场景里，点图即买。",
+          "url": "https://x.com/i/trending/2115473669975953897"
+        },
+        {
+          "category": "news-design",
+          "title": "「发布视频同质化」被集体吐槽：快剪、黑白、哲学家旁白",
+          "summary": "AI 工具让模板化宣传片极易复制，Hiten Shah 的检验法：换上竞品 logo 也成立，就该重做。",
+          "url": "https://x.com/i/trending/2115531692685623388"
+        },
+        {
+          "category": "news-politics",
+          "title": "美方通报海湾盟友：中期选举后或对伊朗短促打击，万斯同时致信伊方求谈",
+          "summary": "WSJ、美联社报道美军在补弹药、调战舰和爱国者系统，外交与军事两手并行。",
+          "url": "https://x.com/i/trending/2115606362675622317"
+        },
+        {
+          "category": "news-politics",
+          "title": "以色列大选出现悬浮议会，阿拉伯政党拿下创纪录 19 席",
+          "summary": "内塔尼亚胡阵营约 53 席未过半，特拉维夫等地有人上街呼吁犹太-阿拉伯联合政府。",
+          "url": "https://x.com/i/trending/2115603822831882302"
+        },
+        {
+          "category": "news-politics",
+          "title": "美国将华大基因、华大智造等三家列入维吾尔强迫劳动实体清单",
+          "summary": "默认其产品涉强迫劳动、禁止进口，企业与北京方面否认指控。",
+          "url": "https://x.com/i/trending/2115500574422532305"
+        },
+        {
+          "category": "news-politics",
+          "title": "特朗普宣布机器人与工业机械进口威胁国家安全",
+          "summary": "232 调查结论落地，先谈判、180 天后汇报，关税和配额留作后手。",
+          "url": "https://x.com/i/trending/2115593126593147230"
+        },
+        {
+          "category": "news-politics",
+          "title": "巴基斯坦一度禁止台湾航司飞越领空，数小时后撤回",
+          "summary": "防长称是支持一个中国政策，随后民航局批准华航、长荣飞越至 2027 年 3 月。",
+          "url": "https://x.com/i/trending/2115393916312727830"
+        },
+        {
+          "category": "news-auto",
+          "title": "2026 款理想 i6 上市：24.98 万元，96kWh 自研电池 + 马赫 M100 芯片",
+          "summary": "后驱 CLTC 780km，标配双腔空悬和前排零重力座椅，上市一年累计近 19 万辆。",
+          "url": "https://finance.sina.com.cn/tech/2026-10-29/doc-iniwvwra6140623.shtml"
+        },
+        {
+          "category": "news-auto",
+          "title": "大众中国发布本土自研技术矩阵 VEGA；北京定下新注册车 65% 新能源目标",
+          "summary": "VEGA 含平台、电子电气架构和 L2++ 智驾，2027 年 L3 就绪；乘联会：10 月 1–25 日新能源零售同比降 13%。",
+          "url": "https://finance.sina.com.cn/roll/2026-10-29/doc-iniwvwrf9020246.shtml"
+        },
+        {
+          "category": "news-auto",
+          "title": "比亚迪仰望鼎曜官宣：5.5 米超豪华行政轿车，11 月阿联酋首发",
+          "summary": "对标迈巴赫、库里南级别，预计首搭比亚迪固态电池，售价或超 200 万。",
+          "url": "http://k.sina.com.cn/article_1742013781_67d5055501901fex6.html"
+        },
+        {
+          "category": "news-auto",
+          "title": "福特 Q3 业绩超预期，但电动业务 Model e 再亏 11 亿美元",
+          "summary": "停产 F-150 Lightning、减产 Mach-E，2027 年初发布 3 万美元电动皮卡翻身。",
+          "url": "https://x.com/i/trending/2115573553433333905"
+        },
+        {
+          "category": "news-auto",
+          "title": "特斯拉在越南开招销售、服务和充电团队",
+          "summary": "9 月已注册胡志明市子公司，准备直营和超充网络，正面迎战 VinFast。",
+          "url": "https://x.com/i/trending/2115453663028077034"
+        },
+        {
+          "category": "news-auto",
+          "title": "特斯拉 Semi 在加州高速自燃，I-880 双向封闭近 10 小时",
+          "summary": "无碰撞、司机脱险，这是加州州际公路上第二起 Semi 起火。",
+          "url": "https://x.com/i/trending/2115327073141329930"
+        },
+        {
+          "category": "news-thesis",
+          "title": "Matter Makers「SYNTHETIC DEGREES」：随体温、光线变色的服装系列",
+          "summary": "曼谷 Siam Square One 展至 11/9，温变面料把 CMF 做成可交互体验，可当材料情感化案例。",
+          "url": "https://x.com/i/trending/2115383896212730268"
+        },
+        {
+          "category": "news-thesis",
+          "title": "特斯拉「紧急驶离」误触事故：连跳红色警告仍被司机一路点过",
+          "summary": "拔不下充电枪直接开走，维修最高 2.5 万美元，暴露高风险功能的警示与确认交互设计问题。",
+          "url": "https://x.com/i/trending/2115410744795873497"
+        },
+        {
+          "category": "news-thesis",
+          "title": "Xplore AI 工程基准：AI 做曲轴、电路等真实设计最高只过 37%",
+          "summary": "物理求解器自动判分，GPT-6 Astra 37%、Opus 5.5 29%，设计智能体在几何+物理+制造约束上还差很远。",
+          "url": "https://x.com/i/trending/2115156139256263121"
         }
-      ]
+      ],
+      "weather": "重庆沙坪坝：今天小雨转阴，16–19℃，湿度 93%；明天多云最高 21℃，周末又转小雨。"
     },
     {
       "date": "2026-10-28",
