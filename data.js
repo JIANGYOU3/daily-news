@@ -58,6 +58,30 @@ window.NEWS_DATA = {
           "summary": "Fusion 按任务自动路由/组合多个模型（Standard/High/Max），替代原 Auto 选项，AA 测试 Fusion Max 接近 Opus 5.5 Max、单任务成本约一半、快约 40%，11/30 前 7 折；Copilot app 推出跨仓库 Projects（公测）与桌面 computer use 预览",
           "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
           "source": "GitHub Blog"
+        },
+        {
+          "category": "workflow",
+          "title": "mcode-stack：MiniMax Code 团队自己天天在用的 15 个 skill",
+          "summary": "官方开源团队内部工作流：守住 AI 代码质量、判断任务该不该丢给子 agent、长命令该等多久、长会话防变钝。别人怎么用：整套作为插件装进 MiniMax Code，或单拷一个 SKILL.md 进 ~/.agents/skills 直接 /调用。",
+          "url": "https://github.com/MiniMax-AI/mcode-stack",
+          "source": "GitHub",
+          "meta": "★221 · 10/28 新建"
+        },
+        {
+          "category": "workflow",
+          "title": "Grim Prompter：让 Claude Code / Codex 按 36 套架构流程做威胁建模",
+          "summary": "OWASP 老兵 Jim Manico 开源的威胁建模提示库，36 个架构工作流 + 29 个方法/分析 prompt，MIT。别人怎么用：把系统架构交给 coding agent，按对应流程逐项排查风险，当成上线前的安全评审清单。",
+          "url": "https://x.com/manicode/status/2115419131579191326",
+          "source": "X @manicode",
+          "meta": "151 赞 · 183 收藏"
+        },
+        {
+          "category": "workflow",
+          "title": "vibe-knowledge：一个知识点 → 每句带出处的知识短片",
+          "summary": "Claude Code skill，选题→查证→写稿→配音→代码逐帧成片→1080p60→质检→发布包全在对话里跑完，44 套风格。别人怎么用：作者用它做「商鞅立木」「古代没冰箱」等古风知识片，基础档纯代码插画 0 积分，增强档接 Renoise MCP 出动态镜头。",
+          "url": "https://github.com/andyhuo520/vibe-knowledge",
+          "source": "GitHub",
+          "meta": "★61 · 10/28 更新"
         }
       ]
     },
