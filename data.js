@@ -250,9 +250,76 @@ window.NEWS_DATA = {
           "title": "Xplore AI 工程基准：AI 做曲轴、电路等真实设计最高只过 37%",
           "summary": "物理求解器自动判分，GPT-6 Astra 37%、Opus 5.5 29%，设计智能体在几何+物理+制造约束上还差很远。",
           "url": "https://x.com/i/trending/2115156139256263121"
+        },
+        {
+          "category": "oss",
+          "title": "hmjz100/LinkSwift",
+          "summary": "网盘直链下载助手：百度/阿里/夸克等八大网盘一键取直链",
+          "url": "https://github.com/hmjz100/LinkSwift",
+          "source": "GitHub Trending",
+          "meta": "+1616 / 24h · 总计 35235"
+        },
+        {
+          "category": "oss",
+          "title": "ruvnet/RuView",
+          "summary": "用普通 WiFi 信号做实时空间感知、生命体征与在场检测",
+          "url": "https://github.com/ruvnet/RuView",
+          "source": "GitHub Trending",
+          "meta": "+557 / 24h · 总计 101183"
+        },
+        {
+          "category": "oss",
+          "title": "KeygraphHQ/shannon",
+          "summary": "AI 渗透测试员：读源码找攻击面，并真打一遍验证漏洞",
+          "url": "https://github.com/KeygraphHQ/shannon",
+          "source": "GitHub Trending",
+          "meta": "+476 / 24h · 总计 50187"
+        },
+        {
+          "category": "oss",
+          "title": "baidu/Unlimited-OCR",
+          "summary": "百度开源长文档 OCR 模型，一次性解析超长多页文档",
+          "url": "https://github.com/baidu/Unlimited-OCR",
+          "source": "GitHub Trending",
+          "meta": "+429 / 24h · 总计 29571"
+        },
+        {
+          "category": "oss",
+          "title": "alibaba/open-code-review",
+          "summary": "阿里开源代码审查：确定性流水线 + LLM Agent 行级点评",
+          "url": "https://github.com/alibaba/open-code-review",
+          "source": "GitHub Trending",
+          "meta": "+310 / 24h · 总计 48860"
+        },
+        {
+          "category": "oss",
+          "title": "VoltAgent/awesome-design-md",
+          "summary": "大牌设计系统 DESIGN.md 合集，丢给 agent 就出同款 UI",
+          "url": "https://github.com/VoltAgent/awesome-design-md",
+          "source": "GitHub Trending",
+          "meta": "+272 / 24h · 总计 124314"
+        },
+        {
+          "category": "oss",
+          "title": "trymirai/uzu",
+          "summary": "苹果芯片端侧推理引擎，App 内本地跑模型零延迟零成本",
+          "url": "https://github.com/trymirai/uzu",
+          "source": "GitHub Trending",
+          "meta": "+260 / 24h · 总计 3000"
+        },
+        {
+          "category": "oss",
+          "title": "AprilNEA/OpenLogi",
+          "summary": "罗技 Options+ 的本地替代：改键/DPI/滚轮，无账号无遥测",
+          "url": "https://github.com/AprilNEA/OpenLogi",
+          "source": "GitHub Trending",
+          "meta": "+161 / 24h · 总计 24500"
         }
       ],
-      "weather": "重庆沙坪坝：今天小雨转阴，16–19℃，湿度 93%；明天多云最高 21℃，周末又转小雨。"
+      "weather": "重庆沙坪坝：今天小雨转阴，16–19℃，湿度 93%；明天多云最高 21℃，周末又转小雨。",
+      "cards": [
+        "assets/github-daily-ranking-2026-10-29.png"
+      ]
     },
     {
       "date": "2026-10-28",
