@@ -43,6 +43,311 @@ window.NEWS_DATA = {
   ],
   "days": [
     {
+      "date": "2026-10-31",
+      "entries": [
+        {
+          "category": "news-tech",
+          "title": "Claude Max 改名：Max 5x→Max、Max 20x→Ultra；已验证 Ultra 取消 5 小时限额",
+          "summary": "价格不变（$100/$200）。Ultra 周用量仍为 Pro 的 10 倍，已验证账号起取消滚动 5 小时会话上限；另含每月 API 额度（Max $100 / Ultra $200）。",
+          "url": "https://x.com/claudeai/status/2116220869479428500",
+          "source": "Claude / Anthropic"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "entries": [
+        {
+          "category": "tibo",
+          "title": "Tibo Day 25：Pro 全档与 Business Premium 用量翻倍，Pro 200 不再减半",
+          "summary": "即日起 Pro 100/200/500 与 Business Premium 用量上限全部翻倍；收回原定 10/30 生效的 Pro 200 减半，Work 与 Codex 额度维持不变。另据结帐页提示，12 月起 ChatGPT 与 Codex 将共享同一用量池。",
+          "url": "https://x.com/thsottiaux/status/2115850175868727621",
+          "source": "X @thsottiaux"
+        },
+        {
+          "category": "news-tech",
+          "title": "Mistral 开源 1.05 万亿参数 MoE「Le Chonk」权重",
+          "summary": "每 token 激活约 520 亿参数，图文多模态、1M 上下文，开放权重模型里编程与 Agent 榜领先，API 价格减半，量化后可在消费级硬件跑。",
+          "url": "https://x.com/i/trending/2115816335586562344",
+          "source": "X 新闻汇总"
+        },
+        {
+          "category": "workflow",
+          "title": "Unity 官方 Claude Code 插件：32 个 skill + CLI 直接驱动编辑器",
+          "summary": "Unity 自家团队写了 32 个 skill，配一个 CLI 接管已打开的 Unity 编辑器：场景、资产、Play 模式、打包、测试都能让 Claude Code 动手。别人怎么用：在 Claude Code 里 /plugin 装上后，直接用对话搭场景、跑测试、出包。",
+          "url": "https://x.com/rewind02/status/2115831282852581835",
+          "source": "X @rewind02",
+          "meta": "70 赞 · 62 收藏"
+        },
+        {
+          "category": "workflow",
+          "title": "BAMA：看中一个 App，让 agent 克隆成你自己的原生 Mac App",
+          "summary": "21 个 skill 串成「截图每屏→写用户故事与验收标准→分里程碑用 Swift/SwiftUI 构建→优化测试」，不开 Xcode 图形界面。别人怎么用：npx skills add 装上后，一句「把我的待办 App 克隆成 Mac 原生版，先做里程碑 1」就开跑。",
+          "url": "https://github.com/daveebbelaar/bama",
+          "source": "GitHub",
+          "meta": "★785 · 10/24 新建"
+        },
+        {
+          "category": "workflow",
+          "title": "OpenReviewKit：作者自用的多轮 AI 代码评审流水线开源了",
+          "summary": "用 Claude Code 订阅跑：并行找问题→合并重复→换新上下文复核，作者称在自家仓库 bug 召回 79%，替代付费的 Greptile/CodeRabbit。别人怎么用：把 SETUP-PROMPT 丢给 Claude Code 或 Codex，装好后跑 demo，再让它评审当前分支。",
+          "url": "https://x.com/junead_kh/status/2115264929343398384",
+          "source": "X @junead_kh / github.com/juneadkhan/openreviewkit",
+          "meta": "10 赞 · 10 收藏"
+        },
+        {
+          "category": "news-tech",
+          "title": "微软 Q1：Azure 增长 48%，并启动 2017 年来首次美元发债（至少 250 亿美元）",
+          "summary": "营收 923 亿美元超预期，下季 Azure 指引 49–50%；资本开支因第三方 GPU 交付延迟略低于预期，发债用于数据中心扩张。",
+          "url": "https://x.com/i/trending/2115777966948971005",
+          "source": "X 新闻汇总"
+        },
+        {
+          "category": "news-tech",
+          "title": "亚马逊 Q3 营收不及预期、资本开支 773 亿美元，盘后跌约 12%",
+          "summary": "AWS 收入 460 亿美元、同比 +39%，Jassy 称 2027–28 年仍超 40% 增长，但巨额 AI 投入吓到投资者。",
+          "url": "https://x.com/i/trending/2115899245127770478",
+          "source": "X 新闻汇总"
+        },
+        {
+          "category": "news-tech",
+          "title": "英特尔 Q3 超预期，但 Q4 指引疲弱，盘后暴跌超 20%",
+          "summary": "数据中心与 AI 收入 +78% 至 73 亿美元，但 PC 需求疲软预计持续到 2027 年中，Q4 指引远低于预期。",
+          "url": "https://x.com/i/trending/2115899245123551366",
+          "source": "X 新闻汇总"
+        },
+        {
+          "category": "news-tech",
+          "title": "阿里云确认 Qwen4 系列下周发布",
+          "summary": "阿姆斯特丹云栖大会上曝出 Qwen4-Max/Flash/Plus/27B 四款，CTO 李飞飞确认下周上线，代码库已支持 100 万上下文。",
+          "url": "https://x.com/i/trending/2115776139369304510",
+          "source": "X 新闻汇总"
+        },
+        {
+          "category": "news-tech",
+          "title": "OpenAI 更新 Model Spec：围绕五大核心价值重组",
+          "summary": "忠于用户意图、减少伤害、诚实透明、尊重人的自主、关怀，用于指导模型在指令不明确时的判断。",
+          "url": "https://x.com/i/trending/2115873904208023718",
+          "source": "X 新闻汇总"
+        },
+        {
+          "category": "news-tech",
+          "title": "报道：月之暗面、DeepSeek 转向蒸馏 OpenAI GPT-6 Astra",
+          "summary": "据 The Information 与路透，Anthropic 封堵 Claude 蒸馏后，Kimi K3.1 Pro 与 DeepSeek V4.1-Flash 大量使用 Astra 输出训练。",
+          "url": "https://x.com/i/trending/2115640742290821601",
+          "source": "X 新闻汇总"
+        },
+        {
+          "category": "news-tech",
+          "title": "Vercel 让 AI agent 自己提 bug：MCP 新增 submit_feedback",
+          "summary": "agent 遇到问题可直接用自然语言提交结构化反馈，CLI 也加了 vercel feedback，Rauch 设想 agent 之间跨公司交流改进平台。",
+          "url": "https://x.com/i/trending/2115889233470898655",
+          "source": "X 新闻汇总"
+        },
+        {
+          "category": "news-tech",
+          "title": "智元机器人提出 Worken 指标，衡量机器人「有效智能工时」",
+          "summary": "创新日上用活跃台数×自主时长×任务效率衡量真实产出，同时发布 AHA3 人形平台、GO-3 模型与 Link-U OS 1.0。",
+          "url": "https://x.com/i/trending/2115713039383298197",
+          "source": "X 新闻汇总"
+        },
+        {
+          "category": "news-design",
+          "title": "Canva 发布 Brush：首个专做设计编辑的视觉语言模型",
+          "summary": "能理解版式、图层和风格，用一句话改文字或重做整页且保持可编辑，速度快 69%、成本低 46%，先向 Pro 用户开放。",
+          "url": "https://x.com/i/trending/2115905344991895994",
+          "source": "X 新闻汇总"
+        },
+        {
+          "category": "news-design",
+          "title": "Pika H3 Flex 开放权重：15 秒带声视频 7 秒出，导出五轨音频",
+          "summary": "支持最多 12 个参考素材，可导出对白、配乐、音效、拟音、环境声五轨 WAV，后期能单独混音。",
+          "url": "https://x.com/i/trending/2115867038405349526",
+          "source": "X 新闻汇总"
+        },
+        {
+          "category": "news-design",
+          "title": "HeyClicky：AI 在你屏幕上实时画图解和 3D 场景",
+          "summary": "Mac 上的屏幕感知语音助手，讲解时直接在屏幕上叠加图示与可交互 3D，被称为一种新的交互界面。",
+          "url": "https://x.com/i/trending/2115737270623810036",
+          "source": "X 新闻汇总"
+        },
+        {
+          "category": "news-design",
+          "title": "Reachy Mini 桌面机器人加轮子，戴 NFC 帽子就换「人格」",
+          "summary": "Pollen Robotics 给开源小机器人加 149 美元滑板底座和手机 App，35 美元的帽子一戴即切换性格，已卖出超 1 万台。",
+          "url": "https://x.com/i/trending/2115829506594205822",
+          "source": "X 新闻汇总"
+        },
+        {
+          "category": "news-design",
+          "title": "Lyst Q3 榜单：Prada 重回全球最热时尚品牌第一",
+          "summary": "需求增长 55%，Wish 缎面手袋搜索涨近 5 倍；Chanel 第二、Miu Miu 第三，Celine 首次进前十。",
+          "url": "https://x.com/i/trending/2115463034005037104",
+          "source": "X 新闻汇总"
+        },
+        {
+          "category": "news-politics",
+          "title": "二十届五中全会闭幕：增补张升民为政治局委员，确认开除 33 人",
+          "summary": "全会通过全面从严治党相关决议，据报道开除名单含马兴瑞及多名军队高层，并定于 2027 年下半年召开二十一大。",
+          "url": "https://x.com/i/trending/2115788628672553149",
+          "source": "X 新闻汇总"
+        },
+        {
+          "category": "news-politics",
+          "title": "美军打击伊朗格什姆岛导弹发射架，以色列求美方放行打击伊朗能源设施",
+          "summary": "霍尔木兹海峡附近局势升温，多架美军运输机降落以色列基地；美国财长称制裁已让伊朗「海上没有一桶油」。",
+          "url": "https://x.com/i/trending/2115908514724159987",
+          "source": "X 新闻汇总"
+        },
+        {
+          "category": "news-politics",
+          "title": "五角大楼：对伊朗行动截至 10 月中旬已花 471 亿美元",
+          "summary": "比早先估算高出 25% 以上，21 名美军阵亡；中期选举 11 月 3 日举行，战争成本成焦点。",
+          "url": "https://x.com/i/trending/2115298507884208514",
+          "source": "X 新闻汇总"
+        },
+        {
+          "category": "news-politics",
+          "title": "报道：美情报称黄仁勋熟识的高管向北京传递信息",
+          "summary": "涉及新加坡 Megaspeed 公司一名高管，特朗普约一年前获简报未采取行动；英伟达称只是正常客户往来。",
+          "url": "https://x.com/i/trending/2115756302332776465",
+          "source": "X 新闻汇总"
+        },
+        {
+          "category": "news-politics",
+          "title": "英国秋季预算被评五年来最「公平」，福利削减口径一天内反转",
+          "summary": "YouGov 调查 45% 认为公平；财相上午说要压福利开支，下午改口本届议会不削减。",
+          "url": "https://x.com/i/trending/2115840056841695522",
+          "source": "X 新闻汇总"
+        },
+        {
+          "category": "news-auto",
+          "title": "小鹏 MONA L05 上市：大五座 SUV，限时 13.98 万元起",
+          "summary": "纯电与超级增程共 6 款，5000 台已下线、11 月 1 日开始交付。",
+          "url": "https://www.xiaopeng.com/news/company_news/5606.html",
+          "source": "小鹏官网"
+        },
+        {
+          "category": "news-auto",
+          "title": "红旗天工08 四驱 Ultra 上市：21.99 万起，带后轮转向",
+          "summary": "双电机 407kW、零百 3.8 秒，后轮转向让转弯半径缩到 5.3 米，支持蟹行模式。",
+          "url": "https://www.d1ev.com/newsflash/314987",
+          "source": "第一电动"
+        },
+        {
+          "category": "news-auto",
+          "title": "阿维塔07L Max 纯电版上市，搭华为 ADS 5，权益价 21.59 万起",
+          "summary": "宁德时代 5C 神行电池、CLTC 续航 725km，配 35.4 英寸全景星环屏。",
+          "url": "https://www.autoreport.cn/xinchexiaoxi/20261029/18114247754.html",
+          "source": "汽车产经网"
+        },
+        {
+          "category": "news-auto",
+          "title": "意大利副总理萨尔维尼力挺特斯拉 FSD 进欧盟",
+          "summary": "德国此前已表态支持，欧盟批准需 15 国、65% 人口，最快 12 月表决。",
+          "url": "https://x.com/i/trending/2115743202351444276",
+          "source": "X 新闻汇总"
+        },
+        {
+          "category": "news-auto",
+          "title": "通用高管称特斯拉纯视觉是「奇怪的宗教立场」",
+          "summary": "前 Autopilot 负责人、现通用的 Sterling Anderson 认为雷达不可替代，通用计划 2028 年在凯迪拉克 Escalade IQ 上实现高速脱眼驾驶。",
+          "url": "https://x.com/i/trending/2115653109108310400",
+          "source": "X 新闻汇总"
+        },
+        {
+          "category": "news-thesis",
+          "title": "Revolut 设计团队用 AI 编码 agent 替代部分 Figma 流程，提速 3–4 倍",
+          "summary": "把设计系统喂给大模型直接生成可交互流程；也有设计师提醒速度不等于解决问题，Figma 则靠 MCP 接入 agent。",
+          "url": "https://x.com/i/trending/2114997767961813168",
+          "source": "X 新闻汇总"
+        },
+        {
+          "category": "news-thesis",
+          "title": "特斯拉无障碍日：轮椅用户、盲人参与 Robotaxi 与 Cybercab 设计",
+          "summary": "加入顶部扶手、盲文按键和声音引导，一位全盲乘客形容自动驾驶之旅「出奇地正常」，可作包容性设计案例。",
+          "url": "https://x.com/i/trending/2115905340260618698",
+          "source": "X 新闻汇总"
+        },
+        {
+          "category": "news-thesis",
+          "title": "加州地中海风别墅翻新成白盒子，引发「极简疲劳」争论",
+          "summary": "赤陶瓦和拱窗被平顶白墙取代，评论认为失去了灵魂，也有报道称豪宅买家开始转向更温暖、有质感的风格。",
+          "url": "https://x.com/i/trending/2115719017914826830",
+          "source": "X 新闻汇总"
+        },
+        {
+          "category": "oss",
+          "title": "vectorize-io/hindsight",
+          "summary": "会“学习”的 Agent 记忆层：越用越懂上下文",
+          "url": "https://github.com/vectorize-io/hindsight",
+          "source": "GitHub Trending",
+          "meta": "+1454 / 24h · 总计 56255"
+        },
+        {
+          "category": "oss",
+          "title": "milind-soni/OpenMausBot",
+          "summary": "开源版 Grok Bot：每个 bot 自带一台虚拟机",
+          "url": "https://github.com/milind-soni/OpenMausBot",
+          "source": "GitHub Trending",
+          "meta": "+1199 / 24h · 总计 7602"
+        },
+        {
+          "category": "oss",
+          "title": "macro-inc/macro",
+          "summary": "邮件/聊天/文档/任务/Agent 一体化团队工作台",
+          "url": "https://github.com/macro-inc/macro",
+          "source": "GitHub Trending",
+          "meta": "+379 / 24h · 总计 5656"
+        },
+        {
+          "category": "oss",
+          "title": "Donchitos/Claude-Code-Game-Studios",
+          "summary": "把 Claude Code 变成游戏工作室：49 个 agent 分工",
+          "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+          "source": "GitHub Trending",
+          "meta": "+353 / 24h · 总计 29418"
+        },
+        {
+          "category": "oss",
+          "title": "rlaope/oh-my-hermes",
+          "summary": "把 Hermes Agent 接进 IDE 的编码 harness",
+          "url": "https://github.com/rlaope/oh-my-hermes",
+          "source": "GitHub Trending",
+          "meta": "+267 / 24h · 总计 4858"
+        },
+        {
+          "category": "oss",
+          "title": "hydro-project/infinity",
+          "summary": "新出的 Agent 运行时：专治多 agent 并发",
+          "url": "https://github.com/hydro-project/infinity",
+          "source": "GitHub Trending",
+          "meta": "+180 / 24h · 总计 391"
+        },
+        {
+          "category": "oss",
+          "title": "magnitudedev/magnitude",
+          "summary": "按你硬件自调内核的本地推理引擎，号称快 Ollama 2 倍",
+          "url": "https://github.com/magnitudedev/magnitude",
+          "source": "GitHub Trending",
+          "meta": "+141 / 24h · 总计 7571"
+        },
+        {
+          "category": "oss",
+          "title": "Jakubantalik/transitions.dev",
+          "summary": "UI 动效 agent：43+ 精调转场 + 现成 skill",
+          "url": "https://github.com/Jakubantalik/transitions.dev",
+          "source": "GitHub Trending",
+          "meta": "+37 / 24h · 总计 5831"
+        }
+      ],
+      "weather": "重庆沙坪坝：早上有雾 17℃、湿度 90%，白天多云最高 20℃，夜里转小雨 15℃；周末两天都有小雨，出门带伞。",
+      "cards": [
+        "assets/github-daily-ranking-2026-10-30.png"
+      ]
+    },
+    {
       "date": "2026-10-29",
       "entries": [
         {
