@@ -219,9 +219,76 @@ window.NEWS_DATA = {
           "summary": "展品把回收原料、握持结构与生命周期放在同一观看框架，适合做材料转译与可持续 CMF 笔记。",
           "url": "https://tidezine.com/zh-TW/news/if-design-purity-essence-taipei-exhibition-2026",
           "source": "TIDEZINE"
+        },
+        {
+          "category": "oss",
+          "title": "pbakaus/impeccable",
+          "summary": "编程 agent 设计词汇：打磨/批判/审计，抓糙活",
+          "url": "https://github.com/pbakaus/impeccable",
+          "source": "GitHub Trending",
+          "meta": "+2300 / 24h · 总计 97223"
+        },
+        {
+          "category": "oss",
+          "title": "HKUDS/DeepTutor",
+          "summary": "用自有资料讲解出题的终身 AI 家教",
+          "url": "https://github.com/HKUDS/DeepTutor",
+          "source": "GitHub Trending",
+          "meta": "+2282 / 24h · 总计 51892"
+        },
+        {
+          "category": "oss",
+          "title": "obra/superpowers",
+          "summary": "Agent 技能框架 + 软件开发方法论",
+          "url": "https://github.com/obra/superpowers",
+          "source": "GitHub Trending",
+          "meta": "+1259 / 24h · 总计 309510"
+        },
+        {
+          "category": "oss",
+          "title": "thedotmack/claude-mem",
+          "summary": "跨会话持久记忆，适配多种 coding agent",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "source": "GitHub Trending",
+          "meta": "+1140 / 24h · 总计 106482"
+        },
+        {
+          "category": "oss",
+          "title": "pingdotgg/t3code",
+          "summary": "桌面/网页/手机统一操控 coding agent",
+          "url": "https://github.com/pingdotgg/t3code",
+          "source": "GitHub Trending",
+          "meta": "+930 / 24h · 总计 32887"
+        },
+        {
+          "category": "oss",
+          "title": "mattpocock/skills",
+          "summary": "实战工程向 agent skills 合集",
+          "url": "https://github.com/mattpocock/skills",
+          "source": "GitHub Trending",
+          "meta": "+876 / 24h · 总计 307585"
+        },
+        {
+          "category": "oss",
+          "title": "JetBrains/thinkrail",
+          "summary": "轻量 IDE，围着 vibe coding 自适应",
+          "url": "https://github.com/JetBrains/thinkrail",
+          "source": "GitHub Trending",
+          "meta": "+722 / 24h · 总计 6636"
+        },
+        {
+          "category": "oss",
+          "title": "CopilotKit/OpenBot",
+          "summary": "开源 AI 同事：每人一台带浏览器的电脑",
+          "url": "https://github.com/CopilotKit/OpenBot",
+          "source": "GitHub Trending",
+          "meta": "+706 / 24h · 总计 8870"
         }
       ],
-      "weather": "重庆沙坪坝：今天全天小雨，白天最高约20℃、夜里17℃，西北风1-3级；明天仍小雨、略凉至18℃上下，出门带伞。"
+      "weather": "重庆沙坪坝：今天全天小雨，白天最高约20℃、夜里17℃，西北风1-3级；明天仍小雨、略凉至18℃上下，出门带伞。",
+      "cards": [
+        "assets/github-daily-ranking-2026-10-31.png"
+      ]
     },
     {
       "date": "2026-10-30",
