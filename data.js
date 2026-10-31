@@ -283,6 +283,13 @@ window.NEWS_DATA = {
           "url": "https://github.com/CopilotKit/OpenBot",
           "source": "GitHub Trending",
           "meta": "+706 / 24h · 总计 8870"
+        },
+        {
+          "category": "tibo",
+          "title": "Codex Day 26：手机端可多账户切换，桌面端即将跟进；未来两天额度重置可预存",
+          "summary": "Tibo：You can now easily switch between multiple accounts on mobile, and coming soon to desktop too. Next two days will be resets… banked…",
+          "url": "https://x.com/thsottiaux/status/2116405414921384099",
+          "source": "@thsottiaux"
         }
       ],
       "weather": "重庆沙坪坝：今天全天小雨，白天最高约20℃、夜里17℃，西北风1-3级；明天仍小雨、略凉至18℃上下，出门带伞。",
