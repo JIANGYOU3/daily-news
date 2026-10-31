@@ -51,8 +51,177 @@ window.NEWS_DATA = {
           "summary": "价格不变（$100/$200）。Ultra 周用量仍为 Pro 的 10 倍，已验证账号起取消滚动 5 小时会话上限；另含每月 API 额度（Max $100 / Ultra $200）。",
           "url": "https://x.com/claudeai/status/2116220869479428500",
           "source": "Claude / Anthropic"
+        },
+        {
+          "category": "news-tech",
+          "title": "OpenAI、谷歌、微软、Anthropic 承诺尊重统一 robots.txt AI 训练偏好信号",
+          "summary": "网站可用一条标准指令选择是否允许内容进入模型训练，替代逐家爬虫规则；微软拟 2027-02-01 起执行，OpenAI 称数月内落地，Anthropic 称已开始。",
+          "url": "https://openai.com/index/helping-websites-express-ai-training-preferences/",
+          "source": "OpenAI"
+        },
+        {
+          "category": "news-tech",
+          "title": "谷歌 Project Suncatcher：轨道上数据中心级 TPU 首次返回 AI 回复",
+          "summary": "原型星 10/1 发射后完成调试，星上 Gemma 4 收到俳句提示并在挪威斯瓦尔巴过境时下行；下一步测热应力与辐射，双星互联目标指向 2027。",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/",
+          "source": "Google"
+        },
+        {
+          "category": "news-tech",
+          "title": "快手可灵 AI 完成约 198 亿元增资交割",
+          "summary": "实际到账约 198.02 亿元，低于此前约 204 亿元上限；中东两家主体未按期缴款退出，部分份额由金蝶、沐曦等承接。",
+          "url": "https://www.ithome.com/1/020/406.htm",
+          "source": "IT之家"
+        },
+        {
+          "category": "news-tech",
+          "title": "Apple 智能官宣入华：12 月随 iOS 27.3 上线，复杂任务可接阿里千问",
+          "summary": "11/4 起开发者 Beta；写作、照片、翻译、通知与 Siri 基础升级先上，复杂任务调用千问，用户可自选是否开通；首发限 15 Pro 起。",
+          "url": "https://www.apple.com.cn/newsroom/2026/10/apple-intelligence-features-are-coming-to-users-in-china/",
+          "source": "Apple"
+        },
+        {
+          "category": "news-tech",
+          "title": "OpenAI：推出社区安全报告，并收紧青少年武器类实务信息",
+          "summary": "首份报告拟 2027 年初覆盖 2026 下半年；未成年人即使用户未表露暴力意图也限制武器与安防实务；执念暴力时可结束会话并通知已关联家长。",
+          "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+          "source": "OpenAI"
+        },
+        {
+          "category": "news-tech",
+          "title": "Cursor 市集恶意 Claude Code 扩展植入 SSH 后门，官方已下架",
+          "summary": "受影响版本 2.1.312/2.1.313 会尝试开 SSH、建反向隧道并收集主机信息；Cursor 与微软安全团队已发通告，建议排查并轮换凭据。",
+          "url": "https://cursor.com/blog/claude-code-extension-security-notice",
+          "source": "Cursor"
+        },
+        {
+          "category": "news-tech",
+          "title": "开源扩散语言模型 Clover-35B-A3B-Preview（三叶）上线",
+          "summary": "总参 35B、激活约 3B，偏 agent 编程与工具调用；官方称在 GB300 上约 680 tok/s，并在若干 agent 基准上压过同规模自回归对照。",
+          "url": "https://huggingface.co/blog/Diffuspace/clover-35b-a3b-preview",
+          "source": "Hugging Face"
+        },
+        {
+          "category": "news-design",
+          "title": "2026 国际 CMF 设计奖公布获奖提名，汽车 CMF 作品扎堆",
+          "summary": "传祺越7、岚图梦想家9、大众 ID.与众、零跑 D19/A10、五菱缤果 PRO 等入围；提名通知 10/30–31 发出，颁奖典礼拟 11–12 月在深圳举行。",
+          "url": "https://www.shejijingsai.com/2026/10/1666641.html",
+          "source": "设计竞赛网"
+        },
+        {
+          "category": "news-design",
+          "title": "台北松菸《粹・本质》iF 获奖展今日闭幕：50 件日常材料作品",
+          "summary": "展出竹纤维杯、茶末拖鞋、可再生除湿布等，把回收与使用行为放回日常器物；松菸西向制菸工厂二楼免费展至 10/31。",
+          "url": "https://tidezine.com/zh-TW/news/if-design-purity-essence-taipei-exhibition-2026",
+          "source": "TIDEZINE"
+        },
+        {
+          "category": "news-design",
+          "title": "Figma：产品设计师用 Agent 的三种工作流公开",
+          "summary": "官方博客梳理用 Agent 处理设计系统上下文、多人对齐与画布编辑等场景；面向设计到落地的 AI 协作继续加码。",
+          "url": "https://www.figma.com/blog/3-ways-product-designers-use-the-figma-agent/",
+          "source": "Figma"
+        },
+        {
+          "category": "news-design",
+          "title": "TBC mischief 1 图生视频上架：宣称比 Wan 2.2 快约 5×",
+          "summary": "可在 fal 与 OpenRouter 调用，宣传价约从 $0.005/秒起，主打便宜快速的 I2V 产能。",
+          "url": "https://fal.ai/models/TBC/mischief-1/image-to-video",
+          "source": "fal"
+        },
+        {
+          "category": "news-politics",
+          "title": "美 FCC 投票禁止中国实验室为输美电子产品做检测认证",
+          "summary": "新规约 2028 年 12 月生效，针对无对等检测安排的国家；主席称 2025 年约 82% 输美电子产品在中国检测。中方外交部、商务部表态反对。",
+          "url": "https://www.caixinglobal.com/2026-10-30/fcc-votes-to-ban-chinese-labs-from-testing-electronics-for-us-market-102498962.html",
+          "source": "Caixin"
+        },
+        {
+          "category": "news-politics",
+          "title": "中共中央举行新闻发布会，解读二十届五中全会精神",
+          "summary": "全会部署「十五五」与从严治党等议题后，官方集中介绍精神要点与下一步落实安排。",
+          "url": "http://www.zj.chinanews.com.cn/jzkzj/2026-10-31/detail-ihfmppat9990292.shtml",
+          "source": "中新网"
+        },
+        {
+          "category": "news-politics",
+          "title": "工信部、财政部就首批政府采购本国产品标准公开征求意见",
+          "summary": "涉及固定式多关节工业机器人、中小型直升机、场发射扫描电镜等五款产品，意在明确「本国产品」认定口径。",
+          "url": "https://www.cnfin.com/yw-lb/detail/20261031/4489200_1.html",
+          "source": "新华财经"
+        },
+        {
+          "category": "news-politics",
+          "title": "攻击-21 舰载察打一体隐身无人机首次在四川舰成功起降",
+          "summary": "076 型两栖攻击舰四川舰完成首型固定翼隐身无人机弹射/阻拦适配起降，标志大型海上平台具备相关能力。",
+          "url": "https://www.chinanews.com.cn/gn/2026/10-30/10723587.shtml",
+          "source": "中新网"
+        },
+        {
+          "category": "news-politics",
+          "title": "卡塔尔调解人员重返德黑兰斡旋美伊；特朗普称伊朗战事「很快结束」",
+          "summary": "斡旋持续超 12 小时仍在推进；美方此前亦通报海湾盟友为可能恢复打击做准备，地缘局势仍紧。",
+          "url": "https://flash.jin10.com/detail/20261031090513130800",
+          "source": "金十数据"
+        },
+        {
+          "category": "news-auto",
+          "title": "丰田与 Waymo 扩大合作：2027 年在日本测试自动驾驶 bZ4X",
+          "summary": "车辆在丰田高冈工厂完成组装与 Waymo 硬件集成，目标支撑日本首个国产车全自动驾驶网约；后续再扩至英国等右舵市场。",
+          "url": "https://global.toyota/en/newsroom/corporate/44960881.html",
+          "source": "Toyota"
+        },
+        {
+          "category": "news-auto",
+          "title": "报道：Waymo 拟 2026 年底车队扩至约 8000 辆、2027 年底约 2 万辆",
+          "summary": "依托新近 50 亿美元贷款与 Zeekr Ojai 等供应；公司尚未正式确认具体数字，扩张瓶颈转向整车集成与运维。",
+          "url": "https://www.digitaltoday.co.kr/cn/view/117377/waymo-pushes-to-scale-robotaxi-fleet-to-20000-eyes-global-market-beyond-us",
+          "source": "Digital Today"
+        },
+        {
+          "category": "news-auto",
+          "title": "比亚迪第二代海鸥上市：官方指导价 6.59 万–9.99 万元",
+          "summary": "超级置换价 6.29 万元起，继续卡位十万以下纯电小车市场。",
+          "url": "https://finance.sina.com.cn/stock/2026-10-29/doc-iniwwiew6068361.shtml",
+          "source": "新浪财经"
+        },
+        {
+          "category": "news-auto",
+          "title": "宁德时代澳洲发布 9MWh TENER+，并首秀钠电储能 TENER Sodium",
+          "summary": "TENER+ 宣称可减少最多约 40% 集装箱、占地约 12%；同期与日立能源等签 PCS/并网相关合作。",
+          "url": "https://cnevpost.com/2026/10/28/catl-unveils-tener-plus-deepens-australian-presence/",
+          "source": "CnEVPost"
+        },
+        {
+          "category": "news-auto",
+          "title": "特斯拉 Cybercab「无人监管」定义再引争议",
+          "summary": "前 Waymo 工程师等质疑远程监控是否仍算真正 unsupervised；特斯拉德州注册 Robotaxi 已过千，与 Waymo 丰田合作叙事并排发酵。",
+          "url": "https://x.com/i/trending/2116311589142098414",
+          "source": "X"
+        },
+        {
+          "category": "news-thesis",
+          "title": "国际 CMF 设计奖提名出炉：量产车色彩材质工艺成主力赛道",
+          "summary": "入围名单里主机厂 CMF 方案占比高，可对照看色彩/材质/工艺如何服务新能源车型差异化——贴近产品设计与 CMF 研究方向。",
+          "url": "https://www.shejijingsai.com/2026/10/1666641.html",
+          "source": "设计竞赛网"
+        },
+        {
+          "category": "news-thesis",
+          "title": "Figma Agent 工作流：设计系统上下文如何喂给 AI 协作",
+          "summary": "官方总结设计师用 Agent 处理组件规范、多人同步与画布编辑的路径，可作「设计智能体」案例素材。",
+          "url": "https://www.figma.com/blog/3-ways-product-designers-use-the-figma-agent/",
+          "source": "Figma"
+        },
+        {
+          "category": "news-thesis",
+          "title": "iF《粹・本质》展闭幕：从竹纤维杯看材料叙事与日常使用",
+          "summary": "展品把回收原料、握持结构与生命周期放在同一观看框架，适合做材料转译与可持续 CMF 笔记。",
+          "url": "https://tidezine.com/zh-TW/news/if-design-purity-essence-taipei-exhibition-2026",
+          "source": "TIDEZINE"
         }
-      ]
+      ],
+      "weather": "重庆沙坪坝：今天全天小雨，白天最高约20℃、夜里17℃，西北风1-3级；明天仍小雨、略凉至18℃上下，出门带伞。"
     },
     {
       "date": "2026-10-30",
