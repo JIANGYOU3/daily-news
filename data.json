@@ -42,6 +42,27 @@
   ],
   "days": [
     {
+      "date": "2026-11-01",
+      "entries": [
+        {
+          "category": "tibo",
+          "title": "Tibo：Banked 1/2（额度预存进行中）",
+          "summary": "接 Day 26「未来两天额度重置可提前 bank」：主帖「Banked 1/2」，社区已见 Banked Reset 到账；另两条回复（@poteto / @yacineMTB）非额度/产品不推。",
+          "url": "https://x.com/thsottiaux/status/2116692529970311254",
+          "source": "@thsottiaux",
+          "tag": "额度"
+        },
+        {
+          "category": "news-tech",
+          "title": "OpenAI：12 月起 ChatGPT 与 Codex 共用额度",
+          "summary": "官方帮助中心确认：Plus/Pro/Business 自 12 月起 ChatGPT 与 Codex 用量按 token 共享同一额度池；Instant 聊天不计入；Settings→Usage 可看合并剩余与重置。",
+          "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+          "source": "OpenAI Help",
+          "tag": "Codex"
+        }
+      ]
+    },
+    {
       "date": "2026-10-31",
       "entries": [
         {
