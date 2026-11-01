@@ -60,8 +60,142 @@ window.NEWS_DATA = {
           "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
           "source": "OpenAI Help",
           "tag": "Codex"
+        },
+        {
+          "category": "news-tech",
+          "title": "DeepSeek 开源 Super-agent 原型：Router/Worker 双层，把 Agent 当分布式系统做",
+          "summary": "10/31 晚 DeepSeek Harness 以 MIT 开源 dsh-superagent-prototype：事件驱动、存算分离与外部 Watchdog，实验中任务完成时间中位数约 12.4 分钟；明确是研究原型非正式产品。",
+          "url": "https://www.zhidx.com/p/606311.html",
+          "source": "智东西"
+        },
+        {
+          "category": "news-tech",
+          "title": "Meta 与傅利叶打造人形机器人原型 Max，被视为 Muse 的物理化身",
+          "summary": "The Information 称双方约三个月做出约 1.5 米/48 公斤的 Max，搭载英伟达 Thor；已启动 Max 2，暂无销售计划，定位内部研究。",
+          "url": "https://www.ithome.com/1/020/636.htm",
+          "source": "IT之家"
+        },
+        {
+          "category": "news-tech",
+          "title": "长鑫科技：第六代 4F² DRAM 工程样片验证完成，年底拟送样服务器 DDR5",
+          "summary": "五世代平台已量产、LPDDR6 量产；六世代基于垂直沟道 4F² 完成工程样片，首代 DDR5 RDIMM 计划年底送样，量产节奏看客户验证。",
+          "url": "https://www.ithome.com/1/020/599.htm",
+          "source": "IT之家"
+        },
+        {
+          "category": "news-tech",
+          "title": "CrowdStrike：VAPOR PANDA 用 ARTEX+DeepSeek 11 天打穿 200+ 组织",
+          "summary": "报告称该中国关联对手自 10/17 起用多智能体框架并行渗透政府与关键行业，人机协同下发指令并刻意搜寻未装 Falcon 的主机。",
+          "url": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/",
+          "source": "CrowdStrike"
+        },
+        {
+          "category": "news-design",
+          "title": "第十一届「好设计」奖在淮安揭晓：39 个项目，强调 AI 与设计深度融合",
+          "summary": "10/27–30 创新设计活动周暨颁奖大会举办，路甬祥/潘云鹤发起的制造业设计奖启动 2027 申报；同期 8 场论坛覆盖仿生、智能设计与人形机器人等。",
+          "url": "https://js.cri.cn/20261030/26998926-75db-4aaa-bd74-cd0c14b519d4.html",
+          "source": "国际在线"
+        },
+        {
+          "category": "news-design",
+          "title": "Figma 公开画布编辑专用模型训练法：SFT+RL，Agent 编辑更快约 20%",
+          "summary": "官方披露用原生文件格式做监督微调与强化学习环境；自研编辑模型与第三方模型分工，GA 后任务更快、撤销更少、自研模型承担比例翻倍。",
+          "url": "https://www.figma.com/blog/training-a-figma-fluent-editing-model/",
+          "source": "Figma Blog"
+        },
+        {
+          "category": "news-design",
+          "title": "Stellantis CMF 副总裁：想把 CMF 改成 CME，未来靠 CMF×UX 与循环材料",
+          "summary": "Rossella Guasco 称九品牌共用趋势输入但靠品牌控制器保差异；团队已用 AI 做前期可视化，并推动单材料与部件二次生命设计。",
+          "url": "https://www.cardesignnews.com/cmf/the-future-of-design-will-lean-heavily-on-cmf-and-ux-stellantis-vp-cmf-rossella-guasco/2757489",
+          "source": "Car Design News"
+        },
+        {
+          "category": "news-design",
+          "title": "斯柯达上线 Printly Clever：免费开源 3D 打印车载配件到 Printables",
+          "summary": "车企官方放出杯架、线缆管理、储物盒等 STL，覆盖在售与停产车型，由创新孵化器与设计工程团队共创，社区反馈决定下一波配件。",
+          "url": "https://www.skoda-storyboard.com/en/press-releases/3d-printable-accessories-take-simply-clever-to-the-next-level/",
+          "source": "Škoda Storyboard"
+        },
+        {
+          "category": "news-politics",
+          "title": "11 月 1 日起 500 多项国家标准实施，覆盖电动汽车充电、适老化等",
+          "summary": "含 54 项强制国标与 465 项推荐国标等，涉及机械噪声、教室照明、城镇 CNG、App/政务适老化等领域，为安全与产业合规提供新底线。",
+          "url": "https://www.chinanews.com.cn/sh/2026/10-31/10723963.shtml",
+          "source": "中新网/新华社"
+        },
+        {
+          "category": "news-politics",
+          "title": "10 月制造业 PMI 回落至 49.3%，高技术与装备制造仍在扩张",
+          "summary": "生产、新订单同步走弱，非制造业商务活动指数 49.7%；高技术制造业 PMI 51.3%、装备制造业 50.6%，新动能继续好于整体。",
+          "url": "https://www.news.cn/20261031/80c42faedaae4f22bf5a5f8242bee1fb/c.html",
+          "source": "新华网"
+        },
+        {
+          "category": "news-politics",
+          "title": "中国首次载人登月乘组拟三人、两人落地，2030 年前登月",
+          "summary": "载人航天副总设计师王翔介绍「两次发射、一次登月」环月对接方案：长征十号先后送着陆器与载人飞船，月面探测后返回对接再回家。",
+          "url": "https://www.thepaper.cn/newsDetail_forward_34375545",
+          "source": "澎湃新闻"
+        },
+        {
+          "category": "news-politics",
+          "title": "自然资源部：铼、金、镍等保有资源量大幅增加，新疆发现首个古河湖相锆石砂矿",
+          "summary": "再评价显示铼保有资源量增超两倍，金、镍分别相当于新增约 50、30 个大型矿床；拜城锆石砂矿有助提升国内锆自给。",
+          "url": "https://www.chinanews.com.cn/cj/2026/10-31/10723792.shtml",
+          "source": "中新网"
+        },
+        {
+          "category": "news-auto",
+          "title": "《重庆市智能网联汽车发展促进条例》今日起施行",
+          "summary": "七章四十七条规范测试—示范—运营梯度，支持车规芯片、算法、智能座舱与车路云攻关，并鼓励公交、配送等载人载物示范。",
+          "url": "https://www.cqnews.net/web/content_1552390588385787904.html",
+          "source": "华龙网"
+        },
+        {
+          "category": "news-auto",
+          "title": "上汽牵手新芯航途：围绕 700 TOPS 大模型芯片做整车适配",
+          "summary": "X7 Ultra 宣称量产大模型实测 NPU 利用率 98.7%；双方按「大模型定义芯片」推进算子融合、LPDDR6 与 4bit 量化，并瞄数千 TOPS 下一代。",
+          "url": "https://auto.news18a.com/news/storys_309937.html",
+          "source": "网通社"
+        },
+        {
+          "category": "news-auto",
+          "title": "特斯拉中国调优惠：5 年 0 息首付最低 3.99 万，Model 3 尾款立减升至 1 万",
+          "summary": "活动至 11/30；Model Y 尾款立减反而缩至 4000 元，保险补贴未延续。前三季度国内零售同比仍下滑，全球交付压力未消。",
+          "url": "https://finance.sina.com.cn/jjxw/2026-10-30/doc-iniwyncw5567023.shtml",
+          "source": "每日经济新闻"
+        },
+        {
+          "category": "news-auto",
+          "title": "斯柯达开放 3D 打印车载配件库：杯架到线缆钩免费下 STL",
+          "summary": "官方称是首家在 Printables 系统放车规周边的车企，配件适配多代车型，社区点赞最高的是顶部固定钩一类小件。",
+          "url": "https://www.skoda-storyboard.com/en/press-releases/3d-printable-accessories-take-simply-clever-to-the-next-level/",
+          "source": "Škoda"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设向：Stellantis 谈 CMF→CME，材料体验与 UX/AI 前期共创",
+          "summary": "车企 CMF 负责人主张色彩材质要落到「体验」，用 AI 做早期可视化，并推进单材料与部件二次生命——可对照毕设里的 CMF/风格转译讨论。",
+          "url": "https://www.cardesignnews.com/cmf/the-future-of-design-will-lean-heavily-on-cmf-and-ux-stellantis-vp-cmf-rossella-guasco/2757489",
+          "source": "Car Design News"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设向：Figma 自研「会改稿」的设计编辑模型，服务画布 Agent",
+          "summary": "把设计系统与原生文件喂进专用模型，精确改间距/组件走自研、探索走第三方——对「设计智能体如何接设计系统」有直接参考。",
+          "url": "https://www.figma.com/blog/training-a-figma-fluent-editing-model/",
+          "source": "Figma Blog"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设向：好设计奖强调 AI×科学原理×技术创新同台",
+          "summary": "第十一届 39 个获奖项目与智能设计/仿生论坛，提示制造业创新设计评奖正把 AI 协作设计写进评价口径。",
+          "url": "https://js.cri.cn/20261030/26998926-75db-4aaa-bd74-cd0c14b519d4.html",
+          "source": "国际在线"
         }
-      ]
+      ],
+      "weather": "重庆沙坪坝：今天白天小雨约18℃、夜里转多云约15℃，西北风1-3级；明天阴，约19/16℃，出门带伞。"
     },
     {
       "date": "2026-10-31",
