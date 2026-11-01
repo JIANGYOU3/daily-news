@@ -193,9 +193,84 @@ window.NEWS_DATA = {
           "summary": "第十一届 39 个获奖项目与智能设计/仿生论坛，提示制造业创新设计评奖正把 AI 协作设计写进评价口径。",
           "url": "https://js.cri.cn/20261030/26998926-75db-4aaa-bd74-cd0c14b519d4.html",
           "source": "国际在线"
+        },
+        {
+          "category": "oss",
+          "title": "heydamir/unslop",
+          "summary": "Claude 技能：把 AI 味 UI 洗成正经设计",
+          "url": "https://github.com/heydamir/unslop",
+          "source": "GitHub",
+          "meta": "+2324 / 24h · 总计 3671",
+          "tag": "design"
+        },
+        {
+          "category": "oss",
+          "title": "deepseek-ai/dsh-superagent-prototype",
+          "summary": "DeepSeek 新开源：更自主的 Agent 系统原型",
+          "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+          "source": "GitHub",
+          "meta": "+1818 / 24h · 总计 3359",
+          "tag": "agent"
+        },
+        {
+          "category": "oss",
+          "title": "wangzan101/Mika",
+          "summary": "安卓端上 AI agent，替你操作 App 和网页",
+          "url": "https://github.com/wangzan101/Mika",
+          "source": "GitHub",
+          "meta": "+1550 / 24h · 总计 2893",
+          "tag": "agent"
+        },
+        {
+          "category": "oss",
+          "title": "milind-soni/OpenMausBot",
+          "summary": "开源 Grok Bot 替代，给 bot 一台可用虚拟机",
+          "url": "https://github.com/milind-soni/OpenMausBot",
+          "source": "GitHub",
+          "meta": "+1303 / 24h · 总计 9768",
+          "tag": "agent"
+        },
+        {
+          "category": "oss",
+          "title": "patch-gg/pixelfx",
+          "summary": "244 种像素特效 + 自制 Claude Code 技能",
+          "url": "https://github.com/patch-gg/pixelfx",
+          "source": "GitHub",
+          "meta": "+1243 / 24h · 总计 1574",
+          "tag": "design"
+        },
+        {
+          "category": "oss",
+          "title": "Orkas-AI/Orkas",
+          "summary": "本地优先桌面 AI 团队，Commander 调度多 agent",
+          "url": "https://github.com/Orkas-AI/Orkas",
+          "source": "GitHub",
+          "meta": "+1044 / 24h · 总计 6591",
+          "tag": "agent"
+        },
+        {
+          "category": "oss",
+          "title": "lightpanda-io/browser",
+          "summary": "面向 AI/自动化的 Zig 无头浏览器",
+          "url": "https://github.com/lightpanda-io/browser",
+          "source": "GitHub",
+          "meta": "+929 / 24h · 总计 39334",
+          "tag": "devtools"
+        },
+        {
+          "category": "oss",
+          "title": "Donchitos/Claude-Code-Game-Studios",
+          "summary": "把 Claude Code 变成完整游戏工作室",
+          "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+          "source": "GitHub",
+          "meta": "+742 / 24h · 总计 31277",
+          "tag": "agent"
         }
       ],
-      "weather": "重庆沙坪坝：今天白天小雨约18℃、夜里转多云约15℃，西北风1-3级；明天阴，约19/16℃，出门带伞。"
+      "weather": "重庆沙坪坝：今天白天小雨约18℃、夜里转多云约15℃，西北风1-3级；明天阴，约19/16℃，出门带伞。",
+      "cards": [
+        "assets/github-daily-ranking-2026-11-01.png"
+      ]
     },
     {
       "date": "2026-10-31",
