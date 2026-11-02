@@ -72,8 +72,142 @@
           "summary": "别人怎么在用：作者 johnny4young 自己跑多账号 Claude Code，开源了 Herdr layout——统一 Inbox 回答卡着的 agent、看配额到 95% 自动交接、把 PR 行评直接发回 agent。仓库 johnny4young/herdr-relevo。",
           "url": "https://x.com/johnny4young/status/2116938848437747912",
           "source": "X"
+        },
+        {
+          "category": "news-tech",
+          "title": "千问 AI 眼镜 OTA：新增通话翻译、媒体翻译，抗噪识别再升级",
+          "summary": "阿里千问 AI 眼镜 11/1 推送 OTA，打电话/开会可实时翻译，听播客看外语片也能同步译文。",
+          "url": "https://www.ithome.com/1/020/768.htm",
+          "source": "IT之家"
+        },
+        {
+          "category": "news-tech",
+          "title": "Anthropic 收紧 Claude：阻止复刻已有热门游戏",
+          "summary": "Claude Code（含 Opus 5.5）被远程注入规则，拒绝「重做某某游戏」类请求；原创与自有素材仍允许。",
+          "url": "https://www.engadget.com/2303469/anthropic-updates-claude-to-stop-it-from-recreating-existing-video-games/",
+          "source": "Engadget"
+        },
+        {
+          "category": "news-tech",
+          "title": "DS Bot：把 DeepSeek Harness 变成持久多智能体团队",
+          "summary": "开源插件给角色分工、群聊委派与本地记忆，三周冲上约 4600 星；适合对照昨日 Super-agent 原型看应用层。",
+          "url": "https://github.com/Fei2411/DS-Bot",
+          "source": "GitHub"
+        },
+        {
+          "category": "news-tech",
+          "title": "HPE 推进「自动驾驶网络」：Mist 与 Aruba/EdgeConnect 加速整合",
+          "summary": "用代理式 AIOps 自动诊断修复网络问题，Mist 侧 EdgeConnect 整合推进中，Aruba Central 预计 2027 上半年跟上。",
+          "url": "https://www.hpe.com/us/en/newsroom/press-release/2026/10/hpe-unifies-visibility-of-premier-wired-wireless-and-sase-solutions-to-optimize-user-and-application-experiences-from-edge-to-cloud.html",
+          "source": "HPE"
+        },
+        {
+          "category": "news-design",
+          "title": "东京 AXIS《Industrial Romanticism 2》：八家企业设计师未发表原型展",
+          "summary": "夏普/索尼/TOTO/松下/富士/宝丽/三菱电机/雅马哈，10/30–11/8 六本木免费展出「个人梦想」向原型，不是量产发布会。",
+          "url": "https://tidezine.com/zh-TW/news/axis-industrial-romanticism-2-tokyo-prototypes-2026",
+          "source": "TIDEZINE"
+        },
+        {
+          "category": "news-design",
+          "title": "香港《Echoes of Craft》今日开幕：传统工艺进奢华零售空间",
+          "summary": "设计@HKG×LALA CURIO，11/2–27 半岛酒店展出抒铜装置、éphēlis 陶瓷与哪噠皮革等当代转译作品，免费入场。",
+          "url": "https://designathkg.com/zh/programme/echoes-of-craft",
+          "source": "设计@HKG"
+        },
+        {
+          "category": "news-design",
+          "title": "日本 G 展开幕：约 1500 件 2026 优良设计奖获奖作东京中城展出",
+          "summary": "公益财团法人日本设计振兴会主办，10/31–11/4 集中亮相年度 Good Design 获奖产品/服务/项目。",
+          "url": "https://www.jidp.or.jp/ja/2026/08/05/Gten26",
+          "source": "JIDP"
+        },
+        {
+          "category": "news-design",
+          "title": "设计营商周倒计时：11/16–21 香港，瑞士为全年伙伴国家",
+          "summary": "主题「设计共话：从连系到蜕变」，峰会 18–20 日；同期 DesignInspire 创意设计博览与米兰家具展特别展。",
+          "url": "http://gba.people.cn/n1/2026/0920/c42272-40802056.html",
+          "source": "人民网"
+        },
+        {
+          "category": "news-politics",
+          "title": "央行政策利率正式「换锚」：隔夜逆回购 1.25% 接棒 7 天期",
+          "summary": "自今日起每个工作日做隔夜逆回购；7 天期改为税期/月末调节工具。业界强调这不等于降息 15bp。",
+          "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261102_3279532.shtml",
+          "source": "中国经济网"
+        },
+        {
+          "category": "news-politics",
+          "title": "金融监管总局发布《资产管理信托管理办法》",
+          "summary": "定位私募资管：禁保本保收益、资金池与违规通道，单产品投资者不超 200 人，2027 年 1 月 1 日起施行。",
+          "url": "https://finance.sina.com.cn/money/bank/bank_hydt/2026-10-30/doc-iniwziin5435998.shtml",
+          "source": "新浪财经"
+        },
+        {
+          "category": "news-politics",
+          "title": "欧佩克+主要产油国：12 月维持产量不变",
+          "summary": "七国决定产量与 9 月水平持平；外媒指仍在应对中东冲突造成的出口中断。",
+          "url": "https://www.cnfin.com/yw-lb/detail/20261102/4489483_1.html",
+          "source": "新华财经"
+        },
+        {
+          "category": "news-auto",
+          "title": "新势力「银十」：零跑连四月破 10 万，小鹏/小米双双破 5 万",
+          "summary": "零跑 10 月全球交付约 10.6 万；小鹏 50237 创单月新高（海外 1.3 万+）；小米亦首次站上 5 万档。",
+          "url": "https://www.yicai.com/news/103420037.html",
+          "source": "第一财经"
+        },
+        {
+          "category": "news-auto",
+          "title": "特斯拉美国推 FSD 推荐奖励：老带新送一个月订阅或积分",
+          "summary": "订阅用户推荐成功得一个月免费 FSD，买断用户得约 99 美元积分；年上限约 12 次/1200 美元。",
+          "url": "https://www.auto-cn.com/views-14242",
+          "source": "AutoCN"
+        },
+        {
+          "category": "news-auto",
+          "title": "欧规 FSD 更名 TAD：避免「完全自动驾驶」误解",
+          "summary": "德国监管认为原名易让人以为无人驾驶；欧规功能也按当地法规裁剪，法尚待欧盟层面决定。",
+          "url": "https://epaper.shautonews.com/content/2026-11/01/057653.html",
+          "source": "上海汽车报"
+        },
+        {
+          "category": "news-auto",
+          "title": "拉脱维亚批准监督版 FSD：里加门店试驾启动，月费 99 欧元",
+          "summary": "成为第 10 个放行的欧洲国家；仍须驾驶员全程监督，欧盟统一表决预计不早于 12 月。",
+          "url": "https://readmusk.com/news/2026-11-01/hqgbgur9",
+          "source": "读懂马斯克"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设向：AXIS「工业浪漫主义」——企业内部设计师的未发表原型怎么长",
+          "summary": "把个人梦想塞进企业设计流程后的形态实验，适合对照「艺术风格转译/概念原型」方法。",
+          "url": "https://tidezine.com/zh-TW/news/axis-industrial-romanticism-2-tokyo-prototypes-2026",
+          "source": "TIDEZINE"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设向：Echoes of Craft——传统工艺在当代零售空间的材料叙事",
+          "summary": "铝板装置、记忆主题陶瓷、怀旧皮革等，直接可作 CMF/工艺转译与场景陈列参考。",
+          "url": "https://designathkg.com/zh/programme/echoes-of-craft",
+          "source": "设计@HKG"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设向：Claude 禁止复刻已有游戏——AI 辅助设计的 IP/风格边界在收紧",
+          "summary": "从「能仿」转向「需原创」；做风格解析与转译时，区分参考学习与侵权复刻更关键。",
+          "url": "https://www.engadget.com/2303469/anthropic-updates-claude-to-stop-it-from-recreating-existing-video-games/",
+          "source": "Engadget"
+        },
+        {
+          "category": "news-politics",
+          "title": "金融管理部门开会：推动资本市场工具使用、优化回购增持再贷款",
+          "summary": "据报道央行与证监会等今日组织机构开会，研究支持资本市场工具与股票回购增持再贷款政策优化。",
+          "url": "https://www.cnfin.com/yw-lb/detail/20261102/4489483_1.html#capital-tools",
+          "source": "新华财经"
         }
-      ]
+      ],
+      "weather": "重庆沙坪坝：今天阴，白天约21℃、夜里15℃，东风1-3级；明天小雨约18/16℃。"
     },
     {
       "date": "2026-11-01",
