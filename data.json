@@ -205,9 +205,76 @@
           "summary": "据报道央行与证监会等今日组织机构开会，研究支持资本市场工具与股票回购增持再贷款政策优化。",
           "url": "https://www.cnfin.com/yw-lb/detail/20261102/4489483_1.html#capital-tools",
           "source": "新华财经"
+        },
+        {
+          "category": "oss",
+          "title": "morluto/rea",
+          "summary": "用 Agent 从应用行为逆向到二进制",
+          "url": "https://github.com/morluto/rea",
+          "source": "GitHub",
+          "meta": "+3442 / 24h · 总计 419427"
+        },
+        {
+          "category": "oss",
+          "title": "pingdotgg/t3code",
+          "summary": "手机/网页远程操控本机 AI 编程代理",
+          "url": "https://github.com/pingdotgg/t3code",
+          "source": "GitHub",
+          "meta": "+2751 / 24h · 总计 38463"
+        },
+        {
+          "category": "oss",
+          "title": "vercel-labs/agent-desktop",
+          "summary": "无障碍树驱动的跨平台桌面 Agent 操控",
+          "url": "https://github.com/vercel-labs/agent-desktop",
+          "source": "GitHub",
+          "meta": "+2536 / 24h · 总计 7190"
+        },
+        {
+          "category": "oss",
+          "title": "l0ng-ai/openidea",
+          "summary": "Rust 重写的 IDEA 风格轻量本地 IDE",
+          "url": "https://github.com/l0ng-ai/openidea",
+          "source": "GitHub",
+          "meta": "+1561 / 24h · 总计 3865"
+        },
+        {
+          "category": "oss",
+          "title": "thedotmack/claude-mem",
+          "summary": "给各类 Agent 做跨会话记忆压缩回注",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "source": "GitHub",
+          "meta": "+1501 / 24h · 总计 109585"
+        },
+        {
+          "category": "oss",
+          "title": "ifixai-ai/iFixAi",
+          "summary": "两分钟跑完 49 项的 AI Agent 独立审计",
+          "url": "https://github.com/ifixai-ai/iFixAi",
+          "source": "GitHub",
+          "meta": "+1439 / 24h · 总计 42595"
+        },
+        {
+          "category": "oss",
+          "title": "google/elephant-goldfish-model",
+          "summary": "Google：Agent 设计起草与盲点审查技能",
+          "url": "https://github.com/google/elephant-goldfish-model",
+          "source": "GitHub",
+          "meta": "+1297 / 24h · 总计 9103"
+        },
+        {
+          "category": "oss",
+          "title": "anomalyco/hex",
+          "summary": "本机离线语音听写，说完粘贴进应用",
+          "url": "https://github.com/anomalyco/hex",
+          "source": "GitHub",
+          "meta": "+1263 / 24h · 总计 3463"
         }
       ],
-      "weather": "重庆沙坪坝：今天阴，白天约21℃、夜里15℃，东风1-3级；明天小雨约18/16℃。"
+      "weather": "重庆沙坪坝：今天阴，白天约21℃、夜里15℃，东风1-3级；明天小雨约18/16℃。",
+      "cards": [
+        "assets/github-daily-ranking-2026-11-02.png"
+      ]
     },
     {
       "date": "2026-11-01",
