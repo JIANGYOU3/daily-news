@@ -270,6 +270,22 @@ window.NEWS_DATA = {
           "url": "https://github.com/anomalyco/hex",
           "source": "GitHub",
           "meta": "+1263 / 24h · 总计 3463"
+        },
+        {
+          "category": "news-tech",
+          "title": "阿布扎比×OpenAI：四项协议落地，首个「AI 原生政府」试点+ADNOC 部署 Frontier",
+          "summary": "王储会见 Altman 见证签约：阿布扎比政府启动 Machine-Readable Government（政策机读化、食品进口等合规试点已上线）；ADNOC+G42/Inception42 成首个部署 OpenAI Frontier 的能源企业，用于全油田规划与桶油价值链决策；另含 Mubadala/投资教育等合作。",
+          "url": "https://www.mediaoffice.abudhabi/en/crown-prince-news/khaled-bin-mohamed-bin-zayed-meets-sam-altman-and-witnesses-signing-of-agreements-with-openai/",
+          "source": "Abu Dhabi Media Office",
+          "tag": "突发"
+        },
+        {
+          "category": "news-auto",
+          "title": "特斯拉无监督 Robotaxi 登陆 Fort Worth：约 3 个月来首个新城市",
+          "summary": "美中时间 11/2 早 6 点开城，成第 7 个无监督城市；服务区约 143 平方英里（网络第三大），覆盖市区至 Saginaw/Benbrook 一带；德州已有奥斯汀/达拉斯/休斯顿，达拉斯-沃斯堡走廊覆盖面再扩。",
+          "url": "https://teslanorth.com/2026/11/01/tesla-robotaxi-fort-worth-launch/",
+          "source": "TeslaNorth / @robotaxi",
+          "tag": "突发"
         }
       ],
       "weather": "重庆沙坪坝：今天阴，白天约21℃、夜里15℃，东风1-3级；明天小雨约18/16℃。",
