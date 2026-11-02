@@ -51,6 +51,27 @@
           "url": "https://x.com/thsottiaux/status/2117035794678546764",
           "source": "@thsottiaux",
           "tag": "额度"
+        },
+        {
+          "category": "workflow",
+          "title": "Hallmark：专治「一眼 AI 味」的落地页设计 skill（4.4 万星）",
+          "summary": "别人怎么在用：npx skills add nutlope/hallmark -g 后，在 Claude Code / Cursor / Codex 里 /hallmark 描述页面；会从 50 套主题里抽 3 套给你选，再用浏览器多屏宽 lint 拦掉常见 AI 套路。老页面可用 /hallmark audit 或 redesign。",
+          "url": "https://github.com/Nutlope/hallmark",
+          "source": "GitHub"
+        },
+        {
+          "category": "workflow",
+          "title": "geo-sleuth：抹掉 EXIF 的照片也能被 agent 定位到米级",
+          "summary": "别人怎么在用：npx skills add Oldcircle/geo-sleuth，把照片丢给 Claude Code / Codex / Cursor 说「这张在哪拍的」；skill 用 OSM 几何、山脊线、卫星与街景脚本缩小范围，并吐出机位±半径和证据图（案例可到 ±2m）。",
+          "url": "https://github.com/Oldcircle/geo-sleuth",
+          "source": "GitHub"
+        },
+        {
+          "category": "workflow",
+          "title": "Relevo：一人多 Claude 账号的 Herdr 编排布局（配额交接+Inbox 审 PR）",
+          "summary": "别人怎么在用：作者 johnny4young 自己跑多账号 Claude Code，开源了 Herdr layout——统一 Inbox 回答卡着的 agent、看配额到 95% 自动交接、把 PR 行评直接发回 agent。仓库 johnny4young/herdr-relevo。",
+          "url": "https://x.com/johnny4young/status/2116938848437747912",
+          "source": "X"
         }
       ]
     },
