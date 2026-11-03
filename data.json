@@ -42,6 +42,261 @@
   ],
   "days": [
     {
+      "date": "2026-11-03",
+      "entries": [
+        {
+          "category": "tibo",
+          "title": "Tibo：Dots 将接入 GPT-6 Astra / GPT-6.1 Terra 等更多前沿模型",
+          "summary": "面向 resetters：Dots 的模型族扩容，Terra 强调速度与个性，并按任务自动选模；目标把 Dots 带给更多人。",
+          "url": "https://x.com/thsottiaux/status/2117283124833055196",
+          "source": "X @thsottiaux"
+        },
+        {
+          "category": "news-tech",
+          "title": "Anthropic 修订 S-1：Q3 营收约 170 亿美元，算力承诺约 8950 亿美元",
+          "summary": "修订招股书披露 Q3 营收约 170 亿美元（同比约 +1127%），当季净亏约 232.9 亿；承诺采购/租赁合计约 8954 亿美元，几乎全是算力与基建。",
+          "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
+          "source": "CNBC / SEC S-1/A"
+        },
+        {
+          "category": "news-tech",
+          "title": "OpenAI 公开 Pando：为 Codex/agent 规模 monorepo 自研 Git 后端",
+          "summary": "兼容 Git 协议与客户端；中位 push 延迟降近 5×，日传近 PB；约 10 周用 Codex 做出并已服务于工程与 agent。Tibo 转发称「会一点 Git-fu」。",
+          "url": "https://openai.com/index/scaling-git-at-openai/",
+          "source": "OpenAI / X @thsottiaux"
+        },
+        {
+          "category": "workflow",
+          "title": "Stageshow：让 agent 做出像样的假 UI 静帧 / 动效 / Bento",
+          "summary": "别人怎么在用：X 设计负责人 Benji Taylor 开源 skill——npx skills add benjitaylor/skills --skill stageshow，Claude Code / Codex 按七步流程做落地页 demo 并自检（仓库约 913★）。",
+          "url": "https://x.com/benjitaylor/status/2116593247854453244",
+          "source": "X / benjitaylor/skills",
+          "meta": "~913★"
+        },
+        {
+          "category": "workflow",
+          "title": "Spec Kit：动代码前先逼 agent 写结构化规范",
+          "summary": "别人怎么在用：GitHub 官方 SDD 工具包（约 14.5 万★），斜杠流 /constitution → /specify → /clarify → /plan → /tasks 再实现；Claude Code / Codex / Cursor / Copilot 都能跟。",
+          "url": "https://github.com/github/spec-kit",
+          "source": "GitHub",
+          "meta": "~145k★"
+        },
+        {
+          "category": "workflow",
+          "title": "stack-diagram：一句话技术栈 → 带官方 logo 的架构图",
+          "summary": "别人怎么在用：npx skills add caru-ini/stack-diagram，对 Claude Code / Codex / Cursor 说一句栈描述，输出单页 HTML（含官方 logo），适合塞进 README / wiki（约 1208★，11/1 新建）。",
+          "url": "https://github.com/caru-ini/stack-diagram",
+          "source": "GitHub",
+          "meta": "~1208★"
+        },
+        {
+          "category": "news-tech",
+          "title": "OpenAI 合并 ChatGPT 的 Chat 与 Work：对话里直接交办多步任务",
+          "summary": "桌面端将聊天与 Work 打通，可在同一界面带文件/插件做网页、PPT、上网操作；Codex 仍独立，额度池与 ChatGPT 共用。",
+          "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+          "source": "TechCrunch"
+        },
+        {
+          "category": "news-tech",
+          "title": "Naver AI Tab 获 ISO/IEC 42001：搜索型 agent 首获国际安全认证",
+          "summary": "覆盖从模型开发到面向用户的 agentic 搜索运营；公司称将把同一套安全管理体系扩到更多 agent 服务。",
+          "url": "https://www.ajupress.com/view/20261103092470227",
+          "source": "Aju Press"
+        },
+        {
+          "category": "news-tech",
+          "title": "Oracle 再融资约 200 亿美元：股债各半砸向 AI 基建",
+          "summary": "SEC 文件披露增发普通股与高级债各约 100 亿美元；股价一度大跌，市场仍盯执行与后续是否再融资。",
+          "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+          "source": "CNBC"
+        },
+        {
+          "category": "news-tech",
+          "title": "Anthropic S-1 细读：或「即将」触及 RSP 中的 AI 加速研发阈值",
+          "summary": "修订招股书称内部估计未来模型或接近「AI 导致研发大幅加速」门槛，当前模型尚未认定越线，并考虑更新政策以保留人类监督。",
+          "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+          "source": "TechCrunch"
+        },
+        {
+          "category": "news-design",
+          "title": "站酷设计周开幕：「AI 时代，我不这么设计」",
+          "summary": "北京聚焦生成式 AI 下设计价值重塑，强调审美判断与人文叙事不可被算法替代；同期有创意市集与回力品牌史展。",
+          "url": "http://art.china.cn/txt/2026-11/02/content_43500591.htm",
+          "source": "艺术中国"
+        },
+        {
+          "category": "news-design",
+          "title": "Design Busan 2026 开幕：全城变设计舞台",
+          "summary": "11/5–15 主题「海、人、环境」，旧橡胶厂做「From Waste to Wonder」废料再生展，并含设计博览与城市黑客松。",
+          "url": "https://biz.heraldcorp.com/article/10922520",
+          "source": "Herald Business"
+        },
+        {
+          "category": "news-design",
+          "title": "武汉设计日 11/4–6：城市更新 + AI+设计同台",
+          "summary": "主会场四美塘铁路遗址公园，含金黄鹤城市更新展、18 座创意城市案例展，以及 AI 图纸审查/三维建模等工程设计交流。",
+          "url": "https://news.hubeidaily.net/pc/c_6117960.html",
+          "source": "湖北日报"
+        },
+        {
+          "category": "news-design",
+          "title": "Formnext 前瞻：Stratasys 推量产级新方案，丰田/通用工厂案例亮相",
+          "summary": "11/17–20 法兰克福展出 F870 欧陆首秀与新制造平台；汽车工装、外观级原型材料与数模工作流一并登场。",
+          "url": "https://investors.stratasys.com/news-events/press-releases/detail/996/stratasys-introduces-new-printer-for-serial-production",
+          "source": "Stratasys"
+        },
+        {
+          "category": "news-politics",
+          "title": "土耳其竞争局调查 Google AI Overview / AI Mode，并下临时措施",
+          "summary": "聚焦新闻出版流量、内容授权是否不公与排他；要求合同不歧视、体现内容经济价值，且 AI 使用选项与其他搜索可见性解绑。",
+          "url": "https://www.rekabet.gov.tr/en/Guncel/investigation-launched-and-interim-measu-ac0cedbc94d6f111a671005056854155",
+          "source": "Rekabet Kurumu"
+        },
+        {
+          "category": "news-politics",
+          "title": "11 月新规：有线电视/IPTV 11/27 起不得开机广告",
+          "summary": "广电规定坚持直播优先、开机全屏直播并设回看入口；智能电视须支持优先呈现直播频道。",
+          "url": "https://www.21jingji.com/article/20261101/herald/111502cfab6ce6520d7ebe308ff66100.html",
+          "source": "21 经济网"
+        },
+        {
+          "category": "news-politics",
+          "title": "中秘自贸协定升级议定书正式生效",
+          "summary": "完善原产地、海关便利等七章，并新增电商、供应链、环境与贸易等五章；双边贸易额已从 2009 年约 64 亿增至 2025 年约 504 亿美元。",
+          "url": "http://www.xinhuanet.com/fortune/20261101/298a3e3638f049cb976d2ac36de84bd5/c.html",
+          "source": "新华网"
+        },
+        {
+          "category": "news-auto",
+          "title": "特斯拉 Powerwall 3 上线热泵优化：把便宜电存成热水",
+          "summary": "欧洲先行，经 SG-Ready 接线在余电/低电价时段让热泵加强制热；美加暂无此硬件生态。",
+          "url": "https://electrek.co/2026/11/02/tesla-powerwall-3-heat-pump-optimization-sg-ready/",
+          "source": "Electrek"
+        },
+        {
+          "category": "news-auto",
+          "title": "特斯拉德州 FTZ：获准有限期生产 Megapack 等储能产品",
+          "summary": "联邦公报确认 Brookshire 工厂在外贸区内从事储能产品与部件生产获有限授权（14 个月期限）。",
+          "url": "https://www.federalregister.gov/documents/2026/11/02/2026-22301/foreign-trade-zone-ftz-84-authorization-of-production-activity-tesla-inc-battery-storage-products",
+          "source": "Federal Register"
+        },
+        {
+          "category": "news-auto",
+          "title": "北京氢能方案：2030 年前燃料电池车累计破万辆",
+          "summary": "新建加氢站超 40 座，产业链规模冲 400 亿元；并做强燃料电池整车全链、目标核心成本降超 30%。",
+          "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202610/t20261030_4925726.html",
+          "source": "首都之窗"
+        },
+        {
+          "category": "news-auto",
+          "title": "华为乾崑智驾：累计辅助驾驶里程突破约 173 亿公里",
+          "summary": "截至 10/31；搭载车辆总里程约 484 亿公里，累计主动避免潜在碰撞约 692 万次。",
+          "url": "https://www.ithome.com/1/020/693.htm",
+          "source": "IT之家"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设向：站酷设计周——AI 生成浪潮里，设计价值往哪摆",
+          "summary": "行业共识从「高效生成」转向「深度表达」：算法可复现风格，文化与生活感知仍是原创内核，创作者要从技能操作者变成价值定义者。",
+          "url": "http://art.china.cn/txt/2026-11/02/content_43500591.htm",
+          "source": "艺术中国",
+          "tag": "设计智能体/风格转译"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设向：釜山 Design Busan——工业废料如何做成展览 CMF 叙事",
+          "summary": "旧橡胶厂展「From Waste to Wonder」，用钢筋、胶屑、渔网、泡沫等现场废料做装置，可作材料再生与场所叙事参考。",
+          "url": "https://biz.heraldcorp.com/article/10922520",
+          "source": "Herald Business",
+          "tag": "CMF/材料"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设向：Formnext 上的外观级原型——功能件也要「看起来像量产」",
+          "summary": "Stratasys 将展出 PolyJet ToughONE Black 等工程外观材料与大尺寸工装打印，衔接产品设计评审里的 CMF/外观验证。",
+          "url": "https://investors.stratasys.com/news-events/press-releases/detail/996/stratasys-introduces-new-printer-for-serial-production",
+          "source": "Stratasys",
+          "tag": "产品设计/CMF"
+        },
+        {
+          "category": "oss",
+          "title": "affaan-m/ECC",
+          "summary": "Agent harness 性能优化全家桶",
+          "url": "https://github.com/affaan-m/ECC",
+          "source": "GitHub",
+          "meta": "+849 / 24h · 总计 295764"
+        },
+        {
+          "category": "oss",
+          "title": "calesthio/OpenMontage",
+          "summary": "把编程助手变成视频制片工作室",
+          "url": "https://github.com/calesthio/OpenMontage",
+          "source": "GitHub",
+          "meta": "+693 / 24h · 总计 75420"
+        },
+        {
+          "category": "oss",
+          "title": "JustVugg/colibri",
+          "summary": "纯 C 本地跑前沿 MoE 模型",
+          "url": "https://github.com/JustVugg/colibri",
+          "source": "GitHub",
+          "meta": "+675 / 24h · 总计 46684"
+        },
+        {
+          "category": "oss",
+          "title": "FlashML-org/FreeToken",
+          "summary": "桌面级大模型本地推理服务",
+          "url": "https://github.com/FlashML-org/FreeToken",
+          "source": "GitHub",
+          "meta": "+653 / 24h · 总计 16191"
+        },
+        {
+          "category": "oss",
+          "title": "paperclipai/paperclip",
+          "summary": "工作场景多智能体管理台",
+          "url": "https://github.com/paperclipai/paperclip",
+          "source": "GitHub",
+          "meta": "+412 / 24h · 总计 110499"
+        },
+        {
+          "category": "oss",
+          "title": "cheaper-inference/OmniRoute",
+          "summary": "免费多模型 AI 网关一站通",
+          "url": "https://github.com/cheaper-inference/OmniRoute",
+          "source": "GitHub",
+          "meta": "+402 / 24h · 总计 84023"
+        },
+        {
+          "category": "oss",
+          "title": "jub0t/Concat",
+          "summary": "本地开源剪辑，带 MCP 可控",
+          "url": "https://github.com/jub0t/Concat",
+          "source": "GitHub",
+          "meta": "+302 / 24h · 总计 13845"
+        },
+        {
+          "category": "oss",
+          "title": "addyosmani/agent-skills",
+          "summary": "工程向 Agent Skills 合集",
+          "url": "https://github.com/addyosmani/agent-skills",
+          "source": "GitHub",
+          "meta": "+275 / 24h · 总计 112857"
+        },
+        {
+          "category": "news-tech",
+          "title": "英伟达要求云/数据中心客户：未来合约至少 51% 服务售予非中国企业",
+          "summary": "FT：口头合规、仅约束新约；把禁先进芯片出口延伸到海外云租用 bypass，收紧中企海外算力通路。",
+          "url": "https://www.zaobao.com.sg/news/china/story20261103-9939270",
+          "source": "联合早报/FT",
+          "tag": "突发"
+        }
+      ],
+      "weather": "重庆沙坪坝：今天阴，夜里转小雨，约18℃/16℃，东北风1-3级。",
+      "cards": [
+        "assets/github-daily-ranking-2026-11-03.png"
+      ]
+    },
+    {
       "date": "2026-11-02",
       "entries": [
         {
