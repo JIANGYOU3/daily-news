@@ -43,6 +43,288 @@ window.NEWS_DATA = {
   ],
   "days": [
     {
+      "date": "2026-11-04",
+      "entries": [
+        {
+          "category": "news-tech",
+          "title": "OpenAI：GPT-6 Astra 一周内端到端设计出「对讲 Codex」硬件原型",
+          "summary": "官博展示实体工程能力：外观/外壳/PCB/固件/UI 由 Astra 完成，两人 side project 不到一周，代工小批量不到一月；量产公差仍需人工多轮。另扩 Chip Ganassi Racing，并宣布与马自达气动/碰撞安全合作。内部更新模型 BenchCAD 2.0 均分 0.875（Astra 最高档 0.594）。",
+          "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world/",
+          "source": "OpenAI",
+          "tag": "毕设相关"
+        },
+        {
+          "category": "workflow",
+          "title": "last30days：跨 Reddit / X / HN / Polymarket 的 30 天调研 skill",
+          "summary": "别人怎么在用：开会、选题、比工具前跑 /last30days <话题>，按真实互动分排序出简报；Claude Code 用 marketplace 装，Codex / Cursor 用 npx skills add mvanhorn/last30days-skill -g（约 6.6 万★）。",
+          "url": "https://github.com/mvanhorn/last30days-skill",
+          "source": "GitHub",
+          "meta": "~66.5k★"
+        },
+        {
+          "category": "workflow",
+          "title": "agent-desktop：不靠截图，用无障碍树给 coding agent 本机双手",
+          "summary": "别人怎么在用：npm i -g agent-desktop，再 npx skills add vercel-labs/agent-desktop --skill agent-desktop；snapshot 出带 @ref 的控件 JSON，点 ref、再 snapshot 验结果，默认可后台跑（约 1.3 万★，Vercel Labs）。",
+          "url": "https://github.com/vercel-labs/agent-desktop",
+          "source": "GitHub / Vercel Labs",
+          "meta": "~12.8k★"
+        },
+        {
+          "category": "workflow",
+          "title": "Legible Film 2.1：让 Claude Code / Codex 按字幕剪片、出片前自检",
+          "summary": "别人怎么在用：作者 James Dimachkie 今天发 2.1——npx skills add JamesDimachkie/legible-film，用转录切访谈/播客/教程，也能做 launch film，并在交付前做 QC（Apache-2.0）。",
+          "url": "https://x.com/Jimosax/status/2117624672632373476",
+          "source": "X @Jimosax / JamesDimachkie/legible-film",
+          "meta": "v2.1"
+        },
+        {
+          "category": "news-tech",
+          "title": "Anthropic Message Threads 公测：长会话 agent 中位 TTFT 约降 35%",
+          "summary": "Messages API 公测线程能力：首轮发完整对话后，后续只传新增消息与上一轮 ID，500k–1M token 请求中位首 token 时延约降 35%；线程加密驻内存、闲置约 5 分钟过期，计费不变。",
+          "url": "https://claude.com/resources/articles/message-threads",
+          "source": "Anthropic / Claude"
+        },
+        {
+          "category": "news-tech",
+          "title": "Google DeepMind：Antigravity 化学信息学 Skills，一小时走完药物设计闭环",
+          "summary": "11/3 发布 Cheminformatics Skills，agent 可检索文献化合物、做匹配分子对分析并给出合成路线；基于 RDKit/ChEMBL/PubChem，经 Antigravity Science 插件可用。",
+          "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+          "source": "Google DeepMind"
+        },
+        {
+          "category": "news-tech",
+          "title": "OpenAI LifeVal：用日常办事任务衡量个人助手能力",
+          "summary": "覆盖照护、健康、教育、行政、理财、购物与政务等真实办事流程；结合浏览器/电脑使用与连接器，评估模型能否真正把事办完，而不只是聊天给建议。",
+          "url": "https://openai.com/index/lifeval/",
+          "source": "OpenAI"
+        },
+        {
+          "category": "news-tech",
+          "title": "Anthropic 开源 FlashProve：单卡 H100 约 110 tok/s 的可验证推理原型",
+          "summary": "11/2 研究帖公布 zkSNARK 可证明推理进展：对 Llama 4 Maverick（4-bit）单 H100 约 110 tok/s、每 1024 token 证明约 19MB，并附 Lean 形式化与开源代码。",
+          "url": "https://www.anthropic.com/research/provable-inference",
+          "source": "Anthropic Research"
+        },
+        {
+          "category": "news-tech",
+          "title": "月之暗面 Kimi：游戏开发与创意方案可直连 Unity / 虚幻 / Blender",
+          "summary": "基于 K3.1、Kimi Code 与 Work Agent，可在现有工程里改代码、交可编辑文件与操作记录，降低玩法原型与跨岗协作成本。",
+          "url": "https://www.ithome.com/1/021/539.htm",
+          "source": "IT之家"
+        },
+        {
+          "category": "news-design",
+          "title": "商汤 SenseNova 6.8 Flash：动态 PPT / 海报 + Agent 协同 Blender、接 Figma",
+          "summary": "正式版强化办公协作与设计生成，覆盖动态 PPT/海报、网页、SVG 与 Blender 3D，并可接入 Figma；强调长期记忆与跨会话主动协作。",
+          "url": "https://www.ithome.com/1/021/487.htm",
+          "source": "IT之家"
+        },
+        {
+          "category": "news-design",
+          "title": "TECNO MEGABOOK T15 360 / CAMON Slim 斩获 MUSE 2026 铂金奖与银奖",
+          "summary": "360° 翻转触控笔电凭多形态交互与铝合金机身拿下数码类铂金奖；CAMON Slim 以艺术家系列配色与约 6.39mm 超薄机身获银奖。",
+          "url": "https://k.sina.cn/article_5952915720_162d24908067053v4w.html",
+          "source": "传音控股 / 新浪"
+        },
+        {
+          "category": "news-design",
+          "title": "2026 国际 CMF 设计奖公布获奖提名：车色涂料到家电东方美学同台",
+          "summary": "提名覆盖汽车 CMF、空腔变色金属涂料、家电套系、消费电子与机器人柔性皮肤等，可见量产车色与材料工艺风向。",
+          "url": "https://www.zjideas.com/announce/jxgycp/jxwcsj/33617.html",
+          "source": "设计赛网 / 国际CMF设计奖"
+        },
+        {
+          "category": "news-design",
+          "title": "进博会剧透：宜家弗斯达羊年中国新年系列将全球首发",
+          "summary": "第九届进博会 11/5–10 举行，全球首发首秀代表性展品超 200 件；宜家将全球首发基于中国文化的弗斯达羊年系列，上届马年系列约五个月售出 38.5 万件。",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-04/10725733.shtml",
+          "source": "中新网 / 新华社"
+        },
+        {
+          "category": "news-design",
+          "title": "美图设计室 Buddy 落地 WorkBuddy：对话产出 PPT / 海报 / 营销物料",
+          "summary": "以生态伙伴身份展示 Buddy，对话即可从策略洞察到设计交付，并配 PPT 美化、课件、复刻等垂直技能，面向职场商业设计普惠。",
+          "url": "https://tech.china.com/articles/20261103/202611031973028.html",
+          "source": "中华网 / 看点时报"
+        },
+        {
+          "category": "news-politics",
+          "title": "国家发改委：建立覆盖人工智能全生命周期的安全标准与伦理准则",
+          "summary": "创新和高技术发展司称「十五五」将加快 AI 基础性综合立法，完善数据/算力/算法与重点场景规则，并对制度实施做周期性评估与动态调整。",
+          "url": "https://www.cnfin.com/hg-lb/detail/20261103/4490167_1.html",
+          "source": "中国金融信息网 / 新华财经"
+        },
+        {
+          "category": "news-politics",
+          "title": "发改委：对 AI 就业替代风险强化监测预警，打击滥用恶用",
+          "summary": "发布会提出推动模型训练师等新职业入国家职业分类，加强社保衔接；同时溯源打击深度伪造等违法，关注老年与未成年人保护及防沉迷。",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-03/10725288.shtml",
+          "source": "中国新闻网"
+        },
+        {
+          "category": "news-politics",
+          "title": "AI 地方立法多点开花：苏州、广州条例获通过，探索沙盒与触发式监管",
+          "summary": "《法治日报》梳理苏州、广州条例通过，江苏、厦门草案推进；多地采促进型立法并设安全治理专章，试行分级分类与包容审慎监管。",
+          "url": "http://www.ce.cn/cysc/newmain/yc/jsxw/202611/t20261103_3281303.shtml",
+          "source": "中国经济网 / 法治日报"
+        },
+        {
+          "category": "news-politics",
+          "title": "英学者提出 AI 治理「四个 A」框架：行动、访问、权威、分配",
+          "summary": "论文主张不必只押「踩刹车」，而按 Action/Access/Authority/Allocation 拆分伦理风险并匹配工具；提醒收紧访问可能加剧能力集中。",
+          "url": "http://www.ce.cn/xwzx/kj/202611/t20261104_3282496.shtml",
+          "source": "中国经济网 / 科技日报"
+        },
+        {
+          "category": "news-auto",
+          "title": "百度 Apollo World 亮相：智能体驱动全模态世界模型，已用于萝卜快跑验证",
+          "summary": "11/3 深圳 AI Day·Apollo 专场首披，提出世界模型「2+3」标准；虚拟城市中交通参与者为可交互智能体，可生成相机/激光雷达观测并闭环测完整出行任务。",
+          "url": "https://www.ithome.com/1/021/808.htm",
+          "source": "IT之家"
+        },
+        {
+          "category": "news-auto",
+          "title": "Munro/Cybercab 新解读：新逆变器可直换 Model Y，弗remont 年底起出货",
+          "summary": "特斯拉工程师称 Cybercab 新逆变器与 Model Y 接口兼容、「可直接塞进 Y 电驱」；电路板与功率级将从弗remont 出货，并与 Semi 共用总成，Moravy 对是否上车「拒答」。",
+          "url": "https://www.notateslaapp.com/news/4939/tesla-model-3y-could-get-an-inverter-upgrade-from-cybercab",
+          "source": "Not a Tesla App"
+        },
+        {
+          "category": "news-auto",
+          "title": "荷兰 RDW 批准 Tesla Assisted Driving 更新：速度裕度上限由 +50% 收至 +10%",
+          "summary": "11/3 官宣：屏显/说明书正式用 TAD 名称；速度裕度上限改为最多 +10%，且车辆启动默认 0%；HW4 及以上 OTA，系统仍为辅助驾驶、责任在驾驶员。",
+          "url": "https://www.rdw.nl/over-rdw/nieuws/2026/rdw-keurt-wijzigingen-aan-tesla-rijhulpsysteem-goed",
+          "source": "RDW（荷兰道路交通局）"
+        },
+        {
+          "category": "news-auto",
+          "title": "宝马：2027 年起德国城区上线导航引导 L2，硬件已预埋可 OTA",
+          "summary": "官宣城区辅助转弯、变道、路权与环岛等 SAE L2 功能；DCAS Series 2 实测过关，iX3/iX4/X5/3系/7系标配硬件，德国先行、他国跟进。",
+          "url": "https://newsroom.bmwgroup.com/global/bmw-to-expand-urban-driver-assistance-functions-from-2027/",
+          "source": "BMW Group Newsroom"
+        },
+        {
+          "category": "news-auto",
+          "title": "小鹏 GX / G9L 在中东非 11 国同步开售，阿联酋旗舰约合超 54 万元",
+          "summary": "11/3 官宣两车在中东非 11 国开售；阿联酋 GX 旗舰 AED 299000、G9L 预售 AED 259000 起；未来一年拟拓展至 20 余国、网点超 100 家。",
+          "url": "https://www.jiemian.com/article/15287590.html",
+          "source": "界面新闻"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设向：商汤 SenseNova——设计智能体如何接上 Blender / Figma 真工作流",
+          "summary": "从动态 PPT/海报叙事节奏，到 Agent 据渲染反馈迭代 3D，再到接入 Figma，可对照「生成结果」与「可继续编辑的专业流程」之间的落差做案例。",
+          "url": "https://www.ithome.com/1/021/487.htm",
+          "source": "IT之家"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设向：国际 CMF 设计奖提名——量产车色、变色涂料与东方美学套系",
+          "summary": "提名里既有别克「至境绿」空腔变色金属涂料、小米/方程豹等车色，也有家电敦煌水墨、侘寂冰箱等，适合做 CMF 趋势切片与材料叙事。",
+          "url": "https://www.zjideas.com/announce/jxgycp/jxwcsj/33617.html",
+          "source": "设计赛网 / 国际CMF设计奖"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设向：进博会宜家弗斯达羊年——文化符号如何转译成消费产品系列",
+          "summary": "宜家连续以生肖中国新年系列做全球首发并验证「展品→商品→爆品」；可讨论跨文化符号在家居 CMF/包装与零售陈列中的转译策略。",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-04/10725733.shtml",
+          "source": "中新网 / 新华社"
+        },
+        {
+          "category": "oss",
+          "title": "D4Vinci/Scrapling",
+          "summary": "全能网页爬取与大规模抓取框架",
+          "url": "https://github.com/D4Vinci/Scrapling",
+          "source": "GitHub Trending",
+          "meta": "+1658 / 24h · 总计 95124"
+        },
+        {
+          "category": "oss",
+          "title": "mattpocock/skills",
+          "summary": "实战工程师 Agent Skills 合集",
+          "url": "https://github.com/mattpocock/skills",
+          "source": "GitHub Trending",
+          "meta": "+1164 / 24h · 总计 311651"
+        },
+        {
+          "category": "oss",
+          "title": "p-e-w/heretic",
+          "summary": "免训练去审查降奉承改模型",
+          "url": "https://github.com/p-e-w/heretic",
+          "source": "GitHub Trending",
+          "meta": "+701 / 24h · 总计 38906"
+        },
+        {
+          "category": "oss",
+          "title": "tashfeenahmed/freellmapi",
+          "summary": "免费多厂商 LLM 统一 API 网关",
+          "url": "https://github.com/tashfeenahmed/freellmapi",
+          "source": "GitHub Trending",
+          "meta": "+688 / 24h · 总计 47137"
+        },
+        {
+          "category": "oss",
+          "title": "floci-io/floci",
+          "summary": "轻量免费 AWS 本地模拟器",
+          "url": "https://github.com/floci-io/floci",
+          "source": "GitHub Trending",
+          "meta": "+482 / 24h · 总计 28936"
+        },
+        {
+          "category": "oss",
+          "title": "karpathy/nanochat",
+          "summary": "百美元级可训迷你聊天模型",
+          "url": "https://github.com/karpathy/nanochat",
+          "source": "GitHub Trending",
+          "meta": "+479 / 24h · 总计 60211"
+        },
+        {
+          "category": "oss",
+          "title": "max-sixty/worktrunk",
+          "summary": "并行 AI Agent 的 Git worktree CLI",
+          "url": "https://github.com/max-sixty/worktrunk",
+          "source": "GitHub Trending",
+          "meta": "+438 / 24h · 总计 10592"
+        },
+        {
+          "category": "oss",
+          "title": "blader/humanizer",
+          "summary": "去除 AI 写作痕迹的 Agent Skill",
+          "url": "https://github.com/blader/humanizer",
+          "source": "GitHub Trending",
+          "meta": "+407 / 24h · 总计 64476"
+        },
+        {
+          "category": "oss",
+          "title": "herdrdev/herdr",
+          "summary": "Coding Agent 专用运行时",
+          "url": "https://github.com/herdrdev/herdr",
+          "source": "GitHub Trending",
+          "meta": "+295 / 24h · 总计 47908"
+        },
+        {
+          "category": "news-tech",
+          "title": "腾讯混元 Hy4 正式版：首次视觉+电脑操作，称跻身最强开源之列",
+          "summary": "770B MoE，相对 preview 扩训并首次加视觉与 Computer Use（含 Blender/CAD 专项），接 WorkBuddy/CodeBuddy/元宝；权重将开源，现已上腾讯云与 OpenRouter。",
+          "url": "https://hy.tencent.ai/research/hy4",
+          "source": "腾讯混元",
+          "tag": "毕设相关"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设向：Hy4 Computer Use——面向 Blender / CAD 的长程设计智能体",
+          "summary": "混元 Hy4 首次电脑操作，官方称对 Blender、CAD 等专业软件与跨应用长程工作流做了专项训练，可把设计智能体接到真实工具链。",
+          "url": "https://hy.tencent.ai/research/hy4",
+          "source": "腾讯混元"
+        }
+      ],
+      "weather": "重庆沙坪坝：今天阴，约20℃/15℃，西风1-3级。",
+      "cards": [
+        "assets/github-daily-ranking-2026-11-04.png"
+      ]
+    },
+    {
       "date": "2026-11-03",
       "entries": [
         {
