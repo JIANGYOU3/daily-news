@@ -43,6 +43,286 @@ window.NEWS_DATA = {
   ],
   "days": [
     {
+      "date": "2026-11-05",
+      "entries": [
+        {
+          "category": "tibo",
+          "title": "Tibo：Dots 迎来一轮大幅体验更新",
+          "summary": "Tibo 确认「Dots just got a massive set of improvements」。团队帖列出最新版：iOS 通知内联回复 Dot、任意内容直达分享、可用 Action 按钮打开、通知点入加载更快、Gmail 链接深链到邮件。",
+          "url": "https://x.com/thsottiaux/status/2118139067636568305",
+          "source": "Tibo / @_samirism",
+          "tag": "产品更新"
+        },
+        {
+          "category": "news-tech",
+          "title": "OpenAI 宣布收购 Pierre Computer：补强 Codex 的代码浏览与评审工具链",
+          "summary": "Pierre 的 Trees/Diffs 已在 Codex 里用着；交易完成后计划把 Code Storage 等能力并入 Codex，开源项目继续开源。尚待监管等交割条件，交割前双方独立运营。",
+          "url": "https://openai.com/index/openai-to-acquire-pierre/",
+          "source": "OpenAI",
+          "tag": "Codex"
+        },
+        {
+          "category": "news-tech",
+          "title": "OpenAI：自主网络流水线一次跑出 948 个 Linux 提权漏洞与补丁",
+          "summary": "用即将推出的 cyber 模型做发现→动态复现→利用评估→补丁生成；单次运行复现 1724 个漏洞、产出 948 个 LPE 利用与对应候选补丁，API 成本约 121 万美元；正与维护者和 Patch the Planet 伙伴上报。",
+          "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+          "source": "OpenAI",
+          "tag": "安全/Agent"
+        },
+        {
+          "category": "workflow",
+          "title": "双 Agent 写 250+ 落地页标题：Claude Code 调研 + Codex 二稿 + 滑动筛选",
+          "summary": "JamesonCamp 当天实跑：Claude Code 挖痛点写标题，Codex 同题再出一版，再各自做可滑动小站粗筛，人定 10 条进 A/B。",
+          "url": "https://x.com/JamesonCamp/status/2118130107500097868",
+          "source": "X @JamesonCamp",
+          "tag": "真实流水线"
+        },
+        {
+          "category": "workflow",
+          "title": "codex-skill：Claude Code 出计划，退出前自动让 Codex 只读挑刺",
+          "summary": "作者自用插件：计划模式一退出就 hook 调 Codex 二审，看完再批准；Codex 挂了就跳过不卡流程，两家互查比一家自查稳。",
+          "url": "https://github.com/cathrynlavery/codex-skill",
+          "source": "GitHub · ~227★",
+          "meta": "~227★",
+          "tag": "Claude×Codex"
+        },
+        {
+          "category": "workflow",
+          "title": "reanimate：录原站动效 → 重建 → 逐帧对比，直到数值对齐",
+          "summary": "给 Claude Code 的动画反推 skill：从网址/录屏/gif/Lottie 开录，重建后再同法录副本并比对，差距消掉才收工，适合偷师落地页动效。",
+          "url": "https://github.com/NiazMorshed2007/reanimate",
+          "source": "GitHub · ~1.2k★",
+          "meta": "~1.2k★",
+          "tag": "设计动效"
+        },
+        {
+          "category": "news-tech",
+          "title": "Grok API 11 月 7 日起默认给文本打隐形水印",
+          "summary": "SpaceXSI（原 xAI）文档确认：grok-4.7/4.6/4.5/4.3 与三款 grok-4.20 变体从 11/7 起默认水印，覆盖普通文本、结构化输出与工具调用参数；靠生成时塑形 token，不增字符。团队管理员可按模型选择退出，响应头 x-watermark 可查。",
+          "url": "https://docs.x.ai/developers/advanced-api-usage/watermarking",
+          "source": "SpaceXSI Docs"
+        },
+        {
+          "category": "news-tech",
+          "title": "CrowdStrike 推 AI Kill Switch，并拟收购 Fiddler 做 Agent 可观测",
+          "summary": "Fal.Con Europe 上发布 Falcon Guardian AI Kill Switch：可实时终止未授权 Agent、阻断重启；Agent hooks 覆盖 Claude Code、Codex、Copilot、Cursor 等。同期宣布收购 AI 可观测公司 Fiddler，把「看见—解释—切断」串进 Falcon。",
+          "url": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-delivers-ai-security-safety-for-the-enterprise/",
+          "source": "CrowdStrike"
+        },
+        {
+          "category": "news-tech",
+          "title": "Google：K-12 学生账号默认关闭 Gemini 与 Search，等校方开启",
+          "summary": "教育业务更新：Gemini、Gemini Notebook、Gemini in Classroom 与 Google Search 对 K-12 学生账号一律默认关闭，须管理员显式打开。同步把 Guided Learning 推进 Classroom 全球可用，Search 端稍后在部分美国学校试点「引导解题」而非直接给答案。",
+          "url": "https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026/",
+          "source": "Google Blog"
+        },
+        {
+          "category": "news-tech",
+          "title": "Xen XSA-523：Claude 发现 grant-copy 可跨 VM 任意读写内存",
+          "summary": "官方顾问披露 CVE-2026-102703/102704：恶意客户机可读写其他域乃至 Dom0 内存。Anthropic 用 Claude 发现，Ada Logics 验证，CodeAnt 独立复报。Xen 4.6 及以上受影响，需打补丁并重启。",
+          "url": "https://xenbits.xen.org/xsa/advisory-523.html",
+          "source": "Xen Project"
+        },
+        {
+          "category": "news-tech",
+          "title": "快手系凌川科技完成 10 亿元 B 轮：3D 堆叠视频芯片明年规模出货",
+          "summary": "亦庄国投屹唐盛和、启明创投、朝晖资本联合领投。SL200 已售近 10 万颗；全国产 3D 堆叠下一代芯片 4 月流片、近日回片，面向 AIGV 视频生产，预计明年规模出货。",
+          "url": "https://www.qimingvc.com/cn/news/%E5%90%AF%E6%98%8E%E6%98%9F-%E5%BF%AB%E6%89%8B%E7%B3%BB%E8%8A%AF%E7%89%87%E5%85%AC%E5%8F%B8%E5%87%8C%E5%B7%9D%E7%A7%91%E6%8A%80%E5%AE%8C%E6%88%9010%E4%BA%BF%E5%85%83b%E8%BD%AE%E8%9E%8D%E8%B5%84%EF%BC%8C%E5%90%AF%E6%98%8E%E5%88%9B%E6%8A%95%E8%81%94%E5%90%88%E9%A2%86%E6%8A%95",
+          "source": "启明创投"
+        },
+        {
+          "category": "news-design",
+          "title": "迪拜设计周第 12 届开幕：Inherited Futures 与材料创新同场",
+          "summary": "11/3–8 在 d3 举行，50+ 国设计师参与。阿联酋设计师展以「Inherited Futures」主题重释本地材料与工艺；Abwab「In Other Words」五件委任作品谈语言与文化知识如何经设计传达；Downtown Design 汇集 35+ 国 300+ 品牌。",
+          "url": "https://mediaoffice.ae/en/news/2026/novemebr/04-11/latifa-bint-mohammed-inaugurates-12th-edition-of-dubai-design-week",
+          "source": "Dubai Media Office"
+        },
+        {
+          "category": "news-design",
+          "title": "EXEED 发布 Future Luxury 设计语言：Perpetua 一语双形",
+          "summary": "在奇瑞全球技术创新中心发布会亮相。Perpetua 以大西洋潮汐光影为灵感，「液态水」服务运动车型，「极地冰」服务豪华量产；ES GT / EX9 / EX8 / EX7 / MPV Concept 五车同台演绎同一美学在跨类别上的延展。",
+          "url": "https://finance.yahoo.com/technology/articles/rooted-perpetua-exeed-unveils-design-101400197.html",
+          "source": "EXEED / GlobeNewswire"
+        },
+        {
+          "category": "news-design",
+          "title": "IBM Research Palette：20B 小模型按自家设计语言出可编辑幻灯片",
+          "summary": "Hugging Face 博文详解：设计师写 JSON brief、coder 写 pptxgenjs，几何检查 harness 只在可验证改进时采纳修复。基于 IBM Design Language 合成数据微调，PresentBench 三域均值第二，逼近 NotebookLM。",
+          "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+          "source": "Hugging Face / IBM Research"
+        },
+        {
+          "category": "news-design",
+          "title": "国行 Apple 智能开测：Siri / 写作工具 / 视觉智能可选手动接千问",
+          "summary": "11/4 起随 iOS 开发者 Beta 开放；用户可自主决定是否开通千问扩展，请求与回复不用于训练。正式版预计 12 月随 iOS 27.3 推出——系统级入口里的「设计写作与视觉理解」能力值得跟一眼。",
+          "url": "https://www.ithome.com/1/020/395.htm",
+          "source": "IT之家 / 阿里巴巴"
+        },
+        {
+          "category": "news-politics",
+          "title": "美中期选举：AI 与数据中心成关键投票议题，加速派遇挫",
+          "summary": "TIME 报道 NBC 出口民调：56% 选民称 AI/数据中心是「关键或重大因素」。多地通过数据中心禁令或暂缓；民主党在多州以「反数据中心」广告拿下关键席位。联邦全面立法仍难，但州级监管与听证压力料将上升。",
+          "url": "https://time.com/article/2026/11/04/midterm-elections-results-ai-industry-data-centers/",
+          "source": "TIME"
+        },
+        {
+          "category": "news-politics",
+          "title": "第九届进博会今日开幕：4142 家境外企业、首发首秀展品超 480 件",
+          "summary": "主题「新时代，共享未来」。162 个国家/地区与国际组织参与，世界 500 强与龙头超 300 家；展览总面积再创新高。美国企业参展面积连续八届第一，全球首发/亚洲首展/中国首秀代表性展品超 480 件。",
+          "url": "https://www.cnfin.com/yw-lb/detail/20261105/4491213_1.html",
+          "source": "新华财经 / 上海证券报"
+        },
+        {
+          "category": "news-politics",
+          "title": "进博会首发「黑科技/硬科技」报告，并引入百套人形外骨骼服务办展",
+          "summary": "央视新闻：首次从万余件展品评出 10 项黑科技、15 项硬科技；首次构建「四叶草」一站式综合服务，引入 100 套人形外骨骼机器人。中欧医疗器械专场对接会等机制性安排同步落地。",
+          "url": "https://m.gmw.cn/2026-11/05/content_1304582853.htm",
+          "source": "央视新闻 / 光明网"
+        },
+        {
+          "category": "news-auto",
+          "title": "特斯拉 Robotaxi 突袭上线沃斯堡：得州第七城无安全员运营",
+          "summary": "11/2 中部时间早上 6 点起服务，电子围栏约 143 平方英里，基于 Model Y 改装车、全程无安全员。与奥斯汀/达拉斯/休斯顿等并列，成为近三月首个新开城市。",
+          "url": "https://finance.sina.com.cn/tech/digi/2026-11-03/doc-inixmxcu9881524.shtml",
+          "source": "IT之家"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设向：Palette——把「设计语言」训进小模型，用几何检查守底线",
+          "summary": "IBM Research 把品牌视觉规范落成可自托管的 20B 流水线：计划与排版分角色，broken slide 只在可验证改进时替换。对「AI 辅助设计如何既跟风格、又不糊成通用模板」很有参照。",
+          "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+          "source": "Hugging Face / IBM Research"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设向：EXEED Perpetua——同一设计哲学如何裂成运动/豪华两套造型",
+          "summary": "Future Luxury 用「液态水 / 极地冰」把运动张力与雕塑体量收成一套可跨 SUV/旅行车/MPV 的家族语言，适合对照「风格系统如何产品化」。",
+          "url": "https://finance.yahoo.com/technology/articles/rooted-perpetua-exeed-unveils-design-101400197.html",
+          "source": "EXEED"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设向：迪拜 Inherited Futures——材料、仪式与工艺如何转译成当代设计",
+          "summary": "30 位阿联酋创作者在设计周里重释本地材料与手作传统；Abwab 委任展则直接问「语言与文化知识怎样通过设计被传达」——和艺术风格解析/转译议题同频。",
+          "url": "https://mediaoffice.ae/en/news/2026/novemebr/04-11/latifa-bint-mohammed-inaugurates-12th-edition-of-dubai-design-week",
+          "source": "Dubai Media Office"
+        },
+        {
+          "category": "news-auto",
+          "title": "比亚迪辟谣：天神之眼 C「停产/换方案」均为不实信息",
+          "summary": "官方打假称网传「天神之眼 C 停产、B/C 将更换智驾方案」不实，强调坚持全栈自研、软件持续迭代，并对造谣行为固证追责。",
+          "url": "https://www.ithome.com/1/022/033.htm",
+          "source": "IT之家 / 比亚迪"
+        },
+        {
+          "category": "news-auto",
+          "title": "赛力斯：积极准备 L3 有条件自动驾驶申报，车型以官方为准",
+          "summary": "互动平台回应称 L3 需满足法规标准、产品准入、场景政策与合规验证等多环节，公司在积极准备，具体车型与申报信息以官方发布为准。",
+          "url": "https://finance.sina.com.cn/stock/t/2026-11-04/doc-inixqnsq9340032.shtml",
+          "source": "IT之家 / 赛力斯"
+        },
+        {
+          "category": "news-auto",
+          "title": "乘联分会：10 月乘用车零售约 169.3 万辆，同比降 25%",
+          "summary": "初步统计 10/1–31 全国乘用车零售 169.3 万辆，同比降 25%、环比增 5%；新能源零售 114.8 万辆，零售渗透率 67.8%。年内累计零售约 1502.7 万辆，同比降 22%。",
+          "url": "https://www.ithome.com/1/022/247.htm",
+          "source": "乘联分会 / IT之家"
+        },
+        {
+          "category": "oss",
+          "title": "vercel-labs/agent-desktop",
+          "summary": "给 Coding Agent 的本机 Computer Use CLI",
+          "url": "https://github.com/vercel-labs/agent-desktop",
+          "source": "GitHub Trending",
+          "meta": "+2470 / 24h · 总计 15464"
+        },
+        {
+          "category": "oss",
+          "title": "NVIDIA/auto-ontology",
+          "summary": "语义图谱推理层，强化 LLM/Agent 检索",
+          "url": "https://github.com/NVIDIA/auto-ontology",
+          "source": "GitHub Trending",
+          "meta": "+2050 / 24h · 总计 5453"
+        },
+        {
+          "category": "oss",
+          "title": "JiaFeiMiao-K-Cat/DiscImageStudio",
+          "summary": "光盘盘面可见图案生成与刻录工具",
+          "url": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+          "source": "GitHub Trending",
+          "meta": "+1778 / 24h · 总计 6736"
+        },
+        {
+          "category": "oss",
+          "title": "thedotmack/claude-mem",
+          "summary": "Agent 跨会话持久记忆与上下文回注",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "source": "GitHub Trending",
+          "meta": "+1172 / 24h · 总计 112992"
+        },
+        {
+          "category": "oss",
+          "title": "github/spec-kit",
+          "summary": "Spec-Driven Development 起步工具包",
+          "url": "https://github.com/github/spec-kit",
+          "source": "GitHub Trending",
+          "meta": "+808 / 24h · 总计 147411"
+        },
+        {
+          "category": "oss",
+          "title": "FareedKhan-dev/kimi-k3-in-c",
+          "summary": "纯 C99 单机跑 Kimi K3 推理",
+          "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+          "source": "GitHub Trending",
+          "meta": "+351 / 24h · 总计 10412"
+        },
+        {
+          "category": "oss",
+          "title": "garrytan/gstack",
+          "summary": "Garry Tan 的 Claude Code 全套 Skills",
+          "url": "https://github.com/garrytan/gstack",
+          "source": "GitHub Trending",
+          "meta": "+290 / 24h · 总计 139423"
+        },
+        {
+          "category": "oss",
+          "title": "The-PR-Agent/pr-agent",
+          "summary": "开源 PR 自动评审 Agent",
+          "url": "https://github.com/The-PR-Agent/pr-agent",
+          "source": "GitHub Trending",
+          "meta": "+280 / 24h · 总计 14850"
+        },
+        {
+          "category": "oss",
+          "title": "scenario-labs/skills",
+          "summary": "Agent 出图/视频/3D 的生产级 Skills",
+          "url": "https://github.com/scenario-labs/skills",
+          "source": "GitHub Trending",
+          "meta": "+224 / 24h · 总计 2539"
+        },
+        {
+          "category": "news-tech",
+          "title": "中国安审叫停软银收购 ABB 机器人中国业务",
+          "summary": "ABB 确认：中国外商投资安全审查工作机制办公室禁止软银收购 ABB Robotics 在华业务；整笔交易作价约 53.75 亿美元。软银东京收跌约 7%，双方称仍在协商。物理 AI / 机器人数据出境成卡点。",
+          "url": "https://new.abb.com/news/detail/140154/update-on-divestment-of-abb-robotics",
+          "source": "ABB",
+          "tag": "突发"
+        },
+        {
+          "category": "news-tech",
+          "title": "美光据报暂停桃园约45亿美元存储厂建设（劳资纠纷）",
+          "summary": "Bloomberg：美光几乎停建桃园 Fab 11E（预算约30–45亿美元，含 ASML 设备，原定2028年量产 HBM/DRAM）；起因桃园工会利润分成与奖金争议及10/22半导体业首起预警性罢工。既有台湾产能仍正常运转，台湾约占其 DRAM 产出约六成。",
+          "url": "https://www.reuters.com/world/asia-pacific/micron-pauses-work-45-billion-taiwan-plant-bloomberg-news-reports-2026-11-05/",
+          "source": "Bloomberg / Reuters",
+          "tag": "供应链/存储"
+        }
+      ],
+      "weather": "重庆沙坪坝：今天阴，夜间转小雨，约20℃/17℃，东北风1-3级。",
+      "cards": [
+        "assets/github-daily-ranking-2026-11-05.png"
+      ]
+    },
+    {
       "date": "2026-11-04",
       "entries": [
         {
