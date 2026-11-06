@@ -42,6 +42,262 @@
   ],
   "days": [
     {
+      "date": "2026-11-06",
+      "entries": [
+        {
+          "category": "tibo",
+          "title": "Tibo：最新 cyber 专用模型上线，经 Daybreak Red 可用",
+          "summary": "Tibo 转发 OpenAI 官宣：最新网络安全专用模型已出，多项 cyber 场景领先，经 Daybreak Red 开放；即 GPT-6 Cyber。",
+          "url": "https://x.com/thsottiaux/status/2118402103907655903",
+          "source": "Tibo / X"
+        },
+        {
+          "category": "news-tech",
+          "title": "OpenAI 正式发布 GPT-6 Cyber：网络安全能力标为 Critical，经 Daybreak Red 开放",
+          "summary": "ExploitGym 48.5%（较 5.6 Cyber +16pt），越界率降至约 1% 以下；驱动早报已报的 948 个 Linux 提权与 Firefox 81 个高危洞发现。先向部分 Daybreak Red 客户开放 API/Codex。",
+          "url": "https://openai.com/index/introducing-gpt-6-cyber/",
+          "source": "OpenAI"
+        },
+        {
+          "category": "workflow",
+          "title": "terminal-mac：给 coding agent 一台独立虚拟 Mac，自己桌面不动",
+          "summary": "别人怎么在用：在终端里跑整台 macOS 访客机，经 MCP/CLI/skill 点按截图；宿主机指针和剪贴板不被动，适合让 Claude Code / Codex 乱点而不砸你本机。",
+          "url": "https://github.com/govijr/terminal-mac",
+          "source": "GitHub · ~2.0k★ / X @kirtandopamine",
+          "meta": "~2.0k★",
+          "tag": "Computer Use"
+        },
+        {
+          "category": "workflow",
+          "title": "HyperFrames /reverse-any-video：任意成片 → 可编辑 HTML 动画工程",
+          "summary": "别人怎么在用：npx 更新 skill 后丢视频给 Claude Code/Codex，按原片逐镜重建成 HyperFrames 代码；有人拿 OpenAI 品牌片一键复刻 13 镜做模板。",
+          "url": "https://x.com/WaterrrMiao/status/2118064243803340823",
+          "source": "X @WaterrrMiao / heygen-com/hyperframes",
+          "meta": "HyperFrames ~80k★",
+          "tag": "视频 skill"
+        },
+        {
+          "category": "workflow",
+          "title": "SeeCode：一句话让 agent 出可交互、可导出的动效架构图",
+          "summary": "别人怎么在用：装 skill 后说「画结账链路」，得到可悬停/点击的 HTML 图，再改成深色或导出 SVG/GIF/MP4 进幻灯片；覆盖架构、时序、ER 等约 45 种图。",
+          "url": "https://github.com/Aryanutkarsh/SeeCode",
+          "source": "GitHub · ~887★",
+          "meta": "~887★",
+          "tag": "设计可视化"
+        },
+        {
+          "category": "news-tech",
+          "title": "OpenAI 发社区契约：自有算力园区不与公职人员签 NDA，电费自付",
+          "summary": "中期选举后发布 National Community Compact：自有自营 compute campus 将付清用电与配套基建、公开用水/噪音/招聘，并不再要求公职人员签保密协议（仅保留窄幅商业秘密保护）；另提政策蓝图催促各州立法。",
+          "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure/",
+          "source": "OpenAI"
+        },
+        {
+          "category": "news-tech",
+          "title": "Claude 上线 Personal Finance：经 Plaid 只读连银行，美国 Pro/Max/Ultra 开测",
+          "summary": "可自然语言查余额、消费分类、重复扣款与账单日历；只读、不转账不荐金融产品，专区对话不用于训练。约半年前 ChatGPT 同类能力后，Anthropic 跟进。",
+          "url": "https://claude.com/resources/articles/introducing-personal-finance-in-claude",
+          "source": "Anthropic / Claude"
+        },
+        {
+          "category": "news-tech",
+          "title": "Gemini Omni 1.2 Flash 正式可用：原生 15 秒视频 + 多轮对话剪辑",
+          "summary": "较 1.1 更稳参考图一致性，支持 3–15 秒按秒指定时长；720p 降至约 $0.07/秒（降价约 30%）。Gemini API 与 Google Cloud 全面开放，Flow / Vids / Ads 陆续接入。",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+          "source": "Google Blog"
+        },
+        {
+          "category": "news-tech",
+          "title": "谷歌怀俄明首个数据中心：170 亿美元，配套 702MW 燃料电池+碳捕集",
+          "summary": "拉勒米县项目与 Tallgrass、AEP、Bloom Energy 等合作；谷歌承诺自付全部用电与直接基建，采用空气冷却省水，并设社区理事会。",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/wyoming-data-center/",
+          "source": "Google Blog"
+        },
+        {
+          "category": "news-tech",
+          "title": "英伟达：全栈内存协同设计，Agent 每美元吞吐最高提约 30 倍",
+          "summary": "SemiAnalysis AgentX（DeepSeek V4 Pro）上，Vera Rubin NVL72 相对 GB300 每美元吞吐最高约 30×，而单卡 HBM 仅增约 3%。靠 NVFP4、KV 卸载到 CPU/CMX、Dynamo 复用等把「贵字节」用满。",
+          "url": "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
+          "source": "NVIDIA Blog"
+        },
+        {
+          "category": "news-design",
+          "title": "Designart Tokyo 十周年：Dezeen 点名六件展品，从易拆解胶带到天妇罗器物",
+          "summary": "10/30–11/8 全城约 150 个项目。Nomura「Pulling Apart」强韧可撕胶带服务拆解回收；Howdunit 手风琴灯 Peco Poco；Cecil Nabenashi 用「天妇罗」技法炸纸成花器；还有 Yamaha 用淘汰木材做的走音钢琴。",
+          "url": "https://www.dezeen.com/2026/11/05/designart-tokyo-2026-highlights/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "news-design",
+          "title": "Alter 青年设计展回归东京：无主人茶席，AI 把全球环境数据吹成茶具",
+          "summary": "随 Designart 在日本桥展出，75 组年轻创作者。Tariki Research Institute 用传感器数据经算法生成有机形，吹塑成独一无二茶具；另有日本柳杉全料凳、和纸毛细实验等。",
+          "url": "https://www.dezeen.com/2026/11/04/alter-design-exhibition-tokyo/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "news-design",
+          "title": "Dieter Rams 官方巡回展日本首办：11/17 起登陆多摩美 Sala Blu",
+          "summary": "副题「Less, but Better」。展出 Braun 名作、草图、图纸与原型，深澤直人任综合监修；学生免费，11/29、12/5 有公开对谈。研二产品设计可当「减到更好」现场课。",
+          "url": "https://www.tamabi.ac.jp/news/128700/",
+          "source": "多摩美術大学"
+        },
+        {
+          "category": "news-design",
+          "title": "杭州 ADM 启幕：杭氧老厂房里「见识」乡土非遗与未来科技",
+          "summary": "11/5–8 武林之星，主题 IN SIGHT。7 省区村落手作、非遗展演与 AI/外骨骼/AR 体验同场，夜间鱼灯巡游与市集——工业遗存×生活设计的城市更新样本。",
+          "url": "https://ori.hangzhou.com.cn/ornews/content/2026-11/05/content_9367551.htm",
+          "source": "杭州网"
+        },
+        {
+          "category": "news-politics",
+          "title": "美股 AI 抛售：纳指跌 5.5% 进回调，费城半导体单日 -12%",
+          "summary": "中期选举后市场押注数据中心审批趋严：英伟达约 -9%，AMD/美光约 -17%。华尔街把「政治风险溢价」写进 AI 基建估值。",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-06/10726992.shtml",
+          "source": "中国新闻社"
+        },
+        {
+          "category": "news-politics",
+          "title": "美国 OCC 首发银行「超级智能」审查框架：不单列 AI 风险偏好",
+          "summary": "Bulletin 面向联邦银行检查员，评估银行使用 SI/agentic SI 的风险与控制；强调技术中立，不要求单独 AI 风险胃口，高自主交易场景仍需更强人工监督。",
+          "url": "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-97.html",
+          "source": "OCC"
+        },
+        {
+          "category": "news-politics",
+          "title": "外交部回应美中期选举后中美关系：选举属美内政，愿加强沟通妥处分歧",
+          "summary": "发言人郭嘉昆重申愿同美方落实元首共识，构建基于尊重、公平、对等的建设性战略稳定关系——选举结果落地后的官方定调。",
+          "url": "https://www.yicai.com/news/103427527.html",
+          "source": "第一财经 / 外交部"
+        },
+        {
+          "category": "news-auto",
+          "title": "比亚迪×vivo 升至战略合作：手车互联走向「互融」，年底覆盖更多车型",
+          "summary": "深圳签约。已有语音融合、NFC 碰一碰、镜像模式等，服务车辆近 500 万台；下一步探索 AI 跨端与 A2A，并携手机 Agent 赋能车机、拓展海外。",
+          "url": "https://www.news.cn/tech/20261105/f9ced2116ec94fb68ee3daefb365c641/c.html",
+          "source": "新华网"
+        },
+        {
+          "category": "news-auto",
+          "title": "上汽拟与 Momenta、延电设 3 亿智驾合资公司：算法方持股 51%",
+          "summary": "Momenta 1.53 亿占控，上汽 25%、延电（延锋系）24%。少见的「供应商控股」结构，意在把高阶智驾与座舱域控拉进同一组织。",
+          "url": "https://www.eet-china.com/mp/a537213.html",
+          "source": "电子工程专辑 / 赛博汽车"
+        },
+        {
+          "category": "news-auto",
+          "title": "日本拟 12 月起统一认证无方向盘 L4/L5：为 Robotaxi 量产松绑",
+          "summary": "国交省拟改保安基准，方向盘/踏板/后视镜等可不强制；载客车仍须假人碰撞试验。目标 2030 财年至少 1 万辆 L4 公交/出租上路。",
+          "url": "https://auto.gasgoo.com/news/202611/5I70477034C101.shtml",
+          "source": "盖世汽车"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设向：Alter「无主人茶席」——环境数据经 AI 吹塑成茶具",
+          "summary": "传感器采集全球多点环境数据，算法转成有机形再吹塑成独一无二器物，访客自取饮用。艺术风格转译 + 生成式形态 + 礼仪场景重设，很贴「设计智能体/风格转译」题。",
+          "url": "https://www.dezeen.com/2026/11/04/alter-design-exhibition-tokyo/",
+          "source": "Dezeen / Alter"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设向：Nomura「Pulling Apart」——为拆解与回收设计的强韧胶带",
+          "summary": "Designart「Separation: Designed to Come Apart」单元：粘得牢、一扯即离，减少木材/金属因胶合无法回收。CMF 与可持续产品设计的可拆解接合样本。",
+          "url": "https://www.dezeen.com/2026/11/05/designart-tokyo-2026-highlights/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设向：Dieter Rams「Less, but Better」日本首展，产品设计思想原典",
+          "summary": "名作+草图+原型同台，深澤直人监修。对研二产品设计：减量美学、功能美与可持续原则可直接对标作业与毕设方法论。",
+          "url": "https://www.tamabi.ac.jp/news/128700/",
+          "source": "多摩美術大学"
+        },
+        {
+          "category": "oss",
+          "title": "pbakaus/impeccable",
+          "summary": "给 coding agent 的设计语汇与审稿 Skills",
+          "url": "https://github.com/pbakaus/impeccable",
+          "meta": "+1.3k / 24h · 总计 104.1k",
+          "source": "来源：当日日榜图卡"
+        },
+        {
+          "category": "oss",
+          "title": "harry0703/MoneyPrinterTurbo",
+          "summary": "主题/关键词一键生成高清短视频",
+          "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+          "meta": "+974 / 24h · 总计 139.9k",
+          "source": "来源：当日日榜图卡"
+        },
+        {
+          "category": "oss",
+          "title": "Usagi-org/ai-goofish-monitor",
+          "summary": "Playwright + AI 闲鱼多任务监控",
+          "url": "https://github.com/Usagi-org/ai-goofish-monitor",
+          "meta": "+240 / 24h · 总计 17.8k",
+          "source": "来源：当日日榜图卡"
+        },
+        {
+          "category": "oss",
+          "title": "microsoft/VibeVoice",
+          "summary": "微软开源前沿语音 AI",
+          "url": "https://github.com/microsoft/VibeVoice",
+          "meta": "+223 / 24h · 总计 56.1k",
+          "source": "来源：当日日榜图卡"
+        },
+        {
+          "category": "oss",
+          "title": "google/skills",
+          "summary": "Google 产品与云的 Agent Skills",
+          "url": "https://github.com/google/skills",
+          "meta": "+211 / 24h · 总计 22.4k",
+          "source": "来源：当日日榜图卡"
+        },
+        {
+          "category": "oss",
+          "title": "sandbox-quantum/switch",
+          "summary": "Slack/Teams 自托管 AI 队友",
+          "url": "https://github.com/sandbox-quantum/switch",
+          "meta": "+182 / 24h · 总计 4.0k",
+          "source": "来源：当日日榜图卡"
+        },
+        {
+          "category": "oss",
+          "title": "southleft/figma-console-mcp",
+          "summary": "把 Figma 设计系统当 API 交给 AI",
+          "url": "https://github.com/southleft/figma-console-mcp",
+          "meta": "+179 / 24h · 总计 3.1k",
+          "source": "来源：当日日榜图卡"
+        },
+        {
+          "category": "oss",
+          "title": "ConardLi/garden-skills",
+          "summary": "网页设计 / 检索 / 生图 Skills 合集",
+          "url": "https://github.com/ConardLi/garden-skills",
+          "meta": "+175 / 24h · 总计 14.2k",
+          "source": "来源：当日日榜图卡"
+        },
+        {
+          "category": "oss",
+          "title": "vercel-labs/agent-browser",
+          "summary": "给 AI agent 的浏览器自动化 CLI",
+          "url": "https://github.com/vercel-labs/agent-browser",
+          "meta": "+150 / 24h · 总计 46.0k",
+          "source": "来源：当日日榜图卡"
+        },
+        {
+          "category": "news-auto",
+          "title": "特斯拉得州厂约明年年中收尾 Cybertruck，给 Cybercab 腾产能",
+          "summary": "马斯克宣布 Gigafactory Texas 约 mid-2027 逐步停产 Cybertruck，腾出产线扩产无人驾驶出租车 Cybercab；工程负责人称皮卡技术将延续到 Cybercab。",
+          "url": "https://x.com/elonmusk/status/2118591788701421573",
+          "source": "Elon Musk / The Guardian",
+          "tag": "突发"
+        }
+      ],
+      "weather": "重庆沙坪坝：今天小雨，夜间仍小雨，约20℃/16℃，北风1-3级。",
+      "cards": [
+        "assets/github-daily-ranking-2026-11-06.png"
+      ]
+    },
+    {
       "date": "2026-11-05",
       "entries": [
         {
