@@ -43,6 +43,229 @@ window.NEWS_DATA = {
   ],
   "days": [
     {
+      "date": "2026-11-07",
+      "entries": [
+        {
+          "category": "news-tech",
+          "title": "Meta Muse 上线 Spaces：一句话生成个性化「迷你应用」空间",
+          "summary": "11月6日 Meta 正式推出 Spaces。用户用自然语言描述需求，Muse 即可在应用内生成礼品追踪、课表看板、旅行规划等可交互空间，并可接入邮箱、日历等应用后台自动刷新。",
+          "url": "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/",
+          "source": "Meta Newsroom"
+        },
+        {
+          "category": "news-tech",
+          "title": "谷歌云 Z4M 存储优化机型正式商用：最高约16.8万 GiB 本地 SSD",
+          "summary": "11月6日 Google Cloud 宣布存储优化型 Z4M 全面可用，最高约168,000 GiB 本地 SSD、400 Gbps RDMA，面向 AI 训练检查点、分布式 KV 缓存与 agentic AI 沙箱等场景。",
+          "url": "https://cloud.google.com/blog/products/compute/storage-optimized-z4m-machine-series-are-ga",
+          "source": "Google Cloud Blog"
+        },
+        {
+          "category": "news-tech",
+          "title": "英伟达开源 Cosmos 3 四款世界模型：驾驶多视角与双臂机器人仿真",
+          "summary": "NVIDIA 在 Hugging Face 发布 Cosmos 3 Nano 四款开源权重（Transfer-Auto / Sim-Auto / Sim-Transfer / Sim-Bimanual），约160亿可训练参数，用于交互式世界仿真与双臂机器人动作预测，OpenMDW1.1 许可。",
+          "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+          "source": "NVIDIA / Hugging Face"
+        },
+        {
+          "category": "news-tech",
+          "title": "工信部发文加强智能体终端进网管理：适配验证、身份码与 OTA 报备",
+          "summary": "11月6日公布《关于加强智能体终端设备进网管理的通知》：预置智能体的手机/平板/可穿戴须做适配验证与涉诈评估；智能体应配备唯一身份码；OTA 现网升级须先报方案、评估后方可正式提供服务。",
+          "url": "https://www.miit.gov.cn/jgsj/xgj/wjfb/art/2026/art_5066b9dffa93405a988e266ff12bf674.html",
+          "source": "工业和信息化部"
+        },
+        {
+          "category": "news-design",
+          "title": "第九届进博会创新设计论坛暨「匠心美学」联展在沪启幕",
+          "summary": "11月6日，「设计·让生活更美好」论坛与联展在上海举行；展出「意东方」意式家具对话、筇竹家居「以竹代塑」及周东申木刻特展等，强调设计走进生活。",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-06/10727548.shtml",
+          "source": "中国新闻网"
+        },
+        {
+          "category": "news-design",
+          "title": "悉尼 Powerhouse Parramatta 今日对公众开放：约9.15亿澳元新文化地标",
+          "summary": "11月7日西悉尼 Powerhouse Parramatta 正式开馆，展陈逾3000件展品、五大首展（含 Es Devlin《The Turning》等），被视为悉尼歌剧院以来当地最大文化基建。",
+          "url": "https://www.abc.net.au/news/2026-11-07/what-to-see-nsw-parramatta-powerhouse-officially-opens/107357170",
+          "source": "ABC News"
+        },
+        {
+          "category": "news-design",
+          "title": "iF 台北设计沙龙启幕「融·全球」2026 获奖作品展",
+          "summary": "11月6日至12月2日展出50件全球 iF DESIGN AWARD 2026 获奖作品，覆盖智慧科技、办公工具、家具照明、包装与传统工艺，为今年台湾系列宣传收官展。",
+          "url": "https://www.ifdesignasia.com/blog/posts/ifda2026-exhibition-vi",
+          "source": "iF Design Asia"
+        },
+        {
+          "category": "news-design",
+          "title": "汉堡 MK&G 展出 Hella Jongerius《Whispering Things》：400+ 件材料与工艺实验",
+          "summary": "维特拉设计博物馆策划的 Jongerius 回顾展于汉堡工艺美术馆展出至2027年6月，汇集家具、纺织、陶瓷与早期原型，聚焦色彩、材料与手工艺痕迹。",
+          "url": "https://www.mkg-hamburg.de/en/exhibitions/hella-jongerius-whispering-things",
+          "source": "MK&G Hamburg / Vitra Design Museum"
+        },
+        {
+          "category": "news-politics",
+          "title": "全国人大常委会通过《反跨境腐败法》，自公布之日起施行",
+          "summary": "11月6日十四届全国人大常委会第二十五次会议表决通过，国家主席令第八十九号公布施行。该法为境外追逃追赃与企业廉洁合规提供专门法律依据。",
+          "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7085371.htm",
+          "source": "中国政府网 / 新华社"
+        },
+        {
+          "category": "news-politics",
+          "title": "何立峰与美财长贝森特、贸易代表格里尔视频通话",
+          "summary": "北京时间11月6日晚，中美经贸中方牵头人何立峰与美方贝森特、格里尔视频通话，就落实元首会晤共识深入交流；中方就近期美对华经贸限制措施表达关切。",
+          "url": "https://www.news.cn/20261107/ca7b6c7ffd7b4130bd15f770f52234b5/c.html",
+          "source": "新华网"
+        },
+        {
+          "category": "news-politics",
+          "title": "哥白尼：2026年几乎确定升温超1.5℃，10月为有记录最热10月",
+          "summary": "欧盟哥白尼报告：2026年10月全球均温较工业化前高约1.75℃；统计预测全年升温超过1.5℃概率逾99%，将成为继2024年后第二个超标日历年。",
+          "url": "https://climate.copernicus.eu/copernicus-warmest-october-record-2026-virtually-certain-exceed-15degc",
+          "source": "Copernicus Climate Change Service"
+        },
+        {
+          "category": "news-politics",
+          "title": "网信部门严查AI假冒公众人物：清理4.7万余条、处置账号3961个",
+          "summary": "11月6日通报，针对AI仿冒名人虚假带货、编造谣言等问题集中整治，清理违法违规信息4.7万余条、处置账号3961个，并公布典型案例。",
+          "url": "https://www.chinanews.com.cn/sh/2026/11-06/10727188.shtml",
+          "source": "中国新闻网 / 网信中国"
+        },
+        {
+          "category": "news-auto",
+          "title": "比亚迪第二代海豹07上市：首搭云辇-M，置换价13.59万元起",
+          "summary": "海洋网第二代海豹07纯电/插混共5款，超级置换价13.59万—16.89万元；首搭云辇-M智能磁流变悬架，纯电CLTC续航775km，配备天神之眼B激光辅助驾驶。",
+          "url": "http://www.news.cn/auto/20261106/0be352b01f6341abb41bf1adc006b7b5/c.html",
+          "source": "新华网"
+        },
+        {
+          "category": "news-auto",
+          "title": "吉利星愿约两年破百万辆：官方称全球最快百万销量新能源车型",
+          "summary": "11月6日吉利银河用户大会宣布，星愿自2024年10月上市起约两年累计销量突破100万辆，10月全球销量突破7万辆。",
+          "url": "https://www.ithome.com/1/023/534.htm",
+          "source": "IT之家"
+        },
+        {
+          "category": "news-auto",
+          "title": "丰田上调2027财年营业利润预期至3.9万亿日元",
+          "summary": "11月5日公布上半年业绩：营收约26.96万亿日元（+9.5%），营业利润2.19万亿日元；全年营业利润预期由3.4万亿上调至3.9万亿日元，回购授权最高1.3万亿。",
+          "url": "https://auto.caijing.com.cn/2026/1105/5192018.shtml",
+          "source": "财经网汽车"
+        },
+        {
+          "category": "news-auto",
+          "title": "第二艘国产大型邮轮「爱达·花城号」在上海交付",
+          "summary": "11月6日在上海外高桥造船交付，总吨约14.19万吨、总长341米，标志国产大型邮轮进入系列化建造；计划11月22日自广州开启首航季。",
+          "url": "https://www.news.cn/20261106/d45d9824d6764036827572164822c372/c.html",
+          "source": "新华网"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设向：Meta Spaces——生成式界面与设计智能体产品化样本",
+          "summary": "用户用自然语言定制应用内空间并把第三方数据织入可交互界面，可作为 AI 辅助设计与智能体 UX 转译的一手案例。",
+          "url": "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/",
+          "source": "Meta Newsroom"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设向：Hella Jongerius 材料与色彩实验——CMF 与工艺张力",
+          "summary": "汉堡展系统呈现其三十年家具/纺织/陶瓷与原型，强调材料不规则痕迹与责任制造，适合产品设计与 CMF、风格转译对照。",
+          "url": "https://www.mkg-hamburg.de/en/exhibitions/hella-jongerius-whispering-things",
+          "source": "MK&G Hamburg"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设向：进博会联展——意式—东方家具对话与筇竹「以竹代塑」",
+          "summary": "「意东方」与筇竹家居并置跨文化形意与非遗竹材替代，可作风格转译与可持续 CMF 现场素材。",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-06/10727548.shtml",
+          "source": "中国新闻网"
+        },
+        {
+          "category": "oss",
+          "title": "morluto/rea",
+          "summary": "Agent 逆向：从应用行为一路挖到二进制",
+          "url": "https://github.com/morluto/rea",
+          "source": "GitHub Trending",
+          "meta": "+3.7k / 24h · 总计 438k",
+          "tag": "oss-daily"
+        },
+        {
+          "category": "oss",
+          "title": "storytold/craft-anything",
+          "summary": "AI 拆解任意软件/站点并生成可编译复刻",
+          "url": "https://github.com/storytold/craft-anything",
+          "source": "GitHub Trending",
+          "meta": "+2.9k / 24h · 总计 18.4k",
+          "tag": "oss-daily"
+        },
+        {
+          "category": "oss",
+          "title": "cloudflare/security-audit-skill",
+          "summary": "编码 Agent 多阶段安全审计技能包",
+          "url": "https://github.com/cloudflare/security-audit-skill",
+          "source": "GitHub Trending",
+          "meta": "+2.5k / 24h · 总计 64.3k",
+          "tag": "oss-daily"
+        },
+        {
+          "category": "oss",
+          "title": "mattpocock/skills",
+          "summary": "实战工程师向 Agent Skills 合集",
+          "url": "https://github.com/mattpocock/skills",
+          "source": "GitHub Trending",
+          "meta": "+2.1k / 24h · 总计 316k",
+          "tag": "oss-daily"
+        },
+        {
+          "category": "oss",
+          "title": "Ebony-Vinyl/dsh-our-free-model",
+          "summary": "dsh 插件：免 Key 免费畅用前沿模型",
+          "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+          "source": "GitHub Trending",
+          "meta": "+1.7k / 24h · 总计 64.2k",
+          "tag": "oss-daily"
+        },
+        {
+          "category": "oss",
+          "title": "D4Vinci/Scrapling",
+          "summary": "抗反爬的全能网页抓取框架",
+          "url": "https://github.com/D4Vinci/Scrapling",
+          "source": "GitHub Trending",
+          "meta": "+1.3k / 24h · 总计 98.9k",
+          "tag": "oss-daily"
+        },
+        {
+          "category": "oss",
+          "title": "deepseek-ai/deepseek-harness",
+          "summary": "万物皆插件的 DeepSeek Agent 运行时",
+          "url": "https://github.com/deepseek-ai/deepseek-harness",
+          "source": "GitHub Trending",
+          "meta": "+1.2k / 24h · 总计 275k",
+          "tag": "oss-daily"
+        },
+        {
+          "category": "oss",
+          "title": "heydamir/unslop",
+          "summary": "把 AI 味 UI 改成正经设计的 Claude 技能",
+          "url": "https://github.com/heydamir/unslop",
+          "source": "GitHub Trending",
+          "meta": "+1.2k / 24h · 总计 10.8k",
+          "tag": "oss-daily"
+        },
+        {
+          "category": "oss",
+          "title": "stablyai/orca",
+          "summary": "用自有订阅编排一队编码 Agent",
+          "url": "https://github.com/stablyai/orca",
+          "source": "GitHub Trending",
+          "meta": "+1.2k / 24h · 总计 117k",
+          "tag": "oss-daily"
+        }
+      ],
+      "weather": "重庆沙坪坝：今天小雨，夜间仍小雨，约18℃/16℃，东北风1-3级。",
+      "cards": [
+        "assets/github-daily-ranking-2026-11-07.png"
+      ]
+    },
+    {
       "date": "2026-11-06",
       "entries": [
         {
