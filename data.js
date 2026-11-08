@@ -43,6 +43,227 @@ window.NEWS_DATA = {
   ],
   "days": [
     {
+      "date": "2026-11-08",
+      "entries": [
+        {
+          "category": "tibo",
+          "title": "Tibo：Pro 套餐与 Business 100 用量已翻倍",
+          "summary": "有用户问，Tibo 不再每日重置后 Codex 额度是否更耐用。Tibo 回复「We doubled the usage on Pro plans and Business 100」。",
+          "url": "https://x.com/thsottiaux/status/2119232059537514598",
+          "source": "X @thsottiaux",
+          "tag": "额度"
+        },
+        {
+          "category": "news-tech",
+          "title": "AWS 把 Claude Code 接到 Bedrock AgentCore：远程沙箱跑完只交 PR",
+          "summary": "11月6日 AWS 官方博客介绍，可把本机 Claude Code 任务交到账户内的 AgentCore 远程会话：每项任务独占 microVM，用 Bedrock 调用模型，经 Guardrails 筛提示词后只提交 GitHub 拉取请求、从不自动合并。配套开源样例 sample-remote-coding-agent。",
+          "url": "https://aws.amazon.com/blogs/machine-learning/extend-claude-code-to-remote-sessions-on-amazon-bedrock-agentcore-with-security-controls/",
+          "source": "Amazon Web Services"
+        },
+        {
+          "category": "news-tech",
+          "title": "OpenCode 上线 Browse：智能体可驱动你已登录的真实浏览器",
+          "summary": "OpenCode 发布 Browse（MCP 服务 + Chromium 扩展），让编程智能体用 Playwright 操作你正在用的浏览器标签、登录态和扩展；登录、二次验证和支付等步骤会交还用户确认。兼容 Chrome/Edge/Brave 等，也可接 Claude Code、Cursor、Codex、Zed。",
+          "url": "https://opencode.ai/product/browse",
+          "source": "OpenCode"
+        },
+        {
+          "category": "news-tech",
+          "title": "美国法官允许 Claude Max「5倍/20倍用量」诉讼核心指控继续",
+          "summary": "加州联邦治安法官 Alex Tse 11月6日裁定，Anthropic 宣传 Max 比 Pro「多5倍或20倍用量」可能被合理理解为按月计算；原告称按周额度 Max 20x 仅约6倍、Max 5x 约3.5倍。过失虚假陈述与违约主张获准继续，部分禁令请求被驳回。",
+          "url": "https://www.courthousenews.com/anthropic-must-face-claims-its-claude-max-pitch-misled-users/",
+          "source": "Courthouse News Service"
+        },
+        {
+          "category": "news-tech",
+          "title": "英伟达预览自有 Kubernetes 引擎 NVKE：给 GPU 机房提供托管集群",
+          "summary": "heise 11月7日报道，NVIDIA Kubernetes Engine（NVKE）已以预览版推出：中心管理集群可在裸金属 GPU 服务器上按需创建相互隔离的 Kubernetes 工作负载集群。代码 Apache 2.0 许可，官方明确暂不建议用于生产。",
+          "url": "https://www.heise.de/en/news/NVKE-Nvidia-previews-its-own-Kubernetes-engine-11516165.html",
+          "source": "heise online"
+        },
+        {
+          "category": "news-design",
+          "title": "维也纳 BLICKFANG 开幕：菌丝家具与3D打印「编织」同获材料创新奖",
+          "summary": "独立设计展11月6日在维也纳应用艺术博物馆（MAK）开幕，约160个品牌来自15个以上国家，展期至11月8日。Future Forward 奖授予柏林 RUND（菌丝混合麻渣模生长成家具与吸音板）和华沙 WONTEK（把3D打印层线当作当代织造，转译波兰传统纺织纹样）。",
+          "url": "https://www.fashion.at/collections/2026/blickfang-vienna-material-innovation-independent-design7-11-2026.htm",
+          "source": "Fashion.at"
+        },
+        {
+          "category": "news-design",
+          "title": "罗马开展「设计的化学」：从聚合物到生物制造，用材料史重读意大利设计",
+          "summary": "意大利企业与制造部（MIMIT）11月6日在皮亚琴蒂尼宫揭幕 Federchimica 与 ADI 设计博物馆合作的展览，分「生成／增强／再生／再思」四段，对照金圆规藏品与 ADI Design Index，讨论聚合物、复合材料、生物制造与再生 PET。展至11月28日。",
+          "url": "https://www.mimit.gov.it/it/notizie-stampa/mimit-inaugurata-mostra-la-chimica-del-design-progettare-la-materia",
+          "source": "意大利企业与制造部（MIMIT）"
+        },
+        {
+          "category": "news-design",
+          "title": "萤火虫 Aster OS 获2026红点奖：多感官智能座舱少看屏幕也能调温",
+          "summary": "蔚来子品牌萤火虫11月6日在柏林音乐厅领取红点奖「品牌与传播设计」之界面与用户体验设计奖。Aster OS 用视觉、声音和触觉反馈组合交互，双指滑动即可调温度和风量并带动效与氛围灯；播放音乐时会提取封面色彩与频谱，与车内灯光同步。",
+          "url": "https://cnevpost.com/2026/11/07/nio-firefly-red-dot-award-smart-cockpit/",
+          "source": "CnEVPost"
+        },
+        {
+          "category": "news-design",
+          "title": "BIG《MATERIALISM》首尔开展：十种材料、约110件模型可触摸可坐",
+          "summary": "比雅克·英格尔斯事务所在韩国的首场专题展11月7日起在首尔都市建筑展示馆对公众开放，至2027年2月28日。展览以石、土、混凝土、金属、玻璃、木、织物、塑料、植物和再生材料十条线索展开，约110件模型配以可用这些材料做成的座椅供人体验。",
+          "url": "https://biz.heraldcorp.com/article/10929010",
+          "source": "The Herald Business"
+        },
+        {
+          "category": "news-politics",
+          "title": "商务部回应美制裁两家中国企业：坚决反对，敦促纠正并保留反制权利",
+          "summary": "商务部11月7日答问：美东时间11月5日美国务院宣布制裁两家中国企业（有报道称系首次以涉古巴为由）。中方指美方以涉及第三方为由实施单边制裁，违反国际法，且近期升级对华限制、背离元首共识，敦促美方尽快纠正错误做法。",
+          "url": "https://www.mofcom.gov.cn/xwfb/xwfyrth/art/2026/art_0a686e2464da49a58a076d9eab42187f.html",
+          "source": "商务部"
+        },
+        {
+          "category": "news-politics",
+          "title": "欧盟初步认定 TikTok「为你推荐」形成有害「兔子洞」，或违《数字服务法》",
+          "summary": "欧委会11月6日公布初步结论：For You 会按互动持续推送悲伤、孤独或身材焦虑等内容，可能损害未成年人和脆弱用户心理健康。TikTok 可申辩；若最终认定违规，最高可罚全球年营收的6%。TikTok 回应称结论存在「根本性失实」。",
+          "url": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-tiktoks-you-feed-breach-digital-services-act-harmful-rabbit-holes",
+          "source": "欧盟委员会"
+        },
+        {
+          "category": "news-politics",
+          "title": "以色列总统授权反对党领袖埃森科特组阁，内塔尼亚胡未能优先获命",
+          "summary": "总统赫佐格在选举后与各党磋商，决定由中间派亚沙尔党领袖、前总参谋长加迪·埃森科特组阁，法定期限28天、可再延长14天。内塔尼亚胡所在右翼联盟获53席，埃森科特阵营48席，阿拉伯政党联盟共19席或成关键变量。",
+          "url": "https://www.bbc.com/news/articles/cmy8367lj5xlo",
+          "source": "BBC"
+        },
+        {
+          "category": "news-politics",
+          "title": "中国空间站将迎首位外籍航天员：巴基斯坦载荷专家参加神舟二十四号",
+          "summary": "中国载人航天工程网11月7日发布：神舟二十四号将有1名巴基斯坦航天员以载荷专家身份参加，完成短期在轨后随神舟二十三号返回。这是中国载人航天首次中外航天员联合飞行；2名预备航天员已完成选拔，其中1人执行、1人备份。",
+          "url": "https://www.cmse.gov.cn/xwzx/202611/t20261106_57848.html",
+          "source": "中国载人航天工程网"
+        },
+        {
+          "category": "news-auto",
+          "title": "仰望鼎曜阿布扎比全球首发：5.6米行政旗舰，山河鼎韵限量版开订",
+          "summary": "11月7日仰望首次在海外举行全球发布会，于阿联酋阿布扎比推出超豪华行政旗舰轿车鼎曜（YANGWANG ALTIOR）。车身5600×2030×1590mm、轴距3500mm，礼宾级中轴对开门；同步推出行政版与山河鼎韵限量版，限量版现已开启预定。新车搭载易四方、新一代云辇和天神之眼，首搭比亚迪自研璇玑A3智驾芯片，第二代刀片电池加闪充，CLTC续航超1000km。",
+          "url": "https://auto.sina.com.cn/newcar/2026-11-08/detail-inixxutq4396893.shtml",
+          "source": "新浪汽车"
+        },
+        {
+          "category": "news-auto",
+          "title": "全新红旗H9开启预售：全系华为乾崑 ADS 5，32.98万–41.98万元",
+          "summary": "11月7日起预售共4款，全系标配鸿蒙座舱、华为乾崑 ADS 5高阶版和896线双光路图像级激光雷达。车身5230/1955/1515mm、轴距3120mm；搭载2.0T混动与40.4度电池，四驱综合功率444千瓦，申报纯电续航205/216公里。",
+          "url": "https://www.ithome.com/1/023/796.htm",
+          "source": "IT之家"
+        },
+        {
+          "category": "news-auto",
+          "title": "理想OTA 9.2开推：智驾升至马赫 VLA 2.5，并上线出行与氛围 Agent",
+          "summary": "11月6日起向 L9/L8/L6、MEGA、i9 及2026款 i6 推送。3D ViT 感知模型上车后端前向感知约300米，窄路倒车礼让、施工绕行和动物避让等场景增强；座舱新增多协议手车互联，以及地图出行 Agent、氛围空间 Agent 和智能油电2.0。",
+          "url": "https://m.autohome.com.cn/news/202611/1318205.html",
+          "source": "汽车之家"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设向：小米汽车×川美「民艺新生」CMF成果11月11日虎溪发布",
+          "summary": "发布会定于11月11日14:00在四川美术学院虎溪校区举行。项目全称「民艺新生：在地美学与汽车CMF的当代融合」，今年3月22日启动，以CMF微专业共建、面向全校招生，由小米汽车设计团队与川美教师共同授课辅导；每组完成完整CMF设计方案，优胜方案将获得实物模型制作支持。",
+          "url": "https://www.ithome.com/1/023/649.htm",
+          "source": "IT之家"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设向：仰望鼎曜——青铜礼器、甲骨文与苏绣如何转译成超豪华汽车CMF",
+          "summary": "鼎曜以「大器鼎成」为理念，把鼎的形制、137颗宝石格栅和24K真金甲骨文车标写入前脸；山河鼎韵限量版用苏州刺绣劈丝技法呈现专属云纹，并以匠人手工雕琢的和田玉作空调出风口。对产品设计而言，这是把礼器、文字与传统工艺转译为超豪华汽车 CMF 与仪式体验的完整样本。",
+          "url": "https://auto.sina.com.cn/newcar/2026-11-08/detail-inixxutq4396893.shtml",
+          "source": "新浪汽车"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设向：BLICKFANG Future Forward——让家具长出来，或把打印层当成织造",
+          "summary": "RUND 用菌丝与麻渣在模具中生长成座椅和吸音板，把生物生长写成制造工序；WONTEK 则不掩饰3D打印层线，把它当成当代编织，转译波兰传统纺织纹样。两者分别提供「材料生成」与「工艺语法转译」两条可对照的产品设计路径。",
+          "url": "https://www.fashion.at/collections/2026/blickfang-vienna-material-innovation-independent-design7-11-2026.htm",
+          "source": "Fashion.at"
+        },
+        {
+          "category": "oss",
+          "title": "milind-soni/OpenMausBot",
+          "summary": "开源 Grok Bot 替代：聊天里养一队带虚拟机的 Agent",
+          "url": "https://github.com/milind-soni/OpenMausBot",
+          "source": "GitHub Trending",
+          "meta": "+2.0k / 24h · 总计 17.2k"
+        },
+        {
+          "category": "oss",
+          "title": "anthropics/skills",
+          "summary": "Anthropic 官方 Agent Skills，含文档创作等技能包",
+          "url": "https://github.com/anthropics/skills",
+          "source": "GitHub Trending",
+          "meta": "+390 / 24h · 总计 188k"
+        },
+        {
+          "category": "oss",
+          "title": "jamiepine/voicebox",
+          "summary": "本地开源 AI 语音工作室：克隆音色、生成与听写",
+          "url": "https://github.com/jamiepine/voicebox",
+          "source": "GitHub Trending",
+          "meta": "+378 / 24h · 总计 60.0k"
+        },
+        {
+          "category": "oss",
+          "title": "ranxianglei/billion-context",
+          "summary": "上下文压缩插件，小窗口也能撑月级长会话",
+          "url": "https://github.com/ranxianglei/billion-context",
+          "source": "GitHub Trending",
+          "meta": "+191 / 24h · 总计 4.7k"
+        },
+        {
+          "category": "oss",
+          "title": "mbillow/localthings",
+          "summary": "无需云账号，局域网用 Home Assistant 控三星家电",
+          "url": "https://github.com/mbillow/localthings",
+          "source": "GitHub Trending",
+          "meta": "+186 / 24h · 总计 1.1k"
+        },
+        {
+          "category": "oss",
+          "title": "longbridge/gpui-kit",
+          "summary": "基于 GPUI 的 Rust 跨平台桌面 UI 组件库",
+          "url": "https://github.com/longbridge/gpui-kit",
+          "source": "GitHub Trending",
+          "meta": "+178 / 24h · 总计 19.9k"
+        },
+        {
+          "category": "oss",
+          "title": "dsx-ai-factory/nvke",
+          "summary": "NVIDIA 开源的裸金属 GPU Kubernetes 管理面",
+          "url": "https://github.com/dsx-ai-factory/nvke",
+          "source": "GitHub Trending",
+          "meta": "+123 / 24h · 总计 596"
+        },
+        {
+          "category": "oss",
+          "title": "meta/astryx",
+          "summary": "Meta 开源设计系统，可定制且面向人与 Agent 协作",
+          "url": "https://github.com/meta/astryx",
+          "source": "GitHub Trending",
+          "meta": "+96 / 24h · 总计 14.7k"
+        },
+        {
+          "category": "tibo",
+          "title": "Tibo 澄清：所有 Pro 无 5 小时限额，Pro 100/200/500 分别为 Plus 的 10/20/50 倍",
+          "summary": "Tibo 发帖消除误解：所有 Pro 套餐都没有 5 小时限额；相对 Plus，Pro 100 为 10 倍、Pro 200 为 20 倍、Pro 500 为 50 倍并提供 ultrafast。他随后追问是否该推出 Pro 50 档。",
+          "url": "https://x.com/thsottiaux/status/2119296267545419987",
+          "source": "X @thsottiaux"
+        },
+        {
+          "category": "news-tech",
+          "title": "《金融时报》：Anthropic 据报砸 34 亿美元接手 1.7GW 燃气发电机组订单",
+          "summary": "FT 今晚称，Anthropic 于 9 月下旬从得州 OnePWR Solutions 接手总功率 1.7GW 的卡特彼勒重型燃气发电机组订单（含安装工程能力），未收购该公司；部分机组近期可交付，其余约两年内到位。报道称这是已知 AI 实验室单笔最大的发电设备采购。",
+          "url": "https://www.ithome.com/1/023/989.htm",
+          "source": "IT之家 / 金融时报"
+        }
+      ],
+      "weather": "重庆沙坪坝：现在阴，气温约17℃，北风约4级；白天预报小雨，大约17℃/13℃。",
+      "cards": [
+        "assets/github-daily-ranking-2026-11-08.png"
+      ]
+    },
+    {
       "date": "2026-11-07",
       "entries": [
         {
