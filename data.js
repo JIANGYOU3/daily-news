@@ -43,6 +43,244 @@ window.NEWS_DATA = {
   ],
   "days": [
     {
+      "date": "2026-11-09",
+      "entries": [
+        {
+          "category": "workflow",
+          "title": "oil-ui：让 agent 先出多方向 UI，再对照真截图改",
+          "summary": "别人装进 Claude Code / Codex，用 explore → 并排对比 → 对照真实截图 refine，少一点「一眼 AI 味」的单稿。",
+          "url": "https://github.com/oil-oil/oil-ui",
+          "source": "GitHub",
+          "meta": "~2.9k★"
+        },
+        {
+          "category": "workflow",
+          "title": "teardown：一句话机器 → 可拆解的离线 3D 模拟页",
+          "summary": "别人用 Claude Code 问「四冲程发动机怎么工作」，直接出带仪表、可拆部件、还能录 60fps 导览的单页 HTML。",
+          "url": "https://github.com/elvarofficial/teardown",
+          "source": "GitHub",
+          "meta": "~2.7k★"
+        },
+        {
+          "category": "workflow",
+          "title": "unslop：教 agent 按流程把文案去 AI 味",
+          "summary": "别人在 Claude Code / Cursor / Codex 里跑 teach→cleanup→rewrite：先学你的语气，再标 AI 痕迹，最后按门禁改写。",
+          "url": "https://github.com/theclaymethod/unslop",
+          "source": "GitHub",
+          "meta": "~1.0k★"
+        },
+        {
+          "category": "news-tech",
+          "title": "英伟达董事会就黄仁勋据报成外国情报目标启动独立调查",
+          "summary": "英伟达董事会11月8日宣布，因近期报道称创始人兼CEO黄仁勋成为外国情报活动目标，将由独立董事委员会在外部独立律师协助下展开调查；董事会称目前没有理由认为国家安全或公司机密已被泄露，黄仁勋支持并配合调查。CNBC报道，黄仁勋当天向员工发邮件承认婚外情，并提及美媒称相关对象为英伟达客户Megaspeed高管Alice Huang、美国情报机构担心其向北京传递信息。",
+          "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
+          "source": "CNBC"
+        },
+        {
+          "category": "news-tech",
+          "title": "古尔曼：苹果CEO特努斯敦促加速Siri，目标做成可执行任务的Agent",
+          "summary": "The Verge援引彭博马克·古尔曼报道，苹果CEO约翰·特努斯正施压费德里吉加快Siri路线图，希望做出能与OpenAI的Dots、Meta的Muse竞争的AI智能体。报道称，Siri有望在iOS 27.3获得对自家App更精细的控制（如裁切照片、整理Safari标签），第三方App操作（如通过Grubhub下单、OpenTable订位）或于春季跟进；苹果还希望让Siri能持续推进目标、不必每一步都由用户发起，并可能最早于明年让Siri更接近Agent。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+          "source": "The Verge"
+        },
+        {
+          "category": "news-tech",
+          "title": "亚马逊再组家用机器人团队，瞄准“前所未有”的新产品",
+          "summary": "CNBC分析招聘信息称，亚马逊近几个月组建新的家用机器人团队，开发一款“new-to-world”机器人产品；一则现已撤下的工程师招聘写道“机器人即将走出电影、进入我们的家中”，并提到产品需在动态家庭环境中、与家庭成员并肩自主运行。公司今年3月收购Fauna Robotics（曾推出约3.5英尺高的人形机器人Sprout），并将其纳入Personal Robotics Group；发言人Brad Glasser称收购是为了破解个人机器人品类的关键挑战，但实验室能力与客厅等真实场景之间仍有明显差距。",
+          "url": "https://www.cnbc.com/2026/11/08/amazon-home-robot-fauna-sprout.html",
+          "source": "CNBC"
+        },
+        {
+          "category": "news-tech",
+          "title": "蚂蚁称AI助手灵光用户破2000万，2.0上线一周管理超116万项事务",
+          "summary": "蚂蚁集团11月8日宣布，旗下AI助手灵光用户已突破2000万；自10月27日灵光2.0上线以来，一周内已帮助用户管理超116万项事务、执行超360万次任务。2.0在用户授权后可结合已接入信息与服务主动识别潜在需求并跟进提醒，同时接入蚂蚁APASS，把身份认证、意图安全和隐私保护纳入Agent执行流程，授权密钥与Agent分离托管，用户可随时查看、调整或撤销授权。",
+          "url": "https://www.ithome.com/1/024/010.htm",
+          "source": "IT之家"
+        },
+        {
+          "category": "news-design",
+          "title": "多哈设计奖公布四名得主，关注工艺转译与废料再造",
+          "summary": "Design Doha于11月8日（周日）在伊斯兰艺术博物馆公布2026年设计奖四名得主，为本届双年展开幕三天日程收官；奖项从中东北非南亚及侨民超过550份申请中选出。工艺奖为巴林-丹麦组合Bahraini–Danish的Mesh!（以回收Cape柚木重新诠释巴林传统木工与编织，可作屏风或隔断）；产品设计奖为黎巴嫩Post Design Studio的PSI-01（用灯光显示家用电源来自光伏、发电机还是市电）；家具奖为Shaha Raphael的Low Tide；新锐奖为Yasamin Shaikhi的The Spoils: Lights From Waste（用熟米饭废料与枣核压成半透明发光表面）。四人共享80万卡塔尔里亚尔（约22万美元）资助，并获德国Vitra Campus两周指导及多哈Liwan一年工作室等支持。",
+          "url": "https://www.qatar-tribune.com/article/263310/nation/design-doha-announces-four-winners-for-2026-prize",
+          "source": "Qatar Tribune"
+        },
+        {
+          "category": "news-design",
+          "title": "普拉达基金会米兰展出“全球古代”，库哈斯操刀展陈",
+          "summary": "Designboom 11月8日报道，米兰普拉达基金会展览《Global Antiquity: Cultural Interactions in Afroeurasian Space 600 BCE–1000 CE》展出横跨四个大洲、十六个世纪的钱币、丝绸、石碑等文物，讨论古代贸易路线上的文化互动。展览由Salvatore Settis、Anna Anguissola与Chiara Ballestrazzi策展，展陈由雷姆·库哈斯与Giulio Margheri及AMO/OMA团队设计，展期为2026年11月5日至2027年3月1日。",
+          "url": "https://www.designboom.com/art/how-human-history-is-remembered-in-coins-silks-and-steles-at-fondazione-pradas-global-antiquity/",
+          "source": "Designboom"
+        },
+        {
+          "category": "news-design",
+          "title": "上海智慧出行设计谷“设计星所”启用，揭幕1500平方米CMF中心",
+          "summary": "中新网上海11月8日报道，11月6日上海智慧出行设计谷“设计星所”举行启用仪式。该空间定位为设计驱动、产业需求牵引的开放式孵化器，已布局CMF创新中心、典藏模型创新中心、未来出行应用研究院、设计谷新物种创业中心、智慧出行消费数据创新中心五大板块。工业设计学者柳冠中作《设计的逻辑》讲座；CMF创新中心由设计谷与科美创研TECHIC联合创立，称拥有1500平方米、全球最大的材料展示与选型空间。设计谷自2023年9月开园以来已集聚180余家设计研发机构。",
+          "url": "https://www.sh.chinanews.com.cn/qxdt/2026-11-08/150956.shtml",
+          "source": "中新网上海"
+        },
+        {
+          "category": "news-design",
+          "title": "Matteo Thun以塔楼本身为起点，重做米兰Velasca大厦室内",
+          "summary": "Dezeen 11月8日报道，意大利建筑师Matteo Thun为米兰地标Torre Velasca上部楼层设计了72套公寓（从套房到复式顶层），并以“让建筑本身开口说话”为原则做当代转译。他保留了1950年代BBPR原作的门、窗框、凉廊以及厨卫瓷砖，色彩则取自专为该塔研发的粉色灰泥，以及室内与凉廊中的蓝、绿色地砖，客厅定制Dedar淡粉丝绒墙面；工作室也设计了接待处、大堂和一层走廊。",
+          "url": "https://www.dezeen.com/2026/11/08/matteo-thun-torre-velasca-interiors/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "news-politics",
+          "title": "中组部谈二十一大代表选举：名额2360名，差额比例应多于15%",
+          "summary": "新华社北京11月8日电，党的二十届五中全会决定党的二十一大于2027年下半年在北京召开；中共中央已印发代表选举工作通知，中组部负责人就选举工作接受采访。二十一大代表名额共2360名，比二十大增加60名，由全国38个选举单位选举产生；代表产生采取自下而上、上下结合、反复酝酿、逐级遴选，包括推荐提名、组织考察、确定初步人选、确定预备人选和会议选举等环节，差额选举比例应多于15%，并强调把政治标准放在首位、严把政治关廉洁关作风关。",
+          "url": "http://politics.people.com.cn/n1/2026/1108/c1001-40829957.html",
+          "source": "新华社/人民网"
+        },
+        {
+          "category": "news-politics",
+          "title": "韩正访问格鲁吉亚，会见总统与总理并谈自贸升级",
+          "summary": "中新社11月8日报道，应格鲁吉亚政府邀请，国家副主席韩正于当地时间11月6日至8日访问格鲁吉亚，在第比利斯分别会见总统卡韦拉什维利和总理科巴希泽。韩正表示，今年6月两国关系已提升为全面战略伙伴关系，中方愿落实自贸协定升级议定书，深化互联互通、教育、科技、文化、旅游等领域合作；访格期间他还与科巴希泽共同出席中国－格鲁吉亚工商界欢迎晚宴。科巴希泽表示格方将始终恪守一个中国原则，欢迎中国企业赴格投资。",
+          "url": "https://www.chinanews.com.cn/gn/2026/11-08/10728428.shtml",
+          "source": "中新社"
+        },
+        {
+          "category": "news-politics",
+          "title": "杰弗里斯称对弹劾美国国防部长赫格塞思“坚定赞成”",
+          "summary": "BBC报道，民主党众议院领袖、中期选举后有望出任议长的哈基姆·杰弗里斯在ABC《This Week》节目中说，他对弹劾国防部长皮特·赫格塞思是“a hard yes”，指责其滥用权力、损害国家安全并策动了“鲁莽而代价高昂的伊朗战争”。即将卸任的共和党议员托马斯·马西称最早周一提出弹劾决议，共八项条款，指赫格塞思未经国会授权对伊朗开战。特朗普当天在CBS《60分钟》为赫格塞思辩护；五角大楼对BBC表示己方守法，不会被“虚假调查”吓倒。BBC称民主党在众议院已有254席、足以通过弹劾条款，但远不足以在参议院凑齐三分之二撤职票。",
+          "url": "https://www.bbc.com/news/articles/cj4g1nwx39wno",
+          "source": "BBC"
+        },
+        {
+          "category": "news-politics",
+          "title": "我国用长征十二号成功发射卫星互联网低轨29组卫星",
+          "summary": "新华社海南文昌11月9日电，9日4时24分，我国在海南商业航天发射场使用长征十二号运载火箭，成功将卫星互联网低轨29组卫星发射升空，卫星顺利进入预定轨道，发射任务获得圆满成功。",
+          "url": "https://www.news.cn/20261109/c59381337ab24106a800be4d3baac43f/c.html",
+          "source": "新华社"
+        },
+        {
+          "category": "news-auto",
+          "title": "乘联会：前10个月超半数新SUV车长达到5至5.5米",
+          "summary": "CnEVPost 11月8日引述乘联会秘书长崔东树分析称，2026年前10个月中国共推出129款全新乘用车，大型化在SUV上尤为明显：车长5–5.5米的车型占新上市SUV的56%，而2024年这一比例为17%。新能源新车中，超过5米的占比从2024年的34%升至2026年的58%，4.5–5米车型占比则从55%降至40%；崔东树认为价格战促使车企向中大型SUV和MPV寻找展示技术和维持利润的空间。文章明确这些是新车上市结构，不等于零售结构同步变化；10月当月有17款新车上市。",
+          "url": "https://cnevpost.com/2026/11/08/china-new-cars-get-bigger/",
+          "source": "CnEVPost"
+        },
+        {
+          "category": "news-auto",
+          "title": "卫报：英国政府预计将把2030年电动车销售目标从80%下调约四分之一",
+          "summary": "《卫报》11月8日独家报道，政府消息人士称，负责拍板的路易丝·黑格预计在本周三唐宁街会议后，把2030年新车电动化销售目标从现行的80%下调约四分之一、至约60%，并可能把灵活履约机制延至2034年。官方发言人强调“尚未作出决定”，同时重申仍致力于2030年前停止销售仅依靠汽柴油的新车、2035年新车和新轻型商用车100%零排放。英国汽车制造商与贸易商协会称，今年1–10月纯电新车占比为26.6%，行业将大幅错过今年33%的目标。",
+          "url": "https://www.theguardian.com/environment/2026/nov/08/labour-cut-ev-target-car-industry-despite-climate-concerns",
+          "source": "The Guardian"
+        },
+        {
+          "category": "news-auto",
+          "title": "问界新M8官宣新一代智能底盘，新增±8°主动后轮转向",
+          "summary": "鸿蒙智行问界汽车11月8日宣布，问界新M8将配备全新一代智能底盘，升级双阀连续可变阻尼减振器，采用双腔闭式空悬与增强型前双叉臂及后五连杆独立悬架，并新增±8°主动式后轮转向。新车将于11月13日上市，搭载华为乾崑智驾ADS 5，预售价38.98万元起，提供Max/Max+/Ultra三种版本以及增程、纯电和五座、六座布局。",
+          "url": "https://www.ithome.com/1/024/026.htm",
+          "source": "IT之家"
+        },
+        {
+          "category": "news-auto",
+          "title": "中铝集团与宁德时代达成战略合作，覆盖材料回收与绿电储能",
+          "summary": "第一财经、每日经济新闻11月8日援引宁德时代方面消息称，中铝集团与宁德时代近日在福建宁德签署战略合作协议，双方将围绕有色金属新材料研发、再生金属循环利用、绿电直连与储能、高海拔源网荷储以及全球化产业链配套等展开合作。",
+          "url": "https://www.yicai.com/news/103431453.html",
+          "source": "第一财经"
+        },
+        {
+          "category": "news-thesis",
+          "title": "设计星所揭幕CMF创新中心：1500平方米材料展示与选型空间",
+          "summary": "上海智慧出行设计谷“设计星所”启用仪式上，与科美创研TECHIC联合创立的CMF创新中心同步揭幕。中心面向全球创新材料企业及汽车品牌，立足上海国际汽车城产业生态，并联动中国汽车工程学会汽车设计分会资源，称拥有1500平方米、全球最大的材料展示与选型空间。科美创研CEO高懋森在介绍中提出“CMF不只是工艺，更是品牌的基因”；柳冠中则强调面向未来出行要跳出单一产品思维，用系统性设计解决真实社会出行问题。",
+          "url": "https://www.sh.chinanews.com.cn/qxdt/2026-11-08/150956.shtml",
+          "source": "中新网上海"
+        },
+        {
+          "category": "news-thesis",
+          "title": "多哈设计双年展以“转译知识”为主题，连接祖传工艺与当代设计",
+          "summary": "卡塔尔博物馆揭幕的第二届Design Doha双年展主题为“Translating Knowledge: From Ancestral Systems to Economic Futures”，探讨传统技艺、文化知识与创新生产如何走向设计与创意经济的未来，展期至2027年1月31日。主展“Arab Design Now 2026”由Noura Al Sayeh策展，汇集81位设计师与匠人、78件新委托作品和17部新委托影片；艺术总监Glenn Adamson强调在保护传统知识的同时鼓励当代创新。同期揭晓的获奖作品也延续这一转译逻辑，如Mesh!对巴林传统木工编织的模块化再诠释，以及用米饭废料与枣核做成的半透明灯具。",
+          "url": "https://thepeninsulaqatar.com/article/08/11/2026/design-doha-biennial-hosts-20-exhibitions-runs-until-jan-31",
+          "source": "The Peninsula Qatar"
+        },
+        {
+          "category": "news-thesis",
+          "title": "Velasca大厦室内用原塔粉色灰泥与蓝绿地砖做当代CMF转译",
+          "summary": "Matteo Thun在改造米兰Torre Velasca室内时，明确“不以制造反差为目标”，而是从建筑原有材料与色彩出发做当代转译：专为该塔研发的粉色灰泥，以及室内与凉廊中的蓝、绿色地砖，构成整套配色基础；客厅使用Dedar定制淡粉丝绒墙面，入口与卧室则用更深的绿、蓝色。原有门、窗框、凉廊和厨卫瓷砖被保留，再与工作室新家具及1950–80年代经典设计的新配色并置，是一次把历史建筑CMF语汇转译进当代居住空间的案例。",
+          "url": "https://www.dezeen.com/2026/11/08/matteo-thun-torre-velasca-interiors/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "oss",
+          "title": "sherlock-project/sherlock",
+          "summary": "按用户名在各社交网络批量追查账号",
+          "url": "https://github.com/sherlock-project/sherlock",
+          "source": "GitHub",
+          "meta": "+2.4k / 24h · 总计 104.3k"
+        },
+        {
+          "category": "oss",
+          "title": "vercel-labs/agent-browser",
+          "summary": "给智能体用的浏览器自动化命令行",
+          "url": "https://github.com/vercel-labs/agent-browser",
+          "source": "GitHub",
+          "meta": "+815 / 24h · 总计 47.8k"
+        },
+        {
+          "category": "oss",
+          "title": "Albert-Weasker/niubigeo",
+          "summary": "自助对比品牌在模型回答中的可见度",
+          "url": "https://github.com/Albert-Weasker/niubigeo",
+          "source": "GitHub",
+          "meta": "+228 / 24h · 总计 10.1k"
+        },
+        {
+          "category": "oss",
+          "title": "vercel-labs/json-render",
+          "summary": "生成式 UI 框架，用预定义组件更稳妥",
+          "url": "https://github.com/vercel-labs/json-render",
+          "source": "GitHub",
+          "meta": "+149 / 24h · 总计 19.5k"
+        },
+        {
+          "category": "oss",
+          "title": "poco-ai/Agentero",
+          "summary": "给人与智能体协作的本地科研工作台",
+          "url": "https://github.com/poco-ai/Agentero",
+          "source": "GitHub",
+          "meta": "+145 / 24h · 总计 2.1k"
+        },
+        {
+          "category": "oss",
+          "title": "jithin-sabu/purge-app",
+          "summary": "安全清理 Mac 缓存的开源原生应用",
+          "url": "https://github.com/jithin-sabu/purge-app",
+          "source": "GitHub",
+          "meta": "+125 / 24h · 总计 1.7k"
+        },
+        {
+          "category": "oss",
+          "title": "googlecolab/google-colab-cli",
+          "summary": "用命令行开通并遥控 Colab 云端环境",
+          "url": "https://github.com/googlecolab/google-colab-cli",
+          "source": "GitHub",
+          "meta": "+104 / 24h · 总计 2.1k"
+        },
+        {
+          "category": "news-tech",
+          "title": "字节跳动发布图像创作模型 Seedream 5.5",
+          "summary": "官方今日发布：支持最长约100轮稳定编辑（非编辑区像素级保持）、原生RGBA透明素材、质感与文字渲染升级；即梦/豆包/豆包工作/火山方舟陆续上线，API单价约半于5.0 Pro。",
+          "url": "https://www.ithome.com/1/024/379.htm",
+          "source": "IT之家 / Seed",
+          "tag": "突发"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设相关｜Seedream 5.5：百轮编辑与原生透明素材",
+          "summary": "对艺术风格转译与设计工作流有直接意义：多轮改图更稳、直出Alpha透明层便于合成进CMF/视觉流程；即梦与豆包已可选该模型。",
+          "url": "https://seed.bytedance.com/zh/blog/more-realistic-images-more-stable-editing-across-100-rounds-introducing-seedream-5-5",
+          "source": "字节跳动 Seed",
+          "tag": "毕设相关"
+        }
+      ],
+      "weather": "沙坪坝现在阴约14℃、南风小于3级，白天预报阴转多云约17/12℃",
+      "cards": [
+        "assets/github-daily-ranking-2026-11-09.png"
+      ]
+    },
+    {
       "date": "2026-11-08",
       "entries": [
         {
