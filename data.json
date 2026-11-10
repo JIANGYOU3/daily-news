@@ -42,6 +42,269 @@
   ],
   "days": [
     {
+      "date": "2026-11-10",
+      "entries": [
+        {
+          "category": "news-tech",
+          "title": "Anthropic 发布 Claude Fable 5.2 / Mythos 5.2，API 降价约 20%",
+          "summary": "面向高难度编码/推理/长程智能体；生成最高提速约 30%，可选快速模式；Fable 全面开放，Mythos 需验证计划。",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "source": "Anthropic 官方；IT之家 https://www.ithome.com/1/024/573.htm"
+        },
+        {
+          "category": "news-tech",
+          "title": "英伟达在 CoRL 发布 GR00T 2 世界动作模型",
+          "summary": "预测视频+动作，支持夹爪/灵巧手/人形；可与推理智能体 API 协作；权重与代码计划 12 月开放。",
+          "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+          "source": "NVIDIA Blog；研究页 https://research.nvidia.com/labs/gear/gr00t-2/"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设相关｜Fable 5.2：一句话设计出可落地电子设备",
+          "summary": "预发布测试中从短描述完成选料、四层 PCB、外壳与固件，原型一次性可运行——贴近产品设计与设计智能体方向。",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "source": "Anthropic 官方",
+          "tag": "毕设相关"
+        },
+        {
+          "category": "workflow",
+          "title": "agentic-awesome-skills：近 3000 个 skill，让 agent 自己挑再动手",
+          "summary": "别人怎么在用：先本地建目录，AAS Core 让 Claude Code / Codex / Cursor 按任务自选、拼装并预览计划，确认后再改；近期 X 上当「技能军火库」在推。",
+          "url": "https://github.com/sickn33/agentic-awesome-skills",
+          "source": "GitHub · ~49k★ / X",
+          "meta": "~49k★",
+          "tag": "Skill 库"
+        },
+        {
+          "category": "workflow",
+          "title": "video-talkcraft：口播稿+配音 → Remotion 解说成片",
+          "summary": "别人怎么在用：装进 Claude Code / Codex，字级对齐人声、SHOTBOOK 分镜、109 张动效配方卡，渲完再过机器闸；适合科普/评测口播，个人教育免费。",
+          "url": "https://github.com/Vincentwei1021/video-talkcraft",
+          "source": "GitHub · ~2.2k★",
+          "meta": "~2.2k★",
+          "tag": "口播动效"
+        },
+        {
+          "category": "workflow",
+          "title": "OpenChatCut：让 Claude/Codex 改真多轨时间线，人再点批准",
+          "summary": "别人怎么在用：本机开编辑器，MCP 接上 coding agent；agent 出可审草稿，默认手动批准后再落轨，导出走 Remotion——不是一次性吐成片，而是可撤销的工程文件。",
+          "url": "https://github.com/0xsline/OpenChatCut",
+          "source": "GitHub · ~3.0k★",
+          "meta": "~3.0k★",
+          "tag": "Agent 剪辑"
+        },
+        {
+          "category": "news-tech",
+          "title": "Meta 发布最小最便宜的模型 Muse Ember，专打智能体高频执行",
+          "summary": "11月9日 Meta 推出 Muse Ember，面向工具调用、路由、抽取、编码子任务和长文档解析。官方称在 Artificial Analysis 智能力指数上与 Claude Haiku 5.5 持平（约36分），单任务成本大约只有后者三分之一；已在 Muse Code 与 Meta Model API 上线，价格为每百万输入/输出 token 0.10/0.50 美元，上下文约100万 token。",
+          "url": "https://research.meta.ai/blog/muse-ember",
+          "source": "Meta"
+        },
+        {
+          "category": "news-tech",
+          "title": "谷歌扩展第八代 TPU：新增机密计算 8tx 与高密度 8i Max",
+          "summary": "谷歌11月9日宣布，第八代 TPU 一年内扩至四款系统。TPU 8tx 把机密计算做到硬件层，数据与模型权重在推理时仍保持隔离，并搭配第五代 AMD EPYC 主机；TPU 8i Max 把两颗 8i 封进同一封装，算力、SRAM 和 HBM 带宽翻倍，面向超长上下文的智能体负载。",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+          "source": "Google"
+        },
+        {
+          "category": "news-tech",
+          "title": "网信办上线统一备案系统，生成式AI与算法等可一并填报",
+          "summary": "国家网信办「互联网新技术新应用信息服务备案系统」11月9日正式上线，可一体化办理生成式人工智能、算法、深度合成和区块链备案，网址为 beian.cac.gov.cn；原算法备案系统和区块链信息服务备案管理系统同步停用。",
+          "url": "https://www.cac.gov.cn/2026-11/09/c_1795978604463007.htm",
+          "source": "国家网信办"
+        },
+        {
+          "category": "news-tech",
+          "title": "阿里千问办公 2.0：可把数字员工带进钉钉群做团队协作",
+          "summary": "据钉钉官方消息，千问办公11月9日发布 2.0，定位面向个人与组织的 Team Agent。新版「协作」可让数字员工关联多个钉钉群、文档、AI 表格和听记，梳理进展并跟进待办；同时上线按事件触发的「自动任务」，以及在对话里直接预览、批注并改文档的「人机共创」。",
+          "url": "https://www.ithome.com/1/024/350.htm",
+          "source": "IT之家"
+        },
+        {
+          "category": "news-design",
+          "title": "Adobe 与迪士尼达成多年合作，用 Firefly Foundry 定制品牌安全模型",
+          "summary": "双方在 Adobe MAX 宣布多年战略联盟，Adobe 成为迪士尼官方 AI 创新伙伴。迪士尼将用 Firefly Foundry 按旗下角色、场景和视觉风格训练定制模型，生成可商用的创作素材；幻想工程研发团队已用草图转概念图模型，加速主题乐园前期设计，并与 StudioLAB、ESPN Edge 开展合作。",
+          "url": "https://news.adobe.com/news/2026/11/adobe-and-the-walt-disney-company-alliance",
+          "source": "Adobe"
+        },
+        {
+          "category": "news-design",
+          "title": "伦敦设计博物馆开展《The Nue Black Aesthetic》，梳理当代黑人设计",
+          "summary": "由作家 Charlene Prempeh 客座策展，展览汇集16位当代黑人设计师的100余件时装、家具、建筑、产品和雕塑作品，围绕「今天作为一名黑人设计师意味着什么」展开。展品包括合成头发家具、西非巴拉风的当代转译，以及 Ini Archibong 的新委托作品《Mfon》。展期至2027年8月8日。",
+          "url": "https://designmuseum.org/exhibitions/the-nue-black-aesthetic",
+          "source": "Design Museum"
+        },
+        {
+          "category": "news-design",
+          "title": "Studio Aslak Siimes 设计 PharmaPrinter Aurum：把个性配药半自动化",
+          "summary": "Dezeen 11月9日报道，这家芬兰工业设计事务所与 CurifyLabs 推出半自动配制系统：药剂师按处方称量装入注射器后，机器按重量精确「打印」到药板，并可更换模块制作片剂、薄膜、栓剂等剂型，以降低人工误差。该系统已在欧美药房和医院使用。",
+          "url": "https://www.dezeen.com/2026/11/09/studio-aslak-curifylabs-pharmaprinter-aurum-empower-pharmacists/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "news-politics",
+          "title": "税委会：自今日13时01分起继续暂停24%对美加征关税两个月",
+          "summary": "国务院关税税则委员会11月9日公告，为落实中美两国元首华盛顿会晤共识，自2026年11月10日13时01分起，在2个月内继续暂停实施24%的对美加征关税税率，保留10%的对美加征关税税率。",
+          "url": "https://gss.mof.gov.cn/gzdt/zhengcefabu/202611/t20261109_4004260.htm",
+          "source": "财政部关税司"
+        },
+        {
+          "category": "news-politics",
+          "title": "统计局：10月CPI同比上涨0.7%，PPI同比上涨5.7%",
+          "summary": "国家统计局11月9日发布，2026年10月全国居民消费价格同比上涨0.7%，食品价格下降2.9%、非食品价格上涨1.5%；工业生产者出厂价格同比上涨5.7%，环比上涨0.7%。1–10月平均，CPI同比上涨0.9%，PPI同比上涨2.7%。",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965795.html",
+          "source": "国家统计局"
+        },
+        {
+          "category": "news-politics",
+          "title": "美俄乌在阿布扎比重启三方和谈，这是今年2月后首次",
+          "summary": "BBC报道，莫斯科、基辅与华盛顿高级官员在阿布扎比举行三方会谈，这也是2月日内瓦会谈后的首次三方接触。美方称双方在战后顿涅茨克控制权问题上私下「有一点灵活性」，但公开立场仍相距甚远；会谈还将讨论战后安全安排，美方希望随后把欧洲纳入多边讨论。",
+          "url": "https://www.bbc.com/news/articles/cqpvgvrpjvv8o",
+          "source": "BBC"
+        },
+        {
+          "category": "news-politics",
+          "title": "何立峰在温哥华主持第二次中加经济财金战略对话",
+          "summary": "新华社报道，国务院副总理何立峰9日在加拿大温哥华，与加拿大财政部长商鹏飞、国际贸易部长西杜共同主持第二次中加经济财金战略对话。何立峰表示愿深化经贸、金融、投资等领域合作；三方还共同出席了中加商业圆桌会议。",
+          "url": "https://www.news.cn/politics/leaders/20261110/3b4003e4823543bda6c263a5f4442378/c.html",
+          "source": "新华社"
+        },
+        {
+          "category": "news-auto",
+          "title": "乘联分会：10月新能源零售同比降13.7%，渗透率却创67.5%新高",
+          "summary": "乘联分会数据显示，10月新能源乘用车零售110.9万辆，同比下降13.7%，已连续第10个月同比下滑，但零售渗透率升至67.5%的新高。出口58.2万辆、同比大增144.7%，带动批发仍增长9.8%。1–10月新能源零售累计886.9万辆，同比下降12.9%。",
+          "url": "https://cnevpost.com/2026/11/09/china-oct-2026-nev-retail-sales-cpca/",
+          "source": "CnEVPost"
+        },
+        {
+          "category": "news-auto",
+          "title": "方程豹钛9开启预订，比亚迪第1900万辆新能源车同步下线",
+          "summary": "方程豹11月9日宣布钛9全国开启预订。新车定位全尺寸方盒子造型的大六座旗舰SUV，顶配搭1.1米全景PHUD天际屏，CLTC纯电续航400公里、综合续航1630公里，预计售价35万–40万元，11月内上市。同日，比亚迪第1900万辆新能源汽车在西安工厂下线，下线车型即为钛9。",
+          "url": "https://auto.sina.com.cn/newcar/2026-11-09/detail-iniycwiu6428575.shtml",
+          "source": "新浪汽车"
+        },
+        {
+          "category": "news-auto",
+          "title": "捷尼赛思首款全尺寸纯电旗舰 GV90 在韩国开售",
+          "summary": "Genesis 11月10日在韩国启动 GV90 与对开车门版 GV90 Neolun 的订单：标准摆门七座版起售1.395亿韩元，Neolun 顶配约2.395亿韩元。新车搭载集团最大的123.5度电池，续航约500公里，并首次配备覆盖整片车顶玻璃的车顶气囊；造型灵感来自韩国月亮罐。",
+          "url": "https://en.sedaily.com/business/2026/11/10/genesis-launches-first-full-size-electric-suv-gv90-topping",
+          "source": "Seoul Economic Daily"
+        },
+        {
+          "category": "news-auto",
+          "title": "宝马确认新世代将有选择地采用磷酸铁锂电池",
+          "summary": "宝马CEO米兰·内德利科维奇在三季报电话会上确认，Neue Klasse 将在现有镍锰钴圆柱电芯之外，有选择地加入磷酸铁锂电池，而不是全系替换。已在中国上市的长轴距 iX3 30L 使用磷酸铁锂，更高配的 40L、50L 仍用三元锂；欧洲何时跟进尚未公布。",
+          "url": "https://www.electrive.com/2026/11/09/bmw-to-partially-use-lfp-batteries-in-neue-klasse/",
+          "source": "electrive"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设相关｜迪士尼×Adobe：把角色、场景和视觉风格训成可商用模型",
+          "summary": "双方用 Firefly Foundry 按迪士尼角色设定、场景和视觉风格训练定制模型，生成可商用的创作素材；幻想工程已用「草图转概念图」加速主题乐园前期设计。这很贴近艺术风格转译与设计智能体方向。",
+          "url": "https://news.adobe.com/news/2026/11/adobe-and-the-walt-disney-company-alliance",
+          "source": "Adobe"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设相关｜伦敦展里的材料与文化转译：头发家具、巴拉风与《Mfon》",
+          "summary": "《The Nue Black Aesthetic》提供多条可对照的转译路径：Taiba Akhuetie 用合成头发做椅子和灯罩，把发型仪式写成家具；Giles Tettey Nartey 把西非巴拉风做成当代装置，回应「传统被看成凝固不变」的偏见；Ini Archibong 的新委托作品《Mfon》则以超大陶瓷、木、黄铜珠与穆拉诺玻璃重新组织装饰与光。",
+          "url": "https://designmuseum.org/exhibitions/the-nue-black-aesthetic",
+          "source": "Design Museum"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设相关｜GV90：月亮罐造型与温突地暖写成豪华汽车 CMF",
+          "summary": "捷尼赛思把韩国白瓷月亮罐写成 GV90 的造型起点，顶配 Neolun 还把传统温突地暖转译成辐射加热的木地板，并配以对开无B柱车门。这是把器物与居住传统写入豪华汽车 CMF 与座舱体验的新例子。",
+          "url": "https://en.sedaily.com/business/2026/11/10/genesis-launches-first-full-size-electric-suv-gv90-topping",
+          "source": "Seoul Economic Daily"
+        },
+        {
+          "category": "oss",
+          "title": "meta/astryx",
+          "summary": "可定制、面向人与 Agent 协作的设计系统",
+          "url": "https://github.com/meta/astryx",
+          "source": "GitHub Trending",
+          "meta": "+3.3k / 24h · 总计 20.5k"
+        },
+        {
+          "category": "oss",
+          "title": "debpalash/VoiceStudio",
+          "summary": "完全本地的开源语音工作室，对标 ElevenLabs",
+          "url": "https://github.com/debpalash/VoiceStudio",
+          "source": "GitHub Trending",
+          "meta": "+1.3k / 24h · 总计 106.3k"
+        },
+        {
+          "category": "oss",
+          "title": "ranxianglei/billion-context",
+          "summary": "上下文压缩插件，小窗口也能撑月级长会话",
+          "url": "https://github.com/ranxianglei/billion-context",
+          "source": "GitHub Trending",
+          "meta": "+760 / 24h · 总计 5.8k"
+        },
+        {
+          "category": "oss",
+          "title": "HKUDS/DeepTutor",
+          "summary": "开源 AI 导师，做终身个性化辅导",
+          "url": "https://github.com/HKUDS/DeepTutor",
+          "source": "GitHub Trending",
+          "meta": "+710 / 24h · 总计 57.7k"
+        },
+        {
+          "category": "oss",
+          "title": "anthropics/claude-quickstarts",
+          "summary": "官方示例集，快速上手可部署的 Claude 应用",
+          "url": "https://github.com/anthropics/claude-quickstarts",
+          "source": "GitHub Trending",
+          "meta": "+551 / 24h · 总计 20.1k"
+        },
+        {
+          "category": "oss",
+          "title": "storytold/artcraft",
+          "summary": "面向设计师与电影人的意图式创作引擎",
+          "url": "https://github.com/storytold/artcraft",
+          "source": "GitHub Trending",
+          "meta": "+378 / 24h · 总计 40.3k"
+        },
+        {
+          "category": "oss",
+          "title": "superplanehq/superplane",
+          "summary": "开源一锤子工程工厂，编排 Agent 干活",
+          "url": "https://github.com/superplanehq/superplane",
+          "source": "GitHub Trending",
+          "meta": "+228 / 24h · 总计 9.5k"
+        },
+        {
+          "category": "oss",
+          "title": "garrytan/gbrain",
+          "summary": "Garry 的 OpenClaw/Hermes Agent 大脑",
+          "url": "https://github.com/garrytan/gbrain",
+          "source": "GitHub Trending",
+          "meta": "+216 / 24h · 总计 32.2k"
+        },
+        {
+          "category": "tibo",
+          "title": "Tibo：Dots 现已可控制多台机器，不只默认云端电脑",
+          "summary": "Tibo 引用 OpenAI Developers 官宣并补充：Dots 现在除自带云端电脑外，还能同时控制多台本地机器，并按任务选择用哪一台，例如在专用机上编译测试、自己继续在笔记本写代码。官方文档说明需在各台电脑的 ChatGPT 应用里为该 Dot 授权，每条线程一次只用一台机器。",
+          "url": "https://x.com/thsottiaux/status/2120021043876106429",
+          "source": "Tibo / @OpenAIDevs；官方文档 https://learn.chatgpt.com/docs/dots/computers-and-apps",
+          "tag": "产品更新"
+        },
+        {
+          "category": "news-tech",
+          "title": "马斯克：Grok 4.8 预训练完成、进入强化学习，本周将向 Grok Bot 用户小范围放量",
+          "summary": "称已用自研 C/C++ 重写强化学习与推理栈并换掉 JAX/SGLang；这还不是正式发布，他表示模型「还没到incredible」。",
+          "url": "https://x.com/elonmusk/status/2120088070443655190",
+          "source": "Elon Musk / X"
+        }
+      ],
+      "weather": "沙坪坝现在阴，约14℃，西南风小于3级；白天预报多云，大约19℃/13℃。",
+      "cards": [
+        "assets/github-daily-ranking-2026-11-10.png"
+      ]
+    },
+    {
       "date": "2026-11-09",
       "entries": [
         {
