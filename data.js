@@ -43,6 +43,267 @@ window.NEWS_DATA = {
   ],
   "days": [
     {
+      "date": "2026-11-11",
+      "entries": [
+        {
+          "category": "news-tech",
+          "title": "谷歌 Gemini 4 Carbon 现已向开发者和 Ultra 用户开放",
+          "summary": "10月28日宣布的最强模型正式放开：付费开发者可用 API / AI Studio，Ultra 用户将在 Antigravity、Gemini 应用和搜索 AI 模式用上；并预览 /swarm 多智能体协作。首发价与 Argon 相同，11月30日后上调。",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+          "source": "Google"
+        },
+        {
+          "category": "news-tech",
+          "title": "Anthropic 推出 Claude Whiteboards、Sheets，并把 Data 转正",
+          "summary": "付费用户可公测白板和表格，与 Claude 一起头脑风暴、做带公式的表格；原 Dashboards 升级为 Claude Data 正式版。另同步推出可加入 Google Meet 的 Claude Meetings（Team/Enterprise 公测）。",
+          "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+          "source": "Anthropic"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设相关｜Carbon 可在 Antigravity 里做艺术方向方案与纺织三维可视化",
+          "summary": "官方演示中，Carbon 用两句提示重做商店并给出五套艺术方向、生成新商品图；还能按论文搭出多尺度纺织三维可视化。偏设计智能体与材料转译向。",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+          "source": "Google"
+        },
+        {
+          "category": "workflow",
+          "title": "Transitions.dev：43+ 产品动效，当作 library / skill / MCP 给 agent 用",
+          "summary": "别人怎么在用：npx skills add Jakubantalik/transitions.dev 装进 Claude Code / Cursor / Codex，用 transitions review 扫项目里的手写动效，确认后再 apply 换成库里的过渡；也可用 MCP 让 Builder 在 agent 里搭组件（MCP 需 Pro）。作者 @Jakubantalik 原帖互动很高。",
+          "url": "https://x.com/Jakubantalik/status/2119464965551931531",
+          "source": "X @Jakubantalik / transitions.dev · ~6.2k★",
+          "meta": "~6.2k★",
+          "tag": "动效 skill"
+        },
+        {
+          "category": "workflow",
+          "title": "Pinky：让 agent 操作你的真机，付款等动作先等你点允许",
+          "summary": "别人怎么在用：装好 Pinky、连上 iPhone 或 Android，在 Settings › Agents 一键接入 Claude Code / Codex / Cursor；agent 经 MCP 点按，付款默认卡住等你点允许，银行/钱包 App 默认对它不可见，随时可接管。目前 pre-alpha，约 1.7k★。",
+          "url": "https://github.com/DIYgod/pinky",
+          "source": "GitHub · ~1.7k★",
+          "meta": "~1.7k★",
+          "tag": "手机 Computer Use"
+        },
+        {
+          "category": "workflow",
+          "title": "跨渠道内容分析：n8n 每周两次拉帖，Claude 写周报看板",
+          "summary": "别人怎么在用：Stacy Muur 自用流水线——n8n 从 Substack / Telegram / Typefully 拉新帖写入 Google Sheets 并打标签，她周一把 X 等导出丢给 Claude 对账、写周报，一页看板看出趋势和本周待办。",
+          "url": "https://x.com/stacy_muur/status/2120082171407040513",
+          "source": "X @stacy_muur",
+          "tag": "真实流水线"
+        },
+        {
+          "category": "news-tech",
+          "title": "OpenAI 推出 ChatGPT 企业主页，美国商家还可上线商务智能体",
+          "summary": "11月10日 OpenAI 公测 Businesses in ChatGPT：企业可在 Business Hub 认领并核验主页、更新产品信息与库存价格，并查看提及次数、网站点击等汇总洞察（不向商家提供用户对话）。符合条件的美国电商和在线服务商还可上线 Business Agent，在单独标注的对话里回答产品问题，也可作为广告落地页。ChatGPT 周活约12亿。",
+          "url": "https://openai.com/index/introducing-businesses-chatgpt/",
+          "source": "OpenAI"
+        },
+        {
+          "category": "news-tech",
+          "title": "美团开源 LongCat-2.5：1.6万亿参数、百万上下文，MIT 协议可商用",
+          "summary": "11月10日美团正式开源面向长程智能体任务的原生多模态模型 LongCat-2.5，总参数1.6万亿、每 token 激活约480亿，支持一百万上下文，并针对单卡显存不足80GB的国产算力做了训练与推理优化。官方称在复杂代码库、完整项目构建、Visual Coding 和专业办公上的端到端交付有明显提升；采用 MIT 协议，支持商用部署与二次训练。",
+          "url": "https://tech.meituan.com/2026/11/10/Meituan-LongCat-2.5-Open-Source.html",
+          "source": "美团技术团队"
+        },
+        {
+          "category": "news-tech",
+          "title": "PyTorch 推出 ExecuTorch WebGPU 后端，模型可直接在浏览器 GPU 上跑",
+          "summary": "PyTorch 团队11月10日宣布，用 torch.export 导出的 .pte 模型可经 ExecuTorch 新的 WebGPU 后端在浏览器里做 GPU 加速推理，不必先转成 GGUF 或 ONNX。官方演示覆盖 Llama、Qwen、Gemma、Whisper 等，数据留在本地标签页；在 M1 Pro 的 Chrome 上，预填充比其 Wasm CPU 路径快约4到7倍。后端仍处于早期开发。",
+          "url": "https://pytorch.org/blog/executorch-webgpu-pytorch-models-on-the-gpu-in-the-browser/",
+          "source": "PyTorch"
+        },
+        {
+          "category": "news-tech",
+          "title": "阿里巴巴拟分拆平头哥赴港交所主板独立上市",
+          "summary": "阿里巴巴11月10日公告，港交所已确认可进行建议分拆，平头哥已于9月11日以保密形式递交主板上市申请。计划通过全球发售 H 股推进，完成后平头哥仍为阿里子公司；发售规模与持股稀释幅度尚未确定，还需完成中国证监会备案。",
+          "url": "https://www.yicai.com/news/103434953.html",
+          "source": "第一财经"
+        },
+        {
+          "category": "news-design",
+          "title": "OKA 推出台灯形态的家用机器人 Mori：收起脸就是一盏灯",
+          "summary": "Dezeen 11月10日报道，波士顿创业公司 OKA 发布首款产品 Mori：高约26.4厘米，布艺底座配可掀起的灯罩头，掀开后露出会眨眼转动的卡通眼睛，靠灯光、自然声和无屏幕的肢体动作与人相处。点按灯顶会收回面孔变回安静台灯，握住底座可引导呼吸练习；官方称它会判断何时主动互动、何时保持安静。",
+          "url": "https://www.dezeen.com/2026/11/10/okaq-mori-ai-home-robot-lamp/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "news-design",
+          "title": "Gustaf Westman 与迪士尼推出完整家居系列，把角色特征写成器物造型",
+          "summary": "瑞典设计师 Gustaf Westman 与迪士尼的合作系列11月10日完整亮相，将于15日发售，涵盖家居、玻璃器皿和定制家具。唐老鸭书架带帽子和鸭脚，还有高飞咖啡桌、米奇斗柜和布鲁托镜子；Westman 说想把这些「一眼能认出来的形状」用自己偏雕塑、比例大胆的设计语言重新想象进日常家里。东京、纽约和巴黎将先办快闪。",
+          "url": "https://www.dezeen.com/2026/11/10/gustaf-westman-full-disney-collection-donald-duck-bookstand/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "news-design",
+          "title": "法兰克福应用艺术博物馆开展《新法兰克福厨房 2040》，纪念经典厨房设计百年",
+          "summary": "恰逢玛格丽特·舒特-利霍茨基设计的法兰克福厨房诞生100年，米兰理工、代尔夫特理工和伊斯坦布尔技术大学学生与德龙 Braun 及 rams foundation 合作，展出21件模型原型和30部短片，探讨2040年的烹饪与饮食生活。展览是2026世界设计之都法兰克福莱茵-美因的官方项目，展期至11月29日。",
+          "url": "https://www.museumangewandtekunst.de/en/visit/exhibitions/triangular-new-frankfurt-kitchen-2040/",
+          "source": "Museum Angewandte Kunst"
+        },
+        {
+          "category": "news-politics",
+          "title": "海关总署：前10个月货物贸易进出口44.81万亿元，同比增长20%",
+          "summary": "海关统计显示，2026年前10个月我国货物贸易进出口总值44.81万亿元，同比增长20%。其中出口25.99万亿元、增长17.6%，进口18.82万亿元、增长23.6%；10月当月进出口4.87万亿元，增长31.2%。同期对东盟贸易增长24.2%，机电产品出口16.81万亿元、增长25.2%。",
+          "url": "https://www.chinanews.com.cn/cj/2026/11-10/10729298.shtml",
+          "source": "中国新闻网"
+        },
+        {
+          "category": "news-politics",
+          "title": "第九届进博会闭幕，按年计意向成交额854.5亿美元创新高",
+          "summary": "第九届中国国际进口博览会11月10日闭幕。进博局通报，按一年计意向成交金额达854.5亿美元，比上届增长2.3%，创历史新高。",
+          "url": "https://www.ciie.org/zbh/bqgffb/20261110/66196.html",
+          "source": "中国国际进口博览会"
+        },
+        {
+          "category": "news-politics",
+          "title": "澳大利亚将立法强制前沿 AI 公司遵守安全规范，并新设监管机构",
+          "summary": "阿尔巴尼斯政府11月10日宣布，将把强制性安全与安保要求写入澳大利亚 AI 标准立法，适用于希望在澳运营的前沿 AI 公司，并由新的专项监管机构执行，违规可处高额罚款。企业须维护全周期安全控制、识别管理严重风险、接受独立评估、迅速报告事故，并公开安全框架。",
+          "url": "https://www.pm.gov.au/media/new-australian-ai-safety-and-security-protections",
+          "source": "澳大利亚总理府"
+        },
+        {
+          "category": "news-politics",
+          "title": "修订后的《基金会管理条例》公布，2027年1月1日起施行",
+          "summary": "李强签署国务院令第848号，修订后的《基金会管理条例》11月10日公布。新规按登记层级设定注册资金门槛：市级不少于200万元、省级不少于400万元、在国务院民政部门登记的不少于2000万元；扶弱济困、扶老助残等特定领域可由发起人向省级民政部门申请直接登记。同时强化信息公开、财产管理和关联交易约束，非慈善组织类基金会每年公益支出不得低于上年末净资产的8%。",
+          "url": "https://www.gov.cn/zhengce/content/202611/content_7085661.htm",
+          "source": "中国政府网"
+        },
+        {
+          "category": "news-auto",
+          "title": "特斯拉 Robotaxi 服务登陆圣安东尼奥，与 Waymo 同城竞争",
+          "summary": "特斯拉11月9日在得州圣安东尼奥开通 Robotaxi，服务范围覆盖市中心及西北侧的 La Cantera 购物中心、Six Flags Fiesta Texas 一带，但暂不能接送机场乘客。当地目前还有 Waymo 运营；Axios 援引追踪网站称特斯拉起步车辆可能很少。这是特斯拉在得州和佛罗里达多城之后的新拓展。",
+          "url": "https://www.axios.com/local/san-antonio/2026/11/09/tesla-robotaxis-san-antonio-self-driving-cars",
+          "source": "Axios"
+        },
+        {
+          "category": "news-auto",
+          "title": "马斯克：约8个月后停产 Cybertruck，把产线腾给 Cybercab",
+          "summary": "马斯克11月9日表示，特斯拉将在约8个月后关闭 Cybertruck 产线，并在停产前尽量多造，但仍将退还大量订金。他辩称车型并非不赚钱，而是「Cybertruck 的复杂度带来的机会成本，远低于增产 Cybercab 的价值」。Cybertruck 自2023年底交付以来，业界估计累计销量约7.1万辆，远低于当初年销25万的预期。",
+          "url": "https://techcrunch.com/2026/11/09/musk-says-tesla-will-refund-some-cybertruck-deposits-defends-decision-to-end-production/",
+          "source": "TechCrunch"
+        },
+        {
+          "category": "news-auto",
+          "title": "禾赛科技三季度营收同比增长34%，激光雷达出货近73万台",
+          "summary": "禾赛11月10日公布，第三季度净收入10.68亿元，同比增长34.3%；激光雷达出货72.97万台，同比增长65.3%，其中车载辅助驾驶63.81万台。激光雷达业务经营利润1.46亿元，同比增长88%，连续第六个季度实现 GAAP 盈利。公司同时披露，机器人执行模组出货2.34万台、环比增长97%，空间智能产品 Kosmo 已开始产生收入。",
+          "url": "https://investor.hesaitech.com/news-releases/news-release-details/hesai-group-reports-third-quarter-2026-unaudited-financial",
+          "source": "禾赛科技"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设相关｜Westman×迪士尼：把角色「一眼能认」的特征转译成家具与器物",
+          "summary": "Gustaf Westman 把米奇耳朵、唐老鸭帽子和鸭脚、高飞剪影等高度识别的角色细节，写成书架、镜子、斗柜和玻璃杯的结构与装饰。这是把已有视觉符号转译进日常器物造型的直接例子，也和昨天迪士尼用 Firefly 训练风格模型形成对照：一边是生成式风格迁移，一边是产品造型上的特征转译。",
+          "url": "https://www.dezeen.com/2026/11/10/gustaf-westman-full-disney-collection-donald-duck-bookstand/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设相关｜《新法兰克福厨房 2040》：百年功能厨房的当代转译",
+          "summary": "展览以1926年法兰克福厨房为起点，三所设计学院的学生做出21件原型，把「最小空间里的高效烹饪」改写成面向2040年的饮食生活：适应更小住宅、强调社区与减速、让产品像伴侣而非纯效率机器，并纳入不同烹饪文化。适合对照经典工业设计如何被重新问题化，而不是被原样复刻。",
+          "url": "https://www.museumangewandtekunst.de/en/visit/exhibitions/triangular-new-frankfurt-kitchen-2040/",
+          "source": "Museum Angewandte Kunst"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设相关｜Mori：把家用智能体写成一盏可收起面孔的台灯",
+          "summary": "OKA 没有把家用机器人做成屏幕音箱或类人机械，而是用布艺底座和灯罩头让它先作为台灯进入室内；交互也尽量不靠对话，而靠灯光、声音和颈部动作。这对「设计智能体如何进入日常物件、如何用 CMF 和形态降低机器感」很有参考。",
+          "url": "https://www.dezeen.com/2026/11/10/okaq-mori-ai-home-robot-lamp/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "oss",
+          "title": "anthropics/skills",
+          "summary": "官方 Agent Skills 公共仓库与技能包",
+          "url": "https://github.com/anthropics/skills",
+          "source": "GitHub Trending",
+          "meta": "+1.7k / 24h · 总计 192k"
+        },
+        {
+          "category": "oss",
+          "title": "Nutlope/hallmark",
+          "summary": "五十套主题，专治编程助手的 AI 味界面",
+          "url": "https://github.com/Nutlope/hallmark",
+          "source": "GitHub Trending",
+          "meta": "+834 / 24h · 总计 52.7k"
+        },
+        {
+          "category": "oss",
+          "title": "homeassistant-ai/ha-mcp",
+          "summary": "用 Claude / ChatGPT 配置和自动化 Home Assistant",
+          "url": "https://github.com/homeassistant-ai/ha-mcp",
+          "source": "GitHub Trending",
+          "meta": "+790 / 24h · 总计 6.8k"
+        },
+        {
+          "category": "oss",
+          "title": "opensandbox-group/OpenSandbox",
+          "summary": "给 AI Agent 的安全、可扩展沙箱运行时",
+          "url": "https://github.com/opensandbox-group/OpenSandbox",
+          "source": "GitHub Trending",
+          "meta": "+323 / 24h · 总计 17.2k"
+        },
+        {
+          "category": "oss",
+          "title": "cathrynlavery/diagram-design",
+          "summary": "给编程助手的编辑向图表技能，含 45 种图",
+          "url": "https://github.com/cathrynlavery/diagram-design",
+          "source": "GitHub Trending",
+          "meta": "+242 / 24h · 总计 66.4k"
+        },
+        {
+          "category": "oss",
+          "title": "tokio-rs/topcoat",
+          "summary": "Tokio 出品的开箱即用 Web 应用框架",
+          "url": "https://github.com/tokio-rs/topcoat",
+          "source": "GitHub Trending",
+          "meta": "+192 / 24h · 总计 6.9k"
+        },
+        {
+          "category": "oss",
+          "title": "WhiteTowerAI/ohmygame",
+          "summary": "用 AI 做游戏的开源一人工作室",
+          "url": "https://github.com/WhiteTowerAI/ohmygame",
+          "source": "GitHub Trending",
+          "meta": "+170 / 24h · 总计 2.1k"
+        },
+        {
+          "category": "oss",
+          "title": "we-promise/sure",
+          "summary": "Maybe 社区续作，可自托管的个人理财应用",
+          "url": "https://github.com/we-promise/sure",
+          "source": "GitHub Trending",
+          "meta": "+159 / 24h · 总计 12.1k"
+        },
+        {
+          "category": "news-tech",
+          "title": "阿里官宣新一代千问 Qwen4 即将发布，Qwen4-Max 预览版已上线",
+          "summary": "官方称这一代会加强知识理解、世界感知，以及编程和智能体能力，面向复杂编程、前端构建和专业软件工作流。Qwen4-Max 预览版现已可在 Token Plan、千问办公、Qoder、千问 App 和 QwenStudio 试用；参数规模、基准成绩和正式发布时间尚未公布。",
+          "url": "https://x.com/Alibaba_Qwen/status/2120335993643684315",
+          "source": "阿里云千问 / @Alibaba_Qwen"
+        },
+        {
+          "category": "news-tech",
+          "title": "阿里推出 Qwen Code 1.0 Preview，把 Qoder 的 Harness 能力并入开源内核",
+          "summary": "Qwen Code 1.0 Preview 把在 Qoder 中打磨的 Agent Harness 并入开源内核，支持代码理解、实现、调试和测试，并提供可嵌入自身产品的 Agent 运行基础；同时支持多模型接入，以及无需单独安装 Node.js 的 macOS / Linux / Windows 原生包。现以独立预览分支开放，稳定分支继续保留。",
+          "url": "https://github.com/QwenLM/qwen-code/releases/tag/v1.0.0-preview",
+          "source": "GitHub QwenLM/qwen-code"
+        },
+        {
+          "category": "tibo",
+          "title": "Tibo 暗示周四可能做一轮 Codex 额度重置（含 banked reset）",
+          "summary": "Tibo 连续发帖：先说「好久没 reset 了，也许该从地下室出来了」，接着补「周四感觉很 Codex，也许也适合做一次 banked reset」。目前还只是预告，不是已经重置。",
+          "url": "https://x.com/thsottiaux/status/2120410480204525936",
+          "source": "Tibo / @thsottiaux；前文 https://x.com/thsottiaux/status/2120410006273380750",
+          "tag": "额度重置"
+        }
+      ],
+      "weather": "沙坪坝现在阴，约15℃，西北风小于3级；白天预报阴，大约18℃/13℃。明天阴，夜里转小雨，大约16℃/14℃。",
+      "cards": [
+        "assets/github-daily-ranking-2026-11-11.png"
+      ]
+    },
+    {
       "date": "2026-11-10",
       "entries": [
         {
