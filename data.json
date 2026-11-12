@@ -42,6 +42,221 @@
   ],
   "days": [
     {
+      "date": "2026-11-12",
+      "entries": [
+        {
+          "category": "workflow",
+          "title": "K8s 上的 AI 软件工厂：开 issue/PR → Tekton 拉起 Claude Code 干活",
+          "summary": "GitHub webhook 触发 Tekton 流水线，拉取上下文后启动 Claude Code agent，模型走同集群 vLLM 自托管。别人怎么在用：把 issue、PR 和评论当成任务入口，代码和模型都不出集群。",
+          "url": "https://x.com/piotr_minkowski/status/2120264371876020648",
+          "source": "X @piotr_minkowski",
+          "meta": "420 赞 / 614 收藏"
+        },
+        {
+          "category": "workflow",
+          "title": "边讲故事边出分镜：语音转写 → Opus 挑关键帧 → 实时出图",
+          "summary": "ElevenLabs Scribe v3 Live 转写，Opus 5.5 只在新场景、新角色或有动作时写提示词，Nano Banana 2 Lite 出图；维护角色/地点设定表保证跨格一致，一句话约 10 秒出格。别人怎么在用：口述创意直接变连环画式分镜，用来提案和头脑风暴。",
+          "url": "https://x.com/alecwilcock/status/2120574266261311950",
+          "source": "X @alecwilcock",
+          "meta": "用 Claude Code 搭建"
+        },
+        {
+          "category": "workflow",
+          "title": "GIF 工厂：一句话装进 Codex 的动图 skill 合集",
+          "summary": "按风格做像素/粘土吉祥物表情包、光栅卡、动态海报、动态签名、电影片头、动态绘本、品牌短片。别人怎么在用：丢一张角色图或一段文字，让 agent 选做法、补素材，最后导出 GIF。",
+          "url": "https://github.com/WoYun520/gif-factory",
+          "source": "GitHub",
+          "meta": "★1.3k（11/05 新建）"
+        },
+        {
+          "category": "news-tech",
+          "title": "谷歌推出 Gemini Decisions API：不生成文字，只给概率",
+          "summary": "新模型 Gemini Decision 1 一次前向就能对同一份多模态输入打分最多 1000 个是非/选择/评分题，延迟 150–250ms，输入每百万 token 0.1 美元、输出免费，专门给 agent 做路由、工具选择和策略检查。",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+          "source": "Google"
+        },
+        {
+          "category": "news-tech",
+          "title": "Fireworks AI 泄露事件扩大：波及客户数据集、部分模型权重和 Notion AI 对话",
+          "summary": "推理服务商 Fireworks 更新通报，10 月入侵还拿到了部分客户数据集、不完整模型权重和账单信息；Notion 称不到 1% 工作区的 AI 对话记录受影响，已停用相关功能。",
+          "url": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
+          "source": "The Hacker News"
+        },
+        {
+          "category": "news-tech",
+          "title": "华为麒麟 9050 新 NPU：称业界首个 30B MoE 大模型端侧运行",
+          "summary": "首款「逻辑折叠」τ 芯片，新一代达芬奇 NPU 性能提升 140%、功耗降 66%，不联网也能跑 30B MoE 模型。",
+          "url": "https://www.ithome.com/1/025/331.htm",
+          "source": "IT之家"
+        },
+        {
+          "category": "news-tech",
+          "title": "腾讯「元宝搜索」上线：能搜公众号、视频号，广告可整块折叠",
+          "summary": "so.qq.com 即可用，大模型重做检索到答案整条链路，接入 157 个权威信源，并支持学术内容解读。",
+          "url": "https://www.ithome.com/1/025/471.htm",
+          "source": "IT之家"
+        },
+        {
+          "category": "news-design",
+          "title": "Claude 交互式连接器升级：可直接在 Adobe、Canva 里改图改 PDF",
+          "summary": "应用可在 Claude 侧栏或全屏打开，Claude 在里面直接修图、编辑 PDF、做设计，用户边看边批准；Figma、Shopify 集成在开发中。",
+          "url": "https://economictimes.indiatimes.com/ai/ai-insights/adobe-canva-figma-tools-in-claude-anthropic-lets-users-edit-photos-pdfs-and-designs-without-switching-apps/articleshow/135724315.cms",
+          "source": "Economic Times"
+        },
+        {
+          "category": "news-design",
+          "title": "Datecrete 用椰枣核做无水泥材料，获首尔设计奖 designboom 特别奖",
+          "summary": "阿联酋团队把废弃椰枣核加专利天然粘结剂浇注成砖、饰面、家具和灯具，不含水泥、树脂和石化成分，已在大阪世博阿联酋馆铺了 35 吨。",
+          "url": "https://www.designboom.com/design/datecrete-date-pits-design-designboom-special-prize-seoul-design-award-2026/",
+          "source": "designboom"
+        },
+        {
+          "category": "news-design",
+          "title": "巴黎特罗卡德罗花园下的废弃隧道，被改成不锈钢+耐候钢公厕",
+          "summary": "Chartier-Corbasson 修复粉色凿毛入口，加耐候钢闸门兼座椅，圆形不锈钢水槽呼应穹顶天窗，入围 Dezeen Awards 2026。",
+          "url": "https://www.dezeen.com/2026/11/11/public-toilets-chartier-corbasson-paris/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "news-politics",
+          "title": "王毅同鲁比奥通电话，谈两国元首互动",
+          "summary": "中方称通话积极、建设性；美方称讨论了特朗普下周赴深圳出席 APEC、习近平 12 月赴佛州出席 G20，并提到可能的美中俄三方领导人会晤。",
+          "url": "https://www.mfa.gov.cn/web/wjdt%5F674879/gjldrhd_674881/202611/t20261111_12057696.shtml",
+          "source": "外交部"
+        },
+        {
+          "category": "news-politics",
+          "title": "俄美乌阿布扎比会谈结束：达成大规模换俘，核心问题仍有重大分歧",
+          "summary": "俄乌可能在两三周内各交换超 1000 名被俘人员；领土、安全保障等仍谈不拢。美特使威特科夫和库什纳今天在莫斯科见普京。",
+          "url": "http://www.news.cn/world/20261112/e9ed7534696e442a84cc3634c7161414/c.html",
+          "source": "新华网"
+        },
+        {
+          "category": "news-politics",
+          "title": "COP31 在土耳其开幕领导人发言，东道主力推 2035 年电气化 35% 目标",
+          "summary": "古特雷斯称气候危机「跑在我们前面」；美国连续第二年缺席，多个 G7 国家也未派最高领导人。",
+          "url": "https://www.reuters.com/3fec1b0a85a0/sustainability/cop/world-leaders-address-cop31-turkey-pushes-new-climate-deal-2026-11-11/",
+          "source": "Reuters"
+        },
+        {
+          "category": "news-politics",
+          "title": "西班牙 14 年来首次全国大罢工，抗议房价住房危机",
+          "summary": "数百万人参与，马德里、巴塞罗那爆发冲突，诉求包括租金管控和更多公共住房。",
+          "url": "https://www.theguardian.com/world/2026/nov/11/spain-general-strike-housing-costs",
+          "source": "The Guardian"
+        },
+        {
+          "category": "news-auto",
+          "title": "马斯克改口：Cybertruck 延产到 2027 年夏末，同时涨价最多 10%",
+          "summary": "五天内第三次改停产时间，说是为了消化订单积压；基础双电机版暂停接单，起售价升到 92,490 美元。",
+          "url": "https://electrek.co/2026/11/11/tesla-extends-cybertruck-production-summer-2027-fan-backlash/",
+          "source": "Electrek"
+        },
+        {
+          "category": "news-auto",
+          "title": "Gemini 上车 Apple CarPlay，全球推送",
+          "summary": "iOS 用户可在车机屏上和 Gemini Live 免手对话、听日程邮件简报，记录同步回手机；ChatGPT、Claude、Grok 等此前已上 CarPlay。",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay/",
+          "source": "Google"
+        },
+        {
+          "category": "news-auto",
+          "title": "今天三车上市：腾势 N8、埃安 Ray 7、上汽大众 ID.ERA 5X",
+          "summary": "腾势 N8 纯电续航 1003km、天神之眼 5.0；Ray 7 配华为 192 线激光雷达、风阻 0.22Cd；ID.ERA 5X 是大众首款 CMP+CEA 量产车。",
+          "url": "https://www.ithome.com/1/024/845.htm",
+          "source": "IT之家"
+        },
+        {
+          "category": "news-auto",
+          "title": "特斯拉在芝加哥一次交付 50 辆 Semi 电动重卡",
+          "summary": "少见的批量交付，Megacharger 网络也在扩张。",
+          "url": "https://electrek.co/2026/11/11/tesla-semi-delivery-50-trucks-chicago-hmd/",
+          "source": "Electrek"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设相关｜Claude 直接在 Adobe/Canva 里动手：设计智能体进入真实工具",
+          "summary": "从生成预览变成在用户已打开的文件里改、用户逐步批准，是人机协同设计流程的现成样本。",
+          "url": "https://economictimes.indiatimes.com/ai/ai-insights/adobe-canva-figma-tools-in-claude-anthropic-lets-users-edit-photos-pdfs-and-designs-without-switching-apps/articleshow/135724315.cms",
+          "source": "Economic Times"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设相关｜Datecrete：在地废料变 CMF 平台",
+          "summary": "材料保留椰枣核的视觉与触感，造型借用地方建造传统，可参考「材料—文化转译」的论述方式。",
+          "url": "https://www.designboom.com/design/datecrete-date-pits-design-designboom-special-prize-seoul-design-award-2026/",
+          "source": "designboom"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设相关｜腾势 N8 4 纯色+4 拼色、Ray 7 闪电黄/仲夏紫：车身配色的分众策略",
+          "summary": "可对比同日上市两车的色彩命名和目标人群（家用大 SUV 和年轻向轿车）。",
+          "url": "https://www.ithome.com/1/023/889.htm",
+          "source": "IT之家"
+        },
+        {
+          "category": "oss",
+          "title": "meta/astryx",
+          "summary": "Meta 开源设计系统：完全可定制、对 agent 友好",
+          "url": "https://github.com/meta/astryx",
+          "meta": "+2,776 / 24h · 总计 25,267"
+        },
+        {
+          "category": "oss",
+          "title": "addyosmani/agent-skills",
+          "summary": "面向 AI 编程 agent 的生产级工程技能集",
+          "url": "https://github.com/addyosmani/agent-skills",
+          "meta": "+787 / 24h · 总计 116,058"
+        },
+        {
+          "category": "oss",
+          "title": "ranxianglei/billion-context",
+          "summary": "为月级长会话设计的上下文压缩插件",
+          "url": "https://github.com/ranxianglei/billion-context",
+          "meta": "+710 / 24h · 总计 6,889"
+        },
+        {
+          "category": "oss",
+          "title": "vercel-labs/agent-browser",
+          "summary": "给 AI agent 用的浏览器自动化命令行",
+          "url": "https://github.com/vercel-labs/agent-browser",
+          "meta": "+708 / 24h · 总计 49,969"
+        },
+        {
+          "category": "oss",
+          "title": "shadcn/improve",
+          "summary": "强模型审计代码库、写计划交给便宜模型执行",
+          "url": "https://github.com/shadcn/improve",
+          "meta": "+361 / 24h · 总计 11,035"
+        },
+        {
+          "category": "oss",
+          "title": "ZhuLinsen/daily_stock_analysis",
+          "summary": "LLM 驱动的多市场股票分析与定时推送",
+          "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+          "meta": "+278 / 24h · 总计 70,475"
+        },
+        {
+          "category": "oss",
+          "title": "garrytan/gbrain",
+          "summary": "Garry Tan 的 OpenClaw/Hermes agent 记忆大脑",
+          "url": "https://github.com/garrytan/gbrain",
+          "meta": "+243 / 24h · 总计 32,715"
+        },
+        {
+          "category": "oss",
+          "title": "GoogleChrome/modern-web-guidance-src",
+          "summary": "Chrome 团队的现代 Web 开发指引源码",
+          "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+          "meta": "+159 / 24h · 总计 1,897"
+        }
+      ],
+      "weather": "沙坪坝现在有雾，约15℃，湿度77%；白天阴，16℃/14℃，夜里转小雨。明天阴转多云，17℃/13℃。",
+      "cards": [
+        "assets/github-daily-ranking-2026-11-12.png"
+      ]
+    },
+    {
       "date": "2026-11-11",
       "entries": [
         {
