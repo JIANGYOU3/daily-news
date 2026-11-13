@@ -43,6 +43,248 @@ window.NEWS_DATA = {
   ],
   "days": [
     {
+      "date": "2026-11-13",
+      "entries": [
+        {
+          "category": "tibo",
+          "title": "Tibo：banked reset 已激活，即将陆续到账",
+          "summary": "Tibo 称 banked reset 已启用、会陆续落到所有人账户；同时 ChatGPT dots 更新（回复更快、少术语、可遵循自定义指令）。",
+          "url": "https://x.com/thsottiaux/status/2120999993079451919",
+          "source": "X @thsottiaux",
+          "tag": "额度重置"
+        },
+        {
+          "category": "tibo",
+          "title": "Tibo：OpenAI 公布自动补丁与自动红队安全工具",
+          "summary": "OpenAI 在 Cyber 直播中公布在研的自动打补丁与自动红队工具，Tibo 附回放。",
+          "url": "https://x.com/thsottiaux/status/2121036562058400200",
+          "source": "X @thsottiaux",
+          "tag": "产品更新"
+        },
+        {
+          "category": "news-tech",
+          "title": "黄仁勋辞去英伟达 CEO，CFO Kress 暂代",
+          "summary": "董事会接受黄仁勋辞职（含董事席位），CFO Colette Kress 任临时 CEO，Harvey Jones 任首位董事长；11/17 财报照常。",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+          "source": "NVIDIA Newsroom",
+          "tag": "突发"
+        },
+        {
+          "category": "news-tech",
+          "title": "微软 365 全球宕机：Outlook/Teams/Copilot 受影响",
+          "summary": "大量服务器意外不可用致 Exchange、Teams、SharePoint、Copilot 等连接失败，非网络攻击；分批恢复中，OpenAI/Anthropic 的微软连接器也受波及。",
+          "url": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-outlook-teams-word-excel-reports",
+          "source": "The Guardian",
+          "tag": "突发"
+        },
+        {
+          "category": "workflow",
+          "title": "视觉设计师不写代码，用 Claude Code 把 iOS App 送上 App Store",
+          "summary": "开源整套流程：6 个 agent 分工 + 两层审查 + 150 多条上架踩坑经验；设计师当产品负责人，agent 负责实现与互审。",
+          "url": "https://x.com/caiman__/status/2120529780579942782",
+          "source": "X @caiman__",
+          "tag": "Claude Code"
+        },
+        {
+          "category": "workflow",
+          "title": "lot-map：Claude Code 干活时，旁边实时亮起一张「行动地图」",
+          "summary": "工具调用、模型步骤、hooks、skills、子代理执行时逐个点亮，纯本地运行；用来盯长任务、排查 agent 卡在哪一步。",
+          "url": "https://github.com/alexeyw/lot-map",
+          "source": "GitHub",
+          "meta": "★611",
+          "tag": "可观测"
+        },
+        {
+          "category": "workflow",
+          "title": "image-to-sculpt：一张图 → 对照原图校准的 3D 雕塑（附 Blender 回放）",
+          "summary": "给 coding agent 的 skill：先注册多视角，再多轮贴合比对，最后输出 Blender 回放和延时过程；适合拿参考图快速起 3D 造型草模。",
+          "url": "https://github.com/gokayfem/image-to-sculpt",
+          "source": "GitHub",
+          "meta": "★277",
+          "tag": "3D/设计"
+        },
+        {
+          "category": "news-tech",
+          "title": "谷歌发布 Gemini 4 Hydrogen：便宜快速的 agent/写码主力模型",
+          "summary": "每百万 token 输入 1.5 美元/输出 7.5 美元，AA 指数 51 反超 Argon；Antigravity 上线 Orchestrator，在 Carbon 与 Hydrogen 间自动切换，额度消耗降 24%。",
+          "url": "https://china.googleblog.com/2026/",
+          "source": "Google 黑板报"
+        },
+        {
+          "category": "news-tech",
+          "title": "Anthropic IPO 认购约 6 倍超额，拟募资最高 644 亿美元",
+          "summary": "连同私募合计最高 904 亿美元，目标完全稀释估值约 1.4 万亿美元。",
+          "url": "https://www.cls.cn/detail/2533313",
+          "source": "科创板日报"
+        },
+        {
+          "category": "news-tech",
+          "title": "英伟达续报：美司法部推进反垄断等多项调查，特朗普点名库克接任",
+          "summary": "黄仁勋辞职后风波转向对华芯片审批，民主党议员要求商务部保留相关记录；英伟达称财报照常发布。",
+          "url": "https://www.ithome.com/1/026/470.htm",
+          "source": "IT之家"
+        },
+        {
+          "category": "news-tech",
+          "title": "腾讯辟谣裁员 50%：是「守业/拓新」各半的 AI 组织调整",
+          "summary": "公关总监张军称系对组织变革表述的误读，并非实际裁员。",
+          "url": "https://www.zaobao.com.sg/specials/cn/daily-brief/20261113",
+          "source": "联合早报"
+        },
+        {
+          "category": "news-design",
+          "title": "谷歌×三星 Gemini 智能眼镜开放预订，395 美元起",
+          "summary": "Warby Parker 与 Gentle Monster 两套镜框共用同一硬件，12 月 10 日在美韩开售。",
+          "url": "https://blog.google/innovation-and-ai/technology/xr-ar/google-intelligent-eyewear-collections-pre-order/",
+          "source": "Google"
+        },
+        {
+          "category": "news-design",
+          "title": "索尼复刻 1979 年 Walkman 原配耳机 MDR-3R",
+          "summary": "保留银色头梁与蓝/橙海绵耳垫，改 USB-C、加麦克风线控。",
+          "url": "https://www.designboom.com/technology/sony-1979-walkman-headphones-retro-foam-ear-pads-mdr-3r/",
+          "source": "designboom"
+        },
+        {
+          "category": "news-design",
+          "title": "科隆大教堂新夜景照明：700+ 盏 LED 不打一个孔，能耗降 80%",
+          "summary": "定制夹具隐藏灯杆，远处投光从 80% 降到 10%，获 Dezeen Awards 年度照明设计读者票。",
+          "url": "https://www.dezeen.com/2026/11/12/licht-kunst-licht-cologne-cathedral/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "news-design",
+          "title": "重庆金佛山 Cloudhaus 酒店：废弃木屋与混凝土钻芯变立面",
+          "summary": "RooMoo 把旧售楼处改成 24 间客房，用回收木料、旧砖和竹脚手架踏板做墙面与吊顶。",
+          "url": "https://www.dezeen.com/2026/11/12/cloudhaus-hotel-bamboo-roomoo-chongqing-china/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "news-politics",
+          "title": "俄乌互袭对方首都，美特使库什纳、威特科夫抵莫斯科见普京",
+          "summary": "阿布扎比会谈刚结束，基辅遭打击、莫斯科拦截无人机；特使随后将赴爱尔兰见泽连斯基。",
+          "url": "https://theprint.in/world/russia-ukraine-exchange-attacks-on-capitals-as-us-envoys-land-in-moscow/3096665/",
+          "source": "Reuters"
+        },
+        {
+          "category": "news-politics",
+          "title": "李强主持国务院专题学习：健全多层次社会保障体系",
+          "summary": "强调人口结构、技术和新就业形态带来新需求，社保要扩面、更公平、可持续。",
+          "url": "https://www.news.cn/politics/leaders/20261112/53df4fa7f88a486391620db69557717b/c.html",
+          "source": "新华网"
+        },
+        {
+          "category": "news-politics",
+          "title": "APEC 领导人会议下周在深圳举行，台湾称「对等」参会",
+          "summary": "中国为今年东道主；同日特朗普威胁若墨西哥不拦移民将关税翻倍。",
+          "url": "https://www.devdiscourse.com/article/international/4005920-reuters-world-news-summary",
+          "source": "Reuters"
+        },
+        {
+          "category": "news-politics",
+          "title": "霍尔木兹海峡油轮仍在起火遭袭",
+          "summary": "油价已反映降温预期，但油轮触雷、无人机和导弹袭击仍在持续。",
+          "url": "https://www.devdiscourse.com/article/international/4005447-reuters-world-news-summary",
+          "source": "Reuters"
+        },
+        {
+          "category": "news-auto",
+          "title": "彭博：SpaceX 并购特斯拉最快 12 月宣布",
+          "summary": "谈判已进入价格与控制权条款，结构上是 SpaceX 吸收特斯拉，或成史上最大并购。",
+          "url": "https://electrek.co/2026/11/12/spacex-tesla-merger-announcement-december-report/",
+          "source": "Electrek"
+        },
+        {
+          "category": "news-auto",
+          "title": "长安挂牌转让阿维塔 10% 股权，约 31.8 亿元",
+          "summary": "转让后长安仍为第一大股东；同期北汽董事长赴深圳与任正非会谈，深化享界合作。",
+          "url": "https://finance.sina.com.cn/jjxw/2026-11-13/doc-iniypvhf1123322.shtml",
+          "source": "界面新闻"
+        },
+        {
+          "category": "news-auto",
+          "title": "问界新 M8 今日上市，余承东在重庆预热",
+          "summary": "提供增程与纯电版本。",
+          "url": "https://auto.ifeng.com/c/8xzxDbU3uFJ",
+          "source": "网通社"
+        },
+        {
+          "category": "news-auto",
+          "title": "长城官宣首款 V8 混动超跑，对标法拉利 SF90",
+          "summary": "自研 4.0T V8 插混，2027 年上市。",
+          "url": "https://www.ithome.com/1/026/470.htm",
+          "source": "IT之家"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设相关｜Gemini 眼镜：同一硬件，两套品牌造型与配色",
+          "summary": "Warby Parker 走经典松绿/棕/黑，Gentle Monster 用暗红、粉、灰、黄，靠 CMF 区分人群。",
+          "url": "https://blog.google/innovation-and-ai/technology/xr-ar/google-intelligent-eyewear-collections-pre-order/",
+          "source": "Google"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设相关｜Sony MDR-3R：把 1979 年的配色当品牌资产复刻",
+          "summary": "银色头梁加蓝/橙海绵耳垫，是复古风格转译的直接案例。",
+          "url": "https://www.designboom.com/technology/sony-1979-walkman-headphones-retro-foam-ear-pads-mdr-3r/",
+          "source": "designboom"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设相关｜Cloudhaus：重庆在地废料做成材料表皮",
+          "summary": "混凝土钻芯、旧红砖、竹踏板切条，可作为在地材料 CMF 素材。",
+          "url": "https://www.dezeen.com/2026/11/12/cloudhaus-hotel-bamboo-roomoo-chongqing-china/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "oss",
+          "title": "we-promise/sure",
+          "summary": "开源个人理财应用，人人可自托管",
+          "url": "https://github.com/we-promise/sure",
+          "meta": "+967 / 24h · 总计 14,054"
+        },
+        {
+          "category": "oss",
+          "title": "openai/codex-security",
+          "summary": "OpenAI 官方安全 CLI/SDK：找漏洞、验证并修复",
+          "url": "https://github.com/openai/codex-security",
+          "meta": "+643 / 24h · 总计 12,560"
+        },
+        {
+          "category": "oss",
+          "title": "CopilotKit/OpenBot",
+          "summary": "给 agent 一台独立电脑的开源 AI 同事，动作可审计",
+          "url": "https://github.com/CopilotKit/OpenBot",
+          "meta": "+298 / 24h · 总计 11,720"
+        },
+        {
+          "category": "oss",
+          "title": "pookjw/HermesEnabler",
+          "summary": "让任意 Apple Watch 启用爱马仕表盘",
+          "url": "https://github.com/pookjw/HermesEnabler",
+          "meta": "+218 / 24h · 总计 1,595"
+        },
+        {
+          "category": "oss",
+          "title": "QwenLM/qwen-code",
+          "summary": "通义开源终端 AI 编程 agent",
+          "url": "https://github.com/QwenLM/qwen-code",
+          "meta": "+151 / 24h · 总计 29,897"
+        },
+        {
+          "category": "oss",
+          "title": "ashhart/TensorFold",
+          "summary": "Metal/CUDA/Vulkan 通用 LLM 推理引擎",
+          "url": "https://github.com/ashhart/TensorFold",
+          "meta": "+54 / 24h · 总计 1,983"
+        }
+      ],
+      "weather": "沙坪坝起雾15℃、湿度80%；白天阴17℃，夜间多云13℃，东南风1-3级；周日起转小雨。",
+      "cards": [
+        "assets/github-daily-ranking-2026-11-13.png"
+      ]
+    },
+    {
       "date": "2026-11-12",
       "entries": [
         {
