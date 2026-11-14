@@ -43,6 +43,206 @@ window.NEWS_DATA = {
   ],
   "days": [
     {
+      "date": "2026-11-14",
+      "entries": [
+        {
+          "category": "news-tech",
+          "title": "OpenAI 推出 ChatGPT Wallet：agent 可以替你付款了",
+          "summary": "ChatGPT Work、Codex、dots 里的 agent 经用户逐笔生物识别确认后可完成购物，用支付令牌不暴露卡号；先给美国 18+ Pro 用户，联合美国运通、万事达、Visa。",
+          "url": "https://openai.com/index/introducing-chatgpt-wallet/",
+          "source": "OpenAI"
+        },
+        {
+          "category": "news-tech",
+          "title": "DeepSeek 开放「全家桶」应用 API",
+          "summary": "原 API 开参数即可用深度思考搜索、读链接、文件输入，OCR/ASR/TTS 另有独立接口，官方说开发者能 1:1 复刻完整 DeepSeek App。",
+          "url": "https://www.ithome.com/1/026/960.htm",
+          "source": "IT之家"
+        },
+        {
+          "category": "news-tech",
+          "title": "LangChain 融资 3 亿美元，估值 30 亿美元",
+          "summary": "CapitalG 领投 C 轮；旗下 agent 管理平台 LangSmith 称有 7000 家客户，agent 基础设施仍在吸钱。",
+          "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+          "source": "TechCrunch"
+        },
+        {
+          "category": "news-tech",
+          "title": "星舰第 15 次试飞：飞船入轨放出 26 颗星链 V3，助推器放弃筷子夹",
+          "summary": "北京时间 14 日 6:45 发射，Super Heavy 临时改为墨西哥湾溅落；飞船计划 22 小时任务后尝试首次上面级回收夹取。",
+          "url": "https://spacenews.com/starship-launches-on-15th-test-calls-off-booster-catch/",
+          "source": "SpaceNews"
+        },
+        {
+          "category": "news-design",
+          "title": "ETH 苏黎世：让细菌当建筑工，3D 打印生物水泥构件",
+          "summary": "沙子+活细菌+海藻酸凝胶做成「生物墨水」打印成形，再泡矿化液 2–5 天，细菌析出碳酸钙把砂粒粘成实心构件。",
+          "url": "https://www.designboom.com/architecture/bacteria-builders-eth-zurich-exploration-living-architecture-karen-antorveza-paez/",
+          "source": "designboom"
+        },
+        {
+          "category": "news-design",
+          "title": "V&A East Storehouse 导视：照着 Gen Z 常用 App 的交互来做",
+          "summary": "Fieldwork Facility 把导视当成「操作系统」：进门有 onboarding 文案，再用三色分区、可换字母的再生纸砖和定制等宽字体 Spiller Mono；入围 Dezeen 年度平面设计。",
+          "url": "https://www.dezeen.com/2026/11/13/va-east-storehouse-wayfinding-graphics/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "news-design",
+          "title": "Kino：一体打印的悬臂椅，座下直接长出书架",
+          "summary": "Pablo Castillo 为 Decibel 设计，纤维素增强 PLA 机械臂一次打印成形，用波纹结构让座面有点弹性；入围 Dezeen 年度座椅。",
+          "url": "https://www.dezeen.com/2026/11/13/kino-3d-printed-chair-pablo-castillo-decibel/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "news-design",
+          "title": "隈研吾在茨城做了一座圆形茅草屋",
+          "summary": "传统茅草屋顶配 3D 扫描的本地原木结构，137㎡，获 2026 Wood Design Awards 评审主席奖。",
+          "url": "https://www.designboom.com/architecture/kengo-kuma-circular-thatched-house-timber-earth-japan/",
+          "source": "designboom"
+        },
+        {
+          "category": "news-politics",
+          "title": "美国全境航班停飞 4 个多小时，9·11 后第二次",
+          "summary": "空管通信系统故障，FAA 13 日发全国地面停飞令，近 7000 班延误或取消；当地晚 8 点后解除，官方称不是恶意攻击。",
+          "url": "https://apnews.com/article/faa-us-flights-grounded-extraordinary-circumstances-6aaa6bd4991ef22eb0c3baa6961a91d1",
+          "source": "AP"
+        },
+        {
+          "category": "news-politics",
+          "title": "欧洲定下乌克兰和谈团队：英法德意波+欧盟机构",
+          "summary": "都柏林峰会敲定「E5」加欧盟出席；美特使称普京愿意让欧洲上桌，下一轮谈判欧洲代表将加入。",
+          "url": "https://apnews.com/article/dublin-epc-europe-ukraine-russia-war-2a96d57210055edd2e76f71693e0a37c",
+          "source": "AP"
+        },
+        {
+          "category": "news-politics",
+          "title": "「十五五」新型储能实施方案出炉：2030 年装机 3 亿千瓦",
+          "summary": "发改委、能源局印发，目标平均储能时长约 3 小时，新型储能从规模化转向市场化。",
+          "url": "https://www.nea.gov.cn/20261113/bb7e8be257fb43048ca17184be6cb27f/c.html",
+          "source": "国家能源局"
+        },
+        {
+          "category": "news-politics",
+          "title": "以色列摩萨德局长赴美，内塔尼亚胡推特朗普恢复对伊朗动武",
+          "summary": "Axios 报道摩萨德局长会见 CIA 局长并见特使威特科夫；同日伊朗革命卫队称打击巴林美军雷达，美方否认被毁。",
+          "url": "https://english.news.cn/20261114/29ab40daef2043c084f16bc7766e2c36/c.html",
+          "source": "新华社英文"
+        },
+        {
+          "category": "news-auto",
+          "title": "工信部就《汽车改装管理办法》征求意见",
+          "summary": "非营运小微型客车改装拟分一类、二类管理：一类可自行或委托改，二类须车企授权企业实施并「一车一档」；意见截至 12 月 12 日。",
+          "url": "https://www.miit.gov.cn/jgsj/zbys/qcgy/art/2026/art_807bf205ef884f83b36cf59279391001.html",
+          "source": "工信部"
+        },
+        {
+          "category": "news-auto",
+          "title": "比亚迪第三代唐预售 22.5 万起",
+          "summary": "定位大五座旗舰 SUV，第二代刀片电池，续航 770–850km，配云辇-A 空悬。",
+          "url": "https://www.ithome.com/1/026/496.htm",
+          "source": "IT之家"
+        },
+        {
+          "category": "news-auto",
+          "title": "极狐换电双车上市：贝塔 T1 换电版 5.2 万起",
+          "summary": "车电分离+电池银行，99 秒换电、电池包月 399 元；贝塔 S3 激光换电版带 192 线激光雷达不到 8 万。",
+          "url": "https://chejiahao.autohome.com.cn/info/26877210",
+          "source": "汽车之家"
+        },
+        {
+          "category": "news-auto",
+          "title": "2027 款领克 03 上市，限时 10.38 万起",
+          "summary": "车宽 1901mm，可选原厂宽体套件，1.5T 提到 148kW，顶配上磁流变悬架，十万级燃油性能轿车。",
+          "url": "https://www.ithome.com/1/026/947.htm",
+          "source": "IT之家"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设相关｜PhotoCraft：开源 Photoshop 复刻，500+ 命令开放给 agent",
+          "summary": "ArtCraft 用 Rust 从零做的 PSD 编辑器，带 CLI 和 MCP，设计软件直接成了 agent 的工具箱；还在早期 alpha。",
+          "url": "https://latent.space/p/artcraft/",
+          "source": "Latent Space"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设相关｜生物水泥打印：「活材料」进入 CMF 视野",
+          "summary": "细菌析出碳酸钙成形，表面质感接近石灰岩，可作为可持续材料表达的案例。",
+          "url": "https://www.designboom.com/architecture/bacteria-builders-eth-zurich-exploration-living-architecture-karen-antorveza-paez/",
+          "source": "designboom"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设相关｜V&A 导视：把 App 的视觉语言转译到实体空间",
+          "summary": "onboarding、三色编码、等宽字体，从数字 UI 迁移到线下标识，是做「风格转译」时能直接引用的案例。",
+          "url": "https://www.dezeen.com/2026/11/13/va-east-storehouse-wayfinding-graphics/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "oss",
+          "title": "tailscale/tailcat",
+          "summary": "类 netcat，走 Tailscale 数据面、不依赖其控制面",
+          "url": "https://github.com/tailscale/tailcat",
+          "meta": "+256 / 24h · ★9514"
+        },
+        {
+          "category": "oss",
+          "title": "alibaba/open-code-review",
+          "summary": "阿里出品：确定性流水线 + LLM 的代码审查，逐行评论",
+          "url": "https://github.com/alibaba/open-code-review",
+          "meta": "+215 / 24h · ★50753"
+        },
+        {
+          "category": "oss",
+          "title": "backnotprop/plannotator",
+          "summary": "盯住 Agent：批注计划/代码，一键把反馈回传",
+          "url": "https://github.com/backnotprop/plannotator",
+          "meta": "+108 / 24h · ★10519"
+        },
+        {
+          "category": "oss",
+          "title": "block/buzz",
+          "summary": "Block 出品的「蜂群」式人机协作通信平台",
+          "url": "https://github.com/block/buzz",
+          "meta": "+97 / 24h · ★37327"
+        },
+        {
+          "category": "oss",
+          "title": "tradermonty/claude-trading-skills",
+          "summary": "面向投资者的 Claude Code 技能包：行情、图表、选股",
+          "url": "https://github.com/tradermonty/claude-trading-skills",
+          "meta": "+69 / 24h · ★4242"
+        },
+        {
+          "category": "oss",
+          "title": "ChromeDevTools/chrome-devtools-mcp",
+          "summary": "让编程助手直接调试 Chrome 的官方 MCP",
+          "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+          "meta": "+67 / 24h · ★55558"
+        },
+        {
+          "category": "news-politics",
+          "title": "白宫确认：特朗普、习近平、普京下周四在深圳 APEC 期间首次三方会晤",
+          "summary": "11/19 场边举行，议题聚焦削减核武库与伊朗战事，预计不谈乌克兰、难有新协议；中方此前确认正在商谈。",
+          "url": "https://apnews.com/article/trump-xi-putin-summit-china-5fe92253ef38100bae913834a9b74d72",
+          "source": "AP / CNA",
+          "tag": "突发"
+        },
+        {
+          "category": "news-auto",
+          "title": "特斯拉开放 Cybercab 私人订购：29,990 美元 + 强制 $299/月自动驾驶订阅",
+          "summary": "邀请制，订金 1000 美元不退，预计 12 月奥斯汀交付；仅能在得州/佛州 Robotaxi 服务区内运行，无方向盘踏板。",
+          "url": "https://electrek.co/2026/11/13/tesla-cybercab-personal-use-orders-299-subscription-geofence/",
+          "source": "Electrek / InsideEVs",
+          "tag": "突发"
+        }
+      ],
+      "weather": "沙坪坝现在有雾，15℃，湿度88%；白天多云 20℃/15℃，夜里转阴。明天起小雨，17℃/15℃，出门带伞。",
+      "cards": [
+        "assets/github-daily-ranking-2026-11-14.png"
+      ]
+    },
+    {
       "date": "2026-11-13",
       "entries": [
         {
