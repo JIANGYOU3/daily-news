@@ -42,6 +42,205 @@
   ],
   "days": [
     {
+      "date": "2026-11-15",
+      "entries": [
+        {
+          "category": "news-tech",
+          "title": "星舰首次筷子夹住上面级：从轨道飞回来被 Mechazilla 接住",
+          "summary": "北京时间15日约5:20，飞船 Ship 42 结束约22.5小时、绕地14圈的任务，被得州星基地发射塔筷子臂夹住——这是星舰上面级首次从轨道返回并回收。助推器周五因燃料偏低放弃夹取，在墨西哥湾溅落后自毁，双边夹取没做成。",
+          "url": "https://www.spacex.com/launches/starship-flight-15/",
+          "source": "SpaceX"
+        },
+        {
+          "category": "news-tech",
+          "title": "商飞 CE-25A 在滨州完成首次有人驾驶智能飞行",
+          "summary": "这款10吨级电动商用飞机14日载2名飞行员和1名试飞工程师，空中飞行16分38秒、60.4公里，是2月无人智能首飞后的新节点。飞机可载19人、航程400公里，民航局已受理型号合格证申请。",
+          "url": "https://www.chinanews.com.cn/gn/2026/11-14/10732009.shtml",
+          "source": "中新网"
+        },
+        {
+          "category": "news-tech",
+          "title": "意大利因读取手机相册，对 Meta 罚 8.05 亿欧元",
+          "summary": "意大利数据保护局认定，Facebook 安卓应用在约2000万用户未获专项同意、告知不清的情况下读取照片和视频，用于「发帖建议」，且功能默认开启。Meta 须在60天内改为默认关闭并单独征求同意，公司表示将上诉。",
+          "url": "https://www.bbc.com/news/articles/cwn83gxemk35o",
+          "source": "BBC"
+        },
+        {
+          "category": "news-tech",
+          "title": "Cloudflare 开源给 AI agent 用的浏览器 Kitesurf",
+          "summary": "Apache 2.0 许可，跑在 Cloudflare Workers 上：解析 HTML/CSS、执行 JS、出截图，不必拉起完整 Chromium 容器，还支持 CDP，可接 Puppeteer。代码可本地改，也可部署到自己的 Workers 账户（需付费方案）。",
+          "url": "https://blog.cloudflare.com/kitesurf-open-source/",
+          "source": "Cloudflare"
+        },
+        {
+          "category": "news-design",
+          "title": "Arudeko：把地毯边角料羊毛织成纸感材料 Bianni",
+          "summary": "墨西哥工作室把瓦哈卡织毯剩余的彩色羊毛，和本地再生纸一起织成半透明柔性材料，可做灯罩、隔断和床头板；羊毛还带阻燃性，过程不加化学添加剂。",
+          "url": "https://www.dezeen.com/2026/11/14/arudeko-bianni-waste-wool-paper-material/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "news-design",
+          "title": "神奈川森林桑拿：树干直接穿进建筑当结构",
+          "summary": "Daichi Inc 的 Silent River Tree Sauna 不砍树，让树干穿过两层薄木平台并承重，桑拿房用无框玻璃围合，人像是溶解进森林里；入围 Dezeen Awards 休闲康体类。",
+          "url": "https://www.dezeen.com/2026/11/14/daichi-inc-silent-river-tree-sauna/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "news-design",
+          "title": "报废交通标志折成纽约农夫市集站桌",
+          "summary": "建筑师 Juan Fernández González 把退役铝制路牌折成悬臂桌面，用标准 U 形立柱螺栓固定，手绘粉白格子桌布纹，已在皇后区和联合广场市集试用。",
+          "url": "https://www.designboom.com/design/discarded-traffic-signs-urban-tables-farmers-markets-new-york-city-juan-fernandez-gonzalez/",
+          "source": "designboom"
+        },
+        {
+          "category": "news-design",
+          "title": "图卢姆美洲豹公园：18 公里石灰岩墙护栖息地",
+          "summary": "Colectivo C733 用当地石灰岩做了 18 公里长的边界墙，保护逾 1000 公顷森林，同时留出动物通道；园区还有架空步道、观察塔，并用棕榈茅草等在地材料。",
+          "url": "https://www.dezeen.com/2026/11/14/parque-del-jaguar-colectivo-c733-tulum-mexico-ecological-park/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "news-politics",
+          "title": "泽连斯基：美方曾问能否以顿巴斯换北约资格",
+          "summary": "乌总统称美国谈判代表首次提出这一设想；他重申不会放弃领土，但若有安全保障、建军和重建资金等一揽子方案，可交公投决定。他还警告，先谈「欧洲新安全框架」可能被俄方利用。",
+          "url": "http://www.news.cn/20261114/0dbf0c433dbc4d65bdefd44a47ad614d/c.html",
+          "source": "新华网"
+        },
+        {
+          "category": "news-politics",
+          "title": "中美举行贸易理事会首次会议，谈关税和对等降税",
+          "summary": "双方13日以视频举行中美经贸磋商机制项下贸易理事会首次会议，围绕落实前期成果，就关税、「300亿对300亿」对等降税安排、农产品贸易等交换意见，并称将继续沟通、拉长合作清单。",
+          "url": "https://www.mofcom.gov.cn/xwfb/rcxwfb/art/2026/art_c564995ff6054093a1ed039e10c89aad.html",
+          "source": "商务部"
+        },
+        {
+          "category": "news-politics",
+          "title": "新版医保目录新增 107 种药品，百万级 CAR-T 进基本医保",
+          "summary": "2026年版医保药品目录新增107种，其中51个一类创新药，再创纪录；原价超百万元的淋巴瘤 CAR-T、血友病非因子类药物进入基本医保。商保创新药目录再增12种，含全球首个实体瘤 CAR-T。目录总数3331种，2027年1月1日起执行。",
+          "url": "http://www.nhsa.gov.cn/art/2026/11/14/art_14_23385.html",
+          "source": "国家医保局"
+        },
+        {
+          "category": "news-politics",
+          "title": "日本拟将未来五年防卫费提高至约 60 万亿日元",
+          "summary": "政府考虑在年底修订「安保三文件」时，把2027–2031财年防卫费总额定为约60万亿日元（约2.5万亿元人民币），高于现行五年约43万亿的规模，用于采购无人装备和补充弹药导弹。防卫省要70–80万亿，财务省主张压在60万亿以下，财源尚未谈拢。",
+          "url": "https://www.news.cn/20261114/d450bde0754e47e59f5ceed2c0dc0e1e/c.html",
+          "source": "新华网"
+        },
+        {
+          "category": "news-auto",
+          "title": "比亚迪辅助驾驶保有量超 419 万辆，天神之眼日均数据超 2.6 亿公里",
+          "summary": "辅助驾驶车型保有量从今年5月的315万升至419万；天神之眼每天生成超2.6亿公里路况数据。公司称规模数据正在把系统从手写规则，推向用真实路况自己学复杂博弈。",
+          "url": "https://www.ithome.com/1/027/076.htm",
+          "source": "IT之家"
+        },
+        {
+          "category": "news-auto",
+          "title": "上汽奥迪 E7X 计划 12 月 OTA 升级 Momenta R7 世界模型",
+          "summary": "将解锁车位到车位、漫游模式、车头泊入，并首次上车窄路会车避让（可进退换挡）。官方称高速恐慌应对提升15倍以上，约90%常规车位可一把泊入。",
+          "url": "https://www.ithome.com/1/027/218.htm",
+          "source": "IT之家"
+        },
+        {
+          "category": "news-auto",
+          "title": "东风日产 NX7 预售 12.99 万起，顶配上激光雷达和 Momenta R7",
+          "summary": "插混中型 SUV，全系宁德时代 40.9kWh 电池，纯电续航 320km、综合 1666km；14.99万的 Ultra 版带激光雷达和 Momenta R7，11月27日广州车展正式上市。",
+          "url": "https://cnevpost.com/2026/11/13/nissan-opens-pre-sales-nx7-china/",
+          "source": "CnEVPost"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设相关｜Bianni：把织毯边角料转译成可透光的纸感材料",
+          "summary": "彩色废羊毛与再生纸交织，半透明、可塑形，还保留羊毛阻燃性。这是把在地工艺的色彩与「文化记忆」写进灯具、隔断等日常物件 CMF 的直接例子。",
+          "url": "https://www.dezeen.com/2026/11/14/arudeko-bianni-waste-wool-paper-material/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设相关｜交通标志桌：市政废料和通用杆件变成市集家具",
+          "summary": "退役铝牌折成桌面，卡在标准 U 形立柱上即用；粉白格子手绘把一次性桌布的视觉语言转译到金属表面，适合做材料再利用和风格转译的案例。",
+          "url": "https://www.designboom.com/design/discarded-traffic-signs-urban-tables-farmers-markets-new-york-city-juan-fernandez-gonzalez/",
+          "source": "designboom"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设相关｜森林桑拿：让活树成为结构和材料语言的一部分",
+          "summary": "树干穿孔承重，薄木平台与无框玻璃尽量退让，材料和构造都在处理「建筑如何进入自然而不覆盖它」，对形态与 CMF 的克制表达有参考。",
+          "url": "https://www.dezeen.com/2026/11/14/daichi-inc-silent-river-tree-sauna/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "oss",
+          "title": "GoogleChrome/modern-web-guidance-src",
+          "summary": "把现代 Web 最佳实践装进编程助手",
+          "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+          "source": "GitHub Trending",
+          "meta": "今日 +1,231 · 总星 6,206 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "we-promise/sure",
+          "summary": "自托管个人理财，集中管理资产与收支",
+          "url": "https://github.com/we-promise/sure",
+          "source": "GitHub Trending",
+          "meta": "今日 +659 · 总星 15,385 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "dream-num/univer",
+          "summary": "将表格、文档办公能力接入应用与智能体",
+          "url": "https://github.com/dream-num/univer",
+          "source": "GitHub Trending",
+          "meta": "今日 +495 · 总星 25,012 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "louislam/uptime-kuma",
+          "summary": "自托管服务监控，故障及时通知",
+          "url": "https://github.com/louislam/uptime-kuma",
+          "source": "GitHub Trending",
+          "meta": "今日 +430 · 总星 94,297 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "Likely7/Veyra-NRVideo",
+          "summary": "Windows 视频超分、降噪、HDR 与插帧",
+          "url": "https://github.com/Likely7/Veyra-NRVideo",
+          "source": "GitHub Trending",
+          "meta": "今日 +420 · 总星 2,350 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "JuliusBrussee/caveman",
+          "summary": "压缩智能体读写内容，减少词元开销",
+          "url": "https://github.com/JuliusBrussee/caveman",
+          "source": "GitHub Trending",
+          "meta": "今日 +227 · 总星 120,133 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "lidge-jun/opencodex",
+          "summary": "多模型代理，适配 Codex 与 Claude Code",
+          "url": "https://github.com/lidge-jun/opencodex",
+          "source": "GitHub Trending",
+          "meta": "今日 +51 · 总星 18,548 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "Tencent/LoopForge",
+          "summary": "自托管多编程智能体工作流，支持人工审批",
+          "url": "https://github.com/Tencent/LoopForge",
+          "source": "GitHub Trending",
+          "meta": "今日 +33 · 总星 975 · stars today 快照，非精密滚动24h"
+        }
+      ],
+      "weather": "沙坪坝现在有雾，17℃，湿度76%；白天小雨 18℃/16℃，西北风1-3级。明天继续小雨，17℃/13℃，出门带伞。",
+      "cards": [
+        "assets/github-daily-ranking-2026-11-15.png"
+      ]
+    },
+    {
       "date": "2026-11-14",
       "entries": [
         {
