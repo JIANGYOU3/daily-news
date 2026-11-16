@@ -43,6 +43,216 @@ window.NEWS_DATA = {
   ],
   "days": [
     {
+      "date": "2026-11-16",
+      "entries": [
+        {
+          "category": "workflow",
+          "title": "Nod：n8n Labs 的本机个人 agent，自带沙盒电脑和浏览器",
+          "summary": "别人怎么在用：装上桌面端（Mac / Windows / Linux），接 Gmail、日历、Slack，或让它直接打开网页；催发票、取消试用、整理收据这类差事交给它跑，发送、付款、删除前会先问你。开源 Apache-2.0，模型自选，不必有 n8n 账号。",
+          "url": "https://github.com/n8n-io/nod",
+          "source": "GitHub / n8n Labs",
+          "meta": "~1.7k★"
+        },
+        {
+          "category": "workflow",
+          "title": "my-ai-coding-workflow：作者自用 4500+ 小时沉淀的「计划→找茬→审 diff」三关",
+          "summary": "别人怎么在用：把仓库里的指令和三套 prompt 拷进 Claude Code / Cursor / Codex；先写计划，再换新上下文做对抗式评审，最后只信 git diff 和跑过的测试，不信 agent 口头说「写完了」。",
+          "url": "https://github.com/vaibhav-space/my-ai-coding-workflow",
+          "source": "GitHub",
+          "meta": "~204★ · 11/14 新建"
+        },
+        {
+          "category": "workflow",
+          "title": "antialgorithm：先点名「最平均的那个答案」，再故意离开它",
+          "summary": "别人怎么在用：clone 进 Claude Code skills，做命名、文案、海报、UI 时让模型先说出第一反应，再按项目理由走开；附带随机种子、手绘抖动和出界/对比度检查脚本。",
+          "url": "https://github.com/mankidev/antialgorithm",
+          "source": "GitHub",
+          "meta": "~72★ · 11/14 新建"
+        },
+        {
+          "category": "news-tech",
+          "title": "ULA 火神火箭复飞失败，40 颗亚马逊 Leo 卫星全损",
+          "summary": "北京时间16日 01:40，联合发射联盟（波音与洛克希德马丁合资）的火神火箭从卡纳维拉尔角 SLC-41 升空，约10分钟后在上面级 Centaur 点火阶段出现异常，40 颗亚马逊 Leo 宽带卫星全部损失。这是火神第5次飞行、停飞约9个月后的复飞，也是亚马逊向 ULA 采购的38次发射中的第一次；路透社与 Spaceflight Now 均指出，这是 ULA 自2006年成立以来首次彻底任务失败。原因尚未公布。",
+          "url": "https://www.reuters.com/3fec1b0a85a0/business/aerospace-defense/us-rocket-fails-after-launch-payload-amazon-internet-satellites-destroyed-2026-11-15/",
+          "source": "Reuters"
+        },
+        {
+          "category": "news-tech",
+          "title": "OpenAI 科学博客首发：物理学家和 GPT-6 Astra 给出标准模型格点定义候选",
+          "summary": "UCSB 粒子理论组负责人、OpenAI 访问科学家 Nathaniel Craig 在科学博客首篇客座文章中介绍，他与 GPT-6 Astra 在10月预印本里提出标准模型的候选非微扰格点定义。他原有策略但未能证完所有情形，Astra 把策略做成构造并主导了细节证明。文中明确这仍是候选方案，还不能直接拿去做真实格点模拟。",
+          "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+          "source": "OpenAI"
+        },
+        {
+          "category": "news-tech",
+          "title": "华为云上线开源盘古 openPangu-2.1-Pro，支持 512K 上下文和工具调用",
+          "summary": "华为云 MaaS 15日公告，openPangu-2.1-Pro（版本 20261115）已上线，支持 512K 上下文、Function Call、前缀续写、前缀缓存和思维链，目前仅「西南-贵阳一」预置服务。IT之家称其围绕 Agent 开发、鸿蒙 App/昇腾算子编码和推理优化升级，标价输入 0.8 元/百万 tokens、输出 3.2 元/百万 tokens。",
+          "url": "https://support.huaweicloud.com/bulletin-maas/bulletin-maas-0001.html",
+          "source": "华为云"
+        },
+        {
+          "category": "news-tech",
+          "title": "苹果与 OpenEvidence 上线健康 AI 研究应用，计划招募最多约 20 万人",
+          "summary": "苹果在美国推出 Apple Health AI Usage Study：用户可向应用询问健康问题，回答基于《新英格兰医学杂志》、JAMA、Nature 等临床文献，并可对回答评分。面向 21 岁以上美国用户，需较新的 iPhone 与 iOS 26，为期逾12个月。苹果称数据会匿名化，且不会用来训练模型；OpenEvidence 会在24小时后删除问答记录。",
+          "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/",
+          "source": "TechCrunch"
+        },
+        {
+          "category": "news-design",
+          "title": "西安工作室把碑林 1087 年古建改成咖啡馆，家具吊在梁上、不伤原结构",
+          "summary": "Tant A Temps Design 在西安碑林博物馆内做咖啡馆 Laibei 1087：以「最小干预、零损伤」把新装置做成可拆可逆，家具从木梁悬挂或绕柱布置。桌椅柜抽取梁柱与斗拱意象，主色为浅绿加金色，工作室称是为恢复唐风「雄健、浓彩」的视觉特征，而不是仿古复制。项目约 220 平方米，还含休息区、零售和拓片工坊。",
+          "url": "https://www.dezeen.com/2026/11/15/tant-a-temps-design-tang-architecture-cafe-laibei-1087-china/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "news-design",
+          "title": "成都蜀锦博物馆：旧农机厂加上新屋顶，立面像锦缎褶皱、梁架像织机",
+          "summary": "ARCHSTUDIO（主持建筑师韩文强）在成都板桥村蜀锦文化创意园，把废弃农机厂只剩的砖墙加上新屋顶，做成蜀锦文化博物馆。室内木与交叉钢梁向织机致意，起伏立面呼应锦缎褶皱，水磨石地面使用回收砖；园区种有传统染料植物，馆内还有蜀锦工艺数字档案。项目由四川省文化和旅游厅相关倡议推动。",
+          "url": "https://www.wallpaper.com/architecture/shu-brocade-culture-museum-archstudio-china",
+          "source": "Wallpaper*"
+        },
+        {
+          "category": "news-design",
+          "title": "荷兰央行改造：拆掉塔楼、打开金库，旧瓷砖碾成颜料贴回新立面",
+          "summary": "Mecanoo 完成阿姆斯特丹荷兰央行改造：金库和印钞业务迁走后，拆除后来加建的14层圆塔，把61米长的旧金库改成对公众开放的展览空间，称为「城市客厅」。拆除的混凝土用于运河驳岸和社会住房，旧棕色外墙砖被碾碎当作新红色瓷砖的颜料；室内色彩取自荷兰盾最后一批纸币，天花板用本地杨木条。据称日常能耗下降约80%。",
+          "url": "https://www.dezeen.com/2026/11/15/netherlands-central-bank-renovation-mecanoo/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "news-politics",
+          "title": "贝森特：英伟达需要「大换血」，应从外部找 CEO，并要董事会十天内给答复",
+          "summary": "美国财长 Bessent 周日接受福克斯采访，在黄仁勋周四辞职、CFO Kress 任临时 CEO 的背景下称，英伟达需要 dramatic shake-up，新帅应到公司外部去找。他追问公司是否有意忽视新加坡等地空壳公司的预警，并要求「未来10天内」由董事会和外部律师给出答复。这是周日新采访，不宜和「黄仁勋请愿复职」旧闻混成一条。",
+          "url": "https://www.foxbusiness.com/business-leaders/bessent-calls-nvidia-leadership-shake-up-amid-china-chip-scandal-urges-outside-ceo",
+          "source": "Fox Business"
+        },
+        {
+          "category": "news-politics",
+          "title": "美空军 F-15EX 首次在海外常驻，首批两架抵达冲绳嘉手纳",
+          "summary": "15日，首批永久部署的 F-15EX Eagle II 抵达嘉手纳基地，隶属第18联队第67战斗机中队，这是该机型首次在美军海外基地常驻。两架战机从俄勒冈波特兰经檀香山飞来。美军计划最终以36架 F-15EX 替换原先48架 F-15C/D。联队司令称，此举加强在太平洋的威慑与对日共同防御。",
+          "url": "https://theaviationist.com/2026/11/15/kadena-welcomes-its-first-f-15ex-eagle-ii-fighters/",
+          "source": "The Aviationist"
+        },
+        {
+          "category": "news-politics",
+          "title": "爱沙尼亚拟 12 月 1 日起关闭对俄公路口岸，回应被指与俄军情有关的纵火未遂",
+          "summary": "爱沙尼亚外交部15日声明，政府计划自12月1日起关闭对俄公路口岸。背景是14日晨8名拉脱维亚公民在塔林以北企图闯入国防企业 Threod Systems 并纵火，已被拘留，官方指认与俄军情总局有关。现有纳尔瓦、卢哈马、科伊杜拉三个公路口岸；关闭是暂时还是无限期，仍待内阁近几天讨论。目前还不是已经关闭，也不涉及已决定关停全部边境。",
+          "url": "https://www.vm.ee/en/news/foreign-minister-tsahkna-estonia-close-road-border-crossings-russia",
+          "source": "爱沙尼亚外交部"
+        },
+        {
+          "category": "news-politics",
+          "title": "澳大利亚与菲律宾在马尼拉签署新防务合作安排，更新 1995 年备忘录",
+          "summary": "15日，澳总理 Albanese 在马尼拉见证两国签署新的 Defence Cooperation Arrangement，覆盖海上感知与行动、信息共享、训练、互操作和防务基础设施等。菲国防部长称，这将加快与《访问部队地位协定》相关的协调，并有助于在西菲律宾海形成「可信威慑」。澳方声明未点名中国。",
+          "url": "https://www.pm.gov.au/media/enhancing-defence-cooperation-and-maritime-security-southeast-asia",
+          "source": "澳大利亚总理府"
+        },
+        {
+          "category": "news-auto",
+          "title": "2027 款极狐阿尔法 S5 按计划今日上市，预售 12.18 万起，全系标配激光雷达",
+          "summary": "年代改款共三款，官方页仍标预售价：650 PLUS 激光版 12.18 万、650 MAX 13.18 万、750 MAX 14.48 万。全系车顶 192 线激光雷达，高通骁龙 8775A 舱驾一体芯片，北汽元境智驾支持城区/高速领航和跨楼层记忆泊车；CLTC 续航 650/750 公里，宁德时代电池，支持 5C 超充。截至上午，官网上仍是预售价和预售权益，正式上市价以晚些时候发布为准。",
+          "url": "https://www.arcfox.com.cn/NewS5/index.html",
+          "source": "极狐官方"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设相关｜碑林咖啡馆：用可逆装置和斗拱家具转译唐风，而不是仿古布景",
+          "summary": "在文物建筑里做当代商业空间时，把新介入做成可拆模块，家具悬挂避开原结构，再抽取唐风色彩（浅绿加金）与木构语法。这是「艺术风格解析与转译」和遗产空间产品化的直接案例。",
+          "url": "https://www.dezeen.com/2026/11/15/tant-a-temps-design-tang-architecture-cafe-laibei-1087-china/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设相关｜成都蜀锦馆把织机、锦缎褶皱和回收砖写进旧厂房",
+          "summary": "屋顶构架转译织机，起伏立面转译锦缎褶皱，多孔砖与水磨石转译织纹，院中还种传统染料植物，馆内做工艺数字档案。对 CMF、传统工艺当代转译和地方文化空间都很直接，也贴近四川语境。",
+          "url": "https://www.wallpaper.com/architecture/shu-brocade-culture-museum-archstudio-china",
+          "source": "Wallpaper*"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设相关｜荷兰央行改造：旧瓷砖碾成颜料，盾币色彩进入新 CMF",
+          "summary": "把拆除的棕色外墙砖磨成颜料做成新红砖，室内色彩取自荷兰盾最后一批纸币，天花板用本地杨木。材料是原建筑的「记忆」被转译后再用一遍，对改造项目的 CMF 和循环设计有参考。",
+          "url": "https://www.dezeen.com/2026/11/15/netherlands-central-bank-renovation-mecanoo/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "oss",
+          "title": "ag-ui-protocol/ag-ui",
+          "summary": "把智能体接入前端应用的交互协议",
+          "url": "https://github.com/ag-ui-protocol/ag-ui",
+          "source": "GitHub Trending",
+          "meta": "今日 +355 · 总星 18,061 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "kajisho5/ffmpeg-skill",
+          "summary": "给编程助手用的本地视频剪辑技能",
+          "url": "https://github.com/kajisho5/ffmpeg-skill",
+          "source": "GitHub Trending",
+          "meta": "今日 +331 · 总星 6,033 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "maillab/cloud-mail",
+          "summary": "基于 Cloudflare 的一站式自托管邮箱",
+          "url": "https://github.com/maillab/cloud-mail",
+          "source": "GitHub Trending",
+          "meta": "今日 +316 · 总星 16,219 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "google-labs-code/stitch-skills",
+          "summary": "对接 Google Stitch 的设计向 Agent Skills",
+          "url": "https://github.com/google-labs-code/stitch-skills",
+          "source": "GitHub Trending",
+          "meta": "今日 +247 · 总星 9,408 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "antithesishq/bombadil",
+          "summary": "对网页和终端界面做属性测试",
+          "url": "https://github.com/antithesishq/bombadil",
+          "source": "GitHub Trending",
+          "meta": "今日 +202 · 总星 1,995 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "davila7/claude-code-templates",
+          "summary": "Claude Code 的组件注册表与命令行",
+          "url": "https://github.com/davila7/claude-code-templates",
+          "source": "GitHub Trending",
+          "meta": "今日 +174 · 总星 33,775 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "andrewyng/openworker",
+          "summary": "吴恩达出品的桌面 AI 同事与开发套件",
+          "url": "https://github.com/andrewyng/openworker",
+          "source": "GitHub Trending",
+          "meta": "今日 +139 · 总星 19,353 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "NVIDIA/SkillEvaluator",
+          "summary": "英伟达框架，评估智能体技能是否真有效",
+          "url": "https://github.com/NVIDIA/SkillEvaluator",
+          "source": "GitHub Trending",
+          "meta": "今日 +122 · 总星 1,854 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "tibo",
+          "title": "Tibo：Codex「model at capacity」报错已大幅下降",
+          "summary": "Tibo 发图显示，10 月中旬曾有 6.82% 日活用户碰到容量报错，经多轮重试修复后，到 11 月 12 日已降至 0.085%。他称团队可能已经修好了这个一直烦大家的问题。",
+          "url": "https://x.com/thsottiaux/status/2122206990101536852",
+          "source": "X @thsottiaux",
+          "tag": "产品更新"
+        }
+      ],
+      "weather": "沙坪坝现在中雨，15℃，湿度96%；白天小雨 16℃/13℃，西风1-3级。明天还是小雨，16℃/13℃，出门带伞。",
+      "cards": [
+        "assets/github-daily-ranking-2026-11-16.png"
+      ]
+    },
+    {
       "date": "2026-11-15",
       "entries": [
         {
