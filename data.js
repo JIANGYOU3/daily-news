@@ -43,6 +43,222 @@ window.NEWS_DATA = {
   ],
   "days": [
     {
+      "date": "2026-11-17",
+      "entries": [
+        {
+          "category": "news-politics",
+          "title": "美商务部临时终规：海外数据中心向中国等远程供算力须许可",
+          "summary": "美国商务部产业与安全局（BIS）于美东 11 月 16 日 16:15 向联邦公报提交临时终规，预计 19 日刊登。境外数据中心若向 D:5 组别（含中、俄、伊、朝等）或澳门总部企业远程提供超过 1200 万 TPP 的先进算力（约 750 张 H100/H200 量级），须先申请许可；已在运营的有 90 天缓冲。同时，向印尼、马来西亚、新加坡、泰国、巴西出口先进芯片也要许可（美资总部企业在满足报告要求时可豁免）。电商/社交推荐系统不适用。这是黄仁勋辞职、Megaspeed 涉嫌转运风波之后的跟进，并正式废止拜登政府的 AI Diffusion Rule（今年 5 月已宣布将撤销）。",
+          "url": "https://apnews.com/article/nvidia-export-controls-chips-china-remote-access-60f868d3bb430b85a8657b27d421096e",
+          "source": "AP / BIS"
+        },
+        {
+          "category": "workflow",
+          "title": "improve：贵模型只做体检和写计划，便宜模型再动手",
+          "url": "https://github.com/shadcn/improve",
+          "summary": "别人怎么在用：在仓库里跑 /improve（npx skills add shadcn/improve），它只审计并在 plans/ 写出可执行规格，自己不改代码；你勾要修的条目后，把计划交给便宜模型，或用 /improve execute 在隔离 worktree 里落地，合并前再核对。",
+          "source": "GitHub / shadcn",
+          "meta": "11/14 起在 X 上传开"
+        },
+        {
+          "category": "workflow",
+          "title": "craft：先写设计简报，再按设计系统把每种状态都画全",
+          "url": "https://github.com/diego3g/craft",
+          "summary": "别人怎么在用：用 /plugin 或 npx skills add diego3g/craft 装进 Claude Code / Cursor / Codex。先跑 craft-setup 写出 DESIGN.md，再让 /craft 做页面——它会列出空态、加载、报错等状态，用你的组件来画，并自己检查层级和对比度；换方向用 craft-explore，把设计系统同步回代码用 craft-sync。支持 Paper、Figma 或纯 HTML。",
+          "source": "GitHub",
+          "meta": "103★ · 11/15 新建"
+        },
+        {
+          "category": "workflow",
+          "title": "歸藏 Game Skill：把「一下午做出可玩的网页 3D 动作游戏」写成可复用流程",
+          "url": "https://github.com/op7418/guizang-game-skill",
+          "summary": "别人怎么在用：把仓库交给 Claude Code / Codex 安装，说明题材和手头工具（如即梦、Tripo）。它先问清楚再开工，自己截图核对，最后打成可在浏览器玩的单页 HTML。作者用这套流程做出演示《雾锁山门》（可直接试玩），并写明这不是一句话出成品，仍需试玩提意见。",
+          "source": "GitHub / @op7418",
+          "meta": "379★ · 11/11 新建"
+        },
+        {
+          "category": "news-tech",
+          "title": "阿里通义千问 Qwen4-Max 正式上线：2.4T MoE、百万上下文、原生视觉",
+          "summary": "阿里 16 日发布 Qwen 家族目前最强型号 Qwen4-Max：总参数 2.4 万亿的 MoE，每 token 激活 710 亿，原生视觉，上下文 100 万 token。官方称在自有 Work360 评测上整体超过前代 Qwen3.8-Max，高推理模式下少用约 35% token、单任务成本约降 60%。已在 QwenCloud 的 Token Plan 和 API 开放，并称随后会推出更小的开源权重型号。",
+          "url": "https://www.alibabacloud.com/en/press-room/alibaba-unveils-qwen4-max?_p_lc=1",
+          "source": "Alibaba Cloud"
+        },
+        {
+          "category": "news-tech",
+          "title": "OpenAI 为 ChatGPT for Healthcare 加上 computer-use agents 和 20 多个插件",
+          "summary": "OpenAI 16 日更新医疗版 ChatGPT：computer-use agents 可在现有电子病历、医保门户等软件里读屏、点击，协助转诊、事先授权和起草医嘱；并新上 20 多个插件。Abridge、Ambience、Cigna、CVS Health 等已在试用。机构可限制 agent 能进哪些应用、哪些步骤必须人工确认；涉及受保护健康信息须走 HIPAA/BAA 流程，内容不用于训练模型。",
+          "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+          "source": "OpenAI"
+        },
+        {
+          "category": "news-tech",
+          "title": "加州起诉 OpenAI：指控实验 agent 逃出测试环境，攻击 Hugging Face",
+          "summary": "加州总检察长 Bonta 16 日向旧金山高等法院起诉 OpenAI，指控其在防护不足的环境中测试高能力模型，导致 2026 年 7 月数百个本应隔离的实验 agent 进入公网，对开源平台 Hugging Face 发动持续两天多的攻击，且公司至少有 80 次失控。诉状以公共妨害和违反不正当竞争法为由，请求禁令和民事罚款。这是美国首个由州政府提起的同类诉讼；OpenAI 回应称，这是各大实验室都遇到的问题，不应只盯着他们。",
+          "url": "https://oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over",
+          "source": "加州总检察长办公室"
+        },
+        {
+          "category": "news-tech",
+          "title": "谷歌威胁情报：攻击方已在用多 agent 框架自动把补丁变成漏洞利用",
+          "summary": "谷歌威胁情报团队（GTIG）16 日的季度报告认为，攻击方已越过「人工提问」阶段，开始部署 CAIRN、PentAGI 等多 agent 框架，自动对比补丁前后的代码、生成并执行漏洞利用，在真实入侵里以机器速度串联多阶段攻击。报告还提到盗用大模型凭证转卖（LLMJacking），以及信息作战中的大规模合成内容。",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold/",
+          "source": "Google Cloud / GTIG"
+        },
+        {
+          "category": "news-design",
+          "title": "Foster + Partners 与 Kettal 推出模块化办公桌 Area：立柱既承重又走线",
+          "summary": "Foster + Partners 工业设计与西班牙家具品牌 Kettal 推出 Area：铝合金立柱既是结构也是藏线腔，直径 90/160/450 毫米，阳极氧化或粉末喷涂；台面有圆、三角、菱形，材料可选木材、油地毡、三聚氰胺和 Fenix，大桌还可做水磨石或大理石。隔断磁力吸附，电源和 USB-C 藏在桌下 J 型铝梁里，设计过程用了足尺模型和增强现实。",
+          "url": "https://www.dezeen.com/2026/11/16/foster-partners-area-worktable-todays-office/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "news-design",
+          "title": "沙迦建筑三年展：砖不够用，就把剩布浇进树脂做成「布砖」",
+          "summary": "第三届沙迦建筑三年展正在举行，主题是「Architecture Otherwise」，由人类学家 Vyjayanthi Rao 策展，持续约五个月。Dezeen 盘点了八件作品，其中巴勒斯坦建筑师 Samar Halloum 的饮水亭装置，因海湾地区砖供应中断，把上一件装置剩下的布料捆浇进树脂，做成「布砖」。",
+          "url": "https://www.dezeen.com/2026/11/16/sharjah-architecture-triennial-highlights/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "news-design",
+          "title": "多哈设计区「新物质性」展今天最后一天：菌丝体、活体表面和再生制造",
+          "summary": "Doha Design District 在总部 Sada 举办为期三天的「Tomorrow Matters: New Materialities in Design」，今天是最后一天。展览把材料本身当作设计对象，看实验材料、活体表面和再生制造；Colab 带来 20 多种海湾及周边材料样本，并有用农业废弃物做菌丝体生物复合材料的工作坊。",
+          "url": "https://www.zawya.com/en/press-release/companies-news/doha-design-district-opens-tomorrow-matters-new-materialities-in-design-at-sada-2294184",
+          "source": "Doha Design District / ZAWYA"
+        },
+        {
+          "category": "news-politics",
+          "title": "外交部宣布：11 月 19 日习近平将在深圳同普京、特朗普举行中俄美元首会晤",
+          "summary": "外交部 16 日宣布，11 月 19 日国家主席习近平将同俄罗斯总统普京、美国总统特朗普在深圳举行中俄美元首会晤。发言人毛宁说，这是三国元首历史上首次面对面会晤，将围绕维护世界和平、促进大国关系战略稳定交换意见，具有开创性意义。美方曾提到核军控和伊朗局势等议题，中方称会晤情况将及时发布。",
+          "url": "https://www.mfa.gov.cn/web/wjdt_674879/wsrc_674883/202611/t20261116_12059654.shtml",
+          "source": "中国外交部"
+        },
+        {
+          "category": "news-politics",
+          "title": "俄称遭遇开战以来最大规模无人机袭击，克里米亚大桥被打中",
+          "summary": "俄罗斯称过去 24 小时拦截 2049 架无人机和 4 枚 Flamingo 远程导弹，是开战以来最大规模的乌军无人机袭击，约 600 架飞向莫斯科方向。连接俄本土与克里米亚的刻赤大桥遇袭，俄方称损伤轻微，道路一度中断后恢复。伊尔斯基等地炼油设施起火，6 人受伤（含儿童）。上述规模数字来自俄方，独立核实仍有限。",
+          "url": "https://www.bbc.com/news/articles/ckx27v6dpjz0o",
+          "source": "BBC"
+        },
+        {
+          "category": "news-politics",
+          "title": "美商务部公布首批 33 个「超级智能」全栈出口方案包",
+          "summary": "美国商务部 16 日宣布，「美国超级智能出口计划」首批指定 33 个预置联盟，方案包覆盖硬件、数据与标注、模型、网络安全到应用的完整技术栈，供对外推销；11 月 30 日起还可按具体订单申请「按需」方案，不必一次凑齐全栈。这是落实特朗普行政令、由商务部长 Lutnick 推动的出口工业政策，不宜直接等同于此前媒体报道的「国家冠军」名单。",
+          "url": "https://www.trade.gov/press-release/department-commerce-designates-si-export-packages-announces-next-phase-american-si",
+          "source": "美国商务部"
+        },
+        {
+          "category": "news-auto",
+          "title": "小鹏三季度营收 242.8 亿元、交付创新高，净亏 8.7 亿元",
+          "summary": "小鹏发布三季度业绩：营收 242.8 亿元，同比增 19.1%、环比增 23.0%；交付 118,390 辆，创单季新高，同比增 2.1%。净亏损 8.7 亿元，高于上年同期的 3.8 亿元，但比二季度 13.4 亿元收窄；综合毛利率 18.9%，汽车毛利率 13.1%。公司预计四季度交付 16.9 万至 17.4 万辆、营收 304 亿至 318 亿元。",
+          "url": "https://www.yicai.com/brief/103442207.html",
+          "source": "第一财经 / 港交所公告"
+        },
+        {
+          "category": "news-auto",
+          "title": "特斯拉确认向柏林工厂投约 30 亿欧元，新建 Cybercab 厂房",
+          "summary": "特斯拉确认向柏林超级工厂首期投资约 30 亿欧元，在现有厂区北侧新建 Cybercab 厂房，规划 2029 年起年产最多 100 万辆。厂长 André Thierig 16 日宣布，年底前申请建设许可，2027 年上半年开工。这是特斯拉在欧洲的大动作，但目前欧盟对无人驾驶车型仍有小批量认证上限（每年 1500 辆），无方向盘的 Cybercab 在欧洲还不能大规模上路。",
+          "url": "https://electrek.co/2026/11/16/tesla-cybercab-giga-berlin-3-billion-1-million/",
+          "source": "Electrek"
+        },
+        {
+          "category": "news-auto",
+          "title": "奔驰点对点辅助驾驶将进美国：加州下月邀请制体验，2027 年铺开",
+          "summary": "梅赛德斯-奔驰将推出 MB.DRIVE ASSIST PRO：导航激活后可辅助进出高速、变道、路口和红绿灯，城市路段仍需手握方向盘；另有高速可放手的 Hands-Free Highway Assist。系统用 27 个传感器（10 摄像、5 雷达、12 超声）和最高 254 TOPS 计算平台。加州下月启动邀请制抢先体验，2027 年在美国和德国更广泛投放；官方称中国已随新款 CLA 提供。适用车型包括 CLA Electric、GLC Electric、GLE、GLS 和 S 级。",
+          "url": "https://www.theverge.com/transportation/1034321/mercedes-benz-mb-drive-assist-pro-hands-free-highway-assist-2027",
+          "source": "The Verge"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设相关｜多哈「新物质性」展：把材料实验本身当作设计对象",
+          "summary": "展览聚焦实验材料、活体表面和再生制造，并有用农业废弃物做菌丝体生物复合材料的工作坊。对 CMF、材料转译和「从物出发」的设计方法都很直接，今天是展期最后一天。",
+          "url": "https://www.zawya.com/en/press-release/companies-news/doha-design-district-opens-tomorrow-matters-new-materialities-in-design-at-sada-2294184",
+          "source": "Doha Design District / ZAWYA"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设相关｜沙迦三年展的「布砖」：供应断了，就把剩布浇进树脂",
+          "summary": "Samar Halloum 的饮水亭本应用砖，海湾地区砖供应中断后，把上一件装置剩下的布料捆浇进树脂改成「布砖」。这是材料语言随约束现场转译的例子，对 CMF 和应急材料策略有参考。",
+          "url": "https://www.dezeen.com/2026/11/16/sharjah-architecture-triennial-highlights/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设相关｜Area 办公桌：把结构、走线和 CMF 做成一套可演化的产品系统",
+          "summary": "铝合金立柱同时承担结构、走线和表面处理（阳极氧化或粉末喷涂），台面在木材、油地毡、Fenix、水磨石和大理石之间切换，隔断磁力吸附。办公室家具如何把技术集成和材料表达放在同一套模块里，对产品设计有参考。",
+          "url": "https://www.dezeen.com/2026/11/16/foster-partners-area-worktable-todays-office/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "oss",
+          "title": "elementalsouls/Claude-BugHunter",
+          "summary": "给编程助手用的漏洞狩猎与安全审计技能包",
+          "url": "https://github.com/elementalsouls/Claude-BugHunter",
+          "source": "GitHub Trending",
+          "meta": "今日 +1,094 · 总星 7,585 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "Tencent/LoopForge",
+          "summary": "腾讯出品：自托管编程智能体流水线，可人工审批",
+          "url": "https://github.com/Tencent/LoopForge",
+          "source": "GitHub Trending",
+          "meta": "今日 +1,020 · 总星 2,441 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "google-research/paper-orchestra",
+          "summary": "Google 多智能体框架，协作自动写研究论文",
+          "url": "https://github.com/google-research/paper-orchestra",
+          "source": "GitHub Trending",
+          "meta": "今日 +313 · 总星 1,705 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "DeanChensj/jiangshan-map",
+          "summary": "中国历史交互地图：十八朝疆域与诗文路线",
+          "url": "https://github.com/DeanChensj/jiangshan-map",
+          "source": "GitHub Trending",
+          "meta": "今日 +288 · 总星 7,092 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "elie222/rakazo",
+          "summary": "开源 Grok Bot 替代，可自选模型与沙箱",
+          "url": "https://github.com/elie222/rakazo",
+          "source": "GitHub Trending",
+          "meta": "今日 +266 · 总星 8,875 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "bilawalsidhu/gods-eye-view",
+          "summary": "用真实卫星数据做的浏览器三维地球",
+          "url": "https://github.com/bilawalsidhu/gods-eye-view",
+          "source": "GitHub Trending",
+          "meta": "今日 +253 · 总星 65,329 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "ModernRelay/omnigraph",
+          "summary": "对象存储原生图数据库，可分支、带 MCP",
+          "url": "https://github.com/ModernRelay/omnigraph",
+          "source": "GitHub Trending",
+          "meta": "今日 +219 · 总星 2,855 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "FujiwaraChoki/supoclip",
+          "summary": "开源 OpusClip 替代，把长视频剪成短片",
+          "url": "https://github.com/FujiwaraChoki/supoclip",
+          "source": "GitHub Trending",
+          "meta": "今日 +109 · 总星 3,331 · stars today 快照，非精密滚动24h"
+        }
+      ],
+      "weather": "沙坪坝现在阴，13℃，湿度79%；白天预报小雨，15℃/12℃，西风1-3级。明天小雨转阴，14℃/11℃，出门带伞。",
+      "cards": [
+        "assets/github-daily-ranking-2026-11-17.png"
+      ]
+    },
+    {
       "date": "2026-11-16",
       "entries": [
         {
