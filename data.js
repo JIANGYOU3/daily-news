@@ -43,6 +43,222 @@ window.NEWS_DATA = {
   ],
   "days": [
     {
+      "date": "2026-11-18",
+      "entries": [
+        {
+          "category": "tibo",
+          "title": "Tibo：GPT-6.2 Sol 与 Astra 正式上线，Ultrafast 扩至 Pro 200",
+          "summary": "Tibo 称两款模型「终于来了」，并把 Ultrafast 扩展到 Pro 200 档的 GPT-6.2 Sol（他的日常主力）。官方同步在 ChatGPT Work 与 Codex 向 Plus / Pro / Enterprise / Edu 开放；Pro 500 两个模型都可用 Ultrafast。Astra 主打高难项目与设计/3D，同任务成本不到 GPT-6 Astra 的三分之一。",
+          "url": "https://x.com/thsottiaux/status/2122753991000133943",
+          "source": "Tibo / OpenAI"
+        },
+        {
+          "category": "news-tech",
+          "title": "英伟达 FY27 Q3 营收 1158 亿美元，同比翻倍；Q4 指引 1300 亿",
+          "summary": "官方：营收 1158 亿美元（同比 +103%，环比 +20%），数据中心 1076 亿美元（同比 +110%），GAAP 净利 653 亿美元、稀释 EPS $2.70。Vera Rubin 已出货，称史上最快爬坡。Q4 营收指引 1300 亿美元（±3%，不含中国数据中心计算收入）。电话会上把 FY2028 营收增速预期从约 70% 上调至约 75%。董事会已启动永久 CEO 寻聘，并新设国家安全与出口管制监督委员会。另据《华尔街日报》报道，SEC 已就黄仁勋离职相关信息披露对英伟达展开民事调查。",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+          "source": "NVIDIA"
+        },
+        {
+          "category": "workflow",
+          "title": "rust-anything：一块一块把应用改写成 Rust，每步都对照原版行为验收",
+          "summary": "别人怎么在用：cargo install rust-anything，再跑 rust-anything setup，接到 Claude Code / Codex / Cursor。它先给原程序录行为，再让 agent（或你）一次只搬一个热点；过不了 gate 就不算完成。支持 TypeScript、Python、C、Go、Ruby、Java。",
+          "url": "https://github.com/erkamyaman/rust-anything",
+          "source": "GitHub",
+          "meta": "~1.4k★ · 11/16 新建"
+        },
+        {
+          "category": "workflow",
+          "title": "inference-optimisation-skill：给本地 LLM 服务做爬山式加速，先算天花板再改一处测一次",
+          "summary": "别人怎么在用：把 skill 拷进 Claude Code（或其他能读 SKILL.md 的 agent），指向本机已在跑的服务。它先算理论上限，再一次只改一个参数并交叉对照，结果写入 ledger，长上下文检索过关才收工。作者用这套流程在 Arc、RTX 3090、H200 上跑出可复现加速。",
+          "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+          "source": "GitHub / Sybil Solutions",
+          "meta": "~930★ · 11/16 新建"
+        },
+        {
+          "category": "workflow",
+          "title": "motlab：每个分镜都是代码，agent 写片，你在播放器里逐帧批注再改",
+          "summary": "别人怎么在用：npm install -g @motlab/cli && npx @motlab/cli setup，把 logo、素材、配乐和一句方向交给 Claude Code / Codex / Cursor。它写出 renderAt(t) 画布场景，你在查看器里框选、批注，agent 按编号修改，最后导出 4K MP4——不调用文生视频模型。",
+          "url": "https://github.com/staryone/motlab",
+          "source": "GitHub",
+          "meta": "~165★ · 11/16 新建"
+        },
+        {
+          "category": "news-tech",
+          "title": "微软 Ignite 一口气发布七款 MAI 模型，主打更便宜地跑 agent 和日常开发",
+          "summary": "微软称，编码模型 MAI Code 2 在多项企业级评测上达到 GPT-6.1 Sol 约 98% 的质量、价格约四成，并已可在 GitHub Copilot 使用；网络安全模型 MAI Cyber 2 Flash 在 CyberGymE2E 上自称质量接近 GPT-6 Astra，单任务成本不到其 2%。同场还有图像、实时语音和转写等型号，定位是让智能体可以 24 小时跑、又不必一直用最贵的模型。",
+          "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+          "source": "Microsoft AI"
+        },
+        {
+          "category": "news-tech",
+          "title": "爱尔兰监管机构叫停 X：不得再用 Grok Bot 采集的他人数据训练模型",
+          "summary": "爱尔兰数据保护委员会（DPC）对 X 把 Grok Bot 自 10 月下旬起采集的「第三方个人数据」用于训练提出重大 GDPR 关切，并要求暂停；委员称 X 已确认停止。这类数据包括别人分享的照片，以及智能体从网上抓取的个人信息。监管焦点正从「用户自己提供的数据」转向「个人 agent 收集到的他人数据」。",
+          "url": "https://www.politico.eu/article/x-stops-training-ai-with-agents-data-after-ireland-intervened/",
+          "source": "POLITICO"
+        },
+        {
+          "category": "news-tech",
+          "title": "新一期 TOP500：深圳「灵晟」蝉联第一，新上榜超算创历史新低",
+          "summary": "11 月 16 日在芝加哥 SC26 公布的第 68 期 TOP500 中，国家超级计算深圳中心的「灵晟」（LineShine）以 2.198 EFlop/s 蝉联第一；前十名与今年 6 月完全相同。本期新上榜系统只有 27 台，为有记录以来最低。榜单分析指，更多新硬件正流向超大规模 AI 集群，而不是传统意义上榜的超算。",
+          "url": "https://www.top500.org/news/top500-leadership-holds-steady-new-system-turnover-falls-historic-low/",
+          "source": "TOP500"
+        },
+        {
+          "category": "news-design",
+          "title": "让·努维尔公布深圳歌剧院施工进展：波浪屋顶对着深圳湾，2028 年完工",
+          "summary": "Ateliers Jean Nouvel 分享了蛇口半岛深圳歌剧院的施工照片，项目预计 2028 年落成，建成后约 25 万平方米，含 2300 座音乐厅、1800 座剧院和 800 座演出厅。细长波浪形屋顶呼应海面；室内计划使用珍珠母等虹彩材料，把建筑和水面再连一层。该方案曾在国际邀标中击败 BIG、Snøhetta、MVRDV 和隈研吾等。",
+          "url": "https://www.dezeen.com/2026/11/17/jean-nouvels-shenzhen-opera-house/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "news-design",
+          "title": "巴塞罗那普拉提馆 Circl：用色块和灯光，把人从街道一步步带进训练室",
+          "summary": "Isern Serra 在扩建区做了约 180 平方米的普拉提馆兼抹茶咖啡店：咖啡区是奶油座椅、深色木桌和雪花石膏壁灯，接待走廊改成深绿色，主训练室则用白墙承接穹顶彩色灯光。设计师说，每换一次高差、颜色和气氛，都是为了让人从城市喧闹过渡到更内省的状态；白墙也方便按合作品牌换成不同光线。",
+          "url": "https://www.dezeen.com/2026/11/17/isern-serra-designs-barcelona-pilates-studio-circl/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "news-design",
+          "title": "SOM 完成费城 30 街车站主厅首期修复：把售票台请出大厅",
+          "summary": "这座 1931 年美术宫风格车站已被列入国家史迹名录，能改的地方不多。SOM 把售票、行李托运等功能从主厅迁到较少使用的北翼，给座位和穿行腾出空间，同时保留高耸天花板上的装饰艺术枝形吊灯等历史细节。南侧廊的商业区也一并整理，项目由 Amtrak 参与。",
+          "url": "https://www.dezeen.com/2026/11/17/som-30-street-station-philadelphia-restoration/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "news-politics",
+          "title": "美军打击霍尔木兹海峡格什姆岛导弹阵地，称为自卫回应",
+          "summary": "美国军方官员称，美军战机于 17 日用精确弹药打击伊朗革命卫队在格什姆岛的一处导弹发射场，是对伊朗针对美方人员和设施「侵略行为」的自卫回应。此前，伊朗方面称对巴林谢赫伊萨空军基地的美军雷达实施无人机打击，这是近五天内第三次针对巴林的攻击；美国中央司令部称无人机已被拦截，人员和设备无损伤。伊朗媒体称袭击未造成人员伤亡，也未损坏关键和公共服务设施。",
+          "url": "https://www.thenationalnews.com/news/us/2026/11/17/us-jets-strike-irgc-missile-launch-site-on-irans-qeshm-island-in-self-defence/",
+          "source": "The National"
+        },
+        {
+          "category": "news-politics",
+          "title": "两架疑俄军机进入日本领空约三分钟，日方升空警告并抗议",
+          "summary": "日本防卫省称，17 日凌晨 4:07 和 4:09 前后，两架疑似俄罗斯军机先后进入福冈县冲之岛西北领空，停留各约三分钟。航空自卫队战机紧急升空，以无线电警告并驱离；飞机随后经对马海峡，从与那国岛和台湾之间飞向太平洋。防卫相小泉进次郎称这是对主权的严重侵犯，已通过外交渠道提出严正抗议。防卫省未公布机型；含苏联时期在内，这是俄方飞机第 45 次被认定侵犯日本领空。",
+          "url": "https://china.kyodonews.net/articles/-/18423",
+          "source": "共同社"
+        },
+        {
+          "category": "news-politics",
+          "title": "刻赤大桥公路主桥拱坍塌入海，路面中断；铁路拱受损后恢复通车",
+          "summary": "继昨日俄方称损伤轻微、道路一度中断后恢复之后，最新画面和乌方通报显示：公路段一座约 227 米的桥拱已坠入海峡，道路联系被切断。泽连斯基称这是「前所未有」的行动，用国产无人机打击公路段，并用海王星等导弹打击铁路段。乌克兰总参谋部称铁路桥拱受损但仍在；列车在短暂暂停后于 17 日恢复通行。俄方任命的克里米亚行政长官证实公路交通暂停，并提醒民众不要往桥的方向走。",
+          "url": "https://www.theguardian.com/world/2026/nov/17/ukraine-strikes-critical-damage-russia-kerch-bridge-crimea",
+          "source": "The Guardian"
+        },
+        {
+          "category": "news-auto",
+          "title": "加州 DMV 禁止 Waymo 上高速，称其对公共安全构成迫在眉睫的危害",
+          "summary": "禁令自 11 月 11 日起在全州高速公路生效，直接原因包括车辆闯入 101 公路伯林盖姆附近的施工封闭路段，以及在 280 公路与高速巡警车辆发生状况；DMV 还指施工区闯入并非孤例。Waymo 称已在所有市场自愿暂停高速运营，地面街道叫车不受影响；要想恢复，须向州政府证明施工区问题已经改正。",
+          "url": "https://www.theverge.com/transportation/1035789/california-dmv-bans-waymo-freeways-construction-zone-safety",
+          "source": "The Verge"
+        },
+        {
+          "category": "news-auto",
+          "title": "享界 V8 启动全国首个 120km/h L3 跨城高速路测，20 日上市",
+          "summary": "享界 17 日宣布，V8 率先开展全国首个 120 公里/小时的 L3 跨城高速路测，也是 MPV 首次此类测试。Ultra / Ultra+ 搭载华为乾崑 ADS 5，采用含 896 线双光路图像级激光雷达在内的四激光雷达方案，全车 38 个传感器，并按 L3 架构做了 8 重冗余。系统支持导航、效率和安全变道，以及匝道衔接，中小雨、雪天和夜间也可激活。新车定于 11 月 20 日上市，预售价 32.98 万元起。",
+          "url": "https://www.ithome.com/1/028/073.htm",
+          "source": "IT之家 / 享界汽车"
+        },
+        {
+          "category": "news-auto",
+          "title": "现代汽车：基于 IONIQ 5 的 Waymo Robotaxi 将于 12 月开始交付",
+          "summary": "现代汽车社长何塞·穆尼奥斯当地时间 17 日在 Semafor 活动上说，向 Waymo 供应的 IONIQ 5 Robotaxi 将于下月开始交付，先供美国再出口，「规模会很大，这才刚开始」。车辆在佐治亚州 Metaplant 生产，搭载 Waymo 第六代自动驾驶系统。公司 8 月已说过四季度开始交付，这次把时间明确到 12 月。",
+          "url": "https://www.asiae.co.kr/en/article/2026111809003490246",
+          "source": "The Asia Business Daily"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设相关｜小鹏设计总监：设计师会变成多个设计智能体的「导演」",
+          "summary": "Rafik Ferrag 在伦敦工作坊介绍，小鹏已用自研 AI 做内外饰设计，并希望设计师为每个智能体设定发挥空间、再挑选和整合方案。工具放在公司内部，是为了保密，也在加快流程；实体模型和 3D 打印更多用于验证，而不再是设计的起点。这是「设计智能体 / AI 辅助设计」很直接的产业案例。",
+          "url": "https://www.carexpert.com.au/car-news/xpeng-is-already-using-ai-to-design-its-cars",
+          "source": "CarExpert"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设相关｜深圳歌剧院：用波浪屋顶转译海面，用珍珠母做虹彩 CMF",
+          "summary": "把场地与海的关系写成细长波浪形屋顶，室内再计划用珍珠母等虹彩材料把水面的光感接进来。这是大型文化建筑里「艺术风格解析与转译」和材料语言很清楚的例子，而且就在深圳湾。",
+          "url": "https://www.dezeen.com/2026/11/17/jean-nouvels-shenzhen-opera-house/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设相关｜Circl：色彩分区和灯光，把功能序列做成可感知的材料语言",
+          "summary": "咖啡区的奶油色与雪花石膏、走廊的深绿色体块、训练室白墙加可变色灯光，各自对应不同的身心状态。对产品设计和 CMF 来说，这是用颜色、光线和表面把「体验路径」做出来的方法，而不只是把空间装修一遍。",
+          "url": "https://www.dezeen.com/2026/11/17/isern-serra-designs-barcelona-pilates-studio-circl/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "oss",
+          "title": "krisgfx9/Wireless-Device-Battery-Monitor",
+          "summary": "任务栏显示无线键鼠耳机手柄电量，无需厂商软件",
+          "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
+          "source": "GitHub / 近7日涨星",
+          "meta": "近7日日均约 +1,671 · 总星 2,930 · 非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "RoutineMiku/apkstart",
+          "summary": "双击 APK 即装，安卓应用以独立窗口运行",
+          "url": "https://github.com/RoutineMiku/apkstart",
+          "source": "GitHub / 近7日涨星",
+          "meta": "近7日日均约 +1,160 · 总星 7,529 · 非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "mvanhorn/last30days-skill",
+          "summary": "跨 Reddit、X、HN 等调研近 30 天并综合摘要",
+          "url": "https://github.com/mvanhorn/last30days-skill",
+          "source": "GitHub Trending",
+          "meta": "今日 +696 · 总星 69,241 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "getarcaneapp/arcane",
+          "summary": "好用的自托管 Docker / Compose 管理面板",
+          "url": "https://github.com/getarcaneapp/arcane",
+          "source": "GitHub Trending",
+          "meta": "今日 +618 · 总星 9,408 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "ersinkoc/phonebox",
+          "summary": "旧安卓变桌面副屏：系统状态与编程助手",
+          "url": "https://github.com/ersinkoc/phonebox",
+          "source": "GitHub / 近7日涨星",
+          "meta": "近7日日均约 +448 · 总星 2,745 · 非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "NYLLON-SOFTWARE/SignuDoc",
+          "summary": "自托管电子签名：上传 PDF 并发送签署链接",
+          "url": "https://github.com/NYLLON-SOFTWARE/SignuDoc",
+          "source": "GitHub / 近7日涨星",
+          "meta": "近7日日均约 +361 · 总星 1,866 · 非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "joshpuckett/allo",
+          "summary": "免费可变字体，圆润度与光学尺寸可调",
+          "url": "https://github.com/joshpuckett/allo",
+          "source": "GitHub / 近7日涨星",
+          "meta": "近7日日均约 +314 · 总星 916 · 非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "CzzzzzzJ/mdldm-maitian",
+          "summary": "麦田：B站/抖音/小红书等多平台发布中控",
+          "url": "https://github.com/CzzzzzzJ/mdldm-maitian",
+          "source": "GitHub / 近7日涨星",
+          "meta": "近7日日均约 +313 · 总星 1,098 · 非精密滚动24h"
+        }
+      ],
+      "weather": "沙坪坝现在阴，13℃，湿度80%；白天预报小雨，14℃/10℃，东北风1-3级。明天阴转多云，15℃/10℃，出门带伞。",
+      "cards": [
+        "assets/github-daily-ranking-2026-11-18.png"
+      ]
+    },
+    {
       "date": "2026-11-17",
       "entries": [
         {
