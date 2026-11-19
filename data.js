@@ -43,6 +43,229 @@ window.NEWS_DATA = {
   ],
   "days": [
     {
+      "date": "2026-11-19",
+      "entries": [
+        {
+          "category": "news-tech",
+          "title": "Anthropic IPO 定价每股 83 美元，高于 70–78 美元指引；预计 19 日以 ANT 开盘",
+          "summary": "官方宣布 A 类普通股定价 83.00 美元，高于此前 70–78 美元区间。本次发行 9.80 亿股，其中公司出售约 9.56 亿股、出售股东出售约 2365 万股（公司不获得后者所得）。按发行价计，整笔发行规模约 814 亿美元。股票预计 11 月 19 日在纳斯达克全球精选市场以代码 ANT 开盘交易，20 日交割；另向承销商授予 30 天内最多加售 1.47 亿股的选择权。美联社称，按完全稀释口径估值约 1.5 万亿美元，筹资规模超过今年 6 月 SpaceX 约 750 亿美元的 IPO。",
+          "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+          "source": "Anthropic；美联社"
+        },
+        {
+          "category": "workflow",
+          "title": "stick-scene：一句话让 agent 画出能讲清产品的火柴人小动画",
+          "summary": "别人怎么在用：npx skills add nilbuild/stick-scene，再跑 /stick-scene [要展示的事]。它先读项目、给出 2–3 个点子让你挑，再写成无依赖的单个 canvas 场景，逐帧检查不重叠、不被裁切后加进页面；可按滚动、点击或悬停播放。roadmap.sh 作者 Kamran Ahmed 做的。",
+          "url": "https://github.com/nilbuild/stick-scene",
+          "source": "GitHub / nilbuild",
+          "meta": "434★ · 11/15 新建"
+        },
+        {
+          "category": "workflow",
+          "title": "Stitch Design Skills：先抽出设计系统，再让 agent 出屏和回灌代码",
+          "summary": "别人怎么在用：在 Codex / Claude Code / Cursor 里装上 google-labs-code/stitch-skills（需配合 Google Stitch）。先用 extract-design-md 从现有前端写出 DESIGN.md，再用 generate-design 出新屏、manage-design-system 套主题；要落地代码时，用 stitch-build 把 Stitch 稿转成 React / React Native 组件。",
+          "url": "https://github.com/google-labs-code/stitch-skills",
+          "source": "GitHub / Google Labs",
+          "meta": "约 1.0 万★ · 11/18 仍在更新"
+        },
+        {
+          "category": "workflow",
+          "title": "SkillEvaluator：先问一句「这个 skill 到底有没有帮上 agent」",
+          "summary": "别人怎么在用：pip install skillevaluator，在终端或 CI 里跑。先做安全与格式门禁，再对比「装了 skill」和「没装」的任务结果；可用官方 CI 模板在合并前自动检查，避免把无效或有风险的 skill 收进仓库。Apache-2.0，Python 3.12–3.14。",
+          "url": "https://github.com/NVIDIA/SkillEvaluator",
+          "source": "GitHub / NVIDIA",
+          "meta": "约 3.7k★ · 11/18 仍在更新"
+        },
+        {
+          "category": "news-tech",
+          "title": "谷歌正式发布 Gemini 4 Neon：主打又快又强的端到端工作流",
+          "summary": "谷歌 DeepMind 推出 Gemini 4 Neon，定位介于更深的 Carbon 和更快的 Hydrogen 之间，面向复杂软件工程、知识工作和科学工作流的快速端到端完成。API 定价为每百万输入 token 3 美元、输出 15 美元，上下文窗口 100 万 token；今天起在 Gemini API、AI Studio、Antigravity 以及 Pro/Ultra 订阅的 Gemini 应用中滚动上线。",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+          "source": "Google Blog"
+        },
+        {
+          "category": "news-tech",
+          "title": "腾讯 WorkBuddy 日活超千万，豆包工作三个月破 800 万，办公智能体开始比规模",
+          "summary": "腾讯三季报披露，办公智能体 WorkBuddy 日活超千万、日均消耗超过 100 万亿 token；总裁刘炽平称，微信助手「小微」日活已达 3000 万。字节跳动随后宣布，8 月 25 日上线的「豆包工作」日活突破 800 万，企业客户 ARR 超过 20 亿元。办公场景正在变成国内大厂比拼智能体的主战场。",
+          "url": "https://www.caixin.com/2026-11-18/102506386.html",
+          "source": "财新"
+        },
+        {
+          "category": "news-tech",
+          "title": "Meta 智能体 Muse 在员工测试中串台、读到 Signal 和别人的银行余额",
+          "summary": "路透社审阅的内部帖文显示，Meta 的消费级智能体 Muse（吉祥物 Jolly，9 月上线后下载已超 1000 万）在员工使用中出现把别人的对话或银行余额发过来、以及未经单独授权就提到 Signal 私聊等情况；有同事发现它在安卓上默认开了通知读取权限。Meta 称这些是孤立事件，并向《The Verge》表示部分离题消息属于幻觉。",
+          "url": "https://www.channelnewsasia.com/business/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-6562401",
+          "source": "Reuters / CNA"
+        },
+        {
+          "category": "news-design",
+          "title": "Yuri Suzuki 把微型过山车和摩天轮做成会动、会发声的游乐场模型",
+          "summary": "声音设计师 Yuri Suzuki 在伦敦 Osh Gallery 举办 Onomatopia 展，用 3D 打印 PLA 做成带配乐的微型过山车、摩天轮、旋转木马等五种游乐设施。他说自己想把游乐园里的建筑、声音、运动和身体经验扩成建筑甚至一座「声音乌托邦」，并提到自己曾与 Disney Imagineering 合作、对 EPCOT 的理想城市设想很感兴趣。",
+          "url": "https://www.dezeen.com/2026/11/18/yuri-suzuki-onomatopia-exhibition/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "news-design",
+          "title": "Carolina Zimbalist 把生物聚合物浇在丝绸上，为 Emma Watson 做了件红裙",
+          "summary": "帕森斯毕业的艺术家 Carolina Zimbalist 与 Emma Watson 合作，为后者出席 LACMA 第 15 届 Art+Film 晚宴做了一件红裙：用植物甘油、豌豆蛋白等天然成分制成的生物聚合物浇在丝绸上晾干，形成能随身体起伏的雕塑感表面。她现在更愿意称它为 biomaterial，而不是 bioplastic，希望这类材料不只停留在一次性作品。",
+          "url": "https://www.dezeen.com/2026/11/18/caroline-zimbalist-biomaterial-dress-emma-watson/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "news-design",
+          "title": "Nike 发布 Tuned Air：后跟和前掌的气垫结构可以分别调节",
+          "summary": "Nike 公布下一代气垫技术 Tuned Air，用 3D 打印和选择性层压，让后跟与前掌的支撑、高度和内部结构能分开调节。创新负责人 Phil McCartney 称之为「革命而非进化」；目前先发布技术和跑鞋概念图，第一双量产鞋计划 2027 年上市，也被看作气垫鞋继 Air Max、Air Zoom 之后的新一代。",
+          "url": "https://www.dezeen.com/2026/11/16/nike-tuned-air-new-era/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "news-politics",
+          "title": "中俄美元首今日在深圳举行历史首次三方会晤",
+          "summary": "习近平、普京和特朗普今日将在深圳 APEC 期间举行三国元首首次面对面会晤。外交部称，将就事关全球和平的重要问题深入交换意见；克里姆林宫发言人佩斯科夫预计会晤不超过一小时。截至上午，三方联合声明尚未公布。",
+          "url": "https://news.rthk.hk/rthk/ch/component/k2/1878362-20261119.htm",
+          "source": "香港电台"
+        },
+        {
+          "category": "news-politics",
+          "title": "高市早苗就任后首次访华：与习近平短暂握手，晚宴后与普京交谈约 30 分钟",
+          "summary": "共同社报道，日本首相高市早苗 18 日在深圳 APEC 会场与习近平握手，这是她去年 11 月涉台国会答辩后双方首次接触，但未举行正式会谈。欢迎晚宴结束后，她与普京以交换意见的形式交谈约 30 分钟，要求尽早释放被拘的《北海道新闻》记者，并撤回对日本烟草（JT）在俄业务的临时接管；双方同意保持沟通。这是 2022 年俄乌开战以来日俄领导人首次对话。",
+          "url": "https://china.kyodonews.net/articles/-/18515",
+          "source": "共同社"
+        },
+        {
+          "category": "news-politics",
+          "title": "九部门部署再生资源回收：补齐动力电池短板，打通设计到再利用全链条",
+          "summary": "商务部、国家发改委、工信部等 9 部门印发意见，围绕推广典型回收模式、抓好「新三样」固废回收拆解、促进行业提质升级提出 16 项任务。意见要求补齐动力电池回收短板，健全光电设备回收利用体系，全面畅通「设计—制造—应用—回收—拆解—再利用」全链条。",
+          "url": "https://www.news.cn/government/20261118/08cf934849d84a989365420d6c99030d/c.html",
+          "source": "新华网"
+        },
+        {
+          "category": "news-auto",
+          "title": "马斯克：特斯拉计划做没有方向盘和踏板的自动驾驶 Model Y",
+          "summary": "马斯克在《纽约时报》DealBook 峰会上说，特斯拉计划推出没有方向盘和踏板的自动驾驶版 Model Y，用来载「一家人或六七个人」，补上双座 Cybercab 载不了全家的空档。他没有给出时间表、售价或产地，目前仍是方向，不是正式发布。",
+          "url": "https://www.itiger.com/news/2684910136",
+          "source": "Dow Jones / Tiger Brokers"
+        },
+        {
+          "category": "news-auto",
+          "title": "方程豹旗舰钛 9 今晚杭州上市，指导价将在发布会上公布",
+          "summary": "方程豹钛 9 定于今晚在杭州举行上市发布会。新车是 2+2+2 大六座插混，标配专为钛系列打造的 DMS 混动平台、闪充加二代刀片电池、云辇-A 和天神之眼 B，官方称满油满电综合续航约 1630 公里。指导价尚未公布，将在发布会上揭晓。",
+          "url": "https://www.ithome.com/1/027/036.htm",
+          "source": "IT之家"
+        },
+        {
+          "category": "news-auto",
+          "title": "岚图取得独立生产资质，以后不必再挂靠东风申报新车",
+          "summary": "岚图宣布，公司已进入工信部第 412 批道路机动车辆生产企业目录，正式取得独立生产资质。此前新车申报和合格证都要挂靠东风；获得资质后，岚图可以用自己的名义向工信部申报新车，并承担生产一致性责任。",
+          "url": "https://www.ithome.com/1/028/812.htm",
+          "source": "IT之家 / 岚图汽车"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设相关｜把生物聚合物浇在丝绸上：材料本身就是衣服的表面语言",
+          "summary": "Zimbalist 用植物甘油、豌豆蛋白等副产物做成可浇筑、可晾干的生物聚合物，覆盖在丝绸上，形成随身体起伏的雕塑感表面。对 CMF 和材料转译来说，这是把配方、工艺和视觉质感写成同一套语言，而不只是「环保面料」的替换。",
+          "url": "https://www.dezeen.com/2026/11/18/caroline-zimbalist-biomaterial-dress-emma-watson/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设相关｜里斯本「生长的方式」：把植物当成设计协作者，而不是原料",
+          "summary": "里斯本大学美术学院画廊的 Ways of Growing 展出到 11 月 28 日，20 组创作者用细菌纤维素、活体菌丝、植物染色织物和植物化学做实验，把植物写成主动的设计协作者。对材料实验和艺术风格转译来说，展览把「生物怎么长」直接做成了形式来源。",
+          "url": "https://www.designboom.com/art/ways-of-growing-20-artists-plants-design-collaborators-lisbon-exhibition/",
+          "source": "designboom"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设相关｜Nike Tuned Air：把气垫内部结构做成可分别调节的产品系统",
+          "summary": "Tuned Air 用 3D 打印和选择性层压，让后跟和前掌的支撑、高度和内部结构可以分开设定。这是产品设计里把材料、结构和性能写成同一套可调节系统的例子，而不只是换一款配色或厚度。",
+          "url": "https://www.dezeen.com/2026/11/16/nike-tuned-air-new-era/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "oss",
+          "title": "Leonxlnx/taste-skill",
+          "summary": "给编程助手补审美：艺术指导、参考图和浏览器验收",
+          "url": "https://github.com/Leonxlnx/taste-skill",
+          "source": "GitHub Trending",
+          "meta": "今日 +737 · 总星 118,527 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "jingyaogong/minimind",
+          "summary": "两小时、约三块钱从零训出 64M 小模型",
+          "url": "https://github.com/jingyaogong/minimind",
+          "source": "GitHub Trending",
+          "meta": "今日 +687 · 总星 66,525 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "XiaoYouChR/Ghost-Downloader-3",
+          "summary": "多协议下载器：智能分块，还支持 B 站和 YouTube",
+          "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+          "source": "GitHub Trending",
+          "meta": "今日 +432 · 总星 12,184 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "agent-substrate/substrate",
+          "summary": "在 K8s 上沙箱运行智能体，闲时休眠、秒级唤醒",
+          "url": "https://github.com/agent-substrate/substrate",
+          "source": "GitHub Trending",
+          "meta": "今日 +377 · 总星 7,649 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "cursor/plugins",
+          "summary": "Cursor 官方插件规范与常用工具插件合集",
+          "url": "https://github.com/cursor/plugins",
+          "source": "GitHub Trending",
+          "meta": "今日 +314 · 总星 17,286 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "DuarteSantos8/openGym",
+          "summary": "自托管健身记录：已上架 iOS，也可装安卓",
+          "url": "https://github.com/DuarteSantos8/openGym",
+          "source": "GitHub Trending",
+          "meta": "今日 +257 · 总星 22,771 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "Vincentwei1021/video-shotcraft",
+          "summary": "让 agent 用 Remotion 做产品宣传片，可导出剪映",
+          "url": "https://github.com/Vincentwei1021/video-shotcraft",
+          "source": "GitHub Trending",
+          "meta": "今日 +237 · 总星 21,392 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "colbymchenry/codegraph",
+          "summary": "本地代码知识图谱，给编程助手少耗词元",
+          "url": "https://github.com/colbymchenry/codegraph",
+          "source": "GitHub Trending",
+          "meta": "今日 +119 · 总星 78,016 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "news-politics",
+          "title": "中俄美元首三方会晤今天下午在深圳开始举行，三国发表开场表态",
+          "summary": "新华社16:26快讯会晤开始，习近平主持。他称三国最高领导人有史以来首次聚首“具有开创性意义”，并说“大国和，则世界安；大国斗，则世界乱”，“大国良性互动不是选择题，而是必答题”。克宫公布开场发言：普京称三国若在相互尊重、平等和利益平衡基础上建设性合作，可增强全球安全与稳定，并提到乌克兰冲突；特朗普称三国是最大核武国，可讨论削减核武器，并称他与普京今天已讨论乌克兰冲突“方向是对的”。截至发稿仍未见三方联合声明或会晤成果文件。",
+          "url": "https://www.news.cn/politics/leaders/20261119/9ba5926b6af74326924beb30a48454f9/c.html",
+          "source": "新华社；俄罗斯总统网站"
+        },
+        {
+          "category": "news-politics",
+          "title": "中俄美元首深圳会晤结束，三方发表《和平宣言》",
+          "summary": "今天下午在深圳举行的中俄美首次三方会晤已结束（约 16:30 开始，历时约 90 分钟）。外交部 18:55、中国政府网 19:05 转新华社公布《中俄美元首和平宣言》，克里姆林宫同步发布俄文文本。宣言四点：作为安理会常任理事国推动联合国改革；计划增加精炼石油产品生产和供应，并重申能源稳定流动；认可国家同意原则与官员豁免至关重要，认为国际刑事法院及其他类似机构不得滥用管辖权；重申「核战争打不赢也打不得」，并将就减少核风险、防止核扩散进行对话。BBC 称会晤中还谈及乌克兰与伊朗相关议题；会后特朗普已离深。",
+          "url": "https://www.gov.cn/yaowen/liebiao/202611/content_7086723.htm",
+          "source": "新华社 / 外交部"
+        }
+      ],
+      "weather": "沙坪坝现在阴，11℃，湿度88%，西北风不超过3级；白天预报多云，15℃/10℃，北风1-3级。明天转晴，18℃/10℃。",
+      "cards": [
+        "assets/github-daily-ranking-2026-11-19.png"
+      ]
+    },
+    {
       "date": "2026-11-18",
       "entries": [
         {
