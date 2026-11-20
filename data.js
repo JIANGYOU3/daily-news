@@ -43,6 +43,250 @@ window.NEWS_DATA = {
   ],
   "days": [
     {
+      "date": "2026-11-20",
+      "entries": [
+        {
+          "category": "tibo",
+          "title": "Tibo：Dots 开始向 Plus 小范围测试，并向 Business Standard 全量发放",
+          "summary": "主动性经过多轮改进后反馈转好；Business Standard 用户今天起陆续开通。",
+          "url": "https://x.com/thsottiaux/status/2123556256392847657",
+          "source": "Tibo / X"
+        },
+        {
+          "category": "tibo",
+          "title": "Tibo：ChatGPT 新移动端体验开始向部分 Pro 用户推送",
+          "summary": "先面向已有或可创建 Dot 的 Pro 用户：Dot 独立成标签，可把 Codex、Projects、Images 钉到标签栏；可在设置「New ChatGPT Design」随时开关。",
+          "url": "https://x.com/thsottiaux/status/2123557171321561133",
+          "source": "Tibo / X"
+        },
+        {
+          "category": "news-tech",
+          "title": "Anthropic（ANT）上市首日收涨约 17%，收盘完全稀释估值约 1.8 万亿美元",
+          "summary": "开盘 111.50 美元，较发行价 83 美元高 34%，收于 97.17 美元；CNBC 称按完全稀释口径成为美股市值第七的公司。首日成交约 8.46 亿股，超过 SpaceX 上市首日。",
+          "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html",
+          "source": "CNBC / 美联社"
+        },
+        {
+          "category": "workflow",
+          "title": "Blueprint：一句话把原理画成会动的专利图纸",
+          "summary": "别人怎么在用：在 Claude Code 里输入 /blueprint how a cache works，或让它把注册流程画进文档页。它会从 28 种零件里拼出带编号引线的动画图纸，可嵌进页面或导出 GIF/MP4；官网上有 21 个可逐步查看的例子。",
+          "url": "https://github.com/intincrab/blueprint",
+          "source": "GitHub / intincrab",
+          "meta": "50★ · 11/17 新建"
+        },
+        {
+          "category": "workflow",
+          "title": "Motion library：先拆解优秀动态，再发明自己的动作",
+          "summary": "别人怎么在用：用自带脚本拉取品牌官方成片、抽帧并测量音画，按模板做分镜拆解入库；接到新 brief 时，按 hook/功能/解说等用途挑选技法、做原创分镜，并先过预检清单——明确要求不要抄参考。Claude Code 和 Codex 都能装。",
+          "url": "https://github.com/ronkenx9/motion-library-skill",
+          "source": "GitHub",
+          "meta": "47★ · 11/16 新建"
+        },
+        {
+          "category": "workflow",
+          "title": "DeepMind Robotics 插件：同一套控制器，先在仿真里试，再上真机械臂",
+          "summary": "别人怎么在用：在 Google Antigravity 里安装插件，或 npx skills add google-deepmind/robotics-antigravity-plugin。用自然语言搭 MuJoCo 场景、写控制器；没有真机也能只跑仿真。仓库演示是 I2RT YAM Pro 机械臂在传送带上分拣饼干，仿真和真机用同一套代码。",
+          "url": "https://github.com/google-deepmind/robotics-antigravity-plugin",
+          "source": "GitHub / Google DeepMind",
+          "meta": "136★ · 11/16 公开"
+        },
+        {
+          "category": "news-tech",
+          "title": "谷歌为 Mac 版 Gemini 加入电脑操控，可在后台替用户点选应用和网页",
+          "summary": "谷歌 11 月 19 日宣布，Mac 版 Gemini 应用新增 computer use：用户用自然语言描述多步任务后，可在隔离窗口里点击、打字、打开本地文件、桌面应用和网页，主屏幕光标不受干扰。用户自行选择可访问的应用，并可实时预览、随时暂停、在关键步骤前审批；目前仅向美国英语、年满 18 岁的个人 Google 账号滚动推送，需 Apple Silicon 且系统为 macOS Sequoia 15.0+，面向 Google AI Plus、Pro 和 Ultra 用户。",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+          "source": "Google 官方博客"
+        },
+        {
+          "category": "news-tech",
+          "title": "OpenAI 上线 GPT-Live-1.1：多语语音的发音、口音和转写有改进，并支持待机",
+          "summary": "OpenAI 开发者文档 11 月 19 日更新显示，GPT-Live-1.1 已可用于 Live 会话中的多语实时语音，官方称改进了发音、口音一致性和转写，可在既有 Live 会话配置中改用该模型。同期为 GPT-Live-1 与 1.1 的 WebRTC 会话增加待机：不活动时可暂停推理，有人开口后再恢复。",
+          "url": "https://developers.openai.com/api/docs/changelog",
+          "source": "OpenAI API Changelog"
+        },
+        {
+          "category": "news-tech",
+          "title": "谷歌把 AI 对话历史放进搜索首页侧栏，可接着上次的 AI Mode 问下去",
+          "summary": "《The Verge》报道，谷歌搜索产品副总裁 Robby Stein 展示桌面版首页改版：左侧灰条可展开侧栏，列出用 AI Mode 做过的搜索，并可新开对话、检索历史或连接 Gemini Notebook。Stein 称测试中该侧栏有助于把“不是一次问完”的问题继续下去；报道称该改版正在全球桌面端滚动推出。",
+          "url": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
+          "source": "The Verge"
+        },
+        {
+          "category": "news-design",
+          "title": "印度喀拉拉邦住宅 Interstitial Living：把房子往中间收，给两侧花园让出位置",
+          "summary": "Dezeen 刊出当地事务所 Fictional Project 在喀拉拉邦 Adoor 村的住宅。设计把体量往中间收，在东西两侧留出花园；起居室与厨房上方的白色弧形天花向下延展，把视线导向室外。中心室用水泥抹灰立方体，外墙和围墙则用陶土色肌理砌块，事务所称希望住宅“与景观融为一体”，而不是压过场地。",
+          "url": "https://www.dezeen.com/2026/11/19/fictional-project-interstitial-living/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "news-design",
+          "title": "Sid Lee Architecture 在安大略酒乡做了座弧形玻璃酒店 Clayfield，用材料和轮廓转译葡萄园",
+          "summary": "蒙特利尔事务所 Sid Lee Architecture 在 Niagara-on-the-Lake 揭幕 60 间客房的 The Clayfield Hotel，建筑面积约 94,000 平方英尺（约 8,732 平方米）。联合创始人 Martin Leblanc 称，层层叠叠的轮廓、圆弧和有节奏的木构件是在把周围的葡萄园景观转译成建筑；室内用胡桃木、混凝土、苋红色皮革、灰米色石灰岩和织物，前台石灰岩据称取自 Niagara Escarpment。",
+          "url": "https://www.dezeen.com/2026/11/19/clayfield-hotel-sid-lee-architecture-ontario/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "news-design",
+          "title": "So-Le Studio 推出香氛雕塑 Oracle：三片皮革花瓣开合，把材料研究做成可闻的对象",
+          "summary": "Wallpaper* 报道，Maria Sole Ferragamo 的 So-Le Studio 推出家用香氛物件 Oracle：以覆皮革的黄铜为结构，三片“花瓣”打开后露出植物鞣革碎片做成的香芯，闭合后呈皮革容器，有 Gold、Silver、Gunmetal Foil 三种表面。三款香气 Cuoio Reale、Optical Illusion、Grigio Minerale 是从皮革边角、黄铜碎屑和矿物表面等工作室材料推出来的，而不是从传统香水情绪板出发。",
+          "url": "https://www.wallpaper.com/design-interiors/interior-accessories/so-le-studio-oracle-scented-object",
+          "source": "Wallpaper*"
+        },
+        {
+          "category": "news-politics",
+          "title": "习近平在深圳主持 APEC 领导人非正式会议，中方宣布提供 2000 万美元并设立亚太共同体研究中心",
+          "summary": "11 月 19 日上午，习近平在深圳国际交流中心主持亚太经合组织第三十三次领导人非正式会议，发表《建设亚太共同体，续写“亚太奇迹”新篇章》，提出经贸、联通、创新、发展“四梁八柱”。中方宣布：提供 2000 万美元资助 APEC 务实合作；在深圳设立亚太共同体研究中心；并在数字技术、数据跨境流动、清洁能源、中小企业发展等领域设立合作机构。会议通过 2026 年领导人宣言，提出“深圳展望”，并有贸易、联通、创新领域 3 项成果文件；2027 年东道主为越南。",
+          "url": "https://www.news.cn/politics/leaders/20261119/b7cba8b666b44bf6bf8000bf4cee45ef/c.html",
+          "source": "新华社"
+        },
+        {
+          "category": "news-politics",
+          "title": "国际法院裁定缅甸对罗兴亚人构成灭绝种族，要求立法、追责、允许安全返回并赔偿",
+          "summary": "联合国新闻报道，国际法院 11 月 19 日就冈比亚诉缅甸案作出判决，认定缅甸对若开邦罗兴亚人犯下《灭绝种族公约》下的罪行，并称这是该法院首次就此对一个国家作出此类认定。裁决引述约 1 万人死亡、约 70 万人逃往孟加拉国、北部近 400 个村落被部分或完全毁坏；判决为终局、对当事方有拘束力且不得上诉，要求缅甸立法全面履行公约义务、调查并在有必要时起诉责任人，并为流离失所者提供安全、自愿、有尊严的返回和家庭团聚等恢复措施及赔偿，缅甸须在两年内向法院提交恢复措施和赔偿方案报告。",
+          "url": "https://news.un.org/en/story/2026/11/1168836",
+          "source": "联合国新闻"
+        },
+        {
+          "category": "news-politics",
+          "title": "六部门公布第二批 34 家领航级智能工厂，新华社称人工智能场景应用比例超 70%",
+          "summary": "新华社报道，工业和信息化部等六部门 19 日正式公布第二批领航级智能工厂培育名单，包括小米汽车“AI 驱动的敏捷制造高端新能源汽车超级智能工厂”等 34 家。报道称，这批工厂的人工智能场景应用比例超过 70%，开发工业智能体超过 1000 个，日均词元调用量超过 3 亿；当天在南京举行的 2026 世界智能制造大会上，34 家企业还共同发布“领航工厂培育行动”。截至目前，全国累计培育 49 家领航级智能工厂。",
+          "url": "http://www.news.cn/20261119/2c111f67fc804e498eea95e917606f6c/c.html",
+          "source": "新华社"
+        },
+        {
+          "category": "news-auto",
+          "title": "方程豹钛 9 昨晚杭州上市：指导价 27.99 万、29.99 万、32.99 万元三款",
+          "summary": "11 月 19 日晚，方程豹旗舰大型 SUV 钛 9 在杭州电竞中心上市，推出四驱 Max 版、四驱 Ultra 版和折叠智舱版，指导价分别为 27.99 万元、29.99 万元和 32.99 万元；汽车之家称置换价为 27.39–32.39 万元。折叠方向盘只出现在顶配折叠智舱版，不是全系标配。",
+          "url": "https://auto.zol.com.cn/1274/12749046.html",
+          "source": "中关村在线（三款指导价）；置换价交叉核对于汽车之家"
+        },
+        {
+          "category": "news-auto",
+          "title": "比亚迪宣布量产折叠方向盘，首搭钛 9 折叠智舱版，官方称收纳过程控制在 10 秒内",
+          "summary": "这是发布会宣布的量产首搭，目前只在售价 32.99 万元的折叠智舱版上提供。新京报引述方程豹总经理熊甜波称，该技术是折叠方向盘在汽车领域的首次正式量产，也是面向 L3、L4 的技术储备；折叠过程控制在 10 秒内，并可 0°–180° 折叠。",
+          "url": "https://www.bjnews.com.cn/detail/1795137370129636.html",
+          "source": "新京报贝壳财经"
+        },
+        {
+          "category": "news-auto",
+          "title": "中保协审议通过智能网联新能源车险示范条款，仍需报备定价后才能分车型上线",
+          "summary": "中国经济网转引报道，中国保险行业协会 11 月 11 日至 13 日在海南召开常务理事会，审议通过《中国保险行业协会智能网联新能源汽车商业保险示范条款（试点地区）》等五个示范条款及配套使用说明。北京商报 11 月 19 日称，该条款尚需报备定价、系统改造后分车型上线，还不是已经全面出单。",
+          "url": "http://finance.ce.cn/insurance1/scrollnews/202611/t20261117_3297433.shtml",
+          "source": "中国经济网 / 中国金融新闻网（会议本身）；北京商报（尚未出单）"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设相关｜Play Forms：把象棋走法转译成几何剪影，棋盘改挂在墙上慢慢下",
+          "summary": "designboom 刊出哈萨克斯坦设计师 Anastassiya Leonova（事务所 somaforma）的 Play Forms。她在教 5 岁儿子下棋时发现记不住走法，于是把各棋子的移动规则收成几何轮廓和镂空方向，做成 60×60 厘米的蚀刻不锈钢壁挂棋盘，配磁吸真皮棋子，可分时段、甚至跨天继续一盘，墙面构图随每一步变化。",
+          "url": "https://www.designboom.com/design/engraved-stainless-steel-magnetic-leather-pieces-wall-mounted-chess-set-play-forms-somaforma/",
+          "source": "designboom"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设相关｜巴黎 La Défense 的 CROMAWALTZ：不接电的莫尔纹立面，只有人走过才“动”",
+          "summary": "designboom 报道，意法工作室 GRRIZ 在巴黎拉德芳斯大拱门广场、Les 4 Temps P2 停车场圆形入口上方完成永久装置 Cromawaltz，是其在法国的首件永久作品。作品没有电机和供电，靠两层彩色竖直格栅叠加产生莫尔纹，随行人视点和步速改变而出现波动；设计称在通勤者较快步行速度时效果最强。三色取自场地：深灰对应混凝土、蓝对应天空，再加黄作为高对比强调。",
+          "url": "https://www.designboom.com/art/grriz-moire-sculpture-paris-la-defense-parking-entrance-cromawaltz/",
+          "source": "designboom"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设相关｜香港 DesignInspire 仍在对公众开放，deTour 设计节今天开幕",
+          "summary": "香港特区政府新闻公报称，贸发局主办的 DesignInspire 创意设计博览 11 月 18 日至 21 日举行，本届主题为 “Wander & Wonder”，汇聚 17 个国家及地区、超过 200 个参展商。同一设计季的 deTour 2026 设计节于 11 月 20 日开幕，公众展览免费。",
+          "url": "https://www.info.gov.hk/gia/general/202611/18/P2026111800257.htm",
+          "source": "香港特区政府新闻公报"
+        },
+        {
+          "category": "oss",
+          "title": "obra/superpowers",
+          "summary": "智能体技能框架，也是一套能落地的开发方法论",
+          "url": "https://github.com/obra/superpowers",
+          "source": "GitHub Trending",
+          "meta": "今日 +2,028 · 总星 322,213 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "affaan-m/ECC",
+          "summary": "给 Agent 用的驾驭系统，管技能、记忆、安全和调研",
+          "url": "https://github.com/affaan-m/ECC",
+          "source": "GitHub Trending",
+          "meta": "今日 +959 · 总星 307,359 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "HKUDS/CLI-Anything",
+          "summary": "把任意软件变成智能体可直接调用的 CLI",
+          "url": "https://github.com/HKUDS/CLI-Anything",
+          "source": "GitHub Trending",
+          "meta": "今日 +898 · 总星 60,683 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "DietrichGebert/ponytail",
+          "summary": "让编程助手按「最懒资深开发」思考，少写废话代码",
+          "url": "https://github.com/DietrichGebert/ponytail",
+          "source": "GitHub Trending",
+          "meta": "今日 +878 · 总星 194,961 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "firecrawl/firecrawl",
+          "summary": "给智能体用的知识基建：搜索、抓取和 550+ 数据源",
+          "url": "https://github.com/firecrawl/firecrawl",
+          "source": "GitHub Trending",
+          "meta": "今日 +825 · 总星 204,403 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "microsoft/markitdown",
+          "summary": "把 PDF 和 Office 转成 Markdown，方便喂给模型",
+          "url": "https://github.com/microsoft/markitdown",
+          "source": "GitHub Trending",
+          "meta": "今日 +434 · 总星 197,064 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "mjmirza/app-store-compliance",
+          "summary": "上架预检手册：117 条 App Store / Play 常见拒因",
+          "url": "https://github.com/mjmirza/app-store-compliance",
+          "source": "GitHub Trending",
+          "meta": "今日 +377 · 总星 1,974 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "hieunc229/mailflare",
+          "summary": "可自托管的 Workspace 替代，带邮箱日历和 AI 助手",
+          "url": "https://github.com/hieunc229/mailflare",
+          "source": "GitHub Trending",
+          "meta": "今日 +211 · 总星 7,316 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "news-tech",
+          "title": "腾讯混元正式开源旗舰模型 Hy4 权重，混元 LLM 系列全部开放",
+          "summary": "11 月 20 日权重上线 Hugging Face、ModelScope、GitCode 等平台（HF 页面更新时间为北京时间 11:05）。Hy4 为 MoE，总参数 770B、每 token 激活 49B，支持文本/图像/视频理解，上下文 100 万 token；同期还开放 FP8 量化版与预训练 base。这是 11 月 4 日发布时预告的开源落地。官方许可证为 Tencent Hy License。",
+          "url": "https://huggingface.co/tencent/Hy4",
+          "source": "Hugging Face（权重页，lastModified 2026-11-20T03:05:49Z）；IT之家；腾讯混元官网 hy.tencent.ai/research/hy4"
+        },
+        {
+          "category": "news-tech",
+          "title": "日经收跌 5.06% 创七个月新低，软银跌 14.48%，亚洲科技股随 AI 估值担忧下挫",
+          "summary": "11 月 20 日，日经 225 收于 56,436.65 点，下跌 3,007.56 点或 5.06%，为 4 月 13 日以来最低收盘；东证指数跌 3.88%。软银收跌 14.48%，为 2024 年 8 月以来最差一天；东京电子、Lasertec、瑞萨分别跌 7.06%、9.21%、7.02%。韩国综指收跌 5.21%，三星电子跌 7.01%，SK 海力士跌 5.92%；台积电收跌 4.76%。日经称抛压集中在人工智能和半导体相关股票，东证プライム市场九成以上股票下跌。新华社和 CNBC 将此与隔夜纳斯达克下跌，以及市场对 AI 估值和 Anthropic 上市后情绪的担忧联系起来。",
+          "url": "https://english.news.cn/20261120/ae932d698b7e4353adc0d8aa3a6d004f/c.html",
+          "source": "新华社、日本经济新闻、CNBC"
+        },
+        {
+          "category": "news-tech",
+          "title": "Signal 在 iOS 27 和 Android 上限制截图，防止系统级 AI 助手读取聊天内容",
+          "summary": "总裁 Meredith Whittaker 11 月 20 日发文称，苹果 Siri AI 的屏幕感知和谷歌 Gemini 等系统级智能体会扫描屏幕，使端到端加密无法独立保证隐私。Signal 将在 iOS 27 上禁止应用内截图；在 Android 上，检测到 AI 助手试图读取屏幕时启用屏幕安全。用户可在设置中关闭，但官方提醒这可能暴露本人和联系人的内容。他们承认防护不完整：文件系统等路径仍可能被读取，macOS 暂无法同等防护；并点名 Meta Muse 一类第三方智能体可能把无障碍权限当作“万能钥匙”。同时呼吁苹果、谷歌、微软提供退出 AI 数据访问的接口和更清楚的技术说明。",
+          "url": "https://signal.org/blog/protecting-your-privacy/",
+          "source": "Signal / The Verge"
+        }
+      ],
+      "weather": "沙坪坝现在有雾，13℃，湿度86%，西北风不超过3级；白天预报转晴，约17/9℃。明天仍晴间多云，约18/10℃。",
+      "cards": [
+        "assets/github-daily-ranking-2026-11-20.png"
+      ]
+    },
+    {
       "date": "2026-11-19",
       "entries": [
         {
