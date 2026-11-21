@@ -42,6 +42,198 @@
   ],
   "days": [
     {
+      "date": "2026-11-21",
+      "entries": [
+        {
+          "category": "tibo",
+          "title": "Tibo：升级桌面端，ChatGPT Space 开始向 Plus 用户滚动开放",
+          "summary": "Tibo 称桌面端更快、更简单、更好用。官方更新说明：Space 今日起向全球 18 岁以上 Plus 用户发放，可协作做互动页面和演示文稿，并取代侧栏里的 Library；另有全应用视觉简化、线程重做、手机可编辑页面，以及 Codex Remote 更稳定。若还没看到 Space，先更新应用，也可能尚未轮到该账号。",
+          "url": "https://x.com/thsottiaux/status/2123861214644347122",
+          "source": "Tibo / OpenAI 更新说明"
+        },
+        {
+          "category": "news-auto",
+          "title": "意大利临时批准 Tesla Assisted Driving，成为首个放行的欧盟大国",
+          "summary": "交通部长萨尔维尼周五宣布，意基础设施与交通部在技术可行性核查后给予临时认证，早于仍在推进的欧盟统一认定。这是荷兰 4 月率先批准后的第 12 个欧盟国家，也是首个大国。系统需驾驶员持续监督，责任仍在人；特斯拉称将很快用软件更新开通，订阅约每月 99 欧元，具体时间未公布。",
+          "url": "https://www.ansa.it/canale_motori/notizie/new_tech/2026/11/20/salvini-da-mit-via-libera-a-omologazione-provvisoria-sistema-guida-assistita-tesla_2b53f01f-99ee-4405-9972-47b480389e46.html",
+          "source": "安莎社 / 路透社"
+        },
+        {
+          "category": "news-tech",
+          "title": "路透社：美国证交会正审视英伟达会计问题，股价周五收跌约14%",
+          "summary": "路透社11月20日援引两名知情人士称，美国证交会执法人员正在审视英伟达可能存在的会计问题；证交会拒评，英伟达未立即回应。调查并不等于已经违规，路透社也尚未确定具体查哪些科目、何时立案。《华尔街日报》本周较早前曾报道存在调查，但未能确定焦点。CNBC称消息公布后跌幅扩大，股价周五收跌约14%，连续第七周收跌，为2008年金融危机以来最长一周连跌，这七周累计跌约46%，市值蒸发约2.6万亿美元。",
+          "url": "https://www.reuters.com/5f374b32b07b/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/",
+          "source": "路透社 / CNBC"
+        },
+        {
+          "category": "news-tech",
+          "title": "OpenAI 加强对抗性蒸馏防护，内部测试攻击成功率降至0.2%",
+          "summary": "OpenAI 11月20日发布对抗性蒸馏防护说明：有人试图从模型受保护的推理轨迹里抽取能力，再训练没有同等安全约束的模型。内部对抗测试中，对 GPT-6.2 Astra 的攻击成功率从 GPT-6 Astra 原防护下的54.0%降至0.2%。官方特别提到网络与生物等两用领域：能力被转移到安全约束更弱的模型后，可能给出原模型会拒绝的帮助。",
+          "url": "https://openai.com/index/combatting-adversarial-distillation/",
+          "source": "OpenAI"
+        },
+        {
+          "category": "news-tech",
+          "title": "OpenAI 推出药物化学基准 MedChemBench，GPT-6.2 Astra 在高推理设置下得84.5%",
+          "summary": "MedChemBench 用99道题考察模型能否读分子结构、解释实验、选择下一步化合物并预测性质，题目来自117篇论文和专利，覆盖761个分子结构。在 xhigh 推理设置下，GPT-6.2 Astra 得到84.5%的可得分，高于 GPT-6 Astra 的83.3%、GPT-6.1 Sol 的82.0%，以及 GPT-5.6 Sol 的58.2%。官方称，重建结构和解释实验相对更好，选化合物和预测数值性质更难。",
+          "url": "https://openai.com/index/introducing-medchembench/",
+          "source": "OpenAI"
+        },
+        {
+          "category": "news-design",
+          "title": "伦敦设计博物馆开展 The Nue Black Aesthetic，集中展出16位当代黑人设计师的100余件作品",
+          "summary": "客座策展人 Charlene Prempeh 称，这是英国首次把当代黑人设计师的作品如此集中地放在一起，展品从定制西装、球衣到灯具、耳机和雕塑乐器。她在为专著做文献调研时发现相关记录很少，希望人们不要再把“黑人设计”理解成只有亮色和蜡染。展览以回顾20世纪黑人设计史开场，再进入当代作品。",
+          "url": "https://www.dezeen.com/2026/11/20/the-nue-black-aesthetic-exhibition/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "news-design",
+          "title": "BIG 公布瑞士图恩木构综合体 Nachwachsende Stadt：倒置悬挑切开酒店体量，预计2028年开工",
+          "summary": "该项目约1.3万平方米，位于图恩新街区 Siegenthalergut，含两座酒店、住宅和商业，共四栋木构建筑。最醒目的是带倒置悬挑的折线形体量，中间裂口做玻璃采光。BIG 称按可拆解再利用设计，并配绿屋顶、光伏和雨水滞留，目标 SNBS Gold 认证。",
+          "url": "https://www.dezeen.com/2026/11/20/big-hotel-siegenthalergut-thun-switzerland/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "news-design",
+          "title": "Atelier Manferdini 为弗吉尼亚变电站做 InVisible 立面：用彩砖和铝格栅把电力流动转译成可感知的表皮",
+          "summary": "项目位于华盛顿近郊 Crystal City，服务 Dominion Energy 变电站。底部是用 Processing 生成的10色瓷砖带，砖块边长2、4、6英寸，呼应电压等级；上部是疏密不等的铝格栅通风幕墙，白天随光线和视角变化，夜间有可编程 LED。创始人 Elena Manferdini 称，内部仍为机器服务，外表则用颜色、图案和光与城市对话。",
+          "url": "https://www.dezeen.com/2026/11/20/atelier-manferdini-virginia-power-station/",
+          "source": "Dezeen"
+        },
+        {
+          "category": "news-politics",
+          "title": "中美两军在上海举行海上军事安全磋商机制年度会晤",
+          "summary": "2026年度中美海上军事安全磋商机制第二次工作小组会议和年度会晤，18日至20日在上海举行。新华社称，双方就当前海空安全形势作了交流，评估了《中美海空相遇安全行为准则》年度执行情况，讨论改进措施，并商定了2027年工作小组会议议题。",
+          "url": "https://www.news.cn/20261120/448236c973e14636bec242aafe1063dc/c.html",
+          "source": "新华社"
+        },
+        {
+          "category": "news-politics",
+          "title": "安理会举行第九轮联合国秘书长遴选意向性投票，此前八轮尚无候选人获五常一致鼓励",
+          "summary": "当地时间11月20日，安理会就下一任联合国秘书长举行第九轮意向性投票，共八位候选人。央视称，此前八轮尚无候选人获得五个常任理事国一致“鼓励”；需至少9票鼓励且常任理事国均不劝阻，才能获安理会推荐、再由大会任命。现任秘书长古特雷斯任期至今年12月31日。",
+          "url": "https://news.cri.cn/20261121/821acffd-89b3-4e72-95a2-c3690cf2dc0d.html",
+          "source": "央视新闻 / 国际在线"
+        },
+        {
+          "category": "news-politics",
+          "title": "国际丝绸组织在杭州正式成立，是总部设在中国的首个纺织领域国际科技组织",
+          "summary": "该组织由中国倡议发起，11月20日在杭州成立。新华社称现有会员单位100余家，来自20余个国家和地区，覆盖主要丝绸生产和消费国。国务院副总理张国清出席成立大会并致辞，提到加强标准互认与产业协同，以及丝绸技艺跨国展示、非遗传承人互访和设计师联合创作。",
+          "url": "https://www.news.cn/20261120/2f5773d6a1514ebea41ae0a7e9a258fb/c.html",
+          "source": "新华社"
+        },
+        {
+          "category": "news-auto",
+          "title": "享界V8上市：售价31.98万–42.98万元，上市2小时大定突破2216台",
+          "summary": "11月20日，享界首款中大型MPV V8上市并开启交付，共7款车型。纯电CLTC续航最高830公里，增程综合续航最高1465公里，搭载华为乾崑智驾ADS 5.0与途灵平台。余承东公布上市2小时大定突破2216台。",
+          "url": "https://www.autohome.com.cn/news/202611/1318476.html",
+          "source": "汽车之家"
+        },
+        {
+          "category": "news-auto",
+          "title": "上汽通用发布真龙插混MAX，首搭别克至境世家，广州车展亮相",
+          "summary": "11月20日发布的真龙插混MAX将首搭别克全新至境世家，新车定于11月27日广州车展亮相。系统采用2.0T混动专用发动机、800V高压架构和6C快充，综合功率550kW、峰值扭矩815N·m。官方称至境世家满电/亏电零百加速为5.7/5.8秒，67度电池纯电续航402公里，并强调亏电动力不掉档、电池“零析锂”。",
+          "url": "https://www.leiphone.com/category/industrynews/SiETkjl6gqYBSCz4.html",
+          "source": "雷峰网"
+        },
+        {
+          "category": "news-auto",
+          "title": "彭博社：美国两党议员接近就禁止中国汽车输美达成协议，拟为奔驰留豁免",
+          "summary": "彭博社周五引述消息人士称，议员希望在明年1月新一届国会开幕前通过法案并送交特朗普签署；一旦通过，比亚迪、吉利等将被排除在美国市场之外。因中资持有奔驰近两成股权，议员正考虑为被动持股等情形留出豁免，细节仍在敲定。白宫未置评。这仍是正在磋商中的立法，尚未通过。",
+          "url": "https://www.zaobao.com.sg/news/world/story20261120-10031578",
+          "source": "联合早报 / 彭博社"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设相关｜凯迪拉克F1为拉斯维加斯站给MAC-26换上Y2K透壳电路涂装",
+          "summary": "designboom 报道，粉紫虹彩线路叠在车身表面，远看像把内部电路露在半透明外壳底下，灵感来自上世纪末本世纪初的透壳电子产品，也向拉斯维加斯灯火和车队首个赛季的工程网络致意。今天正是拉斯维加斯站比赛日。对CMF和风格转译来说，这是把一种经典消费电子外观语言，转到赛车车身上的直接例子。",
+          "url": "https://www.designboom.com/technology/translucent-y2k-electronics-iridescent-skin-cadillac-formula-1-race-car-livery-las-vegas-grand-prix/",
+          "source": "designboom"
+        },
+        {
+          "category": "news-thesis",
+          "title": "毕设相关｜2026金点设计展在台北松菸开展，展至2027年4月25日",
+          "summary": "展览以「设计之间」为题，展出16个国家及地区共143件金点设计奖及概念奖作品，地点在松山文创园区台湾设计馆。和研究方向更靠近的，是深圳市华思设计把美术黑体拆成可拼几何笔画的「汉字拼字盘」，以及「映月」把球形月灯半藏进波浪玻璃罩、模拟海上明月的材料做法。",
+          "url": "https://www.tdri.org.tw/zh-TW/news/793?slug=news",
+          "source": "台湾设计研究院"
+        },
+        {
+          "category": "oss",
+          "title": "Tencent/LoopForge",
+          "summary": "自托管编排 CodeBuddy / Codex / Claude Code，带人工审批",
+          "url": "https://github.com/Tencent/LoopForge",
+          "source": "GitHub Trending",
+          "meta": "今日 +1,216 · 总星 5,313 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "zhouxiaoka/autoclip",
+          "summary": "贴一个链接，把长视频剪成短视频，字幕封面文案一并出",
+          "url": "https://github.com/zhouxiaoka/autoclip",
+          "source": "GitHub Trending",
+          "meta": "今日 +979 · 总星 12,291 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "cathrynlavery/diagram-design",
+          "summary": "给编程助手画编辑级示意图，五十余种图，输出干净 SVG",
+          "url": "https://github.com/cathrynlavery/diagram-design",
+          "source": "GitHub Trending",
+          "meta": "今日 +636 · 总星 69,365 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "Tracer-Cloud/opensre",
+          "summary": "开源 CI/CD 可靠性智能体，自动盯流水线故障",
+          "url": "https://github.com/Tracer-Cloud/opensre",
+          "source": "GitHub Trending",
+          "meta": "今日 +466 · 总星 13,681 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "FlashML-org/FreeVideo",
+          "summary": "用手头电脑跑 MiniMax H3 做视频，最低约 8GB 显存",
+          "url": "https://github.com/FlashML-org/FreeVideo",
+          "source": "GitHub Trending",
+          "meta": "今日 +293 · 总星 3,874 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "phone-harness/phone-harness",
+          "summary": "让编程智能体直接操控手机，无需越狱或装 App",
+          "url": "https://github.com/phone-harness/phone-harness",
+          "source": "GitHub Trending",
+          "meta": "今日 +198 · 总星 5,390 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "multica-ai/multica",
+          "summary": "把任务派给编程智能体，像给同事派活一样，可自托管",
+          "url": "https://github.com/multica-ai/multica",
+          "source": "GitHub Trending",
+          "meta": "今日 +173 · 总星 56,964 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "oss",
+          "title": "t8y2/dbx",
+          "summary": "约 25MB 轻量数据库客户端，支持 100+ 库并带 AI",
+          "url": "https://github.com/t8y2/dbx",
+          "source": "GitHub Trending",
+          "meta": "今日 +159 · 总星 31,073 · stars today 快照，非精密滚动24h"
+        },
+        {
+          "category": "news-tech",
+          "title": "Anthropic 数学家宣称与 Claude 完成黎曼猜想的 Lean 形式化证明，多项独立内核已复验通过",
+          "summary": "Levent Alpöge 在个人声明中称，与 Claude 一起给出了黎曼猜想及狄利克雷 L 函数上广义黎曼猜想的证明，并用 Lean 完成无额外假设的形式化。麻省理工 Andrew Sutherland 的核验页记录：命题与 Mathlib 标准定义一致，175,187 个模块经 leanchecker、lean4lean 及独立内核 nanoda、con-leche 复验通过；官方 Lean comparator 的完整内核核对仍在进行。克雷数学研究所的千禧年奖需公开后至少两年审阅，数学共同体仍在消化论证。Anthropic 公司本身尚未就此正式表态。",
+          "url": "https://alpo.ge/remark.pdf",
+          "source": "Alpöge 声明 / MIT 核验页 / The Verge / Scientific American"
+        }
+      ],
+      "weather": "沙坪坝现在有雾，13℃，湿度75%；白天预报晴转多云，约19/10℃。明天转阴，约16/12℃。",
+      "cards": [
+        "assets/github-daily-ranking-2026-11-21.png"
+      ]
+    },
+    {
       "date": "2026-11-20",
       "entries": [
         {
